@@ -27,6 +27,8 @@
       dataType: 'xml',
       success : function(xmlResponse) {
         // 0x02. parse xml file
+        console.error("wht debug "+xmlResponse);
+
         var dataList = jQuery('entry', xmlResponse).map(function() {
           return {
             title  : jQuery('title', this).text(),
