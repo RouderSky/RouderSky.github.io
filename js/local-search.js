@@ -4,6 +4,9 @@
   // Modified from [hexo-generator-search](https://github.com/wzpan/hexo-generator-search)
   function localSearchFunc(path, searchSelector, resultSelector) {
     'use strict';
+
+    console.error("wht debug 1");
+
     // 0x00. environment initialization
     var $input = jQuery(searchSelector);
     var $result = jQuery(resultSelector);
