@@ -5,7 +5,7 @@
   function localSearchFunc(path, searchSelector, resultSelector) {
     'use strict';
 
-    console.error("wht localSearchFunc 2 "+path);
+    // console.error("wht localSearchFunc 2 "+path);
 
     // 0x00. environment initialization
     var $input = jQuery(searchSelector);
@@ -30,7 +30,7 @@
       dataType: 'xml',
       success : function(xmlResponse) {
         // 0x02. parse xml file
-        console.error("wht debug "+xmlResponse);
+        // console.error("wht debug "+xmlResponse);
 
         var dataList = jQuery('entry', xmlResponse).map(function() {
           return {
@@ -154,7 +154,7 @@
   var resultSelector = '#local-search-result';
   modal.on('show.bs.modal', function() {
     var path = CONFIG.search_path || '/local-search.xml';
-    console.error("wht localSearchReset "+CONFIG.search_path+" "+path);
+    // console.error("wht localSearchReset "+CONFIG.search_path+" "+path);
     localSearchFunc(path, searchSelector, resultSelector);
   });
   modal.on('shown.bs.modal', function() {
