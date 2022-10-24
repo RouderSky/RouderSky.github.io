@@ -5,7 +5,7 @@
   function localSearchFunc(path, searchSelector, resultSelector) {
     'use strict';
 
-    console.error("wht debug 1");
+    console.error("wht debug "+path);
 
     // 0x00. environment initialization
     var $input = jQuery(searchSelector);
