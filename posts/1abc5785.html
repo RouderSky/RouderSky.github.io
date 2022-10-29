@@ -1,0 +1,909 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=dark>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Rouder">
+  <meta name="keywords" content="GameDev">
+  
+    <meta name="description" content="简介  对于很多人来说，ECS只是一个可以提升性能的架构，但是我觉得ECS更强大的地方在于可以降低代码复杂度。   在游戏项目开发的过程中，一般会使用OOP的设计方式让GameObject处理自身的业务，然后框架去管理GameObject的集合。但是使用OOP的思想进行框架设计的难点在于一开始就要构建出一个清晰类层次结构。而且在开发过程中需要改动类层次结构的可能性非常大，越到开发后期对类层次结构的">
+<meta property="og:type" content="article">
+<meta property="og:title" content="漫谈Entity-Component-System">
+<meta property="og:url" content="https://roudersky.com/posts/1abc5785.html">
+<meta property="og:site_name" content="RouderSky">
+<meta property="og:description" content="简介  对于很多人来说，ECS只是一个可以提升性能的架构，但是我觉得ECS更强大的地方在于可以降低代码复杂度。   在游戏项目开发的过程中，一般会使用OOP的设计方式让GameObject处理自身的业务，然后框架去管理GameObject的集合。但是使用OOP的思想进行框架设计的难点在于一开始就要构建出一个清晰类层次结构。而且在开发过程中需要改动类层次结构的可能性非常大，越到开发后期对类层次结构的">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029192958.png">
+<meta property="article:published_time" content="2020-03-29T09:22:24.000Z">
+<meta property="article:modified_time" content="2022-10-29T12:05:19.267Z">
+<meta property="article:author" content="Rouder">
+<meta property="article:tag" content="GameDev">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029192958.png">
+  
+  
+  
+  <title>漫谈Entity-Component-System - RouderSky</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/mac3.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"roudersky.com","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","app_key":"OY2z1FU6BunzlaSUlcwRQxvZ","server_url":"https://wsbiosfp.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"><style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Rouder</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029192958.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="漫谈Entity-Component-System"></span>
+          
+        </div>
+
+        <!-- 随机英文句子 -->
+        <p><a id="rainbow" href=''>🌈 获取中...</a></p>
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2020-03-29 17:22" pubdate>
+          2020年3月29日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          5.9k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          50 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<!-- 随机英文句子 -->
+<script>
+  fetch('https://api.eatrice.top')
+    .then(response => response.json())
+    .then(data => {
+      var rainbow = document.getElementById('rainbow');
+      rainbow.innerHTML = data.Content;
+      rainbow.href = "https://rainbow.eatrice.top/?ID=" + data.ID;
+    })
+    .catch(console.error)
+</script>
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="padding-left: 2rem; margin-right: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">漫谈Entity-Component-System</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：2022年10月29日 晚上
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body" id="container">
+                
+                <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>  对于很多人来说，ECS只是一个可以提升性能的架构，但是我觉得ECS更强大的地方在于可以降低代码复杂度。</p>
+<p>  在游戏项目开发的过程中，一般会使用OOP的设计方式让GameObject处理自身的业务，然后框架去管理GameObject的集合。但是使用OOP的思想进行框架设计的难点在于一开始就要构建出一个清晰类层次结构。而且在开发过程中需要改动类层次结构的可能性非常大，越到开发后期对类层次结构的改动就会越困难。</p>
+<p>  经过一段时间的开发，总会在某个时间点开始引入多重继承。实现一个又可工作、又易理解、又易维护的多重继承类层次结构的难度通常超过其得益。因此多数游戏工作室禁止或严格限制在类层次结构中使用多重继承。若非要使用多重继承，要求一个类只能多重继承一些 简单且无父类的类(min-in class)，例如Shape和Animator。</p>
+<p>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029194540.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p>  也就是说在大型游戏项目中，OOP并不适用于框架设计。但是也不用完全抛弃OOP，只是在很大程度上，代码中的类不再具体地对应现实世界中的具体物件，ECS中类的语义变得更加抽象了。</p>
+<p>  ECS有一个很重要的思想：数据都放在一边，需要的时候就去用，不需要的时候不要动。ECS 的本质就是数据和操作分离。传统OOP思想常常会面临一种情况，A打了B，那么到底是A主动打了B还是B被A打了，这个函数该放在哪里。但是ECS不用纠结这个问题，数据存放到Component种，逻辑直接由System接管。借着这个思想，我们可以大幅度减少函数调用的层次，进而缩短数据流传递的深度。</p>
+<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念"></a>基本概念</h1><p>  Entity由多个Component组成，Component由数据组成，System由逻辑组成。</p>
+<h2 id="Component-组件"><a href="#Component-组件" class="headerlink" title="Component(组件)"></a>Component(组件)</h2><p>  Component是数据的集合，只有变量，没有函数，但可以有getter和setter函数。Component之间不可以直接通信。</p>
+<figure class="highlight gauss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs gauss"><span class="hljs-keyword">struct</span> <span class="hljs-type">Component</span>&#123;<br>	<span class="hljs-comment">//子类将会有大量变量，以供System利用</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="Entity-实体"><a href="#Entity-实体" class="headerlink" title="Entity(实体)"></a>Entity(实体)</h2><p>  Entity用来代表游戏世界中任意类型的游戏对象，宏观上Entity是一个Component实例的集合，且拥有一个全局唯一的EntityID，用于标识Entity本身。</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">Entity</span>&#123;<br>	Int32 ID;<br>	List&lt;Component&gt; components;<br>        <span class="hljs-comment">//通过观察者模式将自己注册到System可以提升System遍历的速度，因为只需要遍历已经注册的entity</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>  Entity需要遵循立即创建和延迟销毁原则，销毁放在帧末执行。因为可能会出现这样的情况：systemA提出要在entityA所在位置创建一个特效，然后systemB认为需要销毁entityA。如果systemB直接销毁了entityA，那么稍后FxSystem就会拿不到entityA的位置导致特效播放失败（你可能会问为什么不直接把entityA的位置记录下来，这样就不会有问题了。这里只是简单举个例子，不要太深究(●’◡’●)）。理想的表现效果应该是，播放特效后消失。</p>
+<h2 id="System-系统"><a href="#System-系统" class="headerlink" title="System(系统)"></a>System(系统)</h2><p>  System用来制定游戏的运行规则，只有函数，没有变量。System之间的执行顺序需要严格制定。System之间不可以直接通信。</p>
+<p>  一个 System只关心某一个固定的Component组合，这个组合集合称为tuple。</p>
+<p>  各个System的Update顺序要根据具体情况设置好，System在Update时都会遍历所有的Entity，如果一个Entity拥有该System的tuple中指定的所有Component实例，则对该Entity进行处理。</p>
+<figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">class</span> <span class="hljs-title">System</span>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Update</span>()</span>;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title">ASystem</span>:<span class="hljs-title">System</span>&#123;<br>    Tuple tuple;<br><br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Update</span>()</span>&#123;<br>        <span class="hljs-keyword">for</span>(Entity entity <span class="hljs-keyword">in</span> World.entitys)&#123;<br>            <span class="hljs-keyword">if</span>(entity.components中有tuple指定的所有Component实例)&#123;<br>                <span class="hljs-comment">//do something for Components</span><br>            &#125;<br>        &#125;<br>    &#125;<br>&#125;<br><br></code></pre></td></tr></table></figure>
+<p>  一个Component会被不同System区别对待，因为每个System用到的数据可能只有其中一部分，且不一定相同。</p>
+<h2 id="World-世界"><a href="#World-世界" class="headerlink" title="World(世界)"></a>World(世界)</h2><p>  World代表整个游戏世界，游戏会视情况来创建一个或两个World。通常情况下只有一个，但是守望先锋为了做死亡回放，有两个World，分别是liveGame和replyGame。World下面会包含所有的System实例和Entity实例。</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">World</span>&#123;<br>    List&lt;System&gt; systems;                   <span class="hljs-comment">//所有System</span><br>    <span class="hljs-built_in">dictionary<span class="hljs-keyword">&lt;Int32, Entity&gt;</span></span> entitys;      <span class="hljs-comment">//所有Entity，Int32是Entity.ID</span><br><br>    <span class="hljs-comment">//由引擎帧循环驱动</span><br>    <span class="hljs-built_in">void</span> Update()&#123;<br>        <span class="hljs-keyword">for</span>(System sys <span class="hljs-keyword">in</span> systems)<br>            sys.Update();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>  由ECS架构出来的游戏世界就像是一个数据库表，每个Entity对应一行，每个Component对应一列，打了✔代表Entity拥有Component。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th align="center">Component1</th>
+<th align="center">Component2</th>
+<th align="center">…</th>
+<th align="center">ComponentN</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>EntityId1</td>
+<td align="center"></td>
+<td align="center">✔</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>EntityId2</td>
+<td align="center">✔</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">✔</td>
+</tr>
+<tr>
+<td>…</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td>EntityIdN</td>
+<td align="center">✔</td>
+<td align="center">✔</td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="单例Component"><a href="#单例Component" class="headerlink" title="单例Component"></a>单例Component</h2><p>  在定义一个Component时最好先搞清楚它的数据是System数据还是Entity数据。如果是System的数据，一般设计成单例Component。例如存放玩家键盘输入的 Component ，全局只需要一个，很多 System 都需要去读这个唯一的 Component 中的数据。<br>  单例Component顾名思义就是只有一个实例的Component，它只能用来存储某些System状态。单例Component在整个架构中的占比通常会很高，据说在守望先锋中占比高达40%。其实换一个角度来看，单例Component可以看成是只有一个Component的匿名Entity单例，但可以通过GetSingletonIns接口来直接访问，而不用通过EntityID。</p>
+<h2 id="例子"><a href="#例子" class="headerlink" title="例子"></a>例子</h2><p>  守望先锋种有一个根据输入状态来决定是不是要把长期不产生输入的对象踢下线的AFKSystem，该System需要对象同时具备连接Component、输入Component等，然后AFKSystem遍历所有符合要求的对象，根据最近输入事件产生的时间，把长期没有输入事件的对象通知下线。</p>
+<h1 id="设计需要遵循的原则"><a href="#设计需要遵循的原则" class="headerlink" title="设计需要遵循的原则"></a>设计需要遵循的原则</h1><ol>
+<li>设计并不是从Entity开始的，而是应该从System抽象出Component，最后组装到Entity中。</li>
+<li>设计的过程中尽量确保每个System都依赖很多Component去运行，也就是说System和Component并不是一对一的关系，而是一对多的关系。所以xxxCOM不一定有xxxSys，xxxSys不一定有xxxCOM。<ul>
+<li>System和Component的划分很难在一开始就确定好，一般都是在实现的过程中看情况一步一步地去划分System和Component。而且最终划分出来的System和Component一般都是比较抽象的，也就是说通常不会对应现实世界中的具体物件，可以参考下图守望先锋System和Component划分的例子。<br><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029195909.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="20221029195909"></li>
+</ul>
+</li>
+<li>System尽量不改变Component的数据。<ul>
+<li>可以读数据完成的功能就不要写数据来完成。因为写数据会影响到使用了这些数据的模块，如果对于其它模块不熟悉的话，就会产生Bug。如果只是读数据来增加功能的话，即使出Bug也只局限于新功能中，而不会影响其它模块。这样容易管理复杂度，而且给并行处理留下了优化空间。</li>
+</ul>
+</li>
+</ol>
+<h1 id="使用心得"><a href="#使用心得" class="headerlink" title="使用心得"></a>使用心得</h1><p>  我在一个游戏demo里尝试使用ECS去进行设计，最大的感受是所有游戏逻辑都变得那么的合理，应对改动、扩展也变得那么的轻松。加班变少了，也不再焦虑。在开始使用ECS来架构业务层之前，我对ECS还是存有一丝疑虑的。担心会不会因为规矩太多了，导致有些功能写不出来。中途也确实因为ECS的种种规矩，导致有些功能不好写出来，需要用到一些奇技淫巧，剑走偏锋。但这些技术最终造就了一个可持续维护的、解耦合的、简洁易读的代码系统。据说守望团队在将整个游戏转成ECS之前也不确定ECS是不是真的好使。现在他们说ECS可以管理快速增长的代码复杂性，也是事后诸葛亮。</p>
+<p>  引擎层的System比较好定义，因为引擎相关层级划分比较明确。但是游戏业务逻辑层可能会出现各种奇奇怪怪的System，因为业务层的需求千变万化，有时没有办法划分出一个对应具体业务的System。例如我曾经在业务层定义过DamageHitSystem、PointForceSys。</p>
+<p>  推迟技术：不是非常必要马上执行的内容可以推迟到合适的时再执行，这样可以将副作用集中到一处，易于做优化。例如游戏可能会在某个瞬间产生大量的贴花，利用延迟技术可以将这些需要产生的贴花数据保存下来，稍后可以将部分重叠的贴花删除，再依据性能情况分到多个帧中去创建，可以有效平滑性能毛刺。</p>
+<p>  如果不知道该如何去划分System，而导致System之间一定要相互通信才能完成功能，可以通过将数据放在中的一个队列里延迟处理。比如SystemA在执行Update的时候，需要执行SystemB中的逻辑。但是这个时候还没轮到SystemB执行Update，只能先将需要执行的内容保存到一个地方。但是System本身又没有数据，所以SystemA只好将需要执行的内容保存到单例Component中的一个队列里，等轮到SystemB执行Update的时候再从队列里拿出数据来执行逻辑。</p>
+<p>  但是System之间通过单例Component有个缺点。如果向单例Component中添加太多需要延迟处理的数据，一旦出现bug就不好查了。因为这类数据是一段时间之前添加进来的，到后面才出问题的话，不好定位是何处、何时、基于什么情况添加进来的。解决方案是给每一条需要延迟处理的数据加上调用堆栈信息、时间戳、一个用于描述为什么添加进来的字符串。</p>
+<p>  各个System都用到的公共函数可以定义在全局，也可以作为对应System的静态函数，这类函数叫做Utility函数。Utility函数涉及的Component最好尽可能少，不然需要作为参数传进函数Component会很多，导致函数调用不太雅观。Utility函数最好是无副作用的，即不对Component的数据做任何写操作，只读取数据，最后返回计算结果。要改Component的数据的话，也要交给System来改。</p>
+<p>  函数调用堆栈的层次变浅了，因为逻辑被摊开到各个System，而System之间又禁止直接访问。代码变得扁平化，扁平化意味的函数封装少了，所以阅读、修改、扩展也很轻松。</p>
+<p>  如果可以把整个游戏世界都抽象成数据，存档&#x2F;读档功能的实现也变得容易了。存档时只需要将所有Component数据保存下来，读档时只需要将所有Component数据加载进来，然后System照常运行。想想就觉得强大，这就是DOP的魅力。</p>
+<h1 id="优点"><a href="#优点" class="headerlink" title="优点"></a>优点</h1><p>  模式简单</p>
+<p>  结构清晰</p>
+<p>  通过组合高度复用。用组合代替继承，可以像拼积木一样将任意Component组装到任意Entity中。</p>
+<p>  扩展性强。Component和System可以随意增删。因为Component之间不可以直接访问，System之间也不可以直接访问，也就是说Component之间不存在耦合，System之间也不存在耦合。System和Component在设计原则上也不存在耦合。对于System来说，Component只是放在一边的数据，Component提供的数据足够就update，数据不够就不update。所以随时增删任意Component和System都不会导致游戏崩溃报错。</p>
+<p>  天然与DOP(data-oriented processing)亲和。数据都被统一存放到各种各样的Component中，System直接对这些数据进行处理。函数调用堆栈深度大幅度降低，流程被弱化。</p>
+<p>  易优化性能。因为数据都被统一存放到Component中，所以如果能够在内存中以合理的方式将所有Component聚合到连续的内存中，这样可以大幅度提升cpu cache命中率。cpu cache命中良好的情况下，Entity的遍历速度可以提升50倍，游戏对象越多，性能提升越明显。ECS的这项特性给大部分人留下了深刻印象，但是大部分人也认为这就是ECS的全部。我觉得可能是被Unity的官方演示带歪的。</p>
+<p>  易实现多线程。由于System之间不可以直接访问，已经完全解耦，所以理论上可以为每个System分配一个线程来运行。需要注意的是，部分System的执行顺序需要严格制定，为这部分System分配线程时需要注意一下执行先后顺序。</p>
+<h1 id="缺点"><a href="#缺点" class="headerlink" title="缺点"></a>缺点</h1><p>  在充满限制的情况下写代码，有时速度会慢一些。但是习惯之后，后期开发速度会越来越快。</p>
+<h1 id="优化"><a href="#优化" class="headerlink" title="优化"></a>优化</h1><p>  一个entity就是一个ID，所有组成这个entity的component将会被这个ID给标记。因为不用创建entity类，可以降低内存的消耗。如果通过以下方式来组织架构，还可以提升cpu cache命中率。</p>
+<figure class="highlight less"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs less"><span class="hljs-comment">//数组下标代表entity的ID</span><br><span class="hljs-selector-tag">ComponentA</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentAs</span>;<br><span class="hljs-selector-tag">ComponentB</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentBs</span>;<br><span class="hljs-selector-tag">ComponentC</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentCs</span>;<br><span class="hljs-selector-tag">ComponentD</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentDs</span>;<br>...<br></code></pre></td></tr></table></figure>
+
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://gameinstitute.qq.com/community/detail/114516">《守望先锋》架构设计与网络同步 – GDC2017 精品分享实录</a></li>
+<li><a target="_blank" rel="noopener" href="http://gamadu.com/artemis/">http://gamadu.com/artemis/</a></li>
+<li><a target="_blank" rel="noopener" href="http://gameprogrammingpatterns.com/component.html">http://gameprogrammingpatterns.com/component.html</a></li>
+<li><a target="_blank" rel="noopener" href="http://t-machine.org/index.php/2014/03/08/data-structures-for-entity-systems-contiguous-memory/">http://t-machine.org/index.php/2014/03/08/data-structures-for-entity-systems-contiguous-memory/</a></li>
+<li><a target="_blank" rel="noopener" href="http://blog.lmorchard.com/2013/11/27/entity-component-system/">http://blog.lmorchard.com/2013/11/27/entity-component-system/</a> </li>
+<li><a target="_blank" rel="noopener" href="https://blog.codingnow.com/2017/06/overwatch_ecs.html">浅谈《守望先锋》中的 ECS 构架</a></li>
+</ul>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/" class="category-chain-item">软件工程</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>漫谈Entity-Component-System</div>
+      <div>https://roudersky.com/posts/1abc5785.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Rouder</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2020年3月29日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-nc"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/49a81750.html" title="游戏动画技术简介">
+                        <span class="hidden-mobile">游戏动画技术简介</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","appKey":"OY2z1FU6BunzlaSUlcwRQxvZ","path":"window.location.pathname","placeholder":"说点什么吧","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"https://wsbiosfp.lc-cn-n1-shared.com","emojiCDN":null,"emojiMaps":null,"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+<!-- 关注公众号获取验证码解锁文章内容的功能 -->
+<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'container',
+        blogId: '27882-1666536373183-280',
+        name: '三年游戏人',
+        qrcode: 'https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/1.png',
+        keyword: 'more',
+    });
+</script>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+      <a>见自己 见天地 见众生</a>
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="leancloud-site-pv-container" style="display: none">
+        总访问量 
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+    
+    
+      <span id="leancloud-site-uv-container" style="display: none">
+        总访客数 
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+    
+    
+
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script defer src="/js/leancloud.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
