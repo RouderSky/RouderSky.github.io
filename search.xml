@@ -3,7 +3,8 @@
   <entry>
     <title>MarkDown语法测试</title>
     <url>/posts/5df9aa96.html</url>
-    <content><![CDATA[<h1 id="h1"><a href="#h1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2"><a href="#h2" class="headerlink" title="h2"></a>h2</h2><h3 id="h3"><a href="#h3" class="headerlink" title="h3"></a>h3</h3><h4 id="h4"><a href="#h4" class="headerlink" title="h4"></a>h4</h4><h5 id="h5"><a href="#h5" class="headerlink" title="h5"></a>h5</h5><blockquote>
+    <content><![CDATA[<p><a href="https://roudersky.com/">原文链接</a></p>
+<h1 id="h1"><a href="#h1" class="headerlink" title="h1"></a>h1</h1><h2 id="h2"><a href="#h2" class="headerlink" title="h2"></a>h2</h2><h3 id="h3"><a href="#h3" class="headerlink" title="h3"></a>h3</h3><h4 id="h4"><a href="#h4" class="headerlink" title="h4"></a>h4</h4><h5 id="h5"><a href="#h5" class="headerlink" title="h5"></a>h5</h5><blockquote>
 <p>引用</p>
 <blockquote>
 <p>引用中的引用</p>
@@ -76,25 +77,17 @@ println( s )
 </tbody></table>
 <p>$$<br>\begin{vmatrix}<br>  \frac{cot\frac{FOV}{2}}{Aspect} &amp; 0 &amp; 0 &amp; 0 \<br>  0 &amp; cot\frac{FOV}{2} &amp; 0 &amp; 0 \<br>  0 &amp; 0 &amp; -\frac{Far+Near}{Far-Near} &amp; -\frac{2 \cdot Near \cdot Far}{Far-Near} \<br>  0 &amp; 0 &amp; -1 &amp; 0<br>\end{vmatrix}<br>$$</p>
 <ul>
-<li><p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029173905.png?x-oss-process=style/WaterMask" alt="20221029173905"></p>
-</li>
-<li><p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/%E4%B8%80%E8%84%9A%E6%89%AB%E5%BC%80.gif" alt="一脚扫开"></p>
-</li>
-<li><p><a href="https://zhuanlan.zhihu.com/p/417640759">参考资料1</a></p>
-</li>
-<li><p><a href="https://zhuanlan.zhihu.com/p/430541328">参考资料2</a></p>
-</li>
+<li><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029173905.png?x-oss-process=style/WaterMask" alt="20221029173905"></li>
+<li><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/%E4%B8%80%E8%84%9A%E6%89%AB%E5%BC%80.gif" alt="一脚扫开"></li>
 </ul>
 <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
     <iframe src="//player.bilibili.com/player.html?aid=894986163&bvid=BV15P4y1T7nS&cid=555347982&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
-</div>
-
-]]></content>
+</div>]]></content>
   </entry>
   <entry>
     <title>游戏动画技术简介</title>
     <url>/posts/49a81750.html</url>
-    <content><![CDATA[<p>  动画系统是游戏中对表现力影响最大的系统之一，经过一段时间的调研，最后通过这篇文章总结下游戏动画系统。</p>
+    <content><![CDATA[<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-9c36407b293caa3d7243cf98689e7172_1440w.png?x-oss-process=style/WaterMask" alt="v2-9c36407b293caa3d7243cf98689e7172_1440w"><br>  动画系统是游戏中对表现力影响最大的系统之一，经过一段时间的调研，最后通过这篇文章总结下游戏动画系统。</p>
 <h1 id="精灵动画系统"><a href="#精灵动画系统" class="headerlink" title="精灵动画系统"></a>精灵动画系统</h1><p>  精灵动画系统在早年间计算机性能还比较差的时候被广泛运用，一般作为游戏的背景而存在，比如<br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029175924.png?x-oss-process=style/WaterMask" alt="极品飞车系列的路边观众"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180025.png?x-oss-process=style/WaterMask" alt="NBA2K系列的观众"><br>  这些人物都是一个四边形，游戏引擎会给四边形连续贴上纹理贴图来产生动感。通常为了不暴露这是个扁的四边形，会使这些四边形一直面向摄像机。比如<br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180040.png?x-oss-process=style/WaterMask" alt="DOOM"><br>  这类动画系统在早期游戏中盛行，因为当时的计算机性能不够，而该系统对计算机资源的消耗非常低。现在部分手游依然会保留这类动画系统，因为手机性能有限。</p>
 <h1 id="刚性层阶式动画"><a href="#刚性层阶式动画" class="headerlink" title="刚性层阶式动画"></a>刚性层阶式动画</h1><p>  刚性层阶式动画驱动的人物都由一堆独立的刚性物体组合而成。刚性物体指的是不会发生形变(包括缩放)的物体。然后动画系统会驱动每一个刚性物体，从而实现动画效果。最经典的例子就是1997年在PS上发售的FF7。<br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180105.png?x-oss-process=style/WaterMask" alt="97版FF7"><br>  这个系统驱动的是3D模型，而不再是四边形贴图，同时还能保持高效的性能和较低的内存使用量。缺点是不允许网格发生形变，整个人物会显得非常生硬。而且人物的关节位置会产生明显的“裂缝”。</p>
 <h1 id="每顶点动画"><a href="#每顶点动画" class="headerlink" title="每顶点动画"></a>每顶点动画</h1><p>  每顶点动画需要动画师为每个顶点去k动画。工作量非常巨大，产生的数据量也非常巨大，但是可以获得非常精细的动画效果，网格的三角形产生形变。通常用于制作CG中人物的表情，一般通过硬件设备来捕捉人脸信息，再转换成顶点数据。<br>  <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><br>    <iframe src="//player.bilibili.com/player.html?aid=859596268&bvid=BV1eV4y1g7H7&cid=875385956&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe><br>  </div><br>  <div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;"><br>    <iframe src="//player.bilibili.com/player.html?aid=559589709&bvid=BV1Re4y127Tn&cid=875387307&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe><br>  </div></p>
