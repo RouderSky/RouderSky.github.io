@@ -253,7 +253,7 @@ println( s )
 <p>  引擎TA主要负责游戏引擎整体渲染效果的把控，定制渲染管线，所以需要对引擎非常熟悉，并且能够对团队进行引擎相关的培训。</p>
 <p>  资产TA，需要整理、维护项目的资源，比如制定性能指标、资源检查。</p>
 <p>  相比于客户端程序，TA跟美术的沟通更加的紧密和频繁，TA需要主动去跟美术进行沟通，不要期待美术会及时反馈问题。</p>
-<h1 id="主要工作职责"><a href="#主要工作职责" class="headerlink" title="主要工作职责"></a>主要工作职责</h1><p>  TA最重要的工作就是实现具体的美术效果，例如<br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234443.png?x-oss-process=style/WaterMask" alt="20221030234443"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234451.png?x-oss-process=style/WaterMask" alt="20221030234451"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234515.png?x-oss-process=style/WaterMask" alt="20221030234515"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234522.png?x-oss-process=style/WaterMask" alt="20221030234522"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234544.png?x-oss-process=style/WaterMask" alt="20221030234544"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234610.png?x-oss-process=style/WaterMask" alt="20221030234610"><br>  一般来说，实现一个美术效果分为4个阶段，方案确定、技术预研、效果实现、生产跟进。</p>
+<h1 id="主要工作职责"><a href="#主要工作职责" class="headerlink" title="主要工作职责"></a>主要工作职责</h1><p>  TA最重要的工作就是实现具体的美术效果，例如<br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234443.png?x-oss-process=style/WaterMask"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234451.png?x-oss-process=style/WaterMask"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234515.png?x-oss-process=style/WaterMask"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234522.png?x-oss-process=style/WaterMask"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234544.png?x-oss-process=style/WaterMask"><br>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234610.png?x-oss-process=style/WaterMask"><br>  一般来说，实现一个美术效果分为4个阶段，方案确定、技术预研、效果实现、生产跟进。</p>
 <p>  TA在拿到一个具体的美术效果需求时，需要针对这个需求选择合适的实现方案。为了找到合适的方案，首先需要用技术语言将需求表达出来。然后对竞品进行分析，推测对方使用了什么技术来实现该效果。再去学习与实现技术相关的资料，可以到书籍、SIGGRAPH等地方找到需要的内容。最后针对之前的工作内容整理输出一份文档，发起一次会议和相关人员对齐之后的工作内容。</p>
 <p>  方案确定之后，TA就可以尝试在项目生产环境下对效果进行初步的实现，输出一个demo。这个过程中不需要太关注代码架构的合理性和性能问题，尽可能快就好。如果过程中使用的美术素材需要使用比较特殊的方式进行制作，就自己动手制作，不要麻烦美术。因为这个实现方案可能并不是最终的实现方案，这时让美术去学习新的制作方法性价比不高。等这个方案真的成为了最终方案时，再推广新的制作方法。但是常规的素材还是需要积极找美术配合输出的。</p>
 <p>  在整个过程中需要习惯性地将自己想法和问题记录到文档上，可以作为备忘录，也方便之后进行技术分享。demo出来之后，可以开会跟相关人员对实现出来的效果进行讨论，确定最终是否采纳该方案。</p>
@@ -270,5 +270,23 @@ println( s )
       <categories>
         <category>游戏开发碎碎念</category>
       </categories>
+  </entry>
+  <entry>
+    <title>GUI开发那点事</title>
+    <url>/posts/6d38ce7b.html</url>
+    <content><![CDATA[<p>  每个项目组的GUI开发流程都不太相同。有些项目组的流程非常落后，基本没有框架设计，都是直接代码设置UI控件，不利于迭代。做的比较好的会采用MVC相关模式进行设计，下面也只讲使用了MVC的工作流程。C由客户端同学负责实现。V由GUI同学进行制作。M和V的连接工作在理想的情况下应该也是由GUI同学进行设置，但是因为上手有些难度，没有很好地落地，所以这块最终由客户端同学进行设置。</p>
+<p>  总体来看，GUI开发流程分为以下几个阶段。</p>
+<p>  策划会先提出界面需求，客户端程序需要认真阅读需求文档，确保需求是完整。因为我之前遇到过策划给出不完整的需求文档，需求前后矛盾、需求细节丢失、需求模糊不清。有一次特别离谱，商城需求文档竟然不给出具体的数值设计。在需求不完整的情况下就开始做功能的工作效率是很低的，需要一边做一边问策划，有时候一个问题要半天时间策划才能给答复。</p>
+<p>  千万不要在需求不完整的情况下展开后面的工作，跟策划和PM提了之后没有理会就提多几次。一定要让策划和PM重视前期规划工作，不然后面就会变成策划想到什么就做什么，想到一点内容就加一点内容进入，加到最后发现和前面的东西有点矛盾，又删除前面的内容。这会带来不必要的时间浪费，在极端情况下可能要推翻重来。</p>
+<p>  <img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221031123059.png?x-oss-process=style/WaterMask"></p>
+<p>  需求明确之后就由GUI同学输出效果图。</p>
+<p>  等策划确认效果之后，客户端同学也要来看一下效果图。看看有没有比较奇怪的效果，对这些效果进行讨论，确定实现方案或者换效果。如果界面比较复杂，需要跟GUI同学对一下层级结构。</p>
+<p>  进行界面资源输出。一般来说，界面资源输出工作交给GUI同学来负责，但是有些项目会将这个工作交给客户端同学。曾经待过的一个项目组就是这么干的，需要将一张半透的效果图叠在界面最上层，一点一点的拼出来。有时一个界面可以拼一天，眼睛要爆炸，我都不知道我是程序还是GUI了。无论是由谁来输出，都需要注意一下UI控件的命名，不要使用a、b、c、1、2、3之类的名字。最好可以表达出这个UI控件的类型、作用，比如LoginBtn代表这是个按钮，点击之后开始登录。</p>
+<p>  客户端同学拿到界面资源之后，首先需要做的事情是检查UI控件摆放的层级结构是否合理。层级结构可以按照区域或者功能模块来划分，这么做的好处是可以快速定位到自己想要的UI控件，之后做UI资源迭代会轻松很多。一般一个界面的UI控件量都不会很少，即使开头很少，随着功能、效果的迭代优化也会变得越来越多。如果没有处理好UI控件摆放的层级结构，做资源迭代时寻找资源会让你怀疑人生的。</p>
+<p>  UI界面资源处理好之后，就可以开始进行数据绑定工作了。这个过程需要将V和M关联起来，一般都会提供可视化编辑工具，不需要写代码。所以这项工作其实GUI同学也可以做的。但是因为数据绑定需要对业务需求有更深入的理解，大部分GUI同学都会觉得这不是他们应该做的内容，他们应该只负责输出好看的、满足功能需求的界面。</p>
+<p>  如果可以由GUI同学来负责设置的话，客户端程序可以同步开始写业务逻辑代码，生产速度会更快。但是这要做好前期沟通的工作，确保大家对数据的认知是保持一致的，这个沟通的工作可能也要花费时间。综合来看，这项工作还是交给客户端程序来处理会比较好。</p>
+<p>  客户端程序这个时候就可以开始写逻辑代码了。这里需要遵守一个原则，既然都使用了MVC框架，就不允许通过通过代码直接操作UI控件，只允许修改UI控件对应的绑定数据。在实现功能的过程中一般也不可以在修改UI界面的样式。如果非要修改，在改动比较小的情况下可以客户端程序自己改一下，然后让GUI同学过来确认下。如果改动比较大，就直接交给GUI同学进行修改。</p>
+<p>  GUI开发工作整体难度不大，只要积极沟通就好。一般来说，如果开发时间超出预期，大部分都是因为开发过程中出现了莫名奇妙的Bug，由UI框架设计引起。针对这种情况，如果容易修复的bug可以直接进行修复。比较难修复的bug可以记录到一个专门的文档中。方便别人遇到同样的问题时可以快速找到解决方案，提升整体的开发效率，也作为之后修复bug的checklist。</p>
+]]></content>
   </entry>
 </search>
