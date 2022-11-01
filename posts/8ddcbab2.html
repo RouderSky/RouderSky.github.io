@@ -1,0 +1,905 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=dark>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Rouder">
+  <meta name="keywords" content="GameDev">
+  
+    <meta name="description" content="该系列文章主要面向完全没有引擎基础，但具备一定编程基础的同学。讲解的内容不会展开太深入，只希望读者可以对游戏引擎中的技术有一个基本的理解。如果大家对其中的某些内容感兴趣，可以评论留言。我会根据大家的期望，力所能及地展开讲解。 简介电子游戏是一款软实时(soft real-time)模拟软件。软实时模拟软件需要做到可以响应实时操作，并且即使由于某些原因没有立即响应也不会造成灾难性后果。在电子游戏这样">
+<meta property="og:type" content="article">
+<meta property="og:title" content="游戏引擎 1.概述">
+<meta property="og:url" content="https://roudersky.com/posts/8ddcbab2.html">
+<meta property="og:site_name" content="RouderSky">
+<meta property="og:description" content="该系列文章主要面向完全没有引擎基础，但具备一定编程基础的同学。讲解的内容不会展开太深入，只希望读者可以对游戏引擎中的技术有一个基本的理解。如果大家对其中的某些内容感兴趣，可以评论留言。我会根据大家的期望，力所能及地展开讲解。 简介电子游戏是一款软实时(soft real-time)模拟软件。软实时模拟软件需要做到可以响应实时操作，并且即使由于某些原因没有立即响应也不会造成灾难性后果。在电子游戏这样">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/1%20(2).jpg">
+<meta property="article:published_time" content="2021-10-07T06:57:45.000Z">
+<meta property="article:modified_time" content="2022-11-01T18:41:03.207Z">
+<meta property="article:author" content="Rouder">
+<meta property="article:tag" content="GameDev">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/1%20(2).jpg">
+  
+  
+  
+  <title>游戏引擎 1.概述 - RouderSky</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/mac3.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"roudersky.com","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","app_key":"OY2z1FU6BunzlaSUlcwRQxvZ","server_url":"https://wsbiosfp.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"><style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Rouder</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/1 (2).jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="游戏引擎 1.概述"></span>
+          
+        </div>
+
+        <!-- 随机英文句子 -->
+        <p><a id="rainbow" href=''>🌈 获取中...</a></p>
+
+        
+          <!-- <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src= ></iframe> -->
+          <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=250 src="//music.163.com/outchain/player?type=0&id=7718453341&auto=1&height=430"></iframe>
+        
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2021-10-07 14:57" pubdate>
+          2021年10月7日 下午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          4.4k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          37 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<!-- 随机英文句子 -->
+<script>
+  fetch('https://api.eatrice.top')
+    .then(response => response.json())
+    .then(data => {
+      var rainbow = document.getElementById('rainbow');
+      rainbow.innerHTML = data.Content;
+      rainbow.href = "https://rainbow.eatrice.top/?ID=" + data.ID;
+    })
+    .catch(console.error)
+</script>
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="padding-left: 2rem; margin-right: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">游戏引擎 1.概述</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：2022年11月2日 凌晨
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body" id="container">
+                
+                <p>该系列文章主要面向完全没有引擎基础，但具备一定编程基础的同学。讲解的内容不会展开太深入，只希望读者可以对游戏引擎中的技术有一个基本的理解。如果大家对其中的某些内容感兴趣，可以评论留言。我会根据大家的期望，力所能及地展开讲解。</p>
+<h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>电子游戏是一款软实时(soft real-time)模拟软件。软实时模拟软件需要做到可以响应实时操作，并且即使由于某些原因没有立即响应也不会造成灾难性后果。在电子游戏这样的软实时模拟软件中的大部分数学问题没有闭合式解，因此需要进行离散的模拟才能得到一个结果。</p>
+<p>游戏引擎正是为了完成游戏中各种各样的模拟而整合了各种各样的模块，例如物理模块、渲染模块、逻辑模块等。早期的游戏引擎大多只能运行在特定平台，例如《雷神之锤》的引擎<a target="_blank" rel="noopener" href="https://github.com/id-Software/Quake">Quake engine</a>、<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C">魔兽世界</a>用的暴雪自家引擎。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021724.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="Quake"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021729.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="魔兽世界"></p>
+<p>后来出现了可以跨平台运行的通用游戏引擎，例如<a target="_blank" rel="noopener" href="https://unity.com/cn">Unity</a>、<a target="_blank" rel="noopener" href="https://www.unrealengine.com/zh-CN/">Unreal</a>。</p>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=262246257&bvid=BV1Ke411F7ZE&cid=878641990&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+</div>
+</br>
+<div style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+    <iframe src="//player.bilibili.com/player.html?aid=389714115&bvid=BV1td4y1C71P&cid=878642018&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe>
+</div>
+
+<p>一般来说，越通用的游戏引擎，在特定平台上的运行效率会越不如那些只能运行于特定游戏平台的游戏引擎。因为性能优化总是基于特定假设的，这个假设越单一，优化起来会越轻松。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102022943.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<h1 id="硬件"><a href="#硬件" class="headerlink" title="硬件"></a>硬件</h1><p>硬件是运行游戏的物理设备，例如pc、xBox Series X、PS5、ns。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023005.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="PC"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023017.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="xBox Series X"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023023.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="PS5"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023028.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="NS"></p>
+<h1 id="驱动"><a href="#驱动" class="headerlink" title="驱动"></a>驱动</h1><p>驱动是负责和硬件进行通信的底层软件，常见的驱动有显卡驱动（Nvidia、AMD）、声卡驱动。有了这些驱动之后，开发人员就不需要为具体的硬件设备编写代码。驱动很好地隐藏了硬件设备的复杂性，使开发工作的复杂度降低。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023101.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023109.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<h1 id="操作系统"><a href="#操作系统" class="headerlink" title="操作系统"></a>操作系统</h1><p>在操作系统层面上，大致上可以分成游戏专用操作系统和非游戏专用操作系统。</p>
+<p>游戏专用操作系统有xbox的XBoxOS、ps4的Orbis OS、ns的Horizon。这些操作系统的通常知识一个轻量级的库，在游戏运行时，游戏程序几乎可以占有硬件的所有资源和控制权，所以游戏运行效率很高。</p>
+<p>而非游戏专用操作系统通常都会因为各种各样的原因只能占用硬件的部分资源和控制权，例如windows操作系统采用基于时间片(time-slice)的抢占式多任务(preemptive multitasking)方式来运行所有程序。</p>
+<p>这也是为什么同一款游戏在同样硬件性能的PC和PS3上面运行，PC上可能直接变成PPT，而PS3却可以30帧稳定运行。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023136.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="xbox的XBoxOS"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023140.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="ps4的Orbis OS"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023144.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="ns的Horizon"></p>
+<h1 id="软件开发包-SDK"><a href="#软件开发包-SDK" class="headerlink" title="软件开发包(SDK)"></a>软件开发包(SDK)</h1><p>软件开发包一批功能良好的函数的集合，这些函数又称为称为API(application programming interface)。</p>
+<p>大部分游戏引擎都会接入第三方SDK以增强引擎的功能，通过接入SDK的方式给引擎增加功能可以减少引擎的研发压力，同时又能获得良好的效果表现。</p>
+<p>下面列举一些比较常见的第三方SDK：</p>
+<p>物理引擎有<a target="_blank" rel="noopener" href="https://www.havok.com/">Havok</a>、<a target="_blank" rel="noopener" href="https://developer.nvidia.com/physx-sdk">PhysX</a>、<a target="_blank" rel="noopener" href="https://pybullet.org/wordpress/">Bullet</a>等。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023250.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023253.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023259.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p>动画引擎有<a target="_blank" rel="noopener" href="https://www.havok.com/">Havok Animation</a>、<a target="_blank" rel="noopener" href="http://www.radgametools.com/cn/granny.html">Granny</a>等。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023326.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p>Havok Animation可以在运行时给动画加上物理效果，也就是<a target="_blank" rel="noopener" href="https://en.wikipedia.org/wiki/Physically_based_animation">物理动画技术(Physically based animation)</a>。</p>
+<p>动画的制作流程比较复杂繁琐，部分有钱的游戏厂商会通过动捕(motion cap)的方式来制作动画，钱包确实顶不住的话可以使用Endorphin来自动生成帧动画，提高生产效率。还有一种减少工作量的方法，使用Euphoria在游戏运行时生成符合物理和生物力学的动画。</p>
+<h1 id="平台独立层"><a href="#平台独立层" class="headerlink" title="平台独立层"></a>平台独立层</h1><p>平台独立层会为特定模块封装各个平台的底层API，让游戏引擎可以支持在多个平台上运行。这一层算是游戏引擎和外界环境进行沟通的桥梁。</p>
+<h1 id="核心系统"><a href="#核心系统" class="headerlink" title="核心系统"></a>核心系统</h1><p>核心系统会为游戏引擎提供一个软件该有的底层功能，所有类型的软件都会有这一层。</p>
+<p>这一层的内容也不少，我们关注得比较多的是内容管理模块。因为游戏引擎往往都需要保证最多每隔32毫秒就要执行一边全体代码，对于内存的管理要求会比较高，需要实现高效地内存分配和释放，还会自定义数据结构及算法来减少或完全消除动态内存的分配。</p>
+<h1 id="渲染引擎"><a href="#渲染引擎" class="headerlink" title="渲染引擎"></a>渲染引擎</h1><p>渲染这一块内容就比较丰富了，已经被独立成一个专业学科–计算机图形学。一般游戏引擎都不会去开发自己的渲染引擎，因为投入产出比太低，而且现有的渲染引擎已经很成熟了。所以游戏引擎一般都会接入已有的渲染引擎。</p>
+<p>常见的渲染引擎有DirectX、OpenGL、Vulkan、Edge等。这里的Edge并不是指微软的Edge浏览器，而是专门为PS3渲染设计的，拥有高效几何处理技术的渲染引擎，同时它还具有动画播放功能。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023437.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023432.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023441.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p>渲染引擎一般会采用分层架构(layered architecture)来组织代码，一般会被分为低阶渲染器(low-level renderer)、场景图(scene graph)&#x2F;剔除优化、视觉效果、前端。</p>
+<p>低阶渲染器会使用图形SDK来设置好渲染器，实现几何图元(geometric primitive)的高速渲染。</p>
+<p>场景图&#x2F;优化剔除会为不同的游戏场景提供不同的算法来限制提交到GPU的图元数量。常用的算法有平截头体剔除(frustum cull)、空间细分(spatial subdivision)、portal、遮挡剔除技术。其中空间细分算法可以使用不同的数据结构来构建场景图以快速判别潜在可见集(potentially visible set, PVS)。</p>
+<p>视觉效果层专门提供丰富的视觉效果，其中包括粒子系统(particle system)、贴花系统(decal system)、光照贴图(light mapping)、环境贴图(evironment mapping)、动态阴影(dynamic shadow)、全屏后处理效果(full-screen post-processing effect)等。其中全屏后处理效果包括高动态范围(high dynamic tange, HDR)光照、敷霜效果(bloom)、全屏抗锯齿(full-screen anti-aliasing, FSAA)、颜色较正(color correction)等。其中颜色较正包括颜色偏移(color-shift)、略过漂白(bleach bypass)、饱和度(saturation)、去饱和度(desaturation)等。美术师一般会在这一层上面进行工作。</p>
+<p>前端是开发者、玩家与游戏进行交互的桥梁，包括了平视显示器(heads-up display, HUD)、辅助开发的工具（如内置菜单、主控台）、图形用户界面(graphical user interface, GUI)、全动视频(full-motion video, FMV)系统、游戏内置电影(in-game cinematics, IGC)系统等。</p>
+<h1 id="人工智能"><a href="#人工智能" class="headerlink" title="人工智能"></a>人工智能</h1><p>游戏中的传统人工智能并不是类似于深度学习的人工智能，而只是让角色看起来有智能。所有貌似拥有智能的行为都是提前硬编码好的，有限状态机和行为树是最常用的技术。现在游戏也慢慢开始加入了具有自我进化能力的人工智能，以后游戏过程中的不确定性会进一步增加。</p>
+<h1 id="性能分析工具"><a href="#性能分析工具" class="headerlink" title="性能分析工具"></a>性能分析工具</h1><p>为了提升游戏运行效率，需要在研发过程中或研发完成时对游戏进行性能分析。现在比较成熟的性能分析工具有Intel的VTune、IBM的Quantify和Purify、Compuware的Bounds Checker。有些游戏引擎会开发自己的性能分析工具，例如unty内置的Profiler。一个性能分析工具大致需要具备以下功能：</p>
+<ol>
+<li>支持在游戏源码中手动加入测量代码，为希望监测性能的代码进行计时。</li>
+<li>游戏运行期间，在屏幕上显示性能统计数据，这些数据包裹CPU占用率、GPU占用率、显存占用量、内存占用量、内存使用率、1. 最高使用率、内存泄漏量、网络延迟、FPS等。</li>
+<li>将性能统计数据输出并保存下来，可以保存为文本文件、Excel文件等。</li>
+<li>允许在代码内使用调试用打印语句(print statement)，可以切换不同的调试输出种类，并设置输出的冗长级别(verbosity level)。</li>
+</ol>
+<h1 id="物理"><a href="#物理" class="headerlink" title="物理"></a>物理</h1><p>游戏物理模拟是个大部头，如果项目有真实物理模拟的需求，那么一般会专门配置一位负责开发物理效果的程序员。</p>
+<p>游戏物理和仿真物理的侧重点并不相同。仿真物理注重模拟效果的准确性，而不关注性能。游戏物理不追求模拟百分百正确，只要最终的效果看起来合理就好，需要特别关注性能表现。因为游戏需要在配置一般的设备上运行，没有太多的算了投放到物理模拟中。只要效果看起来没太大问题，那么它就是对的。</p>
+<h1 id="动画"><a href="#动画" class="headerlink" title="动画"></a>动画</h1><p>动画同样是一个大部头，如果项目的动画很多且复杂细腻，一般也会专门配置一位专门负责开发动画效果的程序员。</p>
+<p>动画效果可以很简单，也可以很复杂。最简单的就是播放单个帧动画，复杂的可以搞基于物理的动画、IK效果等。</p>
+<p>负责游戏动画的程序员除了要做好表现效果之外，还要做好资源管理，包括动画资源和动画状态机资源。因为现在大部分项目都是使用动画状态机以及动画融合技术来制作动画效果。</p>
+<p>一个表现效果可能由多个动画clip融合而成。使用这种方案来做动画表现，产出的动画资源一般都不少。</p>
+<p>如果某个模型的动画表现比较细腻的话，它的动画状态机也会很复杂。我曾经见过一个动画状态机打开之后整个屏幕都是密密麻麻的transition连线。</p>
+<h1 id="人体学接口设备-HID-引擎"><a href="#人体学接口设备-HID-引擎" class="headerlink" title="人体学接口设备(HID)引擎"></a>人体学接口设备(HID)引擎</h1><p>HID引擎会将游戏外设和游戏引擎对接起来。比较常见的游戏外设有键盘、鼠标、手柄。还有一些比较小众的游戏外设，例如赛车模拟设备（方向盘+踏板+挡杆+手刹）、飞行摇杆、VR控制器。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023604.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023609.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023615.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023621.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023625.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<p>游戏外设的输入信号会先被映射为输入代码，再映射为游戏的具体操作。</p>
+<h1 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h1><p>游戏的音频也同样重要，好的音频效果可以营造良好的游戏氛围。一般游戏引擎都有自己研发的音频功能，例如cocos、unity、unreal都有。但是在游戏开发过程中一般不会直接使用引擎提供的功能，而是会使用第三方SDK，例如<a target="_blank" rel="noopener" href="https://www.fmod.com/">FMOD</a>、<a target="_blank" rel="noopener" href="https://www.audiokinetic.com/zh/products/wwise/">Wwise</a>。因为第三方SDK功能更加完备。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102024059.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload alt="20221102024059"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023711.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload></p>
+<h1 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h1><p>游戏引擎提供基本网络通信功能并不是什么特别难的事情，但是要提供一套成熟通用的网络同步功能非常困难。不同游戏对网络同步的需求由很大的区别，所以游戏项目组一般都会开发自己的网络同步功能以匹配自己的游戏业务需求。</p>
+<h1 id="数字内容创作-digital-content-creation-DCC-应用软件及资产调节管道"><a href="#数字内容创作-digital-content-creation-DCC-应用软件及资产调节管道" class="headerlink" title="数字内容创作(digital content creation, DCC)应用软件及资产调节管道"></a>数字内容创作(digital content creation, DCC)应用软件及资产调节管道</h1><p>设计师会通过DCC工具将模型、材质、贴图、音频等工具生产游戏素材。团队一般都会使用市面上以由的DCC工具，例如3DMax、Maya、PhotoShop、FMOD Studio等。这些工具输出的资源格式在大部分情况下没有办法被游戏引擎直接使用，需要游戏引擎对这些资源进行一次转换，转换为游戏引擎方便使用的格式。这个转换过程有资产调节管道来完成。例如每次往unity中拖入fbx模型资源的时候都会出现一个import进度条，正是在进行资源转换。</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>这节只是简单带过了各种模块的知识，由于部分内容展开之后量会非常大，所以会在该系列的后续文章中单独讲，也可能会另开一个专栏。希望能帮助到想要从事游戏研发的人。</p>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>《游戏引擎架构》<br>《游戏编程权威指南》<br>《GAMES104-现代游戏引擎：从入门到实践》</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%B8%B8%E6%88%8F%E5%BC%95%E6%93%8E/" class="category-chain-item">游戏引擎</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>游戏引擎 1.概述</div>
+      <div>https://roudersky.com/posts/8ddcbab2.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Rouder</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2021年10月7日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-nc"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/posts/25e9ce90.html" title="算法题--替换空格">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">算法题--替换空格</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/8ad6de59.html" title="Game Road 4.执行任务的方式">
+                        <span class="hidden-mobile">Game Road 4.执行任务的方式</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","appKey":"OY2z1FU6BunzlaSUlcwRQxvZ","path":"window.location.pathname","placeholder":"说点什么吧","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"https://wsbiosfp.lc-cn-n1-shared.com","emojiCDN":null,"emojiMaps":null,"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+<!-- 关注公众号获取验证码解锁文章内容的功能 -->
+<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'container',
+        blogId: '27882-1666536373183-280',
+        name: '三年游戏人',
+        qrcode: 'https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/1.png',
+        keyword: 'more',
+    });
+</script>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+      <a>见众生</a>
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="leancloud-site-pv-container" style="display: none">
+        总访问量 
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+    
+    
+      <span id="leancloud-site-uv-container" style="display: none">
+        总访客数 
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+    
+    
+
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script defer src="/js/leancloud.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
