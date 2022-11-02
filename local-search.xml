@@ -42,6 +42,25 @@
   
   
   <entry>
+    <title>算法题--用两个栈实现队列</title>
+    <link href="/posts/bcbbc7d8.html"/>
+    <url>/posts/bcbbc7d8.html</url>
+    
+    <content type="html"><![CDATA[<p>7</p><h1 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h1><p>时间限制：1秒 空间限制：32768K</p><h1 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h1><p>用两个栈来实现一个队列，完成队列的Push和Pop操作。 队列中的元素为int类型</p><h1 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h1><p>利用栈可以颠倒一个序列的顺序这个特性来思考</p><p>像这类题目只要模拟一下就能找到答案：先加入一些元素，然后思考如何弹出你想要的元素，这样就解决了弹出的问题；再思考添加的问题</p><p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102235103.png?x-oss-process=style/WaterMask" alt="模拟过程"></p><p>这道题中，stack1用于入队，stack2用于出队，只是出队是要注意：要保证stack2不为空时才可以出队；如果它为空，就要先将stack1中所有元素弹出到stack2中，再从stack2中弹出一个元素；如果它不为空，直接从stack2中弹出一个元素即可</p><h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">push</span><span class="hljs-params">(<span class="hljs-type">int</span> node)</span></span><br><span class="hljs-function">  </span>&#123;<br>    stack1.<span class="hljs-built_in">push</span>(node);<br>  &#125;<br><br>  <span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">pop</span><span class="hljs-params">()</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-keyword">if</span>(stack2.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      <span class="hljs-keyword">while</span>(!stack1.<span class="hljs-built_in">empty</span>())<br>      &#123;<br>         stack2.<span class="hljs-built_in">push</span>(stack1.<span class="hljs-built_in">top</span>());<br>         stack1.<span class="hljs-built_in">pop</span>();<br>      &#125;<br>    &#125;<br>      <br>    <span class="hljs-keyword">if</span>(stack2.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      cout &lt;&lt; <span class="hljs-string">&quot;队列为空&quot;</span> &lt;&lt; endl;<br>      <span class="hljs-built_in">abort</span>();<br>    &#125;<br>    <br>    <span class="hljs-type">int</span> res = stack2.<span class="hljs-built_in">top</span>();<br>    stack2.<span class="hljs-built_in">pop</span>();<br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br><br><span class="hljs-keyword">private</span>:<br>    stack&lt;<span class="hljs-type">int</span>&gt; stack1;<span class="hljs-comment">//入</span><br>    stack&lt;<span class="hljs-type">int</span>&gt; stack2;<span class="hljs-comment">//出</span><br>&#125;;<br></code></pre></td></tr></table></figure><h1 id="拓展"><a href="#拓展" class="headerlink" title="拓展"></a>拓展</h1><p>用两个队列来模拟栈，思考方式和这道题一样</p><p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102235134.png?x-oss-process=style/WaterMask" alt="模拟过程"></p><p>两个队列的元素要不停的倒来倒去</p>]]></content>
+    
+    
+    <categories>
+      
+      <category>算法</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>算法题--重建二叉树</title>
     <link href="/posts/f4b58e74.html"/>
     <url>/posts/f4b58e74.html</url>
