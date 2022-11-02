@@ -559,7 +559,7 @@ println( s )
     <content><![CDATA[<p>该GDC分享只免费公开PPT，视频需要GDC VAULT会员</p>
 <p>分享的PPT下载地址：Evolving Combat in ‘God of War’ for a New Perspective<br>没有梯子的可以到这里下载：<br><a href="https://pan.baidu.com/s/1a1FGedhthon0yK7BTnlVbQ">https://pan.baidu.com/s/1a1FGedhthon0yK7BTnlVbQ</a> 提取码：6kjs</p>
 <p>演讲者：Mihir Sheth（圣莫尼卡工作室首席战斗设计师）<br>辅助问答：Jeet Shroff（游戏总监和前游戏工程主管）</p>
-<p><a href="https://zhuanlan.zhihu.com/p/412839232">上篇地址</a></p>
+<p><a href="https://roudersky.com/posts/238c8259.html">上篇地址</a></p>
 <h1 id="瞄准敌人-Targeting-Enemies"><a href="#瞄准敌人-Targeting-Enemies" class="headerlink" title="瞄准敌人(Targeting Enemies)"></a>瞄准敌人(Targeting Enemies)</h1><blockquote>
 <p>帮助玩家攻击他们想攻击的</p>
 </blockquote>
@@ -766,7 +766,7 @@ println( s )
 <p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023625.png?x-oss-process=style/WaterMask"></p>
 <p>游戏外设的输入信号会先被映射为输入代码，再映射为游戏的具体操作。</p>
 <h1 id="音频"><a href="#音频" class="headerlink" title="音频"></a>音频</h1><p>游戏的音频也同样重要，好的音频效果可以营造良好的游戏氛围。一般游戏引擎都有自己研发的音频功能，例如cocos、unity、unreal都有。但是在游戏开发过程中一般不会直接使用引擎提供的功能，而是会使用第三方SDK，例如<a href="https://www.fmod.com/">FMOD</a>、<a href="https://www.audiokinetic.com/zh/products/wwise/">Wwise</a>。因为第三方SDK功能更加完备。</p>
-<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102024059.png?x-oss-process=style/WaterMask" alt="20221102024059"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102024059.png?x-oss-process=style/WaterMask"></p>
 <p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023711.png?x-oss-process=style/WaterMask"></p>
 <h1 id="网络"><a href="#网络" class="headerlink" title="网络"></a>网络</h1><p>游戏引擎提供基本网络通信功能并不是什么特别难的事情，但是要提供一套成熟通用的网络同步功能非常困难。不同游戏对网络同步的需求由很大的区别，所以游戏项目组一般都会开发自己的网络同步功能以匹配自己的游戏业务需求。</p>
 <h1 id="数字内容创作-digital-content-creation-DCC-应用软件及资产调节管道"><a href="#数字内容创作-digital-content-creation-DCC-应用软件及资产调节管道" class="headerlink" title="数字内容创作(digital content creation, DCC)应用软件及资产调节管道"></a>数字内容创作(digital content creation, DCC)应用软件及资产调节管道</h1><p>设计师会通过DCC工具将模型、材质、贴图、音频等工具生产游戏素材。团队一般都会使用市面上以由的DCC工具，例如3DMax、Maya、PhotoShop、FMOD Studio等。这些工具输出的资源格式在大部分情况下没有办法被游戏引擎直接使用，需要游戏引擎对这些资源进行一次转换，转换为游戏引擎方便使用的格式。这个转换过程有资产调节管道来完成。例如每次往unity中拖入fbx模型资源的时候都会出现一个import进度条，正是在进行资源转换。</p>
@@ -775,6 +775,19 @@ println( s )
 ]]></content>
       <categories>
         <category>游戏引擎</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>算法题--从尾到头打印链表</title>
+    <url>/posts/4f46182d.html</url>
+    <content><![CDATA[<p>5</p>
+<h1 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h1><p>时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述"><a href="#题目描述" class="headerlink" title="题目描述"></a>题目描述</h1><p>输入一个链表，从尾到头打印链表每个节点的值</p>
+<h1 id="解题思路"><a href="#解题思路" class="headerlink" title="解题思路"></a>解题思路</h1><p>链表必须要从头开始访问，如果需要将打印顺序颠倒，可以利用栈的特性。有时候方法就是这么简单 - -</p>
+<p>如果想展示你的算法能力，可以写成递归–深度优先搜索</p>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">struct ListNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  struct ListNode *next;</span><br><span class="hljs-comment">  ListNode(int x) :</span><br><span class="hljs-comment">    val(x), next(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">printListFromTailToHead</span><span class="hljs-params">(ListNode* head)</span></span><br><span class="hljs-function">  </span>&#123;<br>    vector&lt;<span class="hljs-type">int</span>&gt; res;<br>    stack&lt;<span class="hljs-type">int</span>&gt; temp;<br>    <br>    <span class="hljs-keyword">while</span>(head != <span class="hljs-literal">NULL</span>)<br>    &#123;<br>      temp.<span class="hljs-built_in">push</span>(head-&gt;val);<br>      head = head-&gt;next;<br>    &#125;<br>    <br>    <span class="hljs-keyword">while</span>(!temp.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      res.<span class="hljs-built_in">push_back</span>(temp.<span class="hljs-built_in">top</span>());<br>      temp.<span class="hljs-built_in">pop</span>();<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>算法</category>
       </categories>
   </entry>
 </search>
