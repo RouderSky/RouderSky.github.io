@@ -999,4 +999,83 @@ println( s )
         <category>算法</category>
       </categories>
   </entry>
+  <entry>
+    <title>可编程渲染管线(Scriptable Render Pipeline, SRP)</title>
+    <url>/posts/e35daff.html</url>
+    <content><![CDATA[<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001316.png?x-oss-process=style/WaterMask"></p>
+<p>可编程渲染管线处理数据的流程可分为以下3大阶段</p>
+<h2 id="1-应用阶段"><a href="#1-应用阶段" class="headerlink" title="1. 应用阶段"></a>1. 应用阶段</h2><p>这个阶段大概会由CPU处理4件事情。首先会对模型数据进行可见性判断。模型数据由顶点位置、法线方向、顶点颜色、纹理坐标等构成。然后会将模型数据加载到显存以提高读取速度。再为每个图元设置常数寄存器和渲染状态。最后为一个渲染图元列表调用DrawCall指令。</p>
+<p>图元可以是点、线、三角形。</p>
+<h1 id="2-几何阶段"><a href="#2-几何阶段" class="headerlink" title="2. 几何阶段"></a>2. 几何阶段</h1><p>这个阶段由GPU进行处理，会对每一个需要渲染的图元进行逐顶点、逐多边形处理，最根本的任务是将顶点的模型坐标转换到屏幕空间。</p>
+<h2 id="2-1-顶点着色器"><a href="#2-1-顶点着色器" class="headerlink" title="2.1 顶点着色器"></a>2.1 顶点着色器</h2><p>顶点着色器的基本任务是将顶点转换到齐次裁剪空间，还可以进行的其他任务有：</p>
+<ul>
+<li>逐顶点着色操作，如逐顶点光照</li>
+<li>纹理计算</li>
+<li>逐顶点蒙皮</li>
+<li>逐顶点程序式动画(procedural animation)</li>
+</ul>
+<p><strong>2.1.1 投影变换</strong></p>
+<p>$Aspect&#x3D;\frac{近裁剪平面宽度}{近裁剪平面高度}&#x3D;\frac{远裁剪平面宽度}{远裁剪平面高度}$</p>
+<p><strong>透视投影</strong></p>
+<p>在摄像机使用透视投影的时候，为了呈现出近大远小的透视收缩(perspective foreshortening)效果，需要对顶点进行透视投影变换。使用透视投影矩阵进行变换后，并没有进行裁剪，只是使得w值有了意义，为后面的裁剪做准备。</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001504.png?x-oss-process=style/WaterMask"></p>
+<p>$透视投影近裁剪平面高度&#x3D;2 \cdot Near \cdot tan\frac{FOV}{2}$</p>
+<p>$透视投影远裁剪平面高度&#x3D;2 \cdot Far \cdot tan\frac{FOV}{2}$</p>
+<p>Unity透视投影矩阵(右乘)</p>
+<p>$<br>\begin{vmatrix}<br>\frac{cot\frac{FOV}{2}}{Aspect} &amp; 0 &amp; 0 &amp; 0 \<br>0 &amp; cot\frac{FOV}{2} &amp; 0 &amp; 0 \<br>0 &amp; 0 &amp; -\frac{Far+Near}{Far-Near} &amp; -\frac{2 \cdot Near \cdot Far}{Far-Near} \<br>0 &amp; 0 &amp; -1 &amp; 0<br>\end{vmatrix}<br>$</p>
+<p>会改变空间手系，从右手系变成了左手系，因为Unity的观察空间是右手系，NDC空间是左手系</p>
+<p>观察空间中的顶点(x,y,z)透视投影到齐次裁剪空间后变为</p>
+<p>$(x \cdot \frac{cot\frac{FOV}{2}}{Aspect}, y \cdot cot\frac{FOV}{2}, -z \cdot \frac{Far+Near}{Far-Near}-\frac{2 \cdot Near \cdot Far}{Far-Near}, -z)$</p>
+<p>透视投影齐次裁剪空间中坐标的w值为 $-Z_{posInViewSpace}$</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001658.png?x-oss-process=style/WaterMask" alt="变换情况"></p>
+<p><strong>正交投影</strong></p>
+<p>$正交投影远(近)裁剪平面高度&#x3D;2 \cdot Size$</p>
+<p>Unity正交投影矩阵(右乘)</p>
+<p>$<br>\begin{vmatrix}<br>\frac{1}{Aspect \cdot Size} &amp; 0 &amp; 0 &amp; 0 \<br>0 &amp; \frac{1}{Size} &amp; 0 &amp; 0 \<br>0 &amp; 0 &amp; -\frac{2}{Far-Near} &amp; -\frac{Far+Near}{Far-Near} \<br>0 &amp; 0 &amp; 0 &amp; 1 \<br>\end{vmatrix}<br>$</p>
+<p>会改变空间手系，从右手系变成了左手系，因为Unity的观察空间是右手系，NDC空间是左手系</p>
+<p>观察空间种的顶点(x,y,z)正交投影到齐次裁剪空间后变为 $(\frac{x}{Aspect \cdot Size}, \frac{y}{Size}, -\frac{2z}{Far-Near}-\frac{Far+Near}{Far-Near}, 1)$</p>
+<p>正交投影齐次裁剪空间中坐标的w值为1</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001921.png?x-oss-process=style/WaterMask"></p>
+<h2 id="2-2-曲面细分着色器"><a href="#2-2-曲面细分着色器" class="headerlink" title="2.2 曲面细分着色器"></a>2.2 曲面细分着色器</h2><p>用于细分图元</p>
+<h2 id="2-3-几何着色器"><a href="#2-3-几何着色器" class="headerlink" title="2.3 几何着色器"></a>2.3 几何着色器</h2><ul>
+<li>几何着色器的功能是修改、剔除、创建图元，可以实现以下效果：</li>
+<li>阴影体积拉伸(shadow volume extrusion)</li>
+<li>渲染立方体贴图(cube map)的6个面</li>
+<li>在网格的轮廓边拉伸毛发的鳍(fur in)</li>
+<li>从点数据生成例子四边形</li>
+<li>动态镶嵌</li>
+<li>把线段分形细分(fractal subdivision)以模拟闪电、布料</li>
+<li>将数据传到管线开头重新进入管线<ul>
+<li>用例：在顶点着色器内对头发样条的控制点进行物理模拟，在几何着色器内把样条镶嵌成线段，通过流输出将线段传到管线开头重新进入管线进行渲染</li>
+</ul>
+</li>
+</ul>
+<h2 id="2-4-裁剪"><a href="#2-4-裁剪" class="headerlink" title="2.4 裁剪"></a>2.4 裁剪</h2><p>裁剪的作用是将每个三角形在平截头体以外的部分切掉，把在平截头体以外的三角形剔除。</p>
+<p>满足以下条件的顶点才会被保留下来：</p>
+<p>$-w&lt;&#x3D;x&lt;&#x3D;w$<br>$-w&lt;&#x3D;y&lt;&#x3D;w$<br>$-w&lt;&#x3D;z&lt;&#x3D;w$</p>
+<h2 id="2-5-齐次除法"><a href="#2-5-齐次除法" class="headerlink" title="2.5 齐次除法"></a>2.5 齐次除法</h2><p>所谓的齐次除法就是让x、y、z都除以w，这时就可以得到NDC空间中的坐标</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/%E9%80%8F%E8%A7%86%E6%8A%95%E5%BD%B1%E7%9A%84%E9%BD%90%E6%AC%A1%E9%99%A4%E6%B3%95.png?x-oss-process=style/WaterMask" alt="透视投影的齐次除法"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/%E6%AD%A3%E4%BA%A4%E6%8A%95%E5%BD%B1%E7%9A%84%E9%BD%90%E6%AC%A1%E9%99%A4%E6%B3%95.png?x-oss-process=style/WaterMask" alt="正交投影的齐次除法"></p>
+<p>上图右边都是OpenGL的NDC，DirectX的NDC也和上图右边类似，但z范围在[0,1]</p>
+<h2 id="2-6屏幕映射"><a href="#2-6屏幕映射" class="headerlink" title="2.6屏幕映射"></a>2.6屏幕映射</h2><p>视口空间：程序运行窗口构成的空间</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/%E5%B1%8F%E5%B9%95%E7%A9%BA%E9%97%B4%EF%BC%9A%E6%95%B4%E4%B8%AA%E6%98%BE%E7%A4%BA%E5%B1%8F%E5%B9%95%E6%9E%84%E6%88%90%E7%9A%84%E7%A9%BA%E9%97%B4.png?x-oss-process=style/WaterMask" alt="屏幕空间：整个显示屏幕构成的空间"></p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Unity%E4%B8%AD%E5%B0%86NDC%E5%9D%90%E6%A0%87%E8%BD%AC%E6%8D%A2%E4%B8%BA%E5%B1%8F%E5%B9%95%E5%9D%90%E6%A0%87%E7%9A%84%E5%8F%B3%E4%B9%98%E7%9F%A9%E9%98%B5.png?x-oss-process=style/WaterMask" alt="Unity中将NDC坐标转换为屏幕坐标的右乘矩阵"></p>
+<p>矩阵中的X、Y是视口空间原点的屏幕坐标</p>
+<h1 id="3-光栅化阶段"><a href="#3-光栅化阶段" class="headerlink" title="3. 光栅化阶段"></a>3. 光栅化阶段</h1><p>这个阶段由GPU来决定绘制哪些片元以及这些片元的颜色</p>
+<p>片元&#x3D;片段：三角形被栅格化后，其中的每一个小方块都是一个片元，可以看成是还不确定最终是否可以呈现到屏幕上的像素</p>
+<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105002226.png?x-oss-process=style/WaterMask"></p>
+<h2 id="3-1-三角形设置"><a href="#3-1-三角形设置" class="headerlink" title="3.1 三角形设置"></a>3.1 三角形设置</h2><p>这个阶段的任务是找出三角形边界所覆盖的像素</p>
+<h2 id="3-2-三角形遍历"><a href="#3-2-三角形遍历" class="headerlink" title="3.2 三角形遍历"></a>3.2 三角形遍历</h2><p>这个阶段会对每个三角形进行栅格化，即找出每个三角形覆盖的像素区域。区域中的片元中信息（屏幕坐标、深度值、法线坐标、纹理坐标）由3个顶点数据进行插值(必要时会采用透视校正插值)得到</p>
+<h2 id="3-3-提前深度测试"><a href="#3-3-提前深度测试" class="headerlink" title="3.3 提前深度测试"></a>3.3 提前深度测试</h2><p>如果用户没有在片元着色器中改变深度或自我丢弃(discard)，显卡会自动开启该功能</p>
+<h2 id="3-4-片元着色器"><a href="#3-4-片元着色器" class="headerlink" title="3.4 片元着色器"></a>3.4 片元着色器</h2><p>用于执行逐像素着色操作，如纹理采样、多重纹理采样、逐像素光照</p>
+<h2 id="3-5-逐片元操作"><a href="#3-5-逐片元操作" class="headerlink" title="3.5 逐片元操作"></a>3.5 逐片元操作</h2><p><strong>3.5.1 模板测试</strong></p>
+<figure class="highlight scss"><table><tr><td class="code"><pre><code class="hljs scss">if 开启了模板测试 then<br>    比较参考值(使用读取掩码)和模板缓冲区中的模板值(使用读取掩码)<br>    if not 通过模板测试 then<br>        舍弃该片元<br>    end<br>    根据已设置的渲染状态更新模板缓冲区中的值(使用写入掩码)<br>end<br></code></pre></td></tr></table></figure>
+<p><strong>3.5.2 深度测试</strong></p>
+<figure class="highlight ada"><table><tr><td class="code"><pre><code class="hljs ada"><span class="hljs-keyword">if</span> 开启了深度测试 <span class="hljs-keyword">then</span><br>    比较该片元的深度值和深度缓冲区中的深度值<br>    <span class="hljs-keyword">if</span> 通过了深度测试 <span class="hljs-keyword">then</span><br>        <span class="hljs-keyword">if</span> 开启了深度写入 <span class="hljs-keyword">then</span><br>            将深度值写入深度缓冲区<br>        <span class="hljs-keyword">end</span><br>    <span class="hljs-keyword">else</span><br>        舍弃该片元<br>    <span class="hljs-keyword">end</span><br><span class="hljs-keyword">else</span><br>    <span class="hljs-keyword">if</span> 开启了深度写入 <span class="hljs-keyword">then</span><br>        将深度值写入深度缓冲区<br>    <span class="hljs-keyword">end</span><br><span class="hljs-keyword">end</span><br></code></pre></td></tr></table></figure>
+<p><strong>3.5.3 混合</strong></p>
+<figure class="highlight ada"><table><tr><td class="code"><pre><code class="hljs ada"><span class="hljs-keyword">if</span> 开启了混合 <span class="hljs-keyword">then</span><br>    用alpha混合函数(alpha blending <span class="hljs-keyword">function</span>)将该片元的颜色值和颜色缓冲区中的颜色值进行混合<br><span class="hljs-keyword">else</span><br>    直接使用该片元的颜色值<br><span class="hljs-keyword">end</span><br>更新颜色缓冲区中的颜色值<br></code></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>图形渲染</category>
+      </categories>
+  </entry>
 </search>
