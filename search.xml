@@ -1002,7 +1002,7 @@ println( s )
   <entry>
     <title>可编程渲染管线(Scriptable Render Pipeline, SRP)</title>
     <url>/posts/e35daff.html</url>
-    <content><![CDATA[<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001316.png?x-oss-process=style/WaterMask"></p>
+    <content><![CDATA[<p><img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105002824.png?x-oss-process=style/WaterMask"></p>
 <p>可编程渲染管线处理数据的流程可分为以下3大阶段</p>
 <h2 id="1-应用阶段"><a href="#1-应用阶段" class="headerlink" title="1. 应用阶段"></a>1. 应用阶段</h2><p>这个阶段大概会由CPU处理4件事情。首先会对模型数据进行可见性判断。模型数据由顶点位置、法线方向、顶点颜色、纹理坐标等构成。然后会将模型数据加载到显存以提高读取速度。再为每个图元设置常数寄存器和渲染状态。最后为一个渲染图元列表调用DrawCall指令。</p>
 <p>图元可以是点、线、三角形。</p>
