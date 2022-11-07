@@ -1,0 +1,992 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=dark>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Rouder">
+  <meta name="keywords" content="GameDev">
+  
+    <meta name="description" content="函数指针 获取函数的地址：函数的名字就是地址 函数指针声明与使用： 12345678910111213141516171819202122232425262728293031323334353637383940414243444546&#x2F;&#x2F;函数原型double pam(int);			&#x2F;&#x2F;函数指针声明和赋值double (*pf)(int);		&#x2F;&#x2F;函数指针声明pf&#x3D;pam;				&#x2F;&#x2F;函数指">
+<meta property="og:type" content="article">
+<meta property="og:title" content="番外篇--深扒C++函数">
+<meta property="og:url" content="https://roudersky.com/posts/f02e98d5.html">
+<meta property="og:site_name" content="RouderSky">
+<meta property="og:description" content="函数指针 获取函数的地址：函数的名字就是地址 函数指针声明与使用： 12345678910111213141516171819202122232425262728293031323334353637383940414243444546&#x2F;&#x2F;函数原型double pam(int);			&#x2F;&#x2F;函数指针声明和赋值double (*pf)(int);		&#x2F;&#x2F;函数指针声明pf&#x3D;pam;				&#x2F;&#x2F;函数指">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221108010635.png">
+<meta property="article:published_time" content="2017-11-08T04:04:05.000Z">
+<meta property="article:modified_time" content="2022-11-07T17:16:52.288Z">
+<meta property="article:author" content="Rouder">
+<meta property="article:tag" content="GameDev">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221108010635.png">
+  
+  
+  
+  <title>番外篇--深扒C++函数 - RouderSky</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/mac3.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"roudersky.com","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","app_key":"OY2z1FU6BunzlaSUlcwRQxvZ","server_url":"https://wsbiosfp.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"><style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Rouder</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221108010635.png') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="番外篇--深扒C++函数"></span>
+          
+        </div>
+
+        <!-- 随机英文句子 -->
+        <p><a id="rainbow" href=''>🌈 获取中...</a></p>
+
+        
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2017-11-08 12:04" pubdate>
+          2017年11月8日 中午
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          6.8k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          57 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<!-- 随机英文句子 -->
+<script>
+  fetch('https://api.eatrice.top')
+    .then(response => response.json())
+    .then(data => {
+      var rainbow = document.getElementById('rainbow');
+      rainbow.innerHTML = data.Content;
+      rainbow.href = "https://rainbow.eatrice.top/?ID=" + data.ID;
+    })
+    .catch(console.error)
+</script>
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="padding-left: 2rem; margin-right: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">番外篇--深扒C++函数</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：2022年11月8日 凌晨
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body" id="container">
+                
+                <h1 id="函数指针">函数指针</h1>
+<p>获取函数的地址：函数的名字就是地址</p>
+<p>函数指针声明与使用：</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-comment">//函数原型</span><br><span class="hljs-built_in">double</span> pam(<span class="hljs-built_in">int</span>);			<br><br><span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-built_in">int</span>);		<span class="hljs-comment">//函数指针声明</span><br>pf=pam;				<span class="hljs-comment">//函数指针赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-built_in">int</span>)=pam;		<span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-built_in">auto</span> pf=pam;			<span class="hljs-comment">//使用C++11的自动类型推断来声明和赋值</span><br><br><span class="hljs-comment">//使用</span><br>pf(<span class="hljs-number">123</span>);<br>(*pf)(<span class="hljs-number">123</span>);			<span class="hljs-comment">//注意(*pf)的括号一定要保留下来，不然意义就不同了</span><br>pam(<span class="hljs-number">123</span>);<br><span class="hljs-comment">//这三种形式等价,之所以会这样是因为两种学派的理解不同；而我个人认为第一种用法比第二种用法合理；以后在使用时看到(*pf)(123)，你直接看成pf(123)即可，将(*)看成多余的就好</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-built_in">double</span> f1(<span class="hljs-built_in">int</span>);<br><span class="hljs-built_in">double</span> f2(<span class="hljs-built_in">int</span>);	<br><span class="hljs-built_in">double</span> f3(<span class="hljs-built_in">int</span>);				<br><br><span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-built_in">int</span>);			<span class="hljs-comment">//函数指针数组的声明</span><br>pfa[<span class="hljs-number">0</span>]=f1;				<span class="hljs-comment">//函数指针数组的赋值示例</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-built_in">int</span>)=&#123;f1,f2,f3&#125;;	<span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-comment">//不可以使用auto来自动初始化，因为auto只能用于单值初始化,而不能初始化列表</span><br><span class="hljs-comment">//ps：初始化=声明+赋值；初始化列表就是&#123;&#125;</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//老实说，C++的指针声明挺复杂，如果能够很好的理解下面的声明，就证明你对C++的声明了如指掌了</span><br><span class="hljs-keyword">const</span> <span class="hljs-built_in">double</span> *(*(*pd)[<span class="hljs-number">3</span>])(<span class="hljs-keyword">const</span> <span class="hljs-built_in">double</span> *,<span class="hljs-built_in">int</span>);<br><span class="hljs-comment">//理解所有指针声明的要点是，从里向外去解读；注意[]的优先级比*高</span><br><br>---------------------------------------------------------------------------------------<br><span class="hljs-comment">//要简化函数指针的声明过程，除了使用auto之外，还可以使用typedef，例如：</span><br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-built_in">double</span> pam(<span class="hljs-built_in">int</span>);<br><br><span class="hljs-comment">//将函数指针类型弄成标识符形式</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-built_in">double</span> (*p_func)(<span class="hljs-built_in">int</span>);<br><br><span class="hljs-comment">//函数指针声明</span><br>p_func pf;<br></code></pre></td></tr></table></figure>
+<h2 id="非静态类成员函数指针">非静态类成员函数指针</h2>
+<p>与类的非静态数据成员变量不同，类的非静态成员函数不会在运行时为每个类的实例对象生成一份专有的机器语言代码，类的非静态成员函数在内存中只有一份，即类的非静态成员函数的地址也是唯一的。那么为什么不同的实例调用非静态成员函数的时可以访问到属于实例本身的数据呢？这是因为非静态成员函数默认的第一个参数就是this指针，只是没有明写出来罢了</p>
+<p>类的非静态成员函数默认的第一参数就是this</p>
+<p>受this指针的影响， 非静态类成员函数指针 的声明和使用与
+一般的函数指针（含静态成员函数指针） 都不同</p>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-regexp">//</span>类的非静态成员函数指针 声明、赋值、使用 都跟普通情况不同<br><span class="hljs-regexp">//</span>声明时需要添加类名<br>int (classA::*pFun)(int);		<span class="hljs-regexp">//</span>注意类名放置的位置，类名是用来指明this指针的类型的<br><span class="hljs-regexp">//</span>赋值时需要添加类名和&amp;<br>pFun=&amp;classA::Fun;<br><span class="hljs-regexp">//</span>使用时需要加上实例对象<br>(classAInstance-&gt;*pFun)(<span class="hljs-number">12345</span>);		<span class="hljs-regexp">//</span>注意一个<span class="hljs-string">&#x27;(&#x27;</span>、<span class="hljs-string">&#x27;)&#x27;</span>，<span class="hljs-string">&#x27;*&#x27;</span>都不能少，格式就这样死死固定住了；<br>					<span class="hljs-regexp">//</span>如果这个语句出现在非静态成员函数中，不要认为classAInstance不写系统会自动加上this;如果你是想调用this的pFun就自己手动加上，不然会报错，<br><br><br><span class="hljs-regexp">//</span>类的静态成员函数指针 声明、赋值、使用<br><span class="hljs-regexp">//</span>声明时<br>int (*pFun)(int);<br><span class="hljs-regexp">//</span>赋值时需要添加类名<br>pFun=classA::Fun;<br><span class="hljs-regexp">//</span>使用时<br>pFun(<span class="hljs-number">12345</span>);		<span class="hljs-regexp">//</span>或<br>(*pFun)(<span class="hljs-number">12345</span>);<br></code></pre></td></tr></table></figure>
+<h1 id="函数模板">函数模板</h1>
+<p>函数模板将类型作为参数传递给函数模板，使编译器生成该类型的函数；又叫通用编程或参数化类型；</p>
+<p>由函数模板对应的具体函数称为称为模板实例(instantiation)</p>
+<p>隐式实例化、显式实例化、显式具体化统称为具体化(specialization)</p>
+<p>类型参数不能有默认值，但是非类型参数可以有默认值</p>
+<h2 id="函数模板的声明格式">函数模板的声明格式</h2>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// T 叫做类型参数</span><br><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;			<span class="hljs-comment">//可以写成 template&lt;class T&gt;，但是这个是C++98之前的写法；typename这个关键字是C++98定义的；函数模板参数列表中可以有多个参数，如template&lt;typename T1,typename T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span>;			<span class="hljs-comment">//返回类型可以不可也写成T？？？</span><br></code></pre></td></tr></table></figure>
+<h2 id="函数模板的定义格式">函数模板的定义格式</h2>
+<p>这只是一个函数模板，并不是函数；函数模板用于告诉编译器如何定义函数；只有在编译时检测到代码中需要用到这个模板，编译器才会依据具体类型按照模板格式生成模板实例，这个过程称为隐式实例化(implicit
+instantiation)</p>
+<p>编译结束之后机器码中并没有函数模板，只可能存在模板实例的机器码</p>
+<p>模板函数的定义可以放在使用到函数模板的函数后面</p>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs routeros">template&lt;typename T&gt;			<br>void Swap(T &amp;a,T &amp;b)<br>&#123;<br>	T temp;<br>	<span class="hljs-attribute">temp</span>=a;<br>	<span class="hljs-attribute">a</span>=b;<br>	<span class="hljs-attribute">b</span>=temp;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="模板函数的使用">模板函数的使用</h2>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-regexp">//</span>使用时都不用指明类型，编译器会自动检测参数列表的数据类型来确定函数的类型<br>int main()<br>&#123;<br>	int i=<span class="hljs-number">10</span>;<br>	int j=<span class="hljs-number">20</span>;<br>	<br>	Swap(i,j);		<span class="hljs-regexp">//</span>隐式实例化<br>	Swap&lt;&gt;(i,j);	<span class="hljs-regexp">//</span>不带参数的显式实例化，确保编译器使用函数模板的实例化版本<br><br>	double x=<span class="hljs-number">1.3</span>;<br>	double y=<span class="hljs-number">3.6</span>;<br><br>	Swap(x,y);		<span class="hljs-regexp">//</span>隐式实例化<br>	Swap&lt;&gt;(x,y);	<span class="hljs-regexp">//</span>不带参数的显式实例化，确保编译器使用函数模板的实例化版本<br><br>	<span class="hljs-regexp">//</span>疑问：<br>	<span class="hljs-regexp">//</span>Swap(i,x);	<span class="hljs-regexp">//</span>会怎样？<br><br>	return <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h1 id="函数模板的重载">函数模板的重载</h1>
+<figure class="highlight reasonml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><code class="hljs reasonml">template&lt;typename T&gt;			<br>void <span class="hljs-constructor">Swap(T &amp;<span class="hljs-params">a</span>,T &amp;<span class="hljs-params">b</span>)</span><br>&#123;<br>	T temp;<br>	temp=a;<br>	a=b;<br>	b=temp;<br>&#125;<br><br>template&lt;typename T&gt;<br>void <span class="hljs-constructor">Swap(T <span class="hljs-operator">*</span><span class="hljs-params">a</span>,T <span class="hljs-operator">*</span><span class="hljs-params">b</span>,<span class="hljs-params">int</span> <span class="hljs-params">n</span>)</span><br>&#123;<br>	T temep;<br>	<span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i=<span class="hljs-number">0</span>;i&lt;n;++i)<br>	&#123;<br>		temp=a<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span>;<br>		a<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span>=b<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span>;<br>		b<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span>=temp;<br>	&#125;<br>&#125;<br><br><span class="hljs-built_in">int</span> main<span class="hljs-literal">()</span><br>&#123;<br>	<span class="hljs-built_in">int</span> i=<span class="hljs-number">10</span>;<br>	<span class="hljs-built_in">int</span> j=<span class="hljs-number">20</span>;<br>	<br>	<span class="hljs-constructor">Swap(<span class="hljs-params">i</span>,<span class="hljs-params">j</span>)</span>;<br><br>	<span class="hljs-built_in">int</span> array1<span class="hljs-literal">[<span class="hljs-number">3</span>]</span>=&#123;<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>&#125;;<br>	<span class="hljs-built_in">int</span> array2<span class="hljs-literal">[<span class="hljs-number">3</span>]</span>=&#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>&#125;;<br><br>	<span class="hljs-constructor">Swap(<span class="hljs-params">array1</span>.<span class="hljs-params">array2</span>)</span>;<br><br>	return <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h1 id="函数模板的局限性">函数模板的局限性</h1>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs awk">template &lt;typename T&gt;<br>void f(T a,T b)<br>&#123;<br>	<span class="hljs-regexp">//</span>a=b;	<span class="hljs-regexp">//</span>原本是想做内容赋值操作的，但如果T类型是数组指针，那么最终只是a变成了b的指针，a并没有获得b数组的内容；又或者当前T类型并没有<span class="hljs-string">&#x27;=&#x27;</span>操作;<br>	<span class="hljs-regexp">//</span>a&gt;b;	<span class="hljs-regexp">//</span>原本是想做内容比较操作的，但如果T类型是数组指针，那么最终只是比较了a指针和b指针，并没有进行内容比较；又或者当前T类型并没有<span class="hljs-string">&#x27;&gt;&#x27;</span>操作;<br>	<span class="hljs-regexp">//</span>以后注意T只处理非数组类型，T*才是用来处理数组类型的；<br>&#125;<br></code></pre></td></tr></table></figure>
+<h1
+id="函数模板的显式具体化explicit-specialization">函数模板的显式具体化(explicit
+specialization)</h1>
+<p>所谓的显式具体化就是手动写一个函数模板的模板实例</p>
+<p>函数模板显式具体化的声明格式：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式具体化，第一种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;job&gt;(job &amp;,job &amp;);	<span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br><br><span class="hljs-comment">//函数模板的显式具体化，第二种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(job &amp;,job &amp;)</span></span>;			<span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br></code></pre></td></tr></table></figure>
+<p>如果一个名称f同时存在非模板函数、
+显式具体化函数、常规模板，将遵循第三代函数使用优先顺序(C++98标准)：非模板函数
+&gt; 显式具体化函数 &gt; 常规模板</p>
+<h1 id="实例化和具体化">实例化和具体化</h1>
+<ul>
+<li>实例化和具体化是不同的概念：
+<ul>
+<li>实例化是由编译器自动生成模板实例的过程</li>
+<li>具体化是手动写出一个模板实例的过程</li>
+<li>实例化 template 后面没有 &lt;&gt;</li>
+<li>具体化 template 后面有 &lt;&gt;</li>
+</ul></li>
+</ul>
+<h2 id="显式实例化explicit-instantiation的方法">显式实例化(explicit
+instantiation)的方法</h2>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式实例化，第一种方式</span><br><span class="hljs-keyword">template</span> <span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">int</span>&gt;(<span class="hljs-type">int</span>,<span class="hljs-type">int</span>);	<span class="hljs-comment">//编译器看到这条指令将马上自动生成Swap的int版本，不必等到调用；这样做有什么用？</span><br><br><span class="hljs-comment">//函数模板的显式实例化，第二种方式</span><br>...主函数中<br>	<span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>	<span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>	<span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">double</span>&gt;(i,x);				<span class="hljs-comment">//生成Swap的double类型的实例以备调用，如果没有显式实例化的话，到这里会报错；因为没有办法隐式实例化；	</span><br>									<span class="hljs-comment">//ps：但是其实即使使用了显式化，这里由于Swap的参数是double引用类型，可是变量i是int类型；同样会报错，除非Swap函数参数列表改成Swap(const T &amp;,T &amp;)，[笑哭.jpg]这样有意思吗</span><br>...<br></code></pre></td></tr></table></figure>
+<p>ps：同一个文件中如果同时出现同一类型函数的 显式实例化 和 显式具体化
+，将出错</p>
+<h1 id="编译器选择使用哪个函数版本">编译器选择使用哪个函数版本</h1>
+<p>重载解析(overloading
+resolution)：面对函数重载、函数模板、函数模板重载时，C++决定使用哪一个函数的过程</p>
+<p>详细解释这个策略需要将近一章的篇幅= =，下面只讲大致步骤</p>
+<h2
+id="函数调用的步骤假设函数调用为mayb">函数调用的步骤(假设函数调用为may('B'))</h2>
+<ol type="1">
+<li>先找出所有名称为may的函数</li>
+<li>再从这些函数中找出可以只接受一个参数'B'的may函数(实参类型可强转为形参类型的也算)</li>
+<li>再从这些函数中选择一个最佳函数，优先级为： 常规函数完全匹配 &gt;
+模板函数完全匹配 &gt;
+提升转换(例：char和short自动转为int，float自动转为double) &gt;
+标准转换(例：int转换为char，long转换为double) &gt; 用户定义的转换</li>
+</ol>
+<p>完全匹配：实参类型与形参类型完全等价，等价表如下所示：</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221108011130.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload /></p>
+<p>ps：倒数第二列是不是错了？？？</p>
+<ul>
+<li>如果使用以上优先级选择之后还是剩下一个以上的完全匹配函数，那么将要使用以下规则继续筛选：
+<ul>
+<li>非模板函数优先于模板函数</li>
+<li>非const的指针和引用的实参优先与非const的指针和引用的形参配对</li>
+<li>如果剩下的都是完全匹配的模板函数，则使用函数模板的部分排序规则(partial
+ordering
+rules)(C++98特性，主要是处理指针与非指针的问题)来选择最具体的</li>
+</ul></li>
+</ul>
+<p>如果使用以上规则选择之后还是剩下一个以上的候选函数，那么编译器将报错；</p>
+<p>例子：调用函数map('B');</p>
+<table>
+
+<thead>
+<tr class="header">
+<th style="text-align: center;">编号</th>
+<th style="text-align: left;">候选函数</th>
+<th style="text-align: center;">第一步结果</th>
+<th style="text-align: center;">第二部结果</th>
+<th style="text-align: center;">优先级</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">void may(int);</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">4</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">void may(double,double);</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">float may(float,float = 3);</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">5</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">void may(char);</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">char * may(const char *);</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">char may(const char &amp;);</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">template&lt; typename T &gt; void
+may(const T &amp;);</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">3</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">template&lt; typename T &gt; void may(T
+*);</td>
+<td style="text-align: center;">T</td>
+<td style="text-align: center;">F</td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<p>ps：整数类型是不会隐式转换成指针的</p>
+<p>以上只是介绍了单参函数调用的函数原型匹配问题，若是有多个参数，情况将非常复杂；这里不再介绍</p>
+<h1 id="模板函数的发展">模板函数的发展</h1>
+<h2 id="问题一">问题一</h2>
+<p>在C++98标准下的函数模板存在着很多不完美的地方，有时候由于不知道具体的类型是什么，导致无法正常编写函数模板定义,例：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>	...<br>	?type? xpy = x + y;		<span class="hljs-comment">//这时不知道xpy要定义为什么类型才能正确接收到结果</span><br>	...<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>为了解决上面的问题，C++11引入了一种新的声明数据类型方式,使用关键字decltype</p>
+<p>decltype是在运行时确定变量类型的</p>
+<p>decltype确定类型的方式，满足以下哪个形式就用哪个形式的判定方法</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式一：</span><br>...<br><span class="hljs-type">int</span> x;<br><span class="hljs-keyword">decltype</span>&#123;x&#125; y;			<span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中的**数值**类型；这里y的类型将会是int</span><br><br><span class="hljs-comment">//更多例子：</span><br><span class="hljs-type">int</span> j = <span class="hljs-number">3</span>;<br><span class="hljs-type">int</span> &amp;k = j;<br><span class="hljs-type">int</span> &amp;n = j;<br><span class="hljs-keyword">decltype</span>(j+<span class="hljs-number">6</span>) i1;		<span class="hljs-comment">//i1的类型为	int		</span><br><span class="hljs-keyword">decltype</span>(<span class="hljs-number">100L</span>) i2;		<span class="hljs-comment">//i2的类型为	long	</span><br><span class="hljs-keyword">decltype</span>(k+n) i3;		<span class="hljs-comment">//i3的类型为 int</span><br>...<br></code></pre></td></tr></table></figure>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs arduino"><span class="hljs-comment">//形式二：</span><br>...<br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-title">indeed</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;		<span class="hljs-comment">//函数声明</span><br><span class="hljs-keyword">decltype</span>&#123;<span class="hljs-built_in">indeed</span>(<span class="hljs-number">3</span>)&#125; y;	<span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中函数的返回值类型；这里y的类型将会是long（书上写说y的类型是int，错了吧？）</span><br>						<span class="hljs-comment">//注意：indeed(3)并不会真的被调用</span><br>...<br></code></pre></td></tr></table></figure>
+<figure class="highlight awk"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs awk"><span class="hljs-regexp">//</span>形式三：<br>...<br>double xx = <span class="hljs-number">4.4</span>;<br>decltype&#123;(xx)&#125; y;		<span class="hljs-regexp">//</span>判定方法：y的类型将为&#123;&#125;中变量类型的引用；这里y的类型将会是double &amp;<br>						<span class="hljs-regexp">//</span>注意：这里的括号不能省略且括号中必须是变量(左值)<br><br><br><span class="hljs-regexp">//</span>这里引入一个和函数模板话题不沾边的小概念：<br><span class="hljs-regexp">//</span>xx = <span class="hljs-number">98.6</span>;<br><span class="hljs-regexp">//</span>(xx) = <span class="hljs-number">98.6</span>;<br><span class="hljs-regexp">//</span>以上的两条表达式的作用是一样的，就是赋值，无差别<br>...<br></code></pre></td></tr></table></figure>
+<p>于是上面的问题就可以解决：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>	...<br>	<span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpy = x + y;	<span class="hljs-comment">//xpy的类型就是x+y得到的结果数值的类型</span><br>	...<br><br>	<span class="hljs-comment">//如果要多次使用上面这种类型，每次都要写这么长，会觉得很麻烦，那么可以使用关键字typedef，例：</span><br>	typrdef <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpytype;<br>	<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="问题二">问题二</h2>
+<p>但是即使有了decltype还是存在问题，有时函数返回类型不能确定，例：</p>
+<figure class="highlight haskell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs haskell"><span class="hljs-title">template</span>&lt;typename <span class="hljs-type">T1</span>,typename <span class="hljs-type">T2</span>&gt;<br>?<span class="hljs-class"><span class="hljs-keyword">type</span>? gt(<span class="hljs-type">T1</span> <span class="hljs-title">x</span>,<span class="hljs-type">T2</span> <span class="hljs-title">y</span>)					//返回类型无法确定，无法将?<span class="hljs-keyword">type</span>?改为decltype&#123;<span class="hljs-title">x</span> + <span class="hljs-title">y</span>&#125;，因为那时x和y还没有声明</span><br>&#123;<br>	&#x27;&#x27;&#x27;<br>	return x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>为了解决上面的问题，C++11引入了一个新语法后置返回类型，格式为：</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-built_in">auto</span> h(<span class="hljs-built_in">int</span> x,<span class="hljs-built_in">float</span> y) -&gt; <span class="hljs-built_in">double</span>;<br><span class="hljs-comment">//该函数的返回类型是double，auto只是占位用的</span><br></code></pre></td></tr></table></figure>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/C/" class="category-chain-item">C++</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>番外篇--深扒C++函数</div>
+      <div>https://roudersky.com/posts/f02e98d5.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Rouder</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2017年11月8日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-nc"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                      <a href="/posts/49a81750.html" title="游戏动画技术简介">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">游戏动画技术简介</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/5df9aa96.html" title="MarkDown语法测试">
+                        <span class="hidden-mobile">MarkDown语法测试</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","appKey":"OY2z1FU6BunzlaSUlcwRQxvZ","path":"window.location.pathname","placeholder":"说点什么吧","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"https://wsbiosfp.lc-cn-n1-shared.com","emojiCDN":null,"emojiMaps":null,"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+<!-- 关注公众号获取验证码解锁文章内容的功能 -->
+<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'container',
+        blogId: '27882-1666536373183-280',
+        name: '三年游戏人',
+        qrcode: 'https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/1.png',
+        keyword: 'more',
+    });
+</script>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+      <a>见众生</a>
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="leancloud-site-pv-container" style="display: none">
+        总访问量 
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+    
+    
+      <span id="leancloud-site-uv-container" style="display: none">
+        总访客数 
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+    
+    
+
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script defer src="/js/leancloud.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
