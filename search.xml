@@ -1840,4 +1840,30 @@ alt="20221109014522" />
         <category>算法</category>
       </categories>
   </entry>
+  <entry>
+    <title>算法题--斐波那契数列</title>
+    <url>/posts/3af7c65a.html</url>
+    <content><![CDATA[<p>9</p>
+<h1 id="要求">要求</h1>
+<p>时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项。</p>
+<p>n&lt;=39</p>
+<h1 id="解题思路">解题思路</h1>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014742.png?x-oss-process=style/WaterMask" /></p>
+<p>这道题可以直接用递归来解决，但是递归速度慢(函数调用、重复计算)、容易导致栈溢出(函数调用层级多)
+重复计算如下图所示：</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014758.png?x-oss-process=style/WaterMask" /></p>
+<p>重复计算的问题可以用一个memory来解决，也就变成了top-down形式的动态规划</p>
+<p>为了减少函数调用，使用down-top形式的动态规划来解决</p>
+<p>一般只要能写出状态转换方程就可以写出down-top动态规划</p>
+<h1 id="c代码">C++代码</h1>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-comment">//斐波那契数列：f(n)=f(n-1)+f(n-2),n&gt;=2,f(0)=0,f(1)=1</span><br><span class="hljs-comment">//此代码已经降维，由一维数组降成了两个点(last和lastlast)，因为每一个状态都只用到了之前的两个状态</span><br><span class="hljs-keyword">class</span> <span class="hljs-symbol">Solution</span> &#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-built_in">int</span> Fibonacci(<span class="hljs-built_in">int</span> n) &#123;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">1</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>    <br>    <span class="hljs-built_in">int</span> lastlast = <span class="hljs-number">0</span>;<br>    <span class="hljs-built_in">int</span> last = <span class="hljs-number">1</span>;<br>    <span class="hljs-built_in">int</span> cur = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = <span class="hljs-number">2</span>;i &lt;= n;++i)&#123;<br>      cur = last + lastlast;<br>      lastlast = last;<br>      last = cur;<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> cur;<br>  &#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+  </entry>
 </search>

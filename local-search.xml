@@ -23,6 +23,25 @@
   
   
   <entry>
+    <title>算法题--斐波那契数列</title>
+    <link href="/posts/3af7c65a.html"/>
+    <url>/posts/3af7c65a.html</url>
+    
+    <content type="html"><![CDATA[<p>9</p><h1 id="要求">要求</h1><p>时间限制：1秒 空间限制：32768K</p><h1 id="题目描述">题目描述</h1><p>大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项。</p><p>n&lt;=39</p><h1 id="解题思路">解题思路</h1><p><imgsrc="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014742.png?x-oss-process=style/WaterMask" /></p><p>这道题可以直接用递归来解决，但是递归速度慢(函数调用、重复计算)、容易导致栈溢出(函数调用层级多)重复计算如下图所示：</p><p><imgsrc="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014758.png?x-oss-process=style/WaterMask" /></p><p>重复计算的问题可以用一个memory来解决，也就变成了top-down形式的动态规划</p><p>为了减少函数调用，使用down-top形式的动态规划来解决</p><p>一般只要能写出状态转换方程就可以写出down-top动态规划</p><h1 id="c代码">C++代码</h1><figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-comment">//斐波那契数列：f(n)=f(n-1)+f(n-2),n&gt;=2,f(0)=0,f(1)=1</span><br><span class="hljs-comment">//此代码已经降维，由一维数组降成了两个点(last和lastlast)，因为每一个状态都只用到了之前的两个状态</span><br><span class="hljs-keyword">class</span> <span class="hljs-symbol">Solution</span> &#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-built_in">int</span> Fibonacci(<span class="hljs-built_in">int</span> n) &#123;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">1</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>    <br>    <span class="hljs-built_in">int</span> lastlast = <span class="hljs-number">0</span>;<br>    <span class="hljs-built_in">int</span> last = <span class="hljs-number">1</span>;<br>    <span class="hljs-built_in">int</span> cur = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = <span class="hljs-number">2</span>;i &lt;= n;++i)&#123;<br>      cur = last + lastlast;<br>      lastlast = last;<br>      last = cur;<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> cur;<br>  &#125;<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    <categories>
+      
+      <category>算法</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>GDC 2019 Evolving Combat in &#39;God of War&#39; for a New Perspective ⸺ “战神” 战斗模式的全新变革 下篇</title>
     <link href="/posts/9b30e53c.html"/>
     <url>/posts/9b30e53c.html</url>
