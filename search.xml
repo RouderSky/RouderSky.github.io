@@ -1866,4 +1866,204 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014758.pn
         <category>算法</category>
       </categories>
   </entry>
+  <entry>
+    <title>常用设计模式讲解(史上最简短)</title>
+    <url>/posts/517ed801.html</url>
+    <content><![CDATA[<blockquote>
+<p>收藏数远超点赞数，这是为什么 (￣□￣；)</p>
+</blockquote>
+<p>这篇文章会简单粗暴地讲解一下常用设计模式，算是一个汇总，不会作详细地讲解
+系统设计从设计原则开始，在过程中会自然而然发现需要加入模式的地方。所有的原则都不是必须遵守的，要考虑全局进行舍取，常常要折中。</p>
+<p>所有的设计模式都是一种思想，即使在某种场合下没有办法实现常规的写法，但是用到它们的思想就可以了。尽可能保持设计的简单，只有真正需要模式时才使用，复杂度一般与灵活性正相关。</p>
+<p>使用设计模式的目的:在不改变设计好的运行框架的前提下，需增加功能是只需要额外添加一个类，然后就可以在系统运行时增加功能</p>
+<h1 id="适配器模式">适配器模式</h1>
+<p>能够被适配的目标类一定有着可重写的接口，能够被适配的目标函数一定是虚函数</p>
+<h2 id="代码">代码</h2>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">Adapter</span> : <span class="hljs-symbol">public</span> <span class="hljs-symbol">absClassA</span><br>&#123;<br>  absClassB* realInstance;   <span class="hljs-comment">//被适配</span><br>  def func() <span class="hljs-keyword">override</span><br>  &#123;<br>    <span class="hljs-comment">//Todo：调用realInstance的一些方法</span><br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+<h2 id="设计原则">设计原则</h2>
+<p>尽量减少一个类中对于其它类的引用，以减少调用一个功能需要.出来的次数</p>
+<h1 id="装饰者模式">装饰者模式</h1>
+<blockquote>
+<p>这个模式中使用继承是为了能够做到类型匹配，因为一个对象在被装饰之后还必须是原来的那个对象类型。不能因为装饰而改变自己的类型。一个化了妆的人还是一个人</p>
+</blockquote>
+<p>能够被装饰的类一定有着可重写的接口，能够被装饰的函数一定是虚函数</p>
+<h2 id="代码-1">代码</h2>
+<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">class Decorator : absClass<br>&#123;<br>  absClass* realInstance;    <span class="hljs-regexp">//</span>被装饰者<br>  def <span class="hljs-keyword">func</span>() override<br>  &#123;<br>    realInstance-&gt;<span class="hljs-keyword">func</span>();<br>    <span class="hljs-regexp">//</span>Todo：<span class="hljs-keyword">do</span> more something<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+<h2 id="设计原则-1">设计原则</h2>
+<p>对扩展开放，对修改关闭</p>
+<h1 id="代理模式">代理模式</h1>
+<blockquote>
+<p>代理（proxy）：代表特定实例</p>
+</blockquote>
+<p>能够被代理的类一定有着可重写的接口，能够被代理化的函数一定是虚函数</p>
+<p>创建代理通常会使用工厂方法</p>
+<h2 id="代码-2">代码</h2>
+<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">class Proxy : absClass<br>&#123;<br>  absClass* realInstance;<br>  void <span class="hljs-keyword">func</span>() override<br>  &#123;<br><span class="hljs-comment">#if 0</span><br>    <span class="hljs-regexp">//</span>保护代理<br>    <span class="hljs-regexp">//</span>通过一些条件控制对realInstance的访问<br>    <span class="hljs-keyword">if</span>(满足条件)<br>      realInstance-&gt;<span class="hljs-keyword">func</span>();<br><span class="hljs-comment">#elif 0</span><br>    <span class="hljs-regexp">//</span>虚拟代理<br>    <span class="hljs-keyword">if</span>(realInstance != NULL)<br>      realInstance-&gt;<span class="hljs-keyword">func</span>();<br>    <span class="hljs-keyword">else</span><br>      <span class="hljs-regexp">//</span>开启异步线程创建absClass实例<br>      <span class="hljs-regexp">//</span>或 执行默认操作<br><span class="hljs-comment">#else</span><br>    <span class="hljs-regexp">//</span>远程代理<br>    realInstance-&gt;<span class="hljs-keyword">func</span>();  <span class="hljs-regexp">//</span><span class="hljs-keyword">func</span>通过网络和远程实例通信<br><span class="hljs-comment">#endif</span><br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+<h2 id="对比">对比</h2>
+<p>装饰者模式的目的是为对象加上行为，而代理模式的目的是控制对对象的访问</p>
+<h2 id="其他代理">其他代理</h2>
+<ul>
+<li>远程代理：代表特定远程实例</li>
+<li>防火墙代理：公司防火墙系统</li>
+<li>智能引用代理：引用计数</li>
+<li>缓存代理：Web服务器</li>
+<li>同步代理：JavaSpace</li>
+<li>复杂隐藏代理（外观理解）：字典</li>
+<li>写入时复制代理：Java5的CopyOnWriteArrayList</li>
+</ul>
+<h1 id="观察者模式">观察者模式</h1>
+<blockquote>
+<p>观察感兴趣的事物 或者 事情</p>
+</blockquote>
+<h2 id="代码-3">代码</h2>
+<figure class="highlight awk"><table><tr><td class="code"><pre><code class="hljs awk">class Subject	<span class="hljs-regexp">//</span>可以被包含<br>&#123;<br>  absClass*[] observers;	<span class="hljs-regexp">//</span>核心数据结构<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="设计原则-2">设计原则</h2>
+<p>对象之间保持松耦合</p>
+<h1 id="迭代器与组合模式">迭代器与组合模式</h1>
+<h2 id="组合模式代码">组合模式代码</h2>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">xxx:<span class="hljs-symbol">absClass</span></span><br>&#123;<br>  absClass*[] a;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="迭代器模式代码">迭代器模式代码</h2>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><code class="hljs ruby"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Iterator</span><br>&#123;<br>  <span class="hljs-keyword">def</span> <span class="hljs-title function_">hasNext</span>() = <span class="hljs-number">0</span>;<br>  <span class="hljs-keyword">def</span> <span class="hljs-title function_">next</span>() = <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="组合迭代器模式代码">组合迭代器模式代码</h2>
+<figure class="highlight nim"><table><tr><td class="code"><pre><code class="hljs nim">class xxx:<span class="hljs-type">Iterator</span><br>&#123;<br>  <span class="hljs-type">Iterator</span>*[] it;<br>  def hasNext() override <span class="hljs-meta">&#123;...&#125;</span><br>  def next() override <span class="hljs-meta">&#123;...&#125;</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="设计原则-3">设计原则</h2>
+<p>每个类保持单一的责任</p>
+<h1 id="策略模式">策略模式</h1>
+<blockquote>
+<p>多用接口</p>
+</blockquote>
+<h2 id="代码-4">代码</h2>
+<figure class="highlight abnf"><table><tr><td class="code"><pre><code class="hljs abnf">class xxx<br>&#123;<br>  absClassA* a<span class="hljs-comment">;</span><br>  absClassB* b<span class="hljs-comment">;</span><br>  absClassC* c<span class="hljs-comment">;</span><br>  ...<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="设计原则-4">设计原则</h2>
+<ul>
+<li>多用组合，少用继承
+<ul>
+<li>使用组合可以拥有多个实例</li>
+</ul></li>
+<li>针对接口编程，不针对具体实现编程</li>
+<li>将变和不变的内容分开</li>
+</ul>
+<h1 id="状态模式">状态模式</h1>
+<blockquote>
+<p>基于有限状态机；允许对象在内部状态改变时改变它的行为，对象好像在运行过程中修改了它的类定义</p>
+</blockquote>
+<ul>
+<li>让一个类具有状态机功能的方法:
+<ul>
+<li>让类中拥有一个State成员
+<ul>
+<li>较简单</li>
+</ul></li>
+<li>让类中拥有一个StateMachine成员
+<ul>
+<li>较复杂</li>
+<li>state &lt;--&gt; stateMachine &lt;--&gt; object</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="代码-5">代码</h2>
+<figure class="highlight csharp"><table><tr><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">class</span> <span class="hljs-title">State</span><br>&#123;<br>  <span class="hljs-function">def <span class="hljs-title">Enter</span>()</span> = <span class="hljs-number">0</span>;<br>  <span class="hljs-function">def <span class="hljs-title">Exit</span>()</span> = <span class="hljs-number">0</span>;<br><br>  <span class="hljs-comment">//其它纯虚函数</span><br>  <span class="hljs-function">def <span class="hljs-title">DoSomethingA</span>()</span> = <span class="hljs-number">0</span>;<br>  ...<br><br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title">StateMachine</span><br>&#123;<br>  State* curState;          <span class="hljs-comment">//核心数据结构</span><br>  <span class="hljs-function">def <span class="hljs-title">changeState</span>(<span class="hljs-params">State* newState</span>)  <span class="hljs-comment">//核心函数</span></span><br>  &#123;<br>    curState-&gt;Exit();<br>    curState = newState;<br>    curState-&gt;Enter();<br>  &#125;<br><br>  <span class="hljs-comment">//其他纯虚函数的实现</span><br>  <span class="hljs-function">def <span class="hljs-title">DoSomethingA</span>()</span><br>  &#123;<br>    curState-&gt;DoSomethingA();<br>  &#125;<br>  ...<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="对比-1">对比</h2>
+<p>策略模式和状态模式本质上是相同的，只是状态模式在执行逻辑时，状态可以自动发生改变</p>
+<h2 id="适用条件">适用条件</h2>
+<ul>
+<li>实体的行为基于一些内在状态</li>
+<li>状态可以被严格的分割为相对较少的不相干项目</li>
+<li>实体响应一系列输入或事件</li>
+<li>状态的跳转呈现出复杂的图结构</li>
+</ul>
+<h2 id="应用场景">应用场景</h2>
+<ul>
+<li>玩家输入</li>
+<li>导航菜单界面</li>
+<li>分析文字</li>
+<li>网络协议</li>
+<li>其他异步行为</li>
+</ul>
+<h2 id="并发状态机">并发状态机</h2>
+<blockquote>
+<p>降低了状态的数量</p>
+</blockquote>
+<p>一个对象拥有两个状态机，分别负责m种A类状态、n种B类状态，实现A类状态和B类状态的组合</p>
+<h2 id="分层状态机">分层状态机</h2>
+<blockquote>
+<p>实现了代码重用</p>
+</blockquote>
+<p>用继承来实现：子类不处理的输入交给来父类处理</p>
+<p>用栈来实现：每一个元素都是它下一个元素的子状态，接收到输入时，从栈顶开始向下查找可以处理输入的那个状态来处理该输入</p>
+<h2 id="下推状态机">下推状态机</h2>
+<blockquote>
+<p>实现了状态回退功能</p>
+</blockquote>
+<p>状态机使用一个栈来记录历史状态，栈顶代表当前状态</p>
+<h2 id="meyers单例模式">Meyers单例模式</h2>
+<blockquote>
+<p>C++11标准之后的最佳选择</p>
+<p>全局唯一、有全局访问点，但延迟构建不是必须的</p>
+</blockquote>
+<figure class="highlight arduino"><table><tr><td class="code"><pre><code class="hljs arduino"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Singleton</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function"><span class="hljs-type">static</span> Singleton* <span class="hljs-title">getInstance</span><span class="hljs-params">()</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">static</span> Singleton s;<br>    <span class="hljs-keyword">return</span> &amp;s;<br>  &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<ul>
+<li>缺点
+<ul>
+<li>不可控制创建时间</li>
+<li>不可控制析构顺序</li>
+<li>getInstance的开销可能很大</li>
+</ul></li>
+</ul>
+<p>一般类的构造和析构函数可以不做任何事情，定义额外的startUp和shutDown函数</p>
+<ul>
+<li>管理多个单例的启动和终止的方法
+<ul>
+<li>手动控制启动和终止</li>
+<li>把各个单例类登记在一个列表中，逐一启动</li>
+<li>建立各个单例类之间的依赖关系图(dependency
+graph)，自动计算出最优启动顺序和终止顺序</li>
+</ul></li>
+</ul>
+<h1 id="命令模式">命令模式</h1>
+<blockquote>
+<p>将发出请求的对象和执行请求的对象进行解耦</p>
+</blockquote>
+<p>命令模式的一个强大功能就是撤销</p>
+<figure class="highlight arduino"><table><tr><td class="code"><pre><code class="hljs arduino"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Command</span><br>&#123;<br>  <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">execute</span><span class="hljs-params">()</span> </span>= <span class="hljs-number">0</span>;<br>  <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">undo</span><span class="hljs-params">()</span> </span>= <span class="hljs-number">0</span>;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Remote</span><br>&#123;<br>  map&lt;<span class="hljs-type">int</span>, Command*&gt; commands;    <span class="hljs-comment">//核心数据结构</span><br>  statck&lt;Command*&gt; historyCommands;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="应用场景-1">应用场景</h2>
+<ul>
+<li>控制器按键映射</li>
+<li>模拟闭包：让函数有变量</li>
+</ul>
+<h1 id="模板方法模式">模板方法模式</h1>
+<h2 id="代码-6">代码</h2>
+<figure class="highlight ruby"><table><tr><td class="code"><pre><code class="hljs ruby"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Template</span><br>&#123;<br>  <span class="hljs-keyword">def</span> <span class="hljs-title function_">mainProcess</span>()<br>  &#123;<br>    funcA();<br>    funcB();<br>    <span class="hljs-keyword">if</span>(funcC())<br>      funcD();<br>    ...<br>  &#125;<br>  <span class="hljs-keyword">def</span> <span class="hljs-title function_">funcA</span>() = <span class="hljs-number">0</span>;<br>  <span class="hljs-keyword">def</span> <span class="hljs-title function_">funcB</span>() = <span class="hljs-number">0</span>;<br>  <span class="hljs-keyword">def</span> <span class="hljs-title function_">funcC</span>() = <span class="hljs-number">0</span>;<br>  <span class="hljs-keyword">def</span> <span class="hljs-title function_">funcD</span>() = <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="设计原则-5">设计原则</h2>
+<p>低层组件不可以调用高层组件，但是高层组件可以调用低层组件</p>
+<h1 id="工厂模式">工厂模式</h1>
+<blockquote>
+<p>抽象类的具体类比较多、需要分类或创建过程比较复杂时，可以用工厂模式将创建它们的函数封装起来</p>
+</blockquote>
+<h2 id="简单工厂模式simple-factory">简单工厂模式(Simple Factory)</h2>
+<figure class="highlight haxe"><table><tr><td class="code"><pre><code class="hljs haxe"><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">AbsProduct</span></span><br><span class="hljs-class"></span>&#123;<br><br>&#125;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Product1</span> : <span class="hljs-title">AbsProduct</span></span><br><span class="hljs-class"></span>&#123;<br><br>&#125;<br><br><span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">Product2</span> : <span class="hljs-title">AbsProduct</span></span><br><span class="hljs-class"></span>&#123;<br><br>&#125;<br><br>AbsProduct* create(string name)<br>&#123;<br>  <span class="hljs-keyword">if</span>(...)<br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-type">Product1</span>();<br>  <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(...)<br>    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-type">Product2</span>();<br>  ...<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="工厂方法模式factory-method">工厂方法模式(Factory Method)</h2>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><code class="hljs kotlin"><span class="hljs-keyword">class</span> <span class="hljs-title class_">AbsProduct</span><br>&#123;<br><br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Product1</span> : <span class="hljs-type">AbsProduct</span><br>&#123;<br><br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Product2</span> : <span class="hljs-type">AbsProduct</span><br>&#123;<br><br>&#125;<br><br>...<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">AbsFactory</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  virtual AbsProduct createProduct() = <span class="hljs-number">0</span>;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Factory1</span> : <span class="hljs-type">AbsFactory</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">override</span> AbsProduct createProduct()<br>  &#123;<br>    ...<br>    <span class="hljs-keyword">return</span> new Product1();<br>  &#125;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Factory2</span> : <span class="hljs-type">AbsFactory</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">override</span> AbsProduct createProduct()<br>  &#123;<br>    ...<br>    <span class="hljs-keyword">return</span> new Product2();<br>  &#125;<br>&#125;<br><br>...<br></code></pre></td></tr></table></figure>
+<h2 id="抽象工厂模式abstract-factory">抽象工厂模式(Abstract
+Factory)</h2>
+<figure class="highlight kotlin"><table><tr><td class="code"><pre><code class="hljs kotlin"><span class="hljs-keyword">class</span> <span class="hljs-title class_">AbsProductA</span><br>&#123;<br><br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">ProductA1</span> : <span class="hljs-type">AbsProductA</span><br>&#123;<br><br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">ProductA2</span> : <span class="hljs-type">AbsProductA</span><br>&#123;<br><br>&#125;<br><br>...<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">AbsProductB</span><br>&#123;<br><br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">ProductB1</span> : <span class="hljs-type">AbsProductB</span><br>&#123;<br><br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">ProductB2</span> : <span class="hljs-type">AbsProductB</span><br>&#123;<br><br>&#125;<br><br>...<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">AbsFactory</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  virtual AbsProductA createProductA() = <span class="hljs-number">0</span>;<br>  virtual AbsProductB createProductB() = <span class="hljs-number">0</span>;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Factory1</span> : <span class="hljs-type">AbsFactory</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">override</span> AbsProductA createProductA()<br>  &#123;<br>    ...<br>    <span class="hljs-keyword">return</span> new ProductA1();<br>  &#125;<br><br>  <span class="hljs-keyword">override</span> AbsProductB createProductB()<br>  &#123;<br>    ...<br>    <span class="hljs-keyword">return</span> new ProductB1();<br>  &#125;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Factory2</span> : <span class="hljs-type">AbsFactory</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">override</span> AbsProductA createProductA()<br>  &#123;<br>    ...<br>    <span class="hljs-keyword">return</span> new ProductA2();<br>  &#125;<br><br>  <span class="hljs-keyword">override</span> AbsProductB createProductB()<br>  &#123;<br>    ...<br>    <span class="hljs-keyword">return</span> new ProductB2();<br>  &#125;<br>&#125;<br><br>...<br></code></pre></td></tr></table></figure>
+<h2 id="设计原则-6">设计原则</h2>
+<p>依赖倒置原则：要依赖抽象类，不要依赖具体类</p>
+<h1 id="mvc">MVC</h1>
+<blockquote>
+<p>复合模式：结合两个或以上的模式，组成一个解决方案，解决一再发生的一般性问题</p>
+</blockquote>
+<p>MVC的本质就是将数据、显示、逻辑分开，一切以实现这个目标为目的的设计都可以说是MVC，以下是其中一种设计：</p>
+<ul>
+<li>controller响应view的调用来控制view和model</li>
+<li>model利用观察者通知controller和view</li>
+<li>view利用策略模式接上controller</li>
+<li>view利用组合模式管理所有组件。由于现在的GUI系统都比较先进，所以一般不用再使用组合模式进行管理了</li>
+</ul>
+<p>view和controller之间的关系可以是1对1、1对n、n对1</p>
+]]></content>
+      <categories>
+        <category>软件工程</category>
+      </categories>
+  </entry>
 </search>
