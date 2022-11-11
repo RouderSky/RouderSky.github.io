@@ -1,0 +1,1006 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=dark>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Rouder">
+  <meta name="keywords" content="GameDev">
+  
+    <meta name="description" content="实现代码重用的一些方法（这里并不是全部）：  包含（组合、层次化）：类包含另一个类的对象 使用私有继承或保护继承  以上两种方法都用于实现has-a关系，常用第一种方法 多重继承可以使多个基类派生出一个新类，将基类的功能组合到一起  包含对象成员的类  公有继承实现is-a模型，没有增加新接口，可增加新实现 包含（组合、层次化）、私有继承、保护继承实现has-a模型，没有">
+<meta property="og:type" content="article">
+<meta property="og:title" content="番外篇--C++中的代码重用">
+<meta property="og:url" content="https://roudersky.com/posts/7230a012.html">
+<meta property="og:site_name" content="RouderSky">
+<meta property="og:description" content="实现代码重用的一些方法（这里并不是全部）：  包含（组合、层次化）：类包含另一个类的对象 使用私有继承或保护继承  以上两种方法都用于实现has-a关系，常用第一种方法 多重继承可以使多个基类派生出一个新类，将基类的功能组合到一起  包含对象成员的类  公有继承实现is-a模型，没有增加新接口，可增加新实现 包含（组合、层次化）、私有继承、保护继承实现has-a模型，没有">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-79002254faabc44f858a8186c5871d51_1440w.jpg">
+<meta property="article:published_time" content="2022-01-05T14:42:05.000Z">
+<meta property="article:modified_time" content="2022-11-11T17:08:17.695Z">
+<meta property="article:author" content="Rouder">
+<meta property="article:tag" content="GameDev">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-79002254faabc44f858a8186c5871d51_1440w.jpg">
+  
+  
+  
+  <title>番外篇--C++中的代码重用 - RouderSky</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/mac3.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"roudersky.com","root":"/","version":"1.9.3","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","app_key":"OY2z1FU6BunzlaSUlcwRQxvZ","server_url":"https://wsbiosfp.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"><style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Rouder</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                首页
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                归档
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                分类
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                标签
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                关于
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              &nbsp;<i class="iconfont icon-search"></i>&nbsp;
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">&nbsp;<i
+                class="iconfont icon-dark" id="color-toggle-icon"></i>&nbsp;</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-79002254faabc44f858a8186c5871d51_1440w.jpg') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="番外篇--C++中的代码重用"></span>
+          
+        </div>
+
+        <!-- 随机英文句子 -->
+        <p><a id="rainbow" href=''>🌈 获取中...</a></p>
+
+        
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2022-01-05 22:42" pubdate>
+          2022年1月5日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          7.2k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          61 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<!-- 随机英文句子 -->
+<script>
+  fetch('https://api.eatrice.top')
+    .then(response => response.json())
+    .then(data => {
+      var rainbow = document.getElementById('rainbow');
+      rainbow.innerHTML = data.Content;
+      rainbow.href = "https://rainbow.eatrice.top/?ID=" + data.ID;
+    })
+    .catch(console.error)
+</script>
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="padding-left: 2rem; margin-right: -1rem">
+    <div id="toc">
+  <p class="toc-header"><i class="iconfont icon-list"></i>&nbsp;目录</p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">番外篇--C++中的代码重用</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：2022年11月12日 凌晨
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body" id="container">
+                
+                <ul>
+<li>实现代码重用的一些方法（这里并不是全部）：
+<ul>
+<li>包含（组合、层次化）：类包含另一个类的对象</li>
+<li>使用私有继承或保护继承</li>
+</ul></li>
+<li>以上两种方法都用于实现has-a关系，常用第一种方法</li>
+<li>多重继承可以使多个基类派生出一个新类，将基类的功能组合到一起</li>
+</ul>
+<h1 id="包含对象成员的类">包含对象成员的类</h1>
+<ul>
+<li>公有继承实现is-a模型，没有增加新接口，可增加新实现</li>
+<li>包含（组合、层次化）、私有继承、保护继承实现has-a模型，没有增加新接口，可增加新实现；</li>
+<li>接口：直接暴露在外的函数；实现：函数定义；注意：这两个概念不是互斥的</li>
+</ul>
+<h1 id="私有继承">私有继承</h1>
+<p>要区分开 类成员的访问类型 和 类的继承类型 之间的关系 类成员的访问类型
+决定 类成员的可访问性和可继承性：</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">访问类型</th>
+<th style="text-align: center;">外部可访问性</th>
+<th style="text-align: center;">可继承性</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">public</td>
+<td style="text-align: center;">可访问</td>
+<td style="text-align: center;">可继承</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">protect</td>
+<td style="text-align: center;">不可访问</td>
+<td style="text-align: center;">可继承</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">private</td>
+<td style="text-align: center;">不可访问</td>
+<td style="text-align: center;">不可继承</td>
+</tr>
+</tbody>
+</table>
+<p>类的继承类型 决定 继承下来的成员 的访问类型会变成什么：</p>
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">继承类型</th>
+<th style="text-align: center;">变化</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">公有继承</td>
+<td style="text-align: center;">不改变继承下来内容的访问类型</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">保护继承</td>
+<td
+style="text-align: center;">将继承下来的内容的访问类型都变为protect</td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">私有继承</td>
+<td
+style="text-align: center;">将继承下来的内容的访问类型都变为private</td>
+</tr>
+</tbody>
+</table>
+<p>派生类的指针(引用)要赋值给私有继承下来的基类类型指针(引用)，必要强转派生类的指针(引用)</p>
+<hr />
+<p>包含将对象作为一个有名字的成员添加到类中，私有继承将一个没有名字的成员添加到类中；这些成员称为子对象(subobject)</p>
+<p>私有继承是默认继承方式</p>
+<p>访问基类成员的格式：类名::基类成员</p>
+<p>ps：友元函数不是类成员</p>
+<p>若要直接获得子对象，则只需要对this(*this)进行强制类型转换即可，转换成你想要的子对象类型的指针(引用)</p>
+<hr />
+<ul>
+<li>包含 与 私有继承 实现has-a关系的对比：
+<ul>
+<li>包含易于理解，可包含多个同类子对象，不可访问子对象的保护成员、不可重新定义虚函数</li>
+<li>私有继承比较抽象，不易包含多个同类子对象，容易出问题(多重继承)；但是特性多：可访问子对象的保护成员、可重新定义虚函数</li>
+</ul></li>
+<li>一般来说，能用包含就用包含，实在不行再用私有继承</li>
+<li>如果想要改变私有继承（或保护继承（可以吗？））下来的基类成员的访问属性，可以使用using关键字，将那些成员强行引入到特性的访问区块：</li>
+</ul>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">Student</span> : <span class="hljs-symbol">private</span> <span class="hljs-symbol">std::<span class="hljs-symbol">string</span>, <span class="hljs-symbol">private</span></span> <span class="hljs-symbol">std::<span class="hljs-symbol">valarray</span></span>&lt;<span class="hljs-symbol">double</span>&gt;<br>&#123;<br>...<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-comment">//使用using将那些继承下来的成员强行引入到public中，min和max函数的访问属性由private改成了public</span><br>  using std::valarray&lt;<span class="hljs-built_in">double</span>&gt;::min;<br>  using std::valarray&lt;<span class="hljs-built_in">double</span>&gt;::max;<br>  <span class="hljs-comment">//注意：using声明只需要成员名</span><br><br>  <span class="hljs-comment">//实现这个功能的一种更老的方法，但即将停用</span><br>  <span class="hljs-comment">//std::valarray&lt;double&gt;::min;</span><br>...<br>&#125;;<br></code></pre></td></tr></table></figure>
+<h1 id="多重继承">多重继承</h1>
+<p>多重继承(MI)：有多个直接基类的类，每一个基类都要写上自己的继承属性</p>
+<p>以下面的继承关系图为例介绍MI：</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221112010046.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload /></p>
+<p>如果上图中所有的继承关系都是公有继承，那么SingingWaiter实例就会有两个Worker基类对象：</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221112010102.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload /></p>
+<h2 id="多重继承引入的问题">多重继承引入的问题</h2>
+<ul>
+<li>派生类对象(SingingWaiter)指针(引用)无法自动上转为相同基类类型(Worker)的指针(引用)
+<ul>
+<li>解决方法：手动强转下派生类对象(SingingWaiter)指针(引用)到上一级基类(Singer或Waiter)就好了</li>
+</ul></li>
+<li>从不同的基类继承同名的方法
+<ul>
+<li>解决方法：可在调用同名函数时，通过类名指定</li>
+</ul></li>
+</ul>
+<h1
+id="从不同继承路线上继承相同的基类">从不同继承路线上继承相同的基类</h1>
+<p>为了删除多个相同基类，有点像融合，C++引入了新技术— 虚基类 ；</p>
+<p>要指定哪条继承线的相同基类进行融合，则继承这个相同类(Worker)的直接派生类(Singer和Waiter)都要在继承时加上virtual关键字:</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">Singer</span> : <span class="hljs-symbol">public</span> <span class="hljs-symbol">virtual</span> <span class="hljs-symbol">Worker</span>&#123;&#125;;<br><span class="hljs-keyword">class</span> <span class="hljs-symbol">Waiter</span> : <span class="hljs-symbol">virtual</span> <span class="hljs-symbol">public</span> <span class="hljs-symbol">Worker</span>&#123;&#125;;<br></code></pre></td></tr></table></figure>
+<p>然后派生类(SingingWaiter)的基类对象情况就会变成这样：</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221112010201.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload /></p>
+<h2
+id="引入虚基类的多重继承需要解决的问题">引入虚基类的多重继承需要解决的问题</h2>
+<p><strong>构造函数的问题</strong></p>
+<p>只能在类(SingingWaiter)在构造函数 初始化列表
+中调用虚基类(Worker)的构造函数，类(SingingWaiter)的所有基类(Singer和Waiter)都不能在构造函数
+初始化列表 中调用虚基类(Worker)的构造函数；</p>
+<p>只能由类(SingingWaiter)来 自动
+调用虚基类(Worker)的构造函数，类(SingingWaiter)的所有基类(Singer和Waiter)都不能再
+自动 调用虚基类(Worker)的构造函数；</p>
+<p>总的来说就是：类(SingingWaiter)的所有基类(Singer和Waiter)已无权调用虚基类(Worker)的构造函数，只能由类(SingingWaiter)调用虚基类(Worker)的构造函数；</p>
+<p><strong>虚基类中虚函数的问题</strong></p>
+<p>如果一个类(SingingWaiter)继承了虚基类(Worker)但是没有实现虚基类(Worker)的虚函数vfun，会出现下面两种情况：</p>
+<p>如果有两个以上 虚基类(Worker)的派生类(Singer和Waiter)
+都实现了虚基类(Worker)的虚函数vfun；这个时候如果通过这个类(SingingWaiter)的对象指针去调用虚函数vfun，那么将出现二义性；因为虚函数从虚基类(Worker)开始往下走会有两个最新版本出现；因此这个类(SingingWaiter)最好重写(override)虚函数vfun，否则多态性就会异常；</p>
+<p>如果只有一个 虚基类(Worker)的派生类(Singer或Waiter)
+实现了虚基类(Worker)的虚函数vfun；这个时候如果通过这个类(SingingWaiter)的对象指针去调用虚函数vfun，那么不会有任何问题；</p>
+<p><strong>重写虚函数的问题</strong></p>
+<p>在重写(override)虚基类(Worker)的虚函数vfun时最好不要以 递增
+的方式去写；所谓的 递增
+指的是：在重写(override)的时候调用了基类的虚函数vfun；</p>
+<h2 id="后记">后记</h2>
+<p>虚函数的调用规则不受访问类型的影响，该调用哪个就调用哪个，如果调到了私有函数或者保护函数，那运行时就报错；</p>
+<p>基类普通函数的调用规则也不受访问类型的影响，如果基类出现两个同名普通函数函数，即使一个是私有的、一个是公有的，那么一样存在调用的二义性；</p>
+<h1 id="类模板">类模板</h1>
+<h2 id="类模板的声明与定义">类模板的声明与定义</h2>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs arduino"><span class="hljs-comment">//T是类型参数</span><br><span class="hljs-comment">//typename和class是等价的，但是class是C++98之前的版本</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;  <br><span class="hljs-keyword">class</span> <span class="hljs-title class_">A</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">fun1</span><span class="hljs-params">()</span></span>&#123; <span class="hljs-comment">//do something &#125;</span><br>  <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">fun2</span><span class="hljs-params">()</span></span>;<br><br>  <span class="hljs-function">A&lt;T&gt; <span class="hljs-title">fun3</span><span class="hljs-params">()</span></span>&#123; <span class="hljs-comment">//do something &#125;</span><br>  <span class="hljs-function">A <span class="hljs-title">fun4</span><span class="hljs-params">()</span></span>;<br>  <span class="hljs-comment">//注意：fun3和fun4的返回类型其实是等价的，没有差别；在类的块中，所有的A&lt;T&gt;和A都是等价的</span><br>&#125;;<br><br><span class="hljs-comment">//如果函数定义与函数声明分开，那么定义格式如下：</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-type">void</span> A&lt;T&gt;::<span class="hljs-built_in">fun2</span>()<br>&#123;<br>  <span class="hljs-comment">//do something</span><br>&#125;<br><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br>A&lt;T&gt; A&lt;T&gt;::<span class="hljs-built_in">fun4</span>()      <span class="hljs-comment">//注意：返回值的写法与函数原型不同，因为在类的块外面</span><br>&#123;<br>  <span class="hljs-comment">//do something</span><br>&#125;<br><br><span class="hljs-comment">//跟函数模板一样，以上只是类模板，机器码中不会包含类模板的信息；编译器会根据类模板来生成相应类定义机器码</span><br><span class="hljs-comment">//注意：类模板函数声明与定义不能放在两个独立的文件中</span><br></code></pre></td></tr></table></figure>
+<h2 id="类模板的使用">类模板的使用</h2>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">A&lt;<span class="hljs-built_in">int</span>&gt; test1;<br>A&lt;<span class="hljs-built_in">string</span>&gt; test2<br><span class="hljs-comment">//注意：类型参数必须要手动确定，编译器不会像函数模板一样自动识别</span><br></code></pre></td></tr></table></figure>
+<h2 id="数组模板实例和非类型参数">数组模板实例和非类型参数</h2>
+<p>非类型(non-type)参数or表达式(expression)参数：</p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-comment">//数组模板</span><br>template &lt;<span class="hljs-keyword">class</span> <span class="hljs-symbol">T,<span class="hljs-symbol">int</span></span> <span class="hljs-symbol">n</span>&gt;    //<span class="hljs-symbol">n</span>就是非类型参数；看起来像是一个变量，但我觉得是一个可以指定类型的宏定义，编译生成具体模板实例的时候，类成员的声明和定义中的<span class="hljs-symbol">n</span>标识符将全部被替换为<span class="hljs-symbol">n</span>的具体数值<br><span class="hljs-symbol">class</span> <span class="hljs-symbol">ArrayTP</span><br>&#123;<br><span class="hljs-keyword">private</span>:<br>  T ar[n];          <span class="hljs-comment">//由于是宏定义，所以编译时可以确定数组大小</span><br><span class="hljs-keyword">public</span>:<br>  ...<br>  <span class="hljs-built_in">void</span> <span class="hljs-keyword">set</span>()&#123;&#125;;<br>&#125;;<br><br>template &lt;<span class="hljs-keyword">class</span> <span class="hljs-symbol">T, <span class="hljs-symbol">int</span></span> <span class="hljs-symbol">n</span>&gt;<br><span class="hljs-symbol">void</span> <span class="hljs-symbol">ArrayTP</span>&lt;<span class="hljs-symbol">T,<span class="hljs-symbol">n</span></span>&gt;::<span class="hljs-symbol">set</span>()<br>&#123;<br>  <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i=<span class="hljs-number">0</span>;i&lt;n;++i)<br>    ar[i]=i;<br>&#125;<br><br><span class="hljs-built_in">int</span> main()<br>&#123;<br>  ...<br>  ArrayTP&lt;<span class="hljs-built_in">double</span>,<span class="hljs-number">12</span>&gt; example1;<br>  ArrayTP&lt;<span class="hljs-built_in">double</span>,<span class="hljs-number">20</span>&gt; example2;<br>  <span class="hljs-comment">//注意：上面将生产两个模板实例，因为非类型参数不同</span><br><br>  example1.<span class="hljs-keyword">set</span>();<br>  example2.<span class="hljs-keyword">set</span>();<br>  ...<br>&#125;<br></code></pre></td></tr></table></figure>
+<ul>
+<li>非类型参数的限制：
+<ul>
+<li>类型只能是整形、枚举、引用、指针</li>
+<li>模板中的代码不能修改非类型参数的值，也不能获取参数的地址(引用也不行吧？)(因为非类型参数没有内存空间？)</li>
+<li>在实例化模板的时候，用作非类型参数的值必须是常量表达式</li>
+</ul></li>
+<li>非类型参数数组模板的优点：
+<ul>
+<li>使用非类型参数来创建数组速度更快，因为数组是自动变量；而且不需要手动new和delete；</li>
+</ul></li>
+<li>非类型参数数组模板的缺点：
+<ul>
+<li>不同的非类型参数数值都会生成自己的模板实例，占用内存增加；</li>
+<li>无法将一种尺寸的数组模板实例赋给另一种尺寸的数组模板实例；</li>
+</ul></li>
+</ul>
+<h2 id="模板多功能性">模板多功能性</h2>
+<p>类模板也可以用作基类、派生类、组件类、其它模板的类型参数：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Array</span><br>&#123;<br><span class="hljs-keyword">private</span>:<br>	T entry;<br>&#125;;<br><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> Type&gt;<br><span class="hljs-keyword">class</span> <span class="hljs-title class_">GrowArray</span>:<span class="hljs-keyword">public</span> Array&lt;type&gt;		<span class="hljs-comment">//派生类模板 继承 基类模板</span><br>&#123; ... &#125;;<br><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> Tp&gt;<br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Stack</span><br>&#123;<br>	Array&lt;TP&gt; ar;			<span class="hljs-comment">//类模板 作为 组件</span><br>&#125;;<br><br>Array&lt;Stack&lt;<span class="hljs-type">int</span>&gt; &gt; asi;		<span class="hljs-comment">//类模板 作为 其它类模板的 类型参数；C++98要求后面两个 &gt; 分开，但是C++11不用</span><br></code></pre></td></tr></table></figure>
+<p>递归使用类模板：一个类模板的类型参数还是类模板，例如：<code>vector&lt;vector&lt;int,6&gt;,7&gt;</code></p>
+<p>模板可以包含多个类型参数：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span>&lt;typaname T1,<span class="hljs-keyword">typename</span> T2&gt;<br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Pair</span><br>&#123;<br><span class="hljs-keyword">private</span>:<br>  T1 a;<br>  T2 b;<br><span class="hljs-keyword">public</span>:<br>  ...<br>  <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">set</span><span class="hljs-params">(<span class="hljs-type">const</span> T1 &amp;aa,<span class="hljs-type">const</span> T2 &amp;bb)</span></span>;<br>&#125;;<br><br><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,typrname T2&gt;<br><span class="hljs-type">void</span> Pair&lt;T1,T2&gt;::<span class="hljs-built_in">set</span>(<span class="hljs-type">const</span> T1 &amp;aa,<span class="hljs-type">const</span> T2 &amp;bb)<br>&#123;<br>  a=aa;<br>  b=bb;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>  ...<br>  Pair&lt;<span class="hljs-type">int</span>,<span class="hljs-type">double</span>&gt; example1;<br>  Pair&lt;<span class="hljs-type">float</span>,string&gt; example2;<br><br>  example1.<span class="hljs-built_in">set</span>(<span class="hljs-number">3</span>,<span class="hljs-number">6.268</span>);<br>  example2.<span class="hljs-built_in">set</span>(<span class="hljs-number">3.1415</span>,<span class="hljs-string">&quot;hello world&quot;</span>);<br>  ...<br>&#125; <br></code></pre></td></tr></table></figure>
+<p>默认模板参数：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2 = <span class="hljs-type">int</span>&gt;  <span class="hljs-comment">//一定要确保有默认值的类型参数右边的类型参数都是有默认值的</span><br><span class="hljs-keyword">class</span> Topo                                <span class="hljs-comment">//还可以为非类型参数设置默认值</span><br>&#123;&#125;;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>  ...<br>  Topo&lt;<span class="hljs-type">double</span>&gt; m2;  <span class="hljs-comment">//由于没有给出第二个类型参数，所以默认第二个类型参数为int</span><br>  ...<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="模板的具体化">模板的具体化</h2>
+<p>隐式实例化(implicit instantiation) 、 显式实例化(explicit
+instantiation) 、 显式具体化(explicit specialization) 统称为
+具体化(specialization)</p>
+<p>假设有这样一个类模板：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;<br><span class="hljs-keyword">class</span> <span class="hljs-title class_">ArrayTP</span><br>&#123;<br>  ...<br>&#125;;<br></code></pre></td></tr></table></figure>
+<p><strong>隐式实例化</strong></p>
+<figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs arduino">ArrayTP&lt;<span class="hljs-type">int</span>,<span class="hljs-number">100</span>&gt; stuff;			<span class="hljs-comment">//隐式实例化</span><br>...<br><br>ArrayTP&lt;<span class="hljs-type">double</span>,<span class="hljs-number">30</span>&gt; *pt;			<span class="hljs-comment">//不会实例化</span><br>pt = <span class="hljs-keyword">new</span> ArrayTP&lt;<span class="hljs-type">double</span>,<span class="hljs-number">30</span>&gt;;	<span class="hljs-comment">//隐式实例化</span><br></code></pre></td></tr></table></figure>
+<p>这种实例化在函数模板中是显式实例化的一种形式</p>
+<p><strong>显式实例化</strong></p>
+<figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs d"><span class="hljs-keyword">template</span> <span class="hljs-keyword">class</span> ArrayTP&lt;<span class="hljs-built_in">string</span>,<span class="hljs-number">100</span>&gt;;		<span class="hljs-comment">//显式实例化</span><br></code></pre></td></tr></table></figure>
+<p><strong>显式具体化</strong></p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">template&lt;&gt;<br><span class="hljs-keyword">class</span> <span class="hljs-symbol">ArrayTP</span>&lt;<span class="hljs-symbol">string,<span class="hljs-symbol">100</span></span>&gt;<br>&#123;<br>  ...<br>&#125;;<br></code></pre></td></tr></table></figure>
+<p>当同时存在具体化模板和通用模板时，编译器优先选择具体化模板；如果还存在普通函数，是不是普通函数最优先</p>
+<p><strong>部分具体化</strong></p>
+<figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs angelscript">template &lt;typename T1&gt;		<span class="hljs-comment">//没有具体化的参数就保留下来了；是否要确保已具体化参数右边的函数都是被具体化了？？？</span><br><span class="hljs-keyword">class</span> <span class="hljs-symbol">ArrayTP</span>&lt;<span class="hljs-symbol">T1,<span class="hljs-symbol">int</span></span>&gt;<br>&#123;<br>  ...<br>&#125;;<br></code></pre></td></tr></table></figure>
+<p>部分具体化的更多例子：</p>
+<figure class="highlight nim"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs nim">//general <span class="hljs-keyword">template</span><br><span class="hljs-keyword">template</span> &lt;class <span class="hljs-type">T1</span>, class <span class="hljs-type">T2</span>, class <span class="hljs-type">T3</span>&gt; class <span class="hljs-type">Trio</span><span class="hljs-meta">&#123;...&#125;</span>;<br>//specialization tith <span class="hljs-type">T3</span> <span class="hljs-type">set</span> to <span class="hljs-type">T2</span><br><span class="hljs-keyword">template</span> &lt;class <span class="hljs-type">T1</span>, class <span class="hljs-type">T2</span>&gt; class <span class="hljs-type">Trio</span>&lt;<span class="hljs-type">T1</span>, <span class="hljs-type">T2</span>, <span class="hljs-type">T2</span>&gt;<span class="hljs-meta">&#123;...&#125;</span>;<br>//specialization <span class="hljs-keyword">with</span> <span class="hljs-type">T3</span> <span class="hljs-keyword">and</span> <span class="hljs-type">T2</span> <span class="hljs-type">set</span> to <span class="hljs-type">T1</span>*<br><span class="hljs-keyword">template</span> &lt;class <span class="hljs-type">T1</span>&gt; class <span class="hljs-type">Trio</span>&lt;<span class="hljs-type">T1</span>, <span class="hljs-type">T1</span>*, <span class="hljs-type">T1</span>*&gt;<span class="hljs-meta">&#123;...&#125;</span>;<br><br>//给定上述声明，编译器将作出如下选择：<br><span class="hljs-type">Trio</span>&lt;<span class="hljs-type">int</span>, short <span class="hljs-type">char</span>*&gt; t1;    //use general <span class="hljs-keyword">template</span><br><span class="hljs-type">Trio</span>&lt;<span class="hljs-type">int</span>, short&gt; t2;          //use <span class="hljs-type">Trio</span>&lt;<span class="hljs-type">T1</span>, <span class="hljs-type">T2</span>, <span class="hljs-type">T2</span>&gt;<br><span class="hljs-type">Trio</span>&lt;<span class="hljs-type">char</span>, <span class="hljs-type">char</span>*, <span class="hljs-type">char</span>*&gt; t3;  //use <span class="hljs-type">Trio</span>&lt;<span class="hljs-type">T1</span>, <span class="hljs-type">T1</span>*, <span class="hljs-type">T1</span>*&gt;<br></code></pre></td></tr></table></figure>
+<p>函数调用时，模板匹配优先度：显式具体化&gt;部分具体化&gt;实例化</p>
+<p>指针(引用)类型优先与T*(T&amp;)匹配，非指针(引用)类型优先与T匹配</p>
+<h2 id="成员模板">成员模板</h2>
+<p>老编译器不接受模板成员</p>
+<p>可以在类模板中定义类模板或者函数模板：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-keyword">class</span> <span class="hljs-title class_">beta</span><br>&#123;<br><span class="hljs-keyword">private</span>:<br>  <span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> V&gt;<br>  <span class="hljs-keyword">class</span> <span class="hljs-title class_">hold</span><br>  &#123;<br>  <span class="hljs-keyword">private</span>:<br>    V val;<br>  &#125;;<br><br>  hold&lt;T&gt; q;<br>  hold&lt;<span class="hljs-type">int</span>&gt; n;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> U&gt;<br>  <span class="hljs-function">U <span class="hljs-title">blad</span><span class="hljs-params">(U u,T t,hold&lt;T&gt; ht,hold&lt;<span class="hljs-type">int</span>&gt; hi)</span></span><br><span class="hljs-function">  </span>&#123; ... &#125;<br>&#125;;<br><br><span class="hljs-comment">//以上的类模板和函数模板都是在类中定义的，接下来看看在类外要怎么定义</span><br><span class="hljs-comment">//注意：部分编译器不接受类外定义</span><br><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-keyword">class</span> <span class="hljs-title class_">beta</span><br>&#123;<br><span class="hljs-keyword">private</span>:<br>  <span class="hljs-keyword">template</span> &lt;typaneme V&gt;<br>  <span class="hljs-keyword">class</span> <span class="hljs-title class_">hold</span>;          <span class="hljs-comment">//声明</span><br>  <br>  hold&lt;T&gt; q;<br>  hold&lt;<span class="hljs-type">int</span>&gt; n;<br><span class="hljs-keyword">public</span>:<br><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> U&gt;</span><br><span class="hljs-function">U <span class="hljs-title">blad</span><span class="hljs-params">(U u,T t,hold&lt;T&gt; ht,hold&lt;<span class="hljs-type">int</span>&gt; hi)</span></span>;<br>&#125;;<br><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br>  <span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> V&gt;<br>  <span class="hljs-keyword">class</span> <span class="hljs-title class_">beta</span>&lt;T&gt;::hold      <span class="hljs-comment">//注意作用域解析运算符</span><br>  &#123;<br>  <span class="hljs-keyword">private</span>:<br>    V val;<br>  &#125;;<br><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br>  <span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> U&gt;<br>  U beta&lt;T&gt;::<span class="hljs-built_in">blad</span>(U u,T t,hold&lt;T&gt; ht,hold&lt;<span class="hljs-type">int</span>&gt; hi)    <span class="hljs-comment">//注意作用域解析运算符</span><br>  &#123; ... &#125;<br></code></pre></td></tr></table></figure>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/C/" class="category-chain-item">C++</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>番外篇--C++中的代码重用</div>
+      <div>https://roudersky.com/posts/7230a012.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Rouder</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2022年1月5日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-nc"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/9b30e53c.html" title="GDC 2019 Evolving Combat in &#39;God of War&#39; for a New Perspective ⸺ “战神” 战斗模式的全新变革 下篇">
+                        <span class="hidden-mobile">GDC 2019 Evolving Combat in &#39;God of War&#39; for a New Perspective ⸺ “战神” 战斗模式的全新变革 下篇</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+  <article id="comments" lazyload>
+    
+  <div id="valine"></div>
+  <script type="text/javascript">
+    Fluid.utils.loadComments('#valine', function() {
+      Fluid.utils.createScript('https://lib.baomitu.com/valine/1.5.1/Valine.min.js', function() {
+        var options = Object.assign(
+          {"appId":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","appKey":"OY2z1FU6BunzlaSUlcwRQxvZ","path":"window.location.pathname","placeholder":"说点什么吧","avatar":"retro","meta":["nick","mail","link"],"requiredFields":[],"pageSize":10,"lang":"zh-CN","highlight":true,"recordIP":true,"serverURLs":"https://wsbiosfp.lc-cn-n1-shared.com","emojiCDN":null,"emojiMaps":null,"enableQQ":true},
+          {
+            el: "#valine",
+            path: window.location.pathname
+          }
+        )
+        new Valine(options);
+        Fluid.utils.waitElementVisible('#valine .vcontent', () => {
+          var imgSelector = '#valine .vcontent img:not(.vemoji)';
+          Fluid.plugins.imageCaption(imgSelector);
+          Fluid.plugins.fancyBox(imgSelector);
+        })
+      });
+    });
+  </script>
+  <noscript>Please enable JavaScript to view the comments</noscript>
+
+
+  </article>
+
+
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+<!-- 关注公众号获取验证码解锁文章内容的功能 -->
+<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'container',
+        blogId: '27882-1666536373183-280',
+        name: '三年游戏人',
+        qrcode: 'https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/1.png',
+        keyword: 'more',
+    });
+</script>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+      <a>见众生</a>
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="leancloud-site-pv-container" style="display: none">
+        总访问量 
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+    
+    
+      <span id="leancloud-site-uv-container" style="display: none">
+        总访客数 
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+    
+    
+
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script defer src="/js/leancloud.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
