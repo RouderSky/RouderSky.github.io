@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/harehrshshsh.jpg">
 <meta property="article:published_time" content="2021-12-25T04:31:25.000Z">
-<meta property="article:modified_time" content="2022-12-26T15:55:07.955Z">
+<meta property="article:modified_time" content="2022-12-26T15:56:02.260Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="GameDev">
 <meta name="twitter:card" content="summary_large_image">
@@ -417,7 +417,8 @@ class="math inline">\((\frac{x}{Aspect \cdot Size}, \frac{y}{Size},
 <p>用于细分图元</p>
 <h2 id="几何着色器">2.3 几何着色器</h2>
 <ul>
-<li>几何着色器的功能是修改、剔除、创建图元，可以实现以下效果：</li>
+<li>几何着色器的功能是修改、剔除、创建图元，可以实现以下效果：
+<ul>
 <li>阴影体积拉伸(shadow volume extrusion)</li>
 <li>渲染立方体贴图(cube map)的6个面</li>
 <li>在网格的轮廓边拉伸毛发的鳍(fur in)</li>
@@ -427,6 +428,7 @@ class="math inline">\((\frac{x}{Aspect \cdot Size}, \frac{y}{Size},
 <li>将数据传到管线开头重新进入管线
 <ul>
 <li>用例：在顶点着色器内对头发样条的控制点进行物理模拟，在几何着色器内把样条镶嵌成线段，通过流输出将线段传到管线开头重新进入管线进行渲染</li>
+</ul></li>
 </ul></li>
 </ul>
 <h2 id="裁剪">2.4 裁剪</h2>
