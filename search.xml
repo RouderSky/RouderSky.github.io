@@ -2313,6 +2313,37 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Scan.gif"
 alt="Scan" />
 <figcaption aria-hidden="true">Scan</figcaption>
 </figure>
+<h1 id="matcap">MatCap</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230101180824.png"
+alt="MatCap" />
+<figcaption aria-hidden="true">MatCap</figcaption>
+</figure>
+<h1 id="薄膜干涉">薄膜干涉</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230101180932.png"
+alt="ThinfilmInterference" />
+<figcaption aria-hidden="true">ThinfilmInterference</figcaption>
+</figure>
+<h1 id="天牛">天牛</h1>
+<blockquote>
+<p>两层MatCap+薄膜干涉</p>
+</blockquote>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230101181101.png"
+alt="天牛" />
+<figcaption aria-hidden="true">天牛</figcaption>
+</figure>
+<h1 id="藤曼生长">藤曼生长</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Grow.gif"
+alt="Grow" />
+<figcaption aria-hidden="true">Grow</figcaption>
+</figure>
 ]]></content>
       <categories>
         <category>图形学</category>
