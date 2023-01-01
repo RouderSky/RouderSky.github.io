@@ -2292,7 +2292,13 @@ instantiation) 、 显式具体化(explicit specialization) 统称为
   <entry>
     <title>Shader效果展示</title>
     <url>/posts/c4d9d82.html</url>
-    <content><![CDATA[
+    <content><![CDATA[<h1 id="dissolve">Dissolve</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Dissolve.gif"
+alt="Dissolve" />
+<figcaption aria-hidden="true">Dissolve</figcaption>
+</figure>
 ]]></content>
       <categories>
         <category>图形学</category>
