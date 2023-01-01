@@ -745,6 +745,9 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-14d7181792c452
       <categories>
         <category>算法</category>
       </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
   </entry>
   <entry>
     <title>漫谈Entity-Component-System</title>
@@ -1129,6 +1132,9 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102010432.pn
       <categories>
         <category>GDC</category>
       </categories>
+      <tags>
+        <tag>GDC</tag>
+      </tags>
   </entry>
   <entry>
     <title>Game Road 1.写给准备进入职场的游戏人</title>
@@ -1325,6 +1331,9 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102020602.pn
       <categories>
         <category>GDC</category>
       </categories>
+      <tags>
+        <tag>GDC</tag>
+      </tags>
   </entry>
   <entry>
     <title>Game Road 2.在研发团队中的做事方式</title>
@@ -1617,6 +1626,9 @@ Studio等。这些工具输出的资源格式在大部分情况下没有办法�
       <categories>
         <category>游戏引擎</category>
       </categories>
+      <tags>
+        <tag>游戏引擎</tag>
+      </tags>
   </entry>
   <entry>
     <title>番外篇--深扒C++函数</title>
@@ -2068,6 +2080,9 @@ Factory)</h2>
       <categories>
         <category>软件工程</category>
       </categories>
+      <tags>
+        <tag>设计模式</tag>
+      </tags>
   </entry>
   <entry>
     <title>番外篇--C++中的代码重用</title>
@@ -2270,6 +2285,9 @@ instantiation) 、 显式具体化(explicit specialization) 统称为
       <categories>
         <category>C++</category>
       </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
   </entry>
   <entry>
     <title>Shader效果展示</title>
