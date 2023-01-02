@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230102143617.png">
 <meta property="article:published_time" content="2023-01-02T06:26:25.000Z">
-<meta property="article:modified_time" content="2023-01-02T09:58:08.898Z">
+<meta property="article:modified_time" content="2023-01-02T11:30:05.177Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="unity">
 <meta property="article:tag" content="shader">
@@ -251,7 +251,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          14k 字
+          15k 字
         
       </span>
     
@@ -262,7 +262,7 @@
         
         
         
-          118 分钟
+          127 分钟
         
       </span>
     
@@ -337,7 +337,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2023年1月2日 下午
+                    本文最后更新于：2023年1月2日 晚上
                   
                 
               </p>
@@ -411,6 +411,14 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230102175757.pn
 alt="Complete2" />
 <figcaption aria-hidden="true">Complete2</figcaption>
 </figure>
+<h1 id="hdr-cube-map">HDR Cube Map</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230102192923.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload
+alt="HDR Cube Map" />
+<figcaption aria-hidden="true">HDR Cube Map</figcaption>
+</figure>
+<figure class="highlight mipsasm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br></pre></td><td class="code"><pre><code class="hljs mipsasm"><span class="hljs-keyword">Shader </span><span class="hljs-string">&quot;CubeMap&quot;</span><br>&#123;<br>	Properties<br>	&#123;<br>		_CubeMap(<span class="hljs-string">&quot;Cube Map&quot;</span>,Cube) = <span class="hljs-string">&quot;white&quot;</span>&#123;&#125;<br>	&#125;<br>	<span class="hljs-keyword">SubShader</span><br><span class="hljs-keyword"></span>	&#123;<br>		Pass<br>		&#123;<br>			CGPROGRAM<br>			<span class="hljs-comment">#pragma vertex vert</span><br>			<span class="hljs-comment">#pragma fragment frag</span><br>			<br>			<span class="hljs-comment">#include &quot;UnityCG.cginc&quot;</span><br><br>			struct appdata<br>			&#123;<br>				float4 vertex : POSITION;<br>				float3 <span class="hljs-keyword">normal </span>: <span class="hljs-keyword">NORMAL;</span><br><span class="hljs-keyword"></span>				float4 tangent : TANGENT;<br>			&#125;;<br><br>			struct v<span class="hljs-symbol">2f</span><br>			&#123;<br>				float4 pos : SV_POSITION;<br>				float3 <span class="hljs-keyword">normal_world </span>: TEXCOORD1;<br>				float3 pos_world : TEXCOORD2;<br>			&#125;;<br><br>			samplerCUBE _CubeMap;<br>			float4 _CubeMap_HDR;<br><br>			v<span class="hljs-symbol">2f</span> vert (appdata v)<br>			&#123;<br>				v<span class="hljs-symbol">2f</span> o;<br>				o.pos = UnityObjectToClipPos(v.vertex);<br>				o.pos_world = <span class="hljs-keyword">mul(unity_ObjectToWorld, </span>v.vertex).xyz;<br>				o.<span class="hljs-keyword">normal_world </span>= <span class="hljs-keyword">normalize(mul(float4(v.normal, </span><span class="hljs-number">0</span>.<span class="hljs-number">0</span>), unity_WorldToObject).xyz);<br>				return o;<br>			&#125;<br>			<br>			half4 frag (v<span class="hljs-symbol">2f</span> i) : SV_Target<br>			&#123;<br>				half3 <span class="hljs-keyword">normal_dir </span>= <span class="hljs-keyword">normalize(i.normal_world);</span><br><span class="hljs-keyword"></span>				half3 view_dir = <span class="hljs-keyword">normalize(_WorldSpaceCameraPos.xyz </span>- i.pos_world);<br>				half3 reflect_dir = reflect(-view_dir, <span class="hljs-keyword">normal_dir);</span><br><span class="hljs-keyword"></span><br>				half4 color_cubemap = texCUBE(_CubeMap, reflect_dir);<br>				half3 env_color = DecodeHDR(color_cubemap, _CubeMap_HDR)<span class="hljs-comment">;	//需要加上这句代码才能在移动端获得HDR信息</span><br>				<br>				half3 final_color = env_color;<br>				return float4(final_color,<span class="hljs-number">1</span>.<span class="hljs-number">0</span>);<br>			&#125;<br>			ENDCG<br>		&#125;<br>	&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 
                 
               </div>
