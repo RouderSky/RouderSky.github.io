@@ -2411,11 +2411,12 @@ alt="基于SH实现的漫反射" />
 <h1 id="light-probe">Light Probe</h1>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103012455.png?x-oss-process=style/WaterMask"
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103012455.png"
 alt="Light Probe" />
 <figcaption aria-hidden="true">Light Probe</figcaption>
 </figure>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">Shader <span class="hljs-string">&quot;LightProbe&quot;</span><br>&#123;<br>	Properties<br>	&#123;<br>	&#125;<br>	SubShader<br>	&#123;<br>		Pass<br>		&#123;<br>			Tags&#123;<span class="hljs-string">&quot;LightMode&quot;</span>=<span class="hljs-string">&quot;ForwardBase&quot;</span>&#125;<br>			CGPROGRAM<br>			<span class="hljs-meta">#<span class="hljs-keyword">pragma</span> vertex vert</span><br>			<span class="hljs-meta">#<span class="hljs-keyword">pragma</span> fragment frag</span><br>			<span class="hljs-meta">#<span class="hljs-keyword">pragma</span> multi_compile_fwdbase</span><br>			<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;AutoLight.cginc&quot;</span></span><br>			<span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&quot;UnityCG.cginc&quot;</span></span><br><br>			<span class="hljs-keyword">struct</span> appdata<br>			&#123;<br>				float4 vertex : POSITION;<br>				float3 normal : NORMAL;<br>			&#125;;<br><br>			<span class="hljs-keyword">struct</span> <span class="hljs-title class_">v2f</span><br>			&#123;<br>				float2 uv : TEXCOORD0;<br>				float4 pos : SV_POSITION;<br>				float3 normal_world : TEXCOORD1;<br>				float3 pos_world : TEXCOORD2;<br>				float3 tangent_world : TEXCOORD3;<br>				float3 binormal_world : TEXCOORD4;<br>			&#125;;<br><br>			<span class="hljs-function">v2f <span class="hljs-title">vert</span> <span class="hljs-params">(appdata v)</span></span><br><span class="hljs-function">			</span>&#123;<br>				v2f o;<br>				o.pos = <span class="hljs-built_in">UnityObjectToClipPos</span>(v.vertex);<br>				o.normal_world = <span class="hljs-built_in">normalize</span>(<span class="hljs-built_in">mul</span>(<span class="hljs-built_in">float4</span>(v.normal, <span class="hljs-number">0.0</span>), unity_WorldToObject).xyz);<br>				<span class="hljs-keyword">return</span> o;<br>			&#125;<br>			<br>			<span class="hljs-function">half4 <span class="hljs-title">frag</span> <span class="hljs-params">(v2f i)</span> : SV_Target</span><br><span class="hljs-function">			&#123;</span><br>				half3 normal_dir = <span class="hljs-built_in">normalize</span>(i.normal_world);<br><br>				half3 env_color = <span class="hljs-built_in">ShadeSH9</span>(<span class="hljs-built_in">float4</span>(normal_dir,<span class="hljs-number">1.0</span>));<br>				half3 final_color = env_color;<br>				<br>				<span class="hljs-keyword">return</span> <span class="hljs-built_in">float4</span>(final_color,<span class="hljs-number">1.0</span>);<br>			&#125;<br>			ENDCG<br>		&#125;<br>	&#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h1 id="sub-surface-scattering">Sub Surface Scattering</h1>
 ]]></content>
       <categories>
         <category>图形学</category>
@@ -2446,7 +2447,7 @@ alt="Dissolve" />
 </blockquote>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230101180140.png"
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103235902.png"
 alt="Rim" />
 <figcaption aria-hidden="true">Rim</figcaption>
 </figure>
@@ -2463,26 +2464,22 @@ alt="Scan" />
 <h1 id="matcap">MatCap</h1>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230101180824.png"
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103235949.png"
 alt="MatCap" />
 <figcaption aria-hidden="true">MatCap</figcaption>
 </figure>
 <h1 id="薄膜干涉">薄膜干涉</h1>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230101180932.png"
-alt="ThinfilmInterference" />
-<figcaption aria-hidden="true">ThinfilmInterference</figcaption>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230104000011.png"
+alt="薄膜干涉" />
+<figcaption aria-hidden="true">薄膜干涉</figcaption>
 </figure>
-<h1 id="天牛">天牛</h1>
-<blockquote>
-<p>两层MatCap+薄膜干涉</p>
-</blockquote>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230101181101.png"
-alt="天牛" />
-<figcaption aria-hidden="true">天牛</figcaption>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230104000107.png"
+alt="两层MatCap+薄膜干涉" />
+<figcaption aria-hidden="true">两层MatCap+薄膜干涉</figcaption>
 </figure>
 <h1 id="藤曼生长">藤曼生长</h1>
 <figure>
