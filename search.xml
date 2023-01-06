@@ -2294,7 +2294,7 @@ instantiation) 、 显式具体化(explicit specialization) 统称为
     <url>/posts/f65cb81a.html</url>
     <content><![CDATA[<h1 id="forward-renderpath">Forward RenderPath</h1>
 <blockquote>
-<p>兰伯特漫反射+Blin-Phong高光反射</p>
+<p>兰伯特漫反射+Blin-Phong高光反射+Ambient</p>
 </blockquote>
 <figure>
 <img
