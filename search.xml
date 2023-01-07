@@ -2296,6 +2296,7 @@ instantiation) 、 显式具体化(explicit specialization) 统称为
 <blockquote>
 <p>兰伯特漫反射+Blin-Phong高光反射+Ambient</p>
 </blockquote>
+<span id="more"></span>
 <figure>
 <img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230101192549.png"
