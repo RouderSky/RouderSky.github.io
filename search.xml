@@ -2442,38 +2442,17 @@ alt="Kajiya-Kay Anisotropic" />
 </ul></li>
 </ul>
 <h1 id="pbr角色渲染">PBR角色渲染</h1>
-<ul>
-<li><figure>
-<img
+<p><img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/整体1.png"
-alt="整体1" />
-<figcaption aria-hidden="true">整体1</figcaption>
-</figure></li>
-<li><figure>
-<img
+alt="整体1" /> <img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/整体2.png"
-alt="整体2" />
-<figcaption aria-hidden="true">整体2</figcaption>
-</figure></li>
-<li><figure>
-<img
+alt="整体2" /> <img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/头发.png"
-alt="头发" />
-<figcaption aria-hidden="true">头发</figcaption>
-</figure></li>
-<li><figure>
-<img
+alt="头发" /> <img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/移动端sss效果.png"
-alt="移动端sss效果" />
-<figcaption aria-hidden="true">移动端sss效果</figcaption>
-</figure></li>
-<li><figure>
-<img
+alt="移动端sss效果" /> <img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/武器.png"
-alt="武器" />
-<figcaption aria-hidden="true">武器</figcaption>
-</figure></li>
-</ul>
+alt="武器" /></p>
 ]]></content>
       <categories>
         <category>图形学</category>
