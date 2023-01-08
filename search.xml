@@ -2441,6 +2441,39 @@ alt="Kajiya-Kay Anisotropic" />
 <li>https://web.engr.oregonstate.edu/~mjb/cs519/Projects/Papers/HairRendering.pdf</li>
 </ul></li>
 </ul>
+<h1 id="pbr角色渲染">PBR角色渲染</h1>
+<ul>
+<li><figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/整体1.png"
+alt="整体1" />
+<figcaption aria-hidden="true">整体1</figcaption>
+</figure></li>
+<li><figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/整体2.png"
+alt="整体2" />
+<figcaption aria-hidden="true">整体2</figcaption>
+</figure></li>
+<li><figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/头发.png"
+alt="头发" />
+<figcaption aria-hidden="true">头发</figcaption>
+</figure></li>
+<li><figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/移动端sss效果.png"
+alt="移动端sss效果" />
+<figcaption aria-hidden="true">移动端sss效果</figcaption>
+</figure></li>
+<li><figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/武器.png"
+alt="武器" />
+<figcaption aria-hidden="true">武器</figcaption>
+</figure></li>
+</ul>
 ]]></content>
       <categories>
         <category>图形学</category>
