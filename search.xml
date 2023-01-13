@@ -2531,6 +2531,25 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230113014805.pn
 alt="BrokenGlass" />
 <figcaption aria-hidden="true">BrokenGlass</figcaption>
 </figure>
+<h1 id="blur">Blur</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014101.png"
+alt="Box Blur" />
+<figcaption aria-hidden="true">Box Blur</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014114.png"
+alt="Gaussian Blur" />
+<figcaption aria-hidden="true">Gaussian Blur</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014127.png"
+alt="Dual Box Blur" />
+<figcaption aria-hidden="true">Dual Box Blur</figcaption>
+</figure>
 ]]></content>
       <categories>
         <category>图形学</category>
