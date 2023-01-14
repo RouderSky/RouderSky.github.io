@@ -2557,6 +2557,19 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Bloom.png"
 alt="Bloom" />
 <figcaption aria-hidden="true">Bloom</figcaption>
 </figure>
+<h1 id="aces-tone-mapping">ACES Tone Mapping</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021445.png"
+alt="未开ACES Tone Mapping" />
+<figcaption aria-hidden="true">未开ACES Tone Mapping</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021540.png"
+alt="开启ACES Tone Mapping" />
+<figcaption aria-hidden="true">开启ACES Tone Mapping</figcaption>
+</figure>
 ]]></content>
       <categories>
         <category>图形学</category>
