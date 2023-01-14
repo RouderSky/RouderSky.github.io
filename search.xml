@@ -2550,6 +2550,13 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014127.pn
 alt="Dual Box Blur" />
 <figcaption aria-hidden="true">Dual Box Blur</figcaption>
 </figure>
+<h1 id="bloom">Bloom</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Bloom.png"
+alt="Bloom" />
+<figcaption aria-hidden="true">Bloom</figcaption>
+</figure>
 ]]></content>
       <categories>
         <category>图形学</category>
