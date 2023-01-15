@@ -2524,14 +2524,28 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Grow.gif"
 alt="Grow" />
 <figcaption aria-hidden="true">Grow</figcaption>
 </figure>
-<h1 id="玻璃破碎">玻璃破碎</h1>
+<h1 id="vertex-animation">Vertex Animation</h1>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230113014805.png"
-alt="BrokenGlass" />
-<figcaption aria-hidden="true">BrokenGlass</figcaption>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/GIUHAULIGALHGAIHGAUOIYG32563.gif"
+alt="Vertex Animation" />
+<figcaption aria-hidden="true">Vertex Animation</figcaption>
 </figure>
-<h1 id="blur">Blur</h1>
+]]></content>
+      <categories>
+        <category>图形学</category>
+      </categories>
+      <tags>
+        <tag>unity</tag>
+        <tag>shader</tag>
+        <tag>图形学</tag>
+        <tag>特效</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>后处理</title>
+    <url>/posts/19230d75.html</url>
+    <content><![CDATA[<h1 id="blur">Blur</h1>
 <figure>
 <img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014101.png"
@@ -2570,12 +2584,12 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021540.pn
 alt="开启ACES Tone Mapping" />
 <figcaption aria-hidden="true">开启ACES Tone Mapping</figcaption>
 </figure>
-<h1 id="vertex-animation">Vertex Animation</h1>
+<h1 id="玻璃破碎">玻璃破碎</h1>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/GIUHAULIGALHGAIHGAUOIYG32563.gif"
-alt="Vertex Animation" />
-<figcaption aria-hidden="true">Vertex Animation</figcaption>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230113014805.png"
+alt="BrokenGlass" />
+<figcaption aria-hidden="true">BrokenGlass</figcaption>
 </figure>
 ]]></content>
       <categories>

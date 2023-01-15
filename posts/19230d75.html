@@ -16,27 +16,27 @@
   <meta name="author" content="Rouder">
   <meta name="keywords" content="GameDev">
   
-    <meta name="description" content="Dissolve  使用UV坐标和时间信息对噪声图进行采样，采样的结果作为clip的其中一个参考值    Dissolve  Rim  菲涅尔效应的近似实现    Rim  Scan  将模型空间坐标作为UV坐标进行纹理采样    Scan  MatCap   MatCap  薄膜干涉   薄膜干涉    两层MatCap+薄">
+    <meta name="description" content="Blur   Box Blur    Gaussian Blur    Dual Box Blur  Bloom   Bloom  ACES Tone Mapping   未开ACES Tone Mapping    开启ACES Tone Mapping  玻璃破碎   BrokenGlass">
 <meta property="og:type" content="article">
-<meta property="og:title" content="材质特效展示">
-<meta property="og:url" content="https://roudersky.com/posts/c4d9d82.html">
+<meta property="og:title" content="后处理">
+<meta property="og:url" content="https://roudersky.com/posts/19230d75.html">
 <meta property="og:site_name" content="RouderSky">
-<meta property="og:description" content="Dissolve  使用UV坐标和时间信息对噪声图进行采样，采样的结果作为clip的其中一个参考值    Dissolve  Rim  菲涅尔效应的近似实现    Rim  Scan  将模型空间坐标作为UV坐标进行纹理采样    Scan  MatCap   MatCap  薄膜干涉   薄膜干涉    两层MatCap+薄">
+<meta property="og:description" content="Blur   Box Blur    Gaussian Blur    Dual Box Blur  Bloom   Bloom  ACES Tone Mapping   未开ACES Tone Mapping    开启ACES Tone Mapping  玻璃破碎   BrokenGlass">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230107171302.png">
-<meta property="article:published_time" content="2022-12-31T08:23:25.000Z">
-<meta property="article:modified_time" content="2023-01-15T16:01:22.392Z">
+<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230116000030.png">
+<meta property="article:published_time" content="2023-01-15T08:23:25.000Z">
+<meta property="article:modified_time" content="2023-01-15T16:01:17.859Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="unity">
 <meta property="article:tag" content="shader">
 <meta property="article:tag" content="图形学">
 <meta property="article:tag" content="特效">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230107171302.png">
+<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230116000030.png">
   
   
   
-  <title>材质特效展示 - RouderSky</title>
+  <title>后处理 - RouderSky</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -217,13 +217,13 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230107171302.png') no-repeat center center; background-size: cover;">
+     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230116000030.png') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="材质特效展示"></span>
+            <span id="subtitle" data-typed-text="后处理"></span>
           
         </div>
 
@@ -239,8 +239,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-12-31 16:23" pubdate>
-          2022年12月31日 下午
+        <time datetime="2023-01-15 16:23" pubdate>
+          2023年1月15日 下午
         </time>
       </span>
     
@@ -251,7 +251,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          169 字
+          108 字
         
       </span>
     
@@ -262,7 +262,7 @@
         
         
         
-          2 分钟
+          1 分钟
         
       </span>
     
@@ -332,7 +332,7 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">材质特效展示</h1>
+            <h1 style="display: none">后处理</h1>
             
               <p class="note note-info">
                 
@@ -345,69 +345,51 @@
             
               <div class="markdown-body" id="container">
                 
-                <h1 id="dissolve">Dissolve</h1>
-<blockquote>
-<p>使用UV坐标和时间信息对噪声图进行采样，采样的结果作为clip的其中一个参考值</p>
-</blockquote>
+                <h1 id="blur">Blur</h1>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Dissolve.gif" srcset="/img/loading.gif" lazyload
-alt="Dissolve" />
-<figcaption aria-hidden="true">Dissolve</figcaption>
-</figure>
-<h1 id="rim">Rim</h1>
-<blockquote>
-<p>菲涅尔效应的近似实现</p>
-</blockquote>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103235902.png" srcset="/img/loading.gif" lazyload
-alt="Rim" />
-<figcaption aria-hidden="true">Rim</figcaption>
-</figure>
-<h1 id="scan">Scan</h1>
-<blockquote>
-<p>将模型空间坐标作为UV坐标进行纹理采样</p>
-</blockquote>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Scan.gif" srcset="/img/loading.gif" lazyload
-alt="Scan" />
-<figcaption aria-hidden="true">Scan</figcaption>
-</figure>
-<h1 id="matcap">MatCap</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103235949.png" srcset="/img/loading.gif" lazyload
-alt="MatCap" />
-<figcaption aria-hidden="true">MatCap</figcaption>
-</figure>
-<h1 id="薄膜干涉">薄膜干涉</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230104000011.png" srcset="/img/loading.gif" lazyload
-alt="薄膜干涉" />
-<figcaption aria-hidden="true">薄膜干涉</figcaption>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014101.png" srcset="/img/loading.gif" lazyload
+alt="Box Blur" />
+<figcaption aria-hidden="true">Box Blur</figcaption>
 </figure>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230104000107.png" srcset="/img/loading.gif" lazyload
-alt="两层MatCap+薄膜干涉" />
-<figcaption aria-hidden="true">两层MatCap+薄膜干涉</figcaption>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014114.png" srcset="/img/loading.gif" lazyload
+alt="Gaussian Blur" />
+<figcaption aria-hidden="true">Gaussian Blur</figcaption>
 </figure>
-<h1 id="藤曼生长">藤曼生长</h1>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Grow.gif" srcset="/img/loading.gif" lazyload
-alt="Grow" />
-<figcaption aria-hidden="true">Grow</figcaption>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014127.png" srcset="/img/loading.gif" lazyload
+alt="Dual Box Blur" />
+<figcaption aria-hidden="true">Dual Box Blur</figcaption>
 </figure>
-<h1 id="vertex-animation">Vertex Animation</h1>
+<h1 id="bloom">Bloom</h1>
 <figure>
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/GIUHAULIGALHGAIHGAUOIYG32563.gif" srcset="/img/loading.gif" lazyload
-alt="Vertex Animation" />
-<figcaption aria-hidden="true">Vertex Animation</figcaption>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Bloom.png" srcset="/img/loading.gif" lazyload
+alt="Bloom" />
+<figcaption aria-hidden="true">Bloom</figcaption>
+</figure>
+<h1 id="aces-tone-mapping">ACES Tone Mapping</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021445.png" srcset="/img/loading.gif" lazyload
+alt="未开ACES Tone Mapping" />
+<figcaption aria-hidden="true">未开ACES Tone Mapping</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021540.png" srcset="/img/loading.gif" lazyload
+alt="开启ACES Tone Mapping" />
+<figcaption aria-hidden="true">开启ACES Tone Mapping</figcaption>
+</figure>
+<h1 id="玻璃破碎">玻璃破碎</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230113014805.png" srcset="/img/loading.gif" lazyload
+alt="BrokenGlass" />
+<figcaption aria-hidden="true">BrokenGlass</figcaption>
 </figure>
 
                 
@@ -460,8 +442,8 @@ alt="Vertex Animation" />
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>材质特效展示</div>
-      <div>https://roudersky.com/posts/c4d9d82.html</div>
+      <div>后处理</div>
+      <div>https://roudersky.com/posts/19230d75.html</div>
     </div>
     <div class="license-meta">
       
@@ -473,7 +455,7 @@ alt="Vertex Animation" />
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年12月31日</div>
+          <div>2023年1月15日</div>
         </div>
       
       
@@ -517,18 +499,12 @@ alt="Vertex Animation" />
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/posts/f65cb81a.html" title="光照效果展示">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">光照效果展示</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
                     
-                      <a href="/posts/7230a012.html" title="番外篇--C++中的代码重用">
-                        <span class="hidden-mobile">番外篇--C++中的代码重用</span>
+                      <a href="/posts/f65cb81a.html" title="光照效果展示">
+                        <span class="hidden-mobile">光照效果展示</span>
                         <span class="visible-mobile">下一篇</span>
                         <i class="iconfont icon-arrowright"></i>
                       </a>
