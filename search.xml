@@ -1397,8 +1397,9 @@ alt="20221102015322" /></p>
   <entry>
     <title>游戏引擎 1.概述</title>
     <url>/posts/8ddcbab2.html</url>
-    <content><![CDATA[<p>该系列文章主要面向完全没有引擎基础，但具备一定编程基础的同学。讲解的内容不会展开太深入，只希望读者可以对游戏引擎中的技术有一个基本的理解。如果大家对其中的某些内容感兴趣，可以评论留言。我会根据大家的期望，力所能及地展开讲解。
-# 简介 电子游戏是一款软实时(soft
+    <content><![CDATA[<p>该系列文章主要面向完全没有引擎基础，但具备一定编程基础的同学。讲解的内容不会展开太深入，只希望读者可以对游戏引擎中的技术有一个基本的理解。如果大家对其中的某些内容感兴趣，可以评论留言。我会根据大家的期望，力所能及地展开讲解。</p>
+<h1 id="简介">简介</h1>
+<p>电子游戏是一款软实时(soft
 real-time)模拟软件。软实时模拟软件需要做到可以响应实时操作，并且即使由于某些原因没有立即响应也不会造成灾难性后果。在电子游戏这样的软实时模拟软件中的大部分数学问题没有闭合式解，因此需要进行离散的模拟才能得到一个结果。</p>
 <p>游戏引擎正是为了完成游戏中各种各样的模拟而整合了各种各样的模块，例如物理模块、渲染模块、逻辑模块等。早期的游戏引擎大多只能运行在特定平台，例如《雷神之锤》的引擎<a
 href="https://github.com/id-Software/Quake">Quake engine</a>、<a
@@ -1420,12 +1421,14 @@ href="https://unity.com/cn">Unity</a>、<a
 href="https://www.unrealengine.com/zh-CN/">Unreal</a>。</p>
 <div
 style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<pre><code class="hljs">&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=262246257&amp;bvid=BV1Ke411F7ZE&amp;cid=878641990&amp;page=1&amp;high_quality=1&quot;  scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot;&gt;&lt;/iframe&gt;</code></pre>
+<iframe src="//player.bilibili.com/player.html?aid=262246257&amp;bvid=BV1Ke411F7ZE&amp;cid=878641990&amp;page=1&amp;high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+</iframe>
 </div>
-</br>
+<p></br></p>
 <div
 style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<pre><code class="hljs">&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=389714115&amp;bvid=BV1td4y1C71P&amp;cid=878642018&amp;page=1&amp;high_quality=1&quot;  scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot;&gt;&lt;/iframe&gt;</code></pre>
+<iframe src="//player.bilibili.com/player.html?aid=389714115&amp;bvid=BV1td4y1C71P&amp;cid=878642018&amp;page=1&amp;high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+</iframe>
 </div>
 <p>一般来说，越通用的游戏引擎，在特定平台上的运行效率会越不如那些只能运行于特定游戏平台的游戏引擎。因为性能优化总是基于特定假设的，这个假设越单一，优化起来会越轻松。</p>
 <p><img
@@ -1511,12 +1514,12 @@ based animation)</a>。</p>
 <p>动画的制作流程比较复杂繁琐，部分有钱的游戏厂商会通过动捕(motion
 cap)的方式来制作动画，钱包确实顶不住的话可以使用Endorphin来自动生成帧动画，提高生产效率。还有一种减少工作量的方法，使用Euphoria在游戏运行时生成符合物理和生物力学的动画。</p>
 <h1 id="平台独立层">平台独立层</h1>
-<p>平台独立层会为特定模块封装各个平台的底层API，让游戏引擎可以支持在多个平台上运行。这一层算是游戏引擎和外界环境进行沟通的桥梁。
-# 核心系统
-核心系统会为游戏引擎提供一个软件该有的底层功能，所有类型的软件都会有这一层。</p>
-<p>这一层的内容也不少，我们关注得比较多的是内容管理模块。因为游戏引擎往往都需要保证最多每隔32毫秒就要执行一边全体代码，对于内存的管理要求会比较高，需要实现高效地内存分配和释放，还会自定义数据结构及算法来减少或完全消除动态内存的分配。
-# 渲染引擎
-渲染这一块内容就比较丰富了，已经被独立成一个专业学科--计算机图形学。一般游戏引擎都不会去开发自己的渲染引擎，因为投入产出比太低，而且现有的渲染引擎已经很成熟了。所以游戏引擎一般都会接入已有的渲染引擎。</p>
+<p>平台独立层会为特定模块封装各个平台的底层API，让游戏引擎可以支持在多个平台上运行。这一层算是游戏引擎和外界环境进行沟通的桥梁。</p>
+<h1 id="核心系统">核心系统</h1>
+<p>核心系统会为游戏引擎提供一个软件该有的底层功能，所有类型的软件都会有这一层。</p>
+<p>这一层的内容也不少，我们关注得比较多的是内容管理模块。因为游戏引擎往往都需要保证最多每隔32毫秒就要执行一边全体代码，对于内存的管理要求会比较高，需要实现高效地内存分配和释放，还会自定义数据结构及算法来减少或完全消除动态内存的分配。</p>
+<h1 id="渲染引擎">渲染引擎</h1>
+<p>渲染这一块内容就比较丰富了，已经被独立成一个专业学科--计算机图形学。一般游戏引擎都不会去开发自己的渲染引擎，因为投入产出比太低，而且现有的渲染引擎已经很成熟了。所以游戏引擎一般都会接入已有的渲染引擎。</p>
 <p>常见的渲染引擎有DirectX、OpenGL、Vulkan、Edge等。这里的Edge并不是指微软的Edge浏览器，而是专门为PS3渲染设计的，拥有高效几何处理技术的渲染引擎，同时它还具有动画播放功能。</p>
 <p><img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023437.png?x-oss-process=style/WaterMask" /></p>
@@ -1548,9 +1551,9 @@ HUD)、辅助开发的工具（如内置菜单、主控台）、图形用户界�
 interface, GUI)、全动视频(full-motion video,
 FMV)系统、游戏内置电影(in-game cinematics, IGC)系统等。</p>
 <h1 id="人工智能">人工智能</h1>
-<p>游戏中的传统人工智能并不是类似于深度学习的人工智能，而只是让角色看起来有智能。所有貌似拥有智能的行为都是提前硬编码好的，有限状态机和行为树是最常用的技术。现在游戏也慢慢开始加入了具有自我进化能力的人工智能，以后游戏过程中的不确定性会进一步增加。
-# 性能分析工具
-为了提升游戏运行效率，需要在研发过程中或研发完成时对游戏进行性能分析。现在比较成熟的性能分析工具有Intel的VTune、IBM的Quantify和Purify、Compuware的Bounds
+<p>游戏中的传统人工智能并不是类似于深度学习的人工智能，而只是让角色看起来有智能。所有貌似拥有智能的行为都是提前硬编码好的，有限状态机和行为树是最常用的技术。现在游戏也慢慢开始加入了具有自我进化能力的人工智能，以后游戏过程中的不确定性会进一步增加。</p>
+<h1 id="性能分析工具">性能分析工具</h1>
+<p>为了提升游戏运行效率，需要在研发过程中或研发完成时对游戏进行性能分析。现在比较成熟的性能分析工具有Intel的VTune、IBM的Quantify和Purify、Compuware的Bounds
 Checker。有些游戏引擎会开发自己的性能分析工具，例如unty内置的Profiler。一个性能分析工具大致需要具备以下功能：</p>
 <ol type="1">
 <li>支持在游戏源码中手动加入测量代码，为希望监测性能的代码进行计时。</li>
@@ -1559,12 +1562,13 @@ Checker。有些游戏引擎会开发自己的性能分析工具，例如unty内
 <li>将性能统计数据输出并保存下来，可以保存为文本文件、Excel文件等。</li>
 <li>允许在代码内使用调试用打印语句(print
 statement)，可以切换不同的调试输出种类，并设置输出的冗长级别(verbosity
-level)。 # 物理
-游戏物理模拟是个大部头，如果项目有真实物理模拟的需求，那么一般会专门配置一位负责开发物理效果的程序员。</li>
+level)。</li>
 </ol>
-<p>游戏物理和仿真物理的侧重点并不相同。仿真物理注重模拟效果的准确性，而不关注性能。游戏物理不追求模拟百分百正确，只要最终的效果看起来合理就好，需要特别关注性能表现。因为游戏需要在配置一般的设备上运行，没有太多的算了投放到物理模拟中。只要效果看起来没太大问题，那么它就是对的。
-# 动画
-动画同样是一个大部头，如果项目的动画很多且复杂细腻，一般也会专门配置一位专门负责开发动画效果的程序员。</p>
+<h1 id="物理">物理</h1>
+<p>游戏物理模拟是个大部头，如果项目有真实物理模拟的需求，那么一般会专门配置一位负责开发物理效果的程序员。</p>
+<p>游戏物理和仿真物理的侧重点并不相同。仿真物理注重模拟效果的准确性，而不关注性能。游戏物理不追求模拟百分百正确，只要最终的效果看起来合理就好，需要特别关注性能表现。因为游戏需要在配置一般的设备上运行，没有太多的算了投放到物理模拟中。只要效果看起来没太大问题，那么它就是对的。</p>
+<h1 id="动画">动画</h1>
+<p>动画同样是一个大部头，如果项目的动画很多且复杂细腻，一般也会专门配置一位专门负责开发动画效果的程序员。</p>
 <p>动画效果可以很简单，也可以很复杂。最简单的就是播放单个帧动画，复杂的可以搞基于物理的动画、IK效果等。</p>
 <p>负责游戏动画的程序员除了要做好表现效果之外，还要做好资源管理，包括动画资源和动画状态机资源。因为现在大部分项目都是使用动画状态机以及动画融合技术来制作动画效果。</p>
 <p>一个表现效果可能由多个动画clip融合而成。使用这种方案来做动画表现，产出的动画资源一般都不少。</p>
@@ -1591,13 +1595,16 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102024059.pn
 <p><img
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023711.png?x-oss-process=style/WaterMask" /></p>
 <h1 id="网络">网络</h1>
-<p>游戏引擎提供基本网络通信功能并不是什么特别难的事情，但是要提供一套成熟通用的网络同步功能非常困难。不同游戏对网络同步的需求由很大的区别，所以游戏项目组一般都会开发自己的网络同步功能以匹配自己的游戏业务需求。
-# 数字内容创作(digital content creation, DCC)应用软件及资产调节管道
-设计师会通过DCC工具将模型、材质、贴图、音频等工具生产游戏素材。团队一般都会使用市面上以由的DCC工具，例如3DMax、Maya、PhotoShop、FMOD
-Studio等。这些工具输出的资源格式在大部分情况下没有办法被游戏引擎直接使用，需要游戏引擎对这些资源进行一次转换，转换为游戏引擎方便使用的格式。这个转换过程有资产调节管道来完成。例如每次往unity中拖入fbx模型资源的时候都会出现一个import进度条，正是在进行资源转换。
-# 最后
-这节只是简单带过了各种模块的知识，由于部分内容展开之后量会非常大，所以会在该系列的后续文章中单独讲，也可能会另开一个专栏。希望能帮助到想要从事游戏研发的人。
-# 参考资料 《游戏引擎架构》 《游戏编程权威指南》
+<p>游戏引擎提供基本网络通信功能并不是什么特别难的事情，但是要提供一套成熟通用的网络同步功能非常困难。不同游戏对网络同步的需求由很大的区别，所以游戏项目组一般都会开发自己的网络同步功能以匹配自己的游戏业务需求。</p>
+<h1
+id="数字内容创作digital-content-creation-dcc应用软件及资产调节管道">数字内容创作(digital
+content creation, DCC)应用软件及资产调节管道</h1>
+<p>设计师会通过DCC工具将模型、材质、贴图、音频等工具生产游戏素材。团队一般都会使用市面上以由的DCC工具，例如3DMax、Maya、PhotoShop、FMOD
+Studio等。这些工具输出的资源格式在大部分情况下没有办法被游戏引擎直接使用，需要游戏引擎对这些资源进行一次转换，转换为游戏引擎方便使用的格式。这个转换过程有资产调节管道来完成。例如每次往unity中拖入fbx模型资源的时候都会出现一个import进度条，正是在进行资源转换。</p>
+<h1 id="最后">最后</h1>
+<p>这节只是简单带过了各种模块的知识，由于部分内容展开之后量会非常大，所以会在该系列的后续文章中单独讲，也可能会另开一个专栏。希望能帮助到想要从事游戏研发的人。</p>
+<h1 id="参考资料">参考资料</h1>
+<p>《游戏引擎架构》 《游戏编程权威指南》
 《GAMES104-现代游戏引擎：从入门到实践》</p>
 ]]></content>
       <categories>
