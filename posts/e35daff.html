@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/harehrshshsh.jpg">
 <meta property="article:published_time" content="2021-12-25T04:31:25.000Z">
-<meta property="article:modified_time" content="2022-12-26T16:01:32.392Z">
+<meta property="article:modified_time" content="2023-03-23T11:23:20.494Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="GameDev">
 <meta name="twitter:card" content="summary_large_image">
@@ -334,7 +334,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2022年12月27日 凌晨
+                    本文最后更新于：2023年3月23日 晚上
                   
                 
               </p>
@@ -351,9 +351,13 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105002824.pn
 <h1 id="几何阶段">2. 几何阶段</h1>
 <p>这个阶段由GPU进行处理，会对每一个需要渲染的图元进行逐顶点、逐多边形处理，最根本的任务是将顶点的模型坐标转换到屏幕空间。</p>
 <h2 id="顶点着色器">2.1 顶点着色器</h2>
-<p>顶点着色器的基本任务是将顶点转换到齐次裁剪空间，还可以进行的其他任务有：
-- 逐顶点着色操作，如逐顶点光照 - 纹理计算 - 逐顶点蒙皮 -
-逐顶点程序式动画(procedural animation)</p>
+<p>顶点着色器的基本任务是将顶点转换到齐次裁剪空间，还可以进行的其他任务有：</p>
+<ul>
+<li>逐顶点着色操作，如逐顶点光照</li>
+<li>纹理计算</li>
+<li>逐顶点蒙皮</li>
+<li>逐顶点程序式动画(procedural animation)</li>
+</ul>
 <p><strong>2.1.1 投影变换</strong></p>
 <p><span
 class="math display">\[Aspect=\frac{近裁剪平面宽度}{近裁剪平面高度}=\frac{远裁剪平面宽度}{远裁剪平面高度}\]</span></p>
