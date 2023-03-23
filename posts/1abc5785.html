@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029192958.png">
 <meta property="article:published_time" content="2020-03-29T09:22:24.000Z">
-<meta property="article:modified_time" content="2022-10-30T15:41:11.415Z">
+<meta property="article:modified_time" content="2023-03-23T11:45:11.743Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="GameDev">
 <meta name="twitter:card" content="summary_large_image">
@@ -334,7 +334,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2022年10月30日 晚上
+                    本文最后更新于：2023年3月23日 晚上
                   
                 
               </p>
@@ -351,24 +351,25 @@
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029194540.png?x-oss-process=style/WaterMask" srcset="/img/loading.gif" lazyload /></p>
 <p>也就是说在大型游戏项目中，OOP并不适用于框架设计。但是也不用完全抛弃OOP，只是在很大程度上，代码中的类不再具体地对应现实世界中的具体物件，ECS中类的语义变得更加抽象了。</p>
 <p>ECS有一个很重要的思想：数据都放在一边，需要的时候就去用，不需要的时候不要动。ECS
-的本质就是数据和操作分离。传统OOP思想常常会面临一种情况，A打了B，那么到底是A主动打了B还是B被A打了，这个函数该放在哪里。但是ECS不用纠结这个问题，数据存放到Component种，逻辑直接由System接管。借着这个思想，我们可以大幅度减少函数调用的层次，进而缩短数据流传递的深度。
-# 基本概念
-Entity由多个Component组成，Component由数据组成，System由逻辑组成。 ##
-Component(组件)
-Component是数据的集合，只有变量，没有函数，但可以有getter和setter函数。Component之间不可以直接通信。
-<figure class="highlight gauss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs gauss"><span class="hljs-keyword">struct</span> <span class="hljs-type">Component</span>&#123;<br>	<span class="hljs-comment">//子类将会有大量变量，以供System利用</span><br>&#125;<br></code></pre></td></tr></table></figure> ## Entity(实体)
-Entity用来代表游戏世界中任意类型的游戏对象，宏观上Entity是一个Component实例的集合，且拥有一个全局唯一的EntityID，用于标识Entity本身。
+的本质就是数据和操作分离。传统OOP思想常常会面临一种情况，A打了B，那么到底是A主动打了B还是B被A打了，这个函数该放在哪里。但是ECS不用纠结这个问题，数据存放到Component种，逻辑直接由System接管。借着这个思想，我们可以大幅度减少函数调用的层次，进而缩短数据流传递的深度。</p>
+<h1 id="基本概念">基本概念</h1>
+<p>Entity由多个Component组成，Component由数据组成，System由逻辑组成。</p>
+<h2 id="component组件">Component(组件)</h2>
+<p>Component是数据的集合，只有变量，没有函数，但可以有getter和setter函数。Component之间不可以直接通信。
+<figure class="highlight gauss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs gauss"><span class="hljs-keyword">struct</span> <span class="hljs-type">Component</span>&#123;<br>	<span class="hljs-comment">//子类将会有大量变量，以供System利用</span><br>&#125;<br></code></pre></td></tr></table></figure></p>
+<h2 id="entity实体">Entity(实体)</h2>
+<p>Entity用来代表游戏世界中任意类型的游戏对象，宏观上Entity是一个Component实例的集合，且拥有一个全局唯一的EntityID，用于标识Entity本身。
 <figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">Entity</span>&#123;<br>	Int32 ID;<br>	List&lt;Component&gt; components;<br>        <span class="hljs-comment">//通过观察者模式将自己注册到System可以提升System遍历的速度，因为只需要遍历已经注册的entity</span><br>&#125;<br></code></pre></td></tr></table></figure>
-Entity需要遵循立即创建和延迟销毁原则，销毁放在帧末执行。因为可能会出现这样的情况：systemA提出要在entityA所在位置创建一个特效，然后systemB认为需要销毁entityA。如果systemB直接销毁了entityA，那么稍后FxSystem就会拿不到entityA的位置导致特效播放失败（你可能会问为什么不直接把entityA的位置记录下来，这样就不会有问题了。这里只是简单举个例子，不要太深究(●'◡'●)）。理想的表现效果应该是，播放特效后消失。
-## System(系统)
-System用来制定游戏的运行规则，只有函数，没有变量。System之间的执行顺序需要严格制定。System之间不可以直接通信。</p>
+Entity需要遵循立即创建和延迟销毁原则，销毁放在帧末执行。因为可能会出现这样的情况：systemA提出要在entityA所在位置创建一个特效，然后systemB认为需要销毁entityA。如果systemB直接销毁了entityA，那么稍后FxSystem就会拿不到entityA的位置导致特效播放失败（你可能会问为什么不直接把entityA的位置记录下来，这样就不会有问题了。这里只是简单举个例子，不要太深究(●'◡'●)）。理想的表现效果应该是，播放特效后消失。</p>
+<h2 id="system系统">System(系统)</h2>
+<p>System用来制定游戏的运行规则，只有函数，没有变量。System之间的执行顺序需要严格制定。System之间不可以直接通信。</p>
 <p>一个
 System只关心某一个固定的Component组合，这个组合集合称为tuple。</p>
 <p>各个System的Update顺序要根据具体情况设置好，System在Update时都会遍历所有的Entity，如果一个Entity拥有该System的tuple中指定的所有Component实例，则对该Entity进行处理。
 <figure class="highlight csharp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">class</span> <span class="hljs-title">System</span>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Update</span>()</span>;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title">ASystem</span>:<span class="hljs-title">System</span>&#123;<br>    Tuple tuple;<br><br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Update</span>()</span>&#123;<br>        <span class="hljs-keyword">for</span>(Entity entity <span class="hljs-keyword">in</span> World.entitys)&#123;<br>            <span class="hljs-keyword">if</span>(entity.components中有tuple指定的所有Component实例)&#123;<br>                <span class="hljs-comment">//do something for Components</span><br>            &#125;<br>        &#125;<br>    &#125;<br>&#125;<br><br></code></pre></td></tr></table></figure>
-一个Component会被不同System区别对待，因为每个System用到的数据可能只有其中一部分，且不一定相同。
-## World(世界)
-World代表整个游戏世界，游戏会视情况来创建一个或两个World。通常情况下只有一个，但是守望先锋为了做死亡回放，有两个World，分别是liveGame和replyGame。World下面会包含所有的System实例和Entity实例。
+一个Component会被不同System区别对待，因为每个System用到的数据可能只有其中一部分，且不一定相同。</p>
+<h2 id="world世界">World(世界)</h2>
+<p>World代表整个游戏世界，游戏会视情况来创建一个或两个World。通常情况下只有一个，但是守望先锋为了做死亡回放，有两个World，分别是liveGame和replyGame。World下面会包含所有的System实例和Entity实例。
 <figure class="highlight angelscript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">World</span>&#123;<br>    List&lt;System&gt; systems;                   <span class="hljs-comment">//所有System</span><br>    <span class="hljs-built_in">dictionary<span class="hljs-keyword">&lt;Int32, Entity&gt;</span></span> entitys;      <span class="hljs-comment">//所有Entity，Int32是Entity.ID</span><br><br>    <span class="hljs-comment">//由引擎帧循环驱动</span><br>    <span class="hljs-built_in">void</span> Update()&#123;<br>        <span class="hljs-keyword">for</span>(System sys <span class="hljs-keyword">in</span> systems)<br>            sys.Update();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
 由ECS架构出来的游戏世界就像是一个数据库表，每个Entity对应一行，每个Component对应一列，打了✔代表Entity拥有Component。</p>
 <table>
