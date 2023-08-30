@@ -1708,7 +1708,7 @@ rules)(C++98特性，主要是处理指针与非指针的问题)来选择最具�
 <th style="text-align: center;">编号</th>
 <th style="text-align: left;">候选函数</th>
 <th style="text-align: center;">第一步结果</th>
-<th style="text-align: center;">第二部结果</th>
+<th style="text-align: center;">第二步结果</th>
 <th style="text-align: center;">优先级</th>
 </tr>
 </thead>
