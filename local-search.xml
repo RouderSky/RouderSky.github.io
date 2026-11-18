@@ -4,6 +4,37 @@
   
   
   <entry>
+    <title>C++ Primer（第5版）：第1章 开始</title>
+    <link href="/posts/7d443885.html"/>
+    <url>/posts/7d443885.html</url>
+    
+    <content type="html"><![CDATA[<h1 id="第一章-开始">第一章 开始</h1><ul><li><a href="https://github.com/pezy/CppPrimer">课后习题答案</a></li><li>术语表<ul><li><img src="/posts/7d443885/2022-03-15-00-35-28.png" class=""><blockquote><p>原笔记图片缺失：2022-01-27-16-47-50.png</p></blockquote></li><li><img src="/posts/7d443885/2022-01-27-16-48-00.png" class=""><h2 id="语言特性">语言特性</h2></li></ul></li><li>C++是静态、类型不安全(强制类型转换、通过指针随意解析内存)语言 ##输入输出</li><li>流：字符顺序生成或消耗的字符序列</li><li>cin：istream类型，标准输入(standard input)<ul><li>按下<code>enter键</code>才会将 <strong>缓冲区</strong> 的内容写入<strong>输入流</strong></li><li>bool(cin) == (写入<code>输入流</code>后，未遇到错误 and未遇到文件结束符 and 不是无效输入)</li><li>默认情况下，读取cin会刷新cout，非正常结束会刷新cout</li></ul></li><li>cout：ostream类型，标准输出(standard input)</li><li>cerr：ostream类型，标准错误(standard error)<ul><li>用于输出警告或错误信息</li><li>通常写入到与cout相同的设备中</li><li>默认情况下，写到cerr的内容不缓冲</li></ul></li><li>clog：ostream类型<ul><li>用于输出运行时一般性信息</li><li>默认情况下，写道clog的数据被缓冲</li><li>通常用于输出程序的执行信息，存储到日志文件</li></ul></li><li>endl：文件结束符(end-of-file)，表示已经没有更多数据了<ul><li>一种操纵符(manipulator)</li><li>用于结束当前行，将与 <strong>输出设备</strong> 关联的<strong>缓冲区(buffer)</strong> 中的内容真正写入<strong>输出流</strong></li><li>需要保证频繁地刷新流，确保所有的信息都写入 <strong>输出流</strong>## 注释</li></ul></li><li>编译器会忽略注释，因此注释对程序、大小、行为、性能不会有任何影响 ##头文件</li><li><code>#include &lt;&lt;fileName&gt;&gt;</code>：包含来自<strong>标准库</strong> 的头文件</li><li><code>#include &lt;'&lt;fileName&gt;'&gt;</code>：包含<strong>非标准库</strong> 的头文件 ## 命令行</li><li>文件结束符<ul><li>windows：<code>Ctrl+Z</code></li><li>unix：<code>Ctrl+D</code></li></ul></li><li><code>&lt;&lt;exeName&gt;&gt; &lt;&lt;inputFile&gt; &gt;&lt;ouputFile&gt;</code>：令运行程序从指定文件(缓冲区)读取数据到<strong>输入流</strong>，输出到指定文件</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>C++</category>
+      
+      <category>C++ Primer（第5版）</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>C++</tag>
+      
+      <tag>读书笔记</tag>
+      
+      <tag>第1章</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>后处理</title>
     <link href="/posts/19230d75.html"/>
     <url>/posts/19230d75.html</url>
