@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://picx.zhimg.com/v2-c4595333dede71d9bef200be3166243a_720w.jpg?source=172ae18b">
 <meta property="article:published_time" content="2022-03-17T03:21:36.000Z">
-<meta property="article:modified_time" content="2026-11-19T08:28:06.902Z">
+<meta property="article:modified_time" content="2026-11-20T07:24:08.850Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="C++">
 <meta name="twitter:card" content="summary_large_image">
@@ -334,7 +334,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2026年11月19日 下午
+                    本文最后更新于：2026年11月20日 下午
                   
                 
               </p>
@@ -388,9 +388,7 @@ long中能表示字面值的尺寸最小的那个</p>
 <p>字符串字面值使用双引号来定义，例如<code>"ab"</code>
 。需要注意的是，结尾处隐含了一个空字符<code>'\0'</code>。也就是说，字符串字面值的长度总是比内容多一个单位</p>
 <p>如果两个字符串字面值之间只有空格、缩进、换行符，则可以将它们看成一个字符串，例如</p>
-<div class="highlight">
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-string">&quot;string1&quot;</span> <span class="hljs-string">&quot;string2&quot;</span> 等价于 <span class="hljs-string">&quot;string1string2&quot;</span><br><br><span class="hljs-string">&quot;string1&quot;</span>    <span class="hljs-string">&quot;string2&quot;</span> 等价于 <span class="hljs-string">&quot;string1string2&quot;</span><br><br><span class="hljs-string">&quot;string1&quot;</span><br><span class="hljs-string">&quot;string2&quot;</span> 等价于 <span class="hljs-string">&quot;string1string2&quot;</span><br></code></pre></td></tr></table></figure>
-</div>
 <h3 id="转义字符">转义字符</h3>
 <blockquote>
 <p>字符(特别是不可打印的字符)的另一种表示形式</p>
@@ -424,13 +422,9 @@ long中能表示字面值的尺寸最小的那个</p>
 <h2 id="变量">2. 变量</h2>
 <h3 id="变量定义">2.1 变量定义</h3>
 <p>类型修饰符<code>&amp;</code>和<code>*</code>只从属于某个变量</p>
-<div class="highlight">
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> a, *b;    <span class="hljs-comment">//a的类型为int，b的类型为int指针</span><br></code></pre></td></tr></table></figure>
-</div>
 <p>初始化和赋值都使用<code>=</code>来完成，但是这是两个不同的概念。初始化的含义是在创建变量时使用<code>=</code>赋上一个初始值。赋值的含义是将已创建好的变量中的值擦除，赋上一个新的值。</p>
-<div class="highlight">
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1</span>;    <span class="hljs-comment">//初始化</span><br>i = <span class="hljs-number">2</span>;        <span class="hljs-comment">//赋值</span><br></code></pre></td></tr></table></figure>
-</div>
 <h3 id="列表初始化">2.1.1 列表初始化</h3>
 <p>使用<code>&#123;&#125;</code>来进行初始化的形式称为列表初始化</p>
 <p>对内置类型进行列表初始化时，如果初始化存在丢失信息(例如小数部分丢失)的风险，则编译器会报错</p>
@@ -445,9 +439,7 @@ long中能表示字面值的尺寸最小的那个</p>
 </ul></li>
 </ul>
 <p>类类型变量需要使用默认构造函数进行默认初始化。如果在需要进行默认初始化的时候无法提供默认构造函数，将会编译报错。当用户希望类类型变量进行默认初始化时，容易犯以下错误。</p>
-<div class="highlight">
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs text">People obj1();    //错误：obj1是个函数<br>People obj2;      //正确：obj2是个对象，被默认初始化<br></code></pre></td></tr></table></figure>
-</div>
 <p>有一点需要特别注意，当用户在块作用域中定义内置类型变量，但不给初始值时，该变量不会被初始化，因此变量的值是未定义的。而且编译器不一定会给出错误提示，有些编译器会提示错误，有些编译器则不会。所以<strong>建议手动初始化每一个内置类型的变量。</strong></p>
 <h3 id="值初始化">2.1.3 值初始化</h3>
 <ul>
@@ -465,9 +457,7 @@ long中能表示字面值的尺寸最小的那个</p>
 <p>一个变量只能被定义一次，但可以被声明多次</p>
 <p>声明的作用式让编译器直到可以在某个源文件中链接到定义，需要注意的是，绝对不会去头文件链接定义。</p>
 <p>声明一个变量需要使用<code>extern</code>关键字，且不能初始化例如</p>
-<div class="highlight">
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><code class="hljs text">//test1.h<br>extern int i;     //声明<br><br>//main.cpp<br>int i = 1;        //定义<br><br>//在需要访问全局变量i的地方include头文件test1.h即可<br></code></pre></td></tr></table></figure>
-</div>
 <p>一般约定用户自定义的标识符前缀不可以是<code>__</code>、<code>_</code>紧接大写字母，函数体外的标识符前缀不可以是<code>_</code></p>
 <p>变量在不同作用域中用不同的方式进行访问。一般一个<code>&#123;&#125;</code>确定一个作用域。最外层的作用域是全局作用域
 ，通过<code>::名字</code>来访问其中的内容。块作用域通过

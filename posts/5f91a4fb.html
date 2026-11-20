@@ -16,16 +16,16 @@
   <meta name="author" content="Rouder">
   <meta name="keywords" content="GameDev">
   
-    <meta name="description" content="1. 类型别名  123456&#x2F;&#x2F;使用typedef关键字定义类型别名typedef double dType, *dTypePtr;    &#x2F;&#x2F;dType是double的同义词，dTypePtr是double*的同义词typedef dType base, *basePtr;       &#x2F;&#x2F;base是double的同义词，basePtr是double*的同义词&#x2F;&#x2F;使用using关键字定义类型别">
+    <meta name="description" content="1. 类型别名 123456&#x2F;&#x2F;使用typedef关键字定义类型别名typedef double dType, *dTypePtr;    &#x2F;&#x2F;dType是double的同义词，dTypePtr是double*的同义词typedef dType base, *basePtr;       &#x2F;&#x2F;base是double的同义词，basePtr是double*的同义词&#x2F;&#x2F;使用using关键字定义类型别名">
 <meta property="og:type" content="article">
 <meta property="og:title" content="我所理解的C++ 02-3｜类型别名、auto 和 decltype">
 <meta property="og:url" content="https://roudersky.com/posts/5f91a4fb.html">
 <meta property="og:site_name" content="RouderSky">
-<meta property="og:description" content="1. 类型别名  123456&#x2F;&#x2F;使用typedef关键字定义类型别名typedef double dType, *dTypePtr;    &#x2F;&#x2F;dType是double的同义词，dTypePtr是double*的同义词typedef dType base, *basePtr;       &#x2F;&#x2F;base是double的同义词，basePtr是double*的同义词&#x2F;&#x2F;使用using关键字定义类型别">
+<meta property="og:description" content="1. 类型别名 123456&#x2F;&#x2F;使用typedef关键字定义类型别名typedef double dType, *dTypePtr;    &#x2F;&#x2F;dType是double的同义词，dTypePtr是double*的同义词typedef dType base, *basePtr;       &#x2F;&#x2F;base是double的同义词，basePtr是double*的同义词&#x2F;&#x2F;使用using关键字定义类型别名">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://picx.zhimg.com/v2-f9c6a4eea668aa83b33df998bc3f82a7_720w.jpg?source=172ae18b">
 <meta property="article:published_time" content="2022-03-19T10:36:20.000Z">
-<meta property="article:modified_time" content="2026-11-19T08:28:06.903Z">
+<meta property="article:modified_time" content="2026-11-20T07:24:08.850Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="C++">
 <meta name="twitter:card" content="summary_large_image">
@@ -334,7 +334,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2026年11月19日 下午
+                    本文最后更新于：2026年11月20日 下午
                   
                 
               </p>
@@ -343,28 +343,18 @@
               <div class="markdown-body" id="container">
                 
                 <h2 id="类型别名">1. 类型别名</h2>
-<div class="highlight">
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//使用typedef关键字定义类型别名</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-type">double</span> dType, *dTypePtr;    <span class="hljs-comment">//dType是double的同义词，dTypePtr是double*的同义词</span><br><span class="hljs-keyword">typedef</span> dType base, *basePtr;       <span class="hljs-comment">//base是double的同义词，basePtr是double*的同义词</span><br><br><span class="hljs-comment">//使用using关键字定义类型别名</span><br><span class="hljs-keyword">using</span> number = <span class="hljs-type">int</span>;                 <span class="hljs-comment">//number是int的同义词</span><br></code></pre></td></tr></table></figure>
-</div>
 <p>阅读含有类型别名的代码时不要直接将类型别名替换成原来的类型来阅读，只能将类型别名对应的原来的类型从理解上当作一个整体来看</p>
-<div class="highlight">
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">typedef</span> <span class="hljs-type">char</span> *pstring;<br><span class="hljs-type">const</span> pstring cstr = <span class="hljs-number">0</span>;     <span class="hljs-comment">//cstr类型是char * cosnt，是顶层const；不能理解成const char *这样的底层const</span><br><span class="hljs-type">const</span> pstring *ps;          <span class="hljs-comment">//ps类型是char *const *</span><br></code></pre></td></tr></table></figure>
-</div>
 <h2 id="auto关键字">2. auto关键字</h2>
 <p>使用auto关键字修饰变量可以让编译器通过初始值来推断出变量的类型。这也意味着使用auto关键字修饰变量时，必须初始化变量，例如<code>auto i = 1;</code>i的类型为int。</p>
 <p>auto关键字可以在一条语句中定义多个变量，但是所有变量的初始值的<strong>基本</strong>类型必须一致。</p>
-<div class="highlight">
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">auto</span> i = <span class="hljs-number">0</span>, *p = &amp;i;        <span class="hljs-comment">//正确：基本类型都是int</span><br><span class="hljs-keyword">auto</span> sz = <span class="hljs-number">0</span>, pi = <span class="hljs-number">3.15</span>;     <span class="hljs-comment">//错误：sz的基本类型是int，pi的基本类型是double</span><br></code></pre></td></tr></table></figure>
-</div>
 <h3 id="auto与const">auto与const</h3>
-<div class="highlight">
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = i;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;cr = ci;<br><br><span class="hljs-comment">//编译器推断出的类型不一定和初始值的类型一致，编译器会适当改变推断的类型使其更符合初始化规则</span><br><span class="hljs-keyword">auto</span> b = ci;        <span class="hljs-comment">//类型为int，忽略ci的顶层const</span><br><span class="hljs-keyword">auto</span> c = cr;        <span class="hljs-comment">//类型为int，cr是ci的一个别名，忽略ci的顶层const</span><br><br><span class="hljs-keyword">auto</span> d = &amp;i;        <span class="hljs-comment">//类型为int*</span><br><span class="hljs-keyword">auto</span> e = &amp;ci;       <span class="hljs-comment">//类型为const int *，保留底层const</span><br><span class="hljs-keyword">auto</span> *p2 = &amp;ci;     <span class="hljs-comment">//类型为const int *，保留底层const</span><br><br><span class="hljs-type">const</span> <span class="hljs-keyword">auto</span> f = ci;  <span class="hljs-comment">//类型为const int</span><br><br><span class="hljs-keyword">auto</span> &amp;g = ci;       <span class="hljs-comment">//类型为const int &amp;</span><br><span class="hljs-keyword">auto</span> &amp;h = <span class="hljs-number">42</span>;       <span class="hljs-comment">//错误</span><br><span class="hljs-type">const</span> <span class="hljs-keyword">auto</span> &amp;j = <span class="hljs-number">42</span>; <span class="hljs-comment">//类型为const int &amp;</span><br></code></pre></td></tr></table></figure>
-</div>
 <h2 id="decltype关键字">3. decltype关键字</h2>
 <p>使用decltype关键字可以让编译器分析并返回表达式运算结果的数值类型</p>
-<div class="highlight">
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">42</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = i;<br><span class="hljs-type">int</span> &amp;r = i;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;cj = ci;<br><br><span class="hljs-comment">//内容为变量时</span><br><span class="hljs-keyword">decltype</span>(i) o = <span class="hljs-number">0</span>;      <span class="hljs-comment">//int</span><br><span class="hljs-keyword">decltype</span>(ci) x = <span class="hljs-number">0</span>;     <span class="hljs-comment">//类型为const int</span><br><span class="hljs-keyword">decltype</span>(r) m = <span class="hljs-number">0</span>;      <span class="hljs-comment">//类型为int &amp;</span><br><span class="hljs-keyword">decltype</span>(cj) y = x;     <span class="hljs-comment">//类型为const int &amp;</span><br><span class="hljs-keyword">decltype</span>(cj) z;         <span class="hljs-comment">//类型为const int &amp;，但没有初始化，所以报错</span><br><br><span class="hljs-comment">//内容为表达式时</span><br><span class="hljs-type">int</span> *p = &amp;i;<br><span class="hljs-keyword">decltype</span>(r + <span class="hljs-number">0</span>) b;      <span class="hljs-comment">//类型为int</span><br><span class="hljs-keyword">decltype</span>(*p) c;         <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br><span class="hljs-keyword">decltype</span>((i)) d;        <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br>                        <span class="hljs-comment">//    decltype((&lt;变量&gt;))得到的类型永远都是引用</span><br><span class="hljs-keyword">decltype</span>(i=x) e;        <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br></code></pre></td></tr></table></figure>
-</div>
 
                 
               </div>
