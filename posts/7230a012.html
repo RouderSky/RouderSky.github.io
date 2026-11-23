@@ -23,13 +23,13 @@
 <meta property="og:site_name" content="RouderSky">
 <meta property="og:description" content="实现代码重用的一些方法（这里并不是全部）：  包含（组合、层次化）：类包含另一个类的对象 使用私有继承或保护继承  以上两种方法都用于实现has-a关系，常用第一种方法 多重继承可以使多个基类派生出一个新类，将基类的功能组合到一起  包含对象成员的类  公有继承实现is-a模型，没有增加新接口，可增加新实现 包含（组合、层次化）、私有继承、保护继承实现has-a模型，没有增加新接口，可增加新实现">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://picx.zhimg.com/v2-79002254faabc44f858a8186c5871d51_720w.jpg?source=172ae18b">
+<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-code-reuse-cover.webp">
 <meta property="article:published_time" content="2022-01-05T14:42:43.000Z">
-<meta property="article:modified_time" content="2026-11-20T07:24:08.851Z">
+<meta property="article:modified_time" content="2026-11-23T03:57:59.722Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="C++">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://picx.zhimg.com/v2-79002254faabc44f858a8186c5871d51_720w.jpg?source=172ae18b">
+<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-code-reuse-cover.webp">
   
   
   
@@ -214,7 +214,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('https://picx.zhimg.com/v2-79002254faabc44f858a8186c5871d51_720w.jpg?source=172ae18b') no-repeat center center; background-size: cover;">
+     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-code-reuse-cover.webp') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -334,7 +334,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2026年11月20日 下午
+                    本文最后更新于：2026年11月23日 中午
                   
                 
               </p>
@@ -455,13 +455,13 @@
 <li>以下面的继承关系图为例介绍MI：</li>
 </ul>
 <figure data-size="normal">
-<img src="https://pic1.zhimg.com/v2-22a4c6505aa20db56f8b9dcba04fb088_1440w.jpg" srcset="/img/loading.gif" lazyload class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="506" data-rawheight="384" data-original-token="v2-22a4c6505aa20db56f8b9dcba04fb088" data-original="https://pic1.zhimg.com/v2-22a4c6505aa20db56f8b9dcba04fb088_r.jpg" width="506" />
+<img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-code-reuse-1.webp" srcset="/img/loading.gif" lazyload class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="506" data-rawheight="384" data-original-token="v2-22a4c6505aa20db56f8b9dcba04fb088" data-original="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-code-reuse-1.webp" width="506" />
 </figure>
 <ul>
 <li>如果上图中所有的继承关系都是公有继承，那么SingingWaiter实例就会有两个Worker基类对象：</li>
 </ul>
 <figure data-size="normal">
-<img src="https://pic1.zhimg.com/v2-7dfb0e33944930094a982796917b9b92_1440w.jpg" srcset="/img/loading.gif" lazyload class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="473" data-rawheight="332" data-original-token="v2-7dfb0e33944930094a982796917b9b92" data-original="https://pic1.zhimg.com/v2-7dfb0e33944930094a982796917b9b92_r.jpg" width="473" />
+<img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-code-reuse-2.webp" srcset="/img/loading.gif" lazyload class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="473" data-rawheight="332" data-original-token="v2-7dfb0e33944930094a982796917b9b92" data-original="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-code-reuse-2.webp" width="473" />
 </figure>
 <h3 id="多重继承引入的问题">多重继承引入的问题</h3>
 <ul>
@@ -485,7 +485,7 @@
 <li>然后派生类(SingingWaiter)的基类对象情况就会变成这样：</li>
 </ul>
 <figure data-size="normal">
-<img src="https://pic4.zhimg.com/v2-5e1c2fbbb58b2c6bcdd5ab3116f0f3a5_1440w.jpg" srcset="/img/loading.gif" lazyload class="content_image" data-caption="" data-size="normal" data-rawwidth="375" data-rawheight="324" data-original-token="v2-5e1c2fbbb58b2c6bcdd5ab3116f0f3a5" width="375" />
+<img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-code-reuse-3.webp" srcset="/img/loading.gif" lazyload class="content_image" data-caption="" data-size="normal" data-rawwidth="375" data-rawheight="324" data-original-token="v2-5e1c2fbbb58b2c6bcdd5ab3116f0f3a5" width="375" />
 </figure>
 <h3
 id="引入虚基类的多重继承需要解决的问题">引入虚基类的多重继承需要解决的问题</h3>
@@ -601,7 +601,7 @@ id="引入虚基类的多重继承需要解决的问题">引入虚基类的多�
 <hr />
 <p>有不少同学问我怎么从零开始学习游戏开发，难以一一回复。这里整理了一份收集多年的优质学习资料，涵盖游戏开发的方方面面</p>
 <figure data-size="normal">
-<img src="https://pica.zhimg.com/v2-59ec5aea54c30df7a1171775b1527b4a_1440w.jpg" srcset="/img/loading.gif" lazyload class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="545" data-rawheight="149" data-original-token="v2-59ec5aea54c30df7a1171775b1527b4a" data-original="https://pica.zhimg.com/v2-59ec5aea54c30df7a1171775b1527b4a_r.jpg" width="545" />
+<img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-shared-1.webp" srcset="/img/loading.gif" lazyload class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="545" data-rawheight="149" data-original-token="v2-59ec5aea54c30df7a1171775b1527b4a" data-original="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-shared-1.webp" width="545" />
 </figure>
 <p>链接：<span class="invisible">https://</span><span
 class="visible">pan.baidu.com/s/1C-9TE9</span><span

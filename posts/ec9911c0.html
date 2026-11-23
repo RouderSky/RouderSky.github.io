@@ -23,15 +23,15 @@
 <meta property="og:site_name" content="RouderSky">
 <meta property="og:description" content="从 vector 的 size、capacity 和重新分配讲起，解释引用、指针和迭代器在扩容后为什么会失效。">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="https://roudersky.com/images/cpp/vector-invalidation-cover.png">
+<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/03-1-cover.webp">
 <meta property="article:published_time" content="2026-11-23T02:36:00.000Z">
-<meta property="article:modified_time" content="2026-11-23T03:17:54.080Z">
+<meta property="article:modified_time" content="2026-11-23T03:56:52.427Z">
 <meta property="article:author" content="Rouder">
 <meta property="article:tag" content="C++">
 <meta property="article:tag" content="STL">
 <meta property="article:tag" content="vector">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="https://roudersky.com/images/cpp/vector-invalidation-cover.png">
+<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/03-1-cover.webp">
   
   
   
@@ -216,7 +216,7 @@
   
 
 <div id="banner" class="banner" parallax=true
-     style="background: url('/images/cpp/vector-invalidation-cover.png') no-repeat center center; background-size: cover;">
+     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/03-1-cover.webp') no-repeat center center; background-size: cover;">
   <div class="full-bg-img">
     <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
       <div class="banner-text text-center fade-in-up">
@@ -336,7 +336,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2026年11月23日 上午
+                    本文最后更新于：2026年11月23日 中午
                   
                 
               </p>
@@ -356,7 +356,8 @@
 <p>这段代码最容易让人误判的地方在于：它可能每次都打印
 <code>10</code>。程序没有崩溃，输出也符合预期，并不代表代码正确。访问悬空引用本来就可能表现为“看起来正常”。</p>
 <figure>
-<img src="/images/cpp/vector-invalidation-cover.png" srcset="/img/loading.gif" lazyload
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/03-1-cover.webp" srcset="/img/loading.gif" lazyload
 alt="vector 扩容示意" />
 <figcaption aria-hidden="true">vector 扩容示意</figcaption>
 </figure>
