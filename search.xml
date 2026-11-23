@@ -393,33 +393,6 @@ id="如果有我想做或需要做的事情就去积极推动">如果有我想�
       </categories>
   </entry>
   <entry>
-    <title>Game Road 3.在工作期间快速提升需要有的态度</title>
-    <url>/posts/70d2a4f9.html</url>
-    <content><![CDATA[<h1
-id="凡事有交代件件有着落事事有回音">凡事有交代，件件有着落，事事有回音</h1>
-<p>我们做的每一件事情都应该闭环，有头有尾。有时候leader可能只是简单跟你说要去做某件事情，不要因为说得比较简单而不重视它。</p>
-<p>例如leader可能会发个截图过来跟你说：“这个地方性能有点问题，去跟进一下看看。”你可能会稍后找个时间来查一下，确定问题之后就开始修复，提交代码的时候也没有给leader去review一下。</p>
-<p>过了很长一段时间之后，leader纳闷怎么这么就都没有回应，是不是哪里卡住了不知道怎么修
-。于是主动来问你性能问题跟进得怎么样了。这时你有可能忘了修复的具体细节，或者说明具体修复细节之后，leader看出了这个修复方案存在问题。这个时候就会给leader留下一种不靠谱的心里印象。</p>
-<p>老实说，要做到这一点挺不容易的。因为游戏行业的研发节奏本身就很快，平时开发压力很大，要顾上所有的事情不是一件简单的事情。但是无论无何，leader交代下来的事情要比其他事情更积极一点，单单是做到这一点，你的升迁速度就已经快很多了。</p>
-<h1
-id="前三年是成长最快的三年工作时间以外也要多花时间提升自己">前三年是成长最快的三年，工作时间以外也要多花时间提升自己</h1>
-<p>新人刚刚来到职场需要学习的东西还很多，有些技能以前在学校读书的时候没有意识到它的重要性。在职场工作的过程中会慢慢需要用到一些比较重要的技能，当发现自己这一块技能水平存在不足时，就给自己规划好时间去学习提升。</p>
-<p>工作时间以外可以花点时间去学习，可以利用早期的时间、午休时间、下班后的时间。当然不是要将这些时间全部用上，能充分利用其中一个时间段就已经很不错了。把自己逼得太紧，效果反而不太理想，娱乐时间还是要有一点的。只会学习不玩耍,聪明孩子也变傻。</p>
-<p>这样坚持几年时间下来会比不做这些事情会累很多，但是我觉得还是值得的。可能有人会说：“这跟加班有什么区别？工贼”我觉得差别很是很大的，加班的产出是给公司的，而经常时对自己成长提升不大的内容。但是自己学习提升得到的东西都是自己的，可以跟着你一辈子（不要说时间长了把它搞忘了=
-=）。</p>
-<p>相信我，只要能坚持住，你的成长速度是飞快的。</p>
-<h1
-id="不能只做一个杂家要先做一个专家">不能只做一个杂家，要先做一个专家</h1>
-<p>刚刚进入到职场面对浩如烟海的技术会顿感迷茫，不要想着一下子抓住所有的技术。我们应该确定一个方向，这个确定过程可以是主动的，也可以是被动的。主动选自己喜欢的，被动选工作需要的。</p>
-<p>锁定了方向之后，我们要深入学习这个方向的内容，要从原理上去了解做过的每一个东西，而不仅仅是满足于完成需求。同时也可以去学习其他技术点，随着主攻方向学习的深入，你可能就会发现其实很多东西是相通的。慢慢地，你的技能树就会形成一超多强的局势。这时就成为了一个T型人才。</p>
-<p>如果有一个确定的方向，在面临岔路口的时候就不会茫然，你会很坚定地选择一个方向。这同样节省了很多时间。因为诱惑还是很多的，每次做选择都纠结很久的话会耗费很多心力，每个人每天的心力都是有限的，心力耗尽之后做事效率会下降很多。</p>
-]]></content>
-      <categories>
-        <category>Game Road</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Game Road 1.写给准备进入职场的游戏人</title>
     <url>/posts/7d2f1a5e.html</url>
     <content><![CDATA[<p>​
@@ -452,6 +425,33 @@ id="不能只做一个杂家要先做一个专家">不能只做一个杂家，�
 <p>有些工作室有着良好的记录文化，这些工作室的策划案整体质量比那些没有良好记录文化的工作要高。除了策划案质量的提升，还会带来看不见的价值。比如研发做好记录可以提升自己的研发效率、沟通效率、成长效率，这些效能的提升不容易让人察觉到是做记录带来的。</p>
 <p>我觉得良好的记录工具是很重要的，舒适的记录环境可以让自己更爱记录。比较通用的记录工具有协同办公软件，例如某书。对于工程师来说，markdown使用起来还是很舒服的，我一般会用vscode+markdown。这些都不喜欢的话，再不济都要用notepad++，怎么都不要用windows自带的记事本来记录。不知道为什么，记事本一打开就犯困。</p>
 <p>很多东西都可以记，比如工作流程的改进、认知的提升、技术点的突破、人生感悟、未来规划。我是那种脑子里一不小心就蹦出一个灵感的人，通过随手记录的方式可以捕捉到这些灵感。</p>
+]]></content>
+      <categories>
+        <category>Game Road</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Game Road 3.在工作期间快速提升需要有的态度</title>
+    <url>/posts/70d2a4f9.html</url>
+    <content><![CDATA[<h1
+id="凡事有交代件件有着落事事有回音">凡事有交代，件件有着落，事事有回音</h1>
+<p>我们做的每一件事情都应该闭环，有头有尾。有时候leader可能只是简单跟你说要去做某件事情，不要因为说得比较简单而不重视它。</p>
+<p>例如leader可能会发个截图过来跟你说：“这个地方性能有点问题，去跟进一下看看。”你可能会稍后找个时间来查一下，确定问题之后就开始修复，提交代码的时候也没有给leader去review一下。</p>
+<p>过了很长一段时间之后，leader纳闷怎么这么就都没有回应，是不是哪里卡住了不知道怎么修
+。于是主动来问你性能问题跟进得怎么样了。这时你有可能忘了修复的具体细节，或者说明具体修复细节之后，leader看出了这个修复方案存在问题。这个时候就会给leader留下一种不靠谱的心里印象。</p>
+<p>老实说，要做到这一点挺不容易的。因为游戏行业的研发节奏本身就很快，平时开发压力很大，要顾上所有的事情不是一件简单的事情。但是无论无何，leader交代下来的事情要比其他事情更积极一点，单单是做到这一点，你的升迁速度就已经快很多了。</p>
+<h1
+id="前三年是成长最快的三年工作时间以外也要多花时间提升自己">前三年是成长最快的三年，工作时间以外也要多花时间提升自己</h1>
+<p>新人刚刚来到职场需要学习的东西还很多，有些技能以前在学校读书的时候没有意识到它的重要性。在职场工作的过程中会慢慢需要用到一些比较重要的技能，当发现自己这一块技能水平存在不足时，就给自己规划好时间去学习提升。</p>
+<p>工作时间以外可以花点时间去学习，可以利用早期的时间、午休时间、下班后的时间。当然不是要将这些时间全部用上，能充分利用其中一个时间段就已经很不错了。把自己逼得太紧，效果反而不太理想，娱乐时间还是要有一点的。只会学习不玩耍,聪明孩子也变傻。</p>
+<p>这样坚持几年时间下来会比不做这些事情会累很多，但是我觉得还是值得的。可能有人会说：“这跟加班有什么区别？工贼”我觉得差别很是很大的，加班的产出是给公司的，而经常时对自己成长提升不大的内容。但是自己学习提升得到的东西都是自己的，可以跟着你一辈子（不要说时间长了把它搞忘了=
+=）。</p>
+<p>相信我，只要能坚持住，你的成长速度是飞快的。</p>
+<h1
+id="不能只做一个杂家要先做一个专家">不能只做一个杂家，要先做一个专家</h1>
+<p>刚刚进入到职场面对浩如烟海的技术会顿感迷茫，不要想着一下子抓住所有的技术。我们应该确定一个方向，这个确定过程可以是主动的，也可以是被动的。主动选自己喜欢的，被动选工作需要的。</p>
+<p>锁定了方向之后，我们要深入学习这个方向的内容，要从原理上去了解做过的每一个东西，而不仅仅是满足于完成需求。同时也可以去学习其他技术点，随着主攻方向学习的深入，你可能就会发现其实很多东西是相通的。慢慢地，你的技能树就会形成一超多强的局势。这时就成为了一个T型人才。</p>
+<p>如果有一个确定的方向，在面临岔路口的时候就不会茫然，你会很坚定地选择一个方向。这同样节省了很多时间。因为诱惑还是很多的，每次做选择都纠结很久的话会耗费很多心力，每个人每天的心力都是有限的，心力耗尽之后做事效率会下降很多。</p>
 ]]></content>
       <categories>
         <category>Game Road</category>
@@ -634,63 +634,6 @@ style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
 ]]></content>
   </entry>
   <entry>
-    <title>我所理解的C++ 02-3｜类型别名、auto 和 decltype</title>
-    <url>/posts/5f91a4fb.html</url>
-    <content><![CDATA[<h2 id="类型别名">1. 类型别名</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//使用typedef关键字定义类型别名</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-type">double</span> dType, *dTypePtr;    <span class="hljs-comment">//dType是double的同义词，dTypePtr是double*的同义词</span><br><span class="hljs-keyword">typedef</span> dType base, *basePtr;       <span class="hljs-comment">//base是double的同义词，basePtr是double*的同义词</span><br><br><span class="hljs-comment">//使用using关键字定义类型别名</span><br><span class="hljs-keyword">using</span> number = <span class="hljs-type">int</span>;                 <span class="hljs-comment">//number是int的同义词</span><br></code></pre></td></tr></table></figure>
-<p>阅读含有类型别名的代码时不要直接将类型别名替换成原来的类型来阅读，只能将类型别名对应的原来的类型从理解上当作一个整体来看</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">typedef</span> <span class="hljs-type">char</span> *pstring;<br><span class="hljs-type">const</span> pstring cstr = <span class="hljs-number">0</span>;     <span class="hljs-comment">//cstr类型是char * cosnt，是顶层const；不能理解成const char *这样的底层const</span><br><span class="hljs-type">const</span> pstring *ps;          <span class="hljs-comment">//ps类型是char *const *</span><br></code></pre></td></tr></table></figure>
-<h2 id="auto关键字">2. auto关键字</h2>
-<p>使用auto关键字修饰变量可以让编译器通过初始值来推断出变量的类型。这也意味着使用auto关键字修饰变量时，必须初始化变量，例如<code>auto i = 1;</code>i的类型为int。</p>
-<p>auto关键字可以在一条语句中定义多个变量，但是所有变量的初始值的<strong>基本</strong>类型必须一致。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">auto</span> i = <span class="hljs-number">0</span>, *p = &amp;i;        <span class="hljs-comment">//正确：基本类型都是int</span><br><span class="hljs-keyword">auto</span> sz = <span class="hljs-number">0</span>, pi = <span class="hljs-number">3.15</span>;     <span class="hljs-comment">//错误：sz的基本类型是int，pi的基本类型是double</span><br></code></pre></td></tr></table></figure>
-<h3 id="auto与const">auto与const</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = i;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;cr = ci;<br><br><span class="hljs-comment">//编译器推断出的类型不一定和初始值的类型一致，编译器会适当改变推断的类型使其更符合初始化规则</span><br><span class="hljs-keyword">auto</span> b = ci;        <span class="hljs-comment">//类型为int，忽略ci的顶层const</span><br><span class="hljs-keyword">auto</span> c = cr;        <span class="hljs-comment">//类型为int，cr是ci的一个别名，忽略ci的顶层const</span><br><br><span class="hljs-keyword">auto</span> d = &amp;i;        <span class="hljs-comment">//类型为int*</span><br><span class="hljs-keyword">auto</span> e = &amp;ci;       <span class="hljs-comment">//类型为const int *，保留底层const</span><br><span class="hljs-keyword">auto</span> *p2 = &amp;ci;     <span class="hljs-comment">//类型为const int *，保留底层const</span><br><br><span class="hljs-type">const</span> <span class="hljs-keyword">auto</span> f = ci;  <span class="hljs-comment">//类型为const int</span><br><br><span class="hljs-keyword">auto</span> &amp;g = ci;       <span class="hljs-comment">//类型为const int &amp;</span><br><span class="hljs-keyword">auto</span> &amp;h = <span class="hljs-number">42</span>;       <span class="hljs-comment">//错误</span><br><span class="hljs-type">const</span> <span class="hljs-keyword">auto</span> &amp;j = <span class="hljs-number">42</span>; <span class="hljs-comment">//类型为const int &amp;</span><br></code></pre></td></tr></table></figure>
-<h2 id="decltype关键字">3. decltype关键字</h2>
-<p>使用decltype关键字可以让编译器分析并返回表达式运算结果的数值类型</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">42</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = i;<br><span class="hljs-type">int</span> &amp;r = i;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;cj = ci;<br><br><span class="hljs-comment">//内容为变量时</span><br><span class="hljs-keyword">decltype</span>(i) o = <span class="hljs-number">0</span>;      <span class="hljs-comment">//int</span><br><span class="hljs-keyword">decltype</span>(ci) x = <span class="hljs-number">0</span>;     <span class="hljs-comment">//类型为const int</span><br><span class="hljs-keyword">decltype</span>(r) m = <span class="hljs-number">0</span>;      <span class="hljs-comment">//类型为int &amp;</span><br><span class="hljs-keyword">decltype</span>(cj) y = x;     <span class="hljs-comment">//类型为const int &amp;</span><br><span class="hljs-keyword">decltype</span>(cj) z;         <span class="hljs-comment">//类型为const int &amp;，但没有初始化，所以报错</span><br><br><span class="hljs-comment">//内容为表达式时</span><br><span class="hljs-type">int</span> *p = &amp;i;<br><span class="hljs-keyword">decltype</span>(r + <span class="hljs-number">0</span>) b;      <span class="hljs-comment">//类型为int</span><br><span class="hljs-keyword">decltype</span>(*p) c;         <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br><span class="hljs-keyword">decltype</span>((i)) d;        <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br>                        <span class="hljs-comment">//    decltype((&lt;变量&gt;))得到的类型永远都是引用</span><br><span class="hljs-keyword">decltype</span>(i=x) e;        <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我所理解的C++ 02-2｜const 限定符</title>
-    <url>/posts/897859dc.html</url>
-    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/481055995" class="internal" data-draft-node="block" data-draft-type="link-card" data-draft-title="关于该系列文章" data-draft-cover="https://picx.zhimg.com/v2-3a5e160d8218fea55e57f71f304d50da.jpg?source=7e7ef6e2&amp;needBackground=1">关于该系列文章</a></p>
-<h2 id="const限定符">const限定符</h2>
-<p>定义变量时加上const可以使变量变成const变量。这类变量只能执行不改变其内容的操作，且必须初始化。如果初始值是常量表达式，编译时会把用到该变量的地方都替换成对应的值</p>
-<h2 id="const引用">const引用</h2>
-<p>const引用可以绑定到常量变量、非常量变量、临时变量，例如</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = <span class="hljs-number">2048</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rci = ci;  <span class="hljs-comment">//绑定到常量变量</span><br><br><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;ri = i;    <span class="hljs-comment">//绑定到非常量变量</span><br><br><span class="hljs-type">double</span> d = <span class="hljs-number">3.14</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rcd = d;   <span class="hljs-comment">//绑定到临时变量；因为d隐式转换成int时产生了临时变量</span><br></code></pre></td></tr></table></figure>
-<p>不能通过const引用来修改它所绑定的对象的内容</p>
-<h2 id="const与指针">const与指针</h2>
-<p>只有指针会分为底层const和顶层const，但有时也会把<code>const int i = 1;</code>看成是顶层const</p>
-<h3 id="指向常量的指针">指向常量的指针</h3>
-<p>指向常量的指针又称为底层const指针，指针的值可以改变，但无法通过该指针修改它所指向的变量的值。指向常量的指针可以指向常量变量、非常量变量。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> *cptri1 = &amp;i;    <span class="hljs-comment">//底层const</span><br><span class="hljs-type">int</span> <span class="hljs-type">const</span> *cptri2 = &amp;i;    <span class="hljs-comment">//底层const</span><br></code></pre></td></tr></table></figure>
-<h3 id="常量指针">常量指针</h3>
-<p>常量指针又称为顶层const指针，指针的值不可以改变，可以通过该指针修改它所指向的变量的值。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">int</span> *<span class="hljs-type">const</span> cptri = &amp;i;<br></code></pre></td></tr></table></figure>
-<h2 id="常量表达式和constexpr">常量表达式和constexpr</h2>
-<p>常量表达式是编译时就能得到计算结果的表达式。用常量表达式初始化的const变量也是常量表达式</p>
-<p>定义变量时在类型前加上<code>constexpr</code>关键字之后，编译器会去检查初始值是不是一个常量表达式
-，不是则编译报错。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> n = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> a[n];        <span class="hljs-comment">//错误</span><br><br><span class="hljs-keyword">constexpr</span> <span class="hljs-type">int</span> m = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> b[m];        <span class="hljs-comment">//正确</span><br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> l = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> c[l];        <span class="hljs-comment">//正确</span><br><br></code></pre></td></tr></table></figure>
-<p>constexpr关键字会使变量变成const类型，如果变量是指针变量，则会变成顶层const指针，且初始值必须是0或nullptr或存储与某个固定地址中的变量。函数体内的变量一般不存放在固定地址中。函数体外的变量一般存放在固定地址中。</p>
-<p>constexpr关键字只能修饰字面值类型。字面值类型包括算术类型、引用、指针、字面值常量类。</p>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我所理解的C++ 02-1｜C++的基本内置类型和变量</title>
     <url>/posts/2eedda69.html</url>
     <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/481055995" class="internal" data-draft-node="block" data-draft-type="link-card" data-draft-title="关于该系列文章" data-draft-cover="https://picx.zhimg.com/v2-3a5e160d8218fea55e57f71f304d50da.jpg?source=7e7ef6e2&amp;needBackground=1">关于该系列文章</a></p>
@@ -817,6 +760,223 @@ long中能表示字面值的尺寸最小的那个</p>
 <p>所谓的复合类型指的是基于其他类型的类型，简单点说就是引用类型和指针类型</p>
 <p>一般我们提到的引用指的是左值引用。左值引用其实只是一个已存在变量的另一个名字，我们说当前这个左值引用绑定了一个已存在变量。一个左值引用只能在定义时被绑定，之后再也无法改变绑定的目标变量，所以在定义左值引用变量时必须初始化。左值引用只能绑定到变量上，无法绑定到字面值或表达式的计算结果上</p>
 <p>指针变量存储着指向特定类型变量的地址。指针不必在定义时初始化，所以可以为空。可以通过nullptr、NULL显式地初始化或赋值为空指针。nullptr是一种特殊类型的字面值。NULL是一个预处理变量，其实就是字面值0。注意，虽然地址可以看成一个整型数字，但是不能给指针赋上整型值，只能赋上通过取址赋得到的值。特别建议对所有的指针进行初始化，访问未初始化的指针会对内存中的造成恶性破坏。</p>
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我所理解的C++ 02-2｜const 限定符</title>
+    <url>/posts/897859dc.html</url>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/481055995" class="internal" data-draft-node="block" data-draft-type="link-card" data-draft-title="关于该系列文章" data-draft-cover="https://picx.zhimg.com/v2-3a5e160d8218fea55e57f71f304d50da.jpg?source=7e7ef6e2&amp;needBackground=1">关于该系列文章</a></p>
+<h2 id="const限定符">const限定符</h2>
+<p>定义变量时加上const可以使变量变成const变量。这类变量只能执行不改变其内容的操作，且必须初始化。如果初始值是常量表达式，编译时会把用到该变量的地方都替换成对应的值</p>
+<h2 id="const引用">const引用</h2>
+<p>const引用可以绑定到常量变量、非常量变量、临时变量，例如</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = <span class="hljs-number">2048</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rci = ci;  <span class="hljs-comment">//绑定到常量变量</span><br><br><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;ri = i;    <span class="hljs-comment">//绑定到非常量变量</span><br><br><span class="hljs-type">double</span> d = <span class="hljs-number">3.14</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rcd = d;   <span class="hljs-comment">//绑定到临时变量；因为d隐式转换成int时产生了临时变量</span><br></code></pre></td></tr></table></figure>
+<p>不能通过const引用来修改它所绑定的对象的内容</p>
+<h2 id="const与指针">const与指针</h2>
+<p>只有指针会分为底层const和顶层const，但有时也会把<code>const int i = 1;</code>看成是顶层const</p>
+<h3 id="指向常量的指针">指向常量的指针</h3>
+<p>指向常量的指针又称为底层const指针，指针的值可以改变，但无法通过该指针修改它所指向的变量的值。指向常量的指针可以指向常量变量、非常量变量。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> *cptri1 = &amp;i;    <span class="hljs-comment">//底层const</span><br><span class="hljs-type">int</span> <span class="hljs-type">const</span> *cptri2 = &amp;i;    <span class="hljs-comment">//底层const</span><br></code></pre></td></tr></table></figure>
+<h3 id="常量指针">常量指针</h3>
+<p>常量指针又称为顶层const指针，指针的值不可以改变，可以通过该指针修改它所指向的变量的值。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">int</span> *<span class="hljs-type">const</span> cptri = &amp;i;<br></code></pre></td></tr></table></figure>
+<h2 id="常量表达式和constexpr">常量表达式和constexpr</h2>
+<p>常量表达式是编译时就能得到计算结果的表达式。用常量表达式初始化的const变量也是常量表达式</p>
+<p>定义变量时在类型前加上<code>constexpr</code>关键字之后，编译器会去检查初始值是不是一个常量表达式
+，不是则编译报错。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> n = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> a[n];        <span class="hljs-comment">//错误</span><br><br><span class="hljs-keyword">constexpr</span> <span class="hljs-type">int</span> m = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> b[m];        <span class="hljs-comment">//正确</span><br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> l = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> c[l];        <span class="hljs-comment">//正确</span><br><br></code></pre></td></tr></table></figure>
+<p>constexpr关键字会使变量变成const类型，如果变量是指针变量，则会变成顶层const指针，且初始值必须是0或nullptr或存储与某个固定地址中的变量。函数体内的变量一般不存放在固定地址中。函数体外的变量一般存放在固定地址中。</p>
+<p>constexpr关键字只能修饰字面值类型。字面值类型包括算术类型、引用、指针、字面值常量类。</p>
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我所理解的C++ 03-2｜std::string 与 C 风格字符串：比较、转换和生命周期</title>
+    <url>/posts/9a6f4c2e.html</url>
+    <content><![CDATA[<p>先看一个很像“字符串比较”的例子：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;string&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">const</span> <span class="hljs-type">char</span>* left = <span class="hljs-string">&quot;hello&quot;</span>;<br>    <span class="hljs-type">const</span> <span class="hljs-type">char</span>* right = <span class="hljs-string">&quot;hello&quot;</span>;<br><br>    std::string first = <span class="hljs-string">&quot;hello&quot;</span>;<br>    std::string second = <span class="hljs-string">&quot;hello&quot;</span>;<br><br>    std::cout &lt;&lt; (left == right) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>    std::cout &lt;&lt; (first == second) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>后一行比较的是两个 <code>std::string</code> 的内容，结果是确定的
+<code>true</code>。第一行比较的却是两个指针的值，编译器可以选择让相同的字符串字面量共用存储，也可以不这么做。因此输出
+<code>1</code> 不能证明写法正确，输出 <code>0</code>
+也不是“字符串内容不相等”。</p>
+<p>C
+风格字符串最容易被误会的地方，是它看起来像一种类型，实际上并不是。它是一套约定：从某个
+<code>char*</code> 或 <code>const char*</code>
+开始，一直读取到第一个空字符 <code>'\0'</code>
+为止。<code>std::string</code>
+则是一个管理自身字符缓冲区、同时保存长度的标准库类型。</p>
+<p>两者可以互相配合，但不能把同一套操作习惯直接套过去。</p>
+<h2 id="指针相等不等于内容相等">指针相等不等于内容相等</h2>
+<p>对字符数组名或字符串字面量使用 <code>==</code>
+时，数组通常会转换成指向首元素的指针：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;cstring&gt;</span></span><br><br><span class="hljs-type">const</span> <span class="hljs-type">char</span> left[] = <span class="hljs-string">&quot;hello&quot;</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">char</span> right[] = <span class="hljs-string">&quot;hello&quot;</span>;<br><br><span class="hljs-type">bool</span> pointer_equal = (left == right);        <span class="hljs-comment">// 比较地址</span><br><span class="hljs-type">bool</span> content_equal = (std::<span class="hljs-built_in">strcmp</span>(left, right) == <span class="hljs-number">0</span>);<br><br>std::cout &lt;&lt; pointer_equal &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;          <span class="hljs-comment">// false</span><br>std::cout &lt;&lt; content_equal &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;          <span class="hljs-comment">// true</span><br></code></pre></td></tr></table></figure>
+<p><code>left</code> 和 <code>right</code>
+是两个不同的数组对象，因此地址不同。若把它们直接放进
+<code>==</code>，比较的是地址。<code>std::strcmp</code>
+会从两个地址开始逐字符读取，直到发现不同字符或同时遇到空字符，所以返回
+<code>0</code> 才表示内容相同。</p>
+<p><code>strcmp</code> 的返回值不只用于判断相等：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span> (std::<span class="hljs-built_in">strcmp</span>(left, right) &lt; <span class="hljs-number">0</span>) &#123;<br>    std::cout &lt;&lt; <span class="hljs-string">&quot;left 排在 right 前面\n&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>负值表示左侧较小，正值表示左侧较大。不要把它返回的具体整数当成稳定协议，标准只规定符号，没有规定必须返回
+<code>-1</code> 或 <code>1</code>。</p>
+<p>如果数据本来就是 <code>std::string</code>，直接使用
+<code>==</code>、<code>&lt;</code> 和 <code>+</code> 即可：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string first = <span class="hljs-string">&quot;hello&quot;</span>;<br>std::string second = <span class="hljs-string">&quot;hello&quot;</span>;<br>std::string joined = first + <span class="hljs-string">&quot; &quot;</span> + second;<br></code></pre></td></tr></table></figure>
+<p>这些运算符比较的是字符串内容，不是对象地址。</p>
+<h2 id="c-风格字符串必须真的以空字符结束">C
+风格字符串必须真的以空字符结束</h2>
+<p>下面两个数组都保存了字符 <code>H</code> 和
+<code>i</code>，但只有一个满足 C 风格字符串的约定：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">char</span> with_null[] = &#123;<span class="hljs-string">&#x27;H&#x27;</span>, <span class="hljs-string">&#x27;i&#x27;</span>, <span class="hljs-string">&#x27;\0&#x27;</span>&#125;;<br><span class="hljs-type">char</span> without_null[] = &#123;<span class="hljs-string">&#x27;H&#x27;</span>, <span class="hljs-string">&#x27;i&#x27;</span>&#125;;<br><br>std::cout &lt;&lt; with_null &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br><span class="hljs-comment">// std::cout &lt;&lt; without_null &lt;&lt; &#x27;\n&#x27;; // 错误：读取会越过数组边界</span><br></code></pre></td></tr></table></figure>
+<p>标准库中接受 <code>const char*</code> 的函数，例如
+<code>strlen</code>、<code>strcpy</code>、<code>strcmp</code>
+和流输出，通常都不知道数组的真实长度。它们只能寻找空字符。若数组中不存在
+<code>'\0'</code>，读取就会越过对象边界，行为未定义。</p>
+<p>字符串字面量会自动附带空字符：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">char</span> text[] = <span class="hljs-string">&quot;Hi&quot;</span>;<br><br><span class="hljs-built_in">static_assert</span>(<span class="hljs-built_in">sizeof</span>(text) == <span class="hljs-number">3</span>);<br><span class="hljs-comment">// &#x27;H&#x27;、&#x27;i&#x27;、&#x27;\0&#x27;</span><br></code></pre></td></tr></table></figure>
+<p>但“有 <code>'\0'</code>”与“肉眼能看到几个字符”不是一回事，和
+<code>std::string</code> 的长度也不是一回事：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std::string_literals;<br><br>std::string text = <span class="hljs-string">&quot;Hello\0World&quot;</span>s;<br><br>std::cout &lt;&lt; text.<span class="hljs-built_in">size</span>() &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;                 <span class="hljs-comment">// 11</span><br>std::cout &lt;&lt; std::<span class="hljs-built_in">strlen</span>(text.<span class="hljs-built_in">c_str</span>()) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;   <span class="hljs-comment">// 5</span><br></code></pre></td></tr></table></figure>
+<p>这个 <code>std::string</code> 明确保存了 11
+个字符，其中包括中间的空字符。<code>c_str()</code>
+会提供末尾空字符，方便旧接口使用，但 <code>strlen</code>
+只数到第一个空字符，所以得到 5。</p>
+<p>这并不是 <code>std::string</code> 的错误，而是两种数据模型不同：</p>
+<ul>
+<li><code>std::string</code>
+同时知道起始位置和长度，可以保存嵌入的空字符；</li>
+<li>C 风格字符串只有起始位置，长度由第一个空字符间接决定。</li>
+</ul>
+<p>如果数据可能包含 <code>'\0'</code>，就不要用 <code>strlen</code>
+推测长度，也不要把它交给只接受 C
+风格字符串的接口。文件、网络和序列化代码中尤其容易遇到这种数据。</p>
+<h2 id="sizestrlen-和无符号类型">size()、strlen() 和无符号类型</h2>
+<p>对普通文本，<code>std::string::size()</code> 与
+<code>strlen(s.c_str())</code> 往往相等，但二者含义不同：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string value = <span class="hljs-string">&quot;abc&quot;</span>;<br><br>std::cout &lt;&lt; value.<span class="hljs-built_in">size</span>() &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;                  <span class="hljs-comment">// 3</span><br>std::cout &lt;&lt; std::<span class="hljs-built_in">strlen</span>(value.<span class="hljs-built_in">c_str</span>()) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;    <span class="hljs-comment">// 3</span><br></code></pre></td></tr></table></figure>
+<p><code>size()</code> 直接读取 <code>std::string</code>
+保存的长度，不扫描字符。<code>strlen</code>
+要沿指针向后寻找空字符，复杂度是线性的，而且前提是指针确实指向合法的 C
+风格字符串。</p>
+<p><code>size()</code> 返回
+<code>std::string::size_type</code>，它是无符号类型。把它与有符号整数混用时要小心：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> index = <span class="hljs-number">-1</span>;<br>std::string value = <span class="hljs-string">&quot;abc&quot;</span>;<br><br><span class="hljs-keyword">if</span> (index &lt; value.<span class="hljs-built_in">size</span>()) &#123;<br>    <span class="hljs-comment">// 条件很可能为 false</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>比较时，<code>-1</code>
+会被转换成很大的无符号值，于是“负数小于长度”这个直觉不再成立。循环下标优先使用
+<code>std::size_t</code> 或
+<code>std::string::size_type</code>，并在执行下标访问前检查范围。</p>
+<p>需要访问字符时，还可以直接用范围 <code>for</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">char</span> ch : value) &#123;<br>    std::cout &lt;&lt; ch;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>如果要把字符改成大写，循环变量必须使用引用：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">char</span>&amp; ch : value) &#123;<br>    ch = <span class="hljs-built_in">static_cast</span>&lt;<span class="hljs-type">char</span>&gt;(<br>        std::<span class="hljs-built_in">toupper</span>(<span class="hljs-built_in">static_cast</span>&lt;<span class="hljs-type">unsigned</span> <span class="hljs-type">char</span>&gt;(ch)));<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这里先把字符转换为 <code>unsigned char</code>，再交给
+<code>std::toupper</code>。对于负值字符，直接把 <code>char</code>
+传给某些 C 字符分类函数可能导致未定义行为。</p>
+<h2 id="c_str-是借用不是所有权转移">c_str() 是借用，不是所有权转移</h2>
+<p>旧接口经常要求 <code>const char*</code>，<code>c_str()</code>
+用来提供这个视图：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">legacy_print</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">char</span>* text)</span></span>;<br><br>std::string message = <span class="hljs-string">&quot;ready&quot;</span>;<br><span class="hljs-built_in">legacy_print</span>(message.<span class="hljs-built_in">c_str</span>());<br></code></pre></td></tr></table></figure>
+<p><code>c_str()</code> 返回的指针由原 <code>std::string</code>
+管理。调用者没有获得一块新的、可以长期保管的字符串，只是在借用原对象当前的缓冲区。</p>
+<p>下面这种写法会留下悬空指针：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">const</span> <span class="hljs-type">char</span>* <span class="hljs-title">make_message</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    std::string message = <span class="hljs-string">&quot;temporary&quot;</span>;<br>    <span class="hljs-keyword">return</span> message.<span class="hljs-built_in">c_str</span>();<br>&#125;<br><br><span class="hljs-type">const</span> <span class="hljs-type">char</span>* text = <span class="hljs-built_in">make_message</span>();<br><span class="hljs-comment">// text 指向已经销毁的局部 string</span><br></code></pre></td></tr></table></figure>
+<p>函数返回时，局部 <code>std::string</code>
+结束生命周期，它管理的缓冲区也随之失效。即使函数返回值恰好还能读到旧内容，也没有任何标准保证。</p>
+<p>另一个常见问题是修改原字符串后继续使用旧指针：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string value = <span class="hljs-string">&quot;hello&quot;</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">char</span>* view = value.<span class="hljs-built_in">c_str</span>();<br><br>value.<span class="hljs-built_in">append</span>(<span class="hljs-number">100</span>, <span class="hljs-string">&#x27;!&#x27;</span>);<br><br>std::cout &lt;&lt; view; <span class="hljs-comment">// 不能再依赖</span><br></code></pre></td></tr></table></figure>
+<p>追加内容可能触发重新分配，旧缓冲区随即失效。是否真的重新分配取决于当前容量和标准库实现，所以“这次还能打印”不能证明代码安全。</p>
+<p>一个简单规则是：只在调用旧接口的短作用域内使用
+<code>c_str()</code>，不要在多次修改 <code>std::string</code>
+之后继续持有它。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string value = <span class="hljs-string">&quot;hello&quot;</span>;<br>value.<span class="hljs-built_in">append</span>(<span class="hljs-number">100</span>, <span class="hljs-string">&#x27;!&#x27;</span>);<br><br><span class="hljs-built_in">legacy_print</span>(value.<span class="hljs-built_in">c_str</span>()); <span class="hljs-comment">// 修改完成后重新取得</span><br></code></pre></td></tr></table></figure>
+<h2 id="返回-const-char-时要明确所有权">返回 const char*
+时要明确所有权</h2>
+<p>如果函数需要返回字符串，优先返回 <code>std::string</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function">std::string <span class="hljs-title">build_name</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;player&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>返回 <code>const char*</code> 时，调用者必须知道这块内存活多久：</p>
+<ul>
+<li>指向字符串字面量的指针具有静态存储期，可以长期使用；</li>
+<li>指向某个 <code>std::string</code>
+内部缓冲区的指针只在满足条件时有效；</li>
+<li>指向局部字符数组的指针在函数返回后失效；</li>
+<li>指向动态分配数组的指针还涉及由谁释放。</li>
+</ul>
+<p>接口只写
+<code>const char*</code>，并没有表达这些所有权差异。若确实需要返回 C
+风格字符串，应该在接口契约中说明生命周期，或者改用能表达所有权的类型。</p>
+<p>现代 C++ 中，只读参数还可以考虑 <code>std::string_view</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;string_view&gt;</span></span><br><br><span class="hljs-function">std::<span class="hljs-type">size_t</span> <span class="hljs-title">count_spaces</span><span class="hljs-params">(std::string_view text)</span></span><br><span class="hljs-function"></span>&#123;<br>    std::<span class="hljs-type">size_t</span> count = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">char</span> ch : text) &#123;<br>        <span class="hljs-keyword">if</span> (ch == <span class="hljs-string">&#x27; &#x27;</span>) &#123;<br>            ++count;<br>        &#125;<br>    &#125;<br>    <span class="hljs-keyword">return</span> count;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p><code>std::string_view</code> 也只借用字符序列，不拥有内存。它避免了
+<code>const std::string&amp;</code> 与 <code>const char*</code>
+之间的临时复制，但调用者仍要保证底层字符在视图使用期间有效。它也不是“更安全的
+<code>std::string</code>”，而是另一种非拥有视图。</p>
+<h2 id="混合拼接时先看运算符两边">混合拼接时先看运算符两边</h2>
+<p><code>std::string</code> 和字符串字面量可以拼接：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string name = <span class="hljs-string">&quot;C++&quot;</span>;<br>std::string title = <span class="hljs-string">&quot;learning &quot;</span> + name;<br>std::string suffix = name + <span class="hljs-string">&quot; tutorial&quot;</span>;<br></code></pre></td></tr></table></figure>
+<p>这是因为标准库提供了接收 <code>std::string</code> 的
+<code>operator+</code> 重载。</p>
+<p>但两个字符串字面量不能直接相加：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// auto invalid = &quot;hello&quot; + &quot; world&quot;; // 错误</span><br></code></pre></td></tr></table></figure>
+<p>两个数组会转换成指针，而两个指针没有合适的 <code>+</code>
+运算。可以先把其中一边变成 <code>std::string</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string text = std::<span class="hljs-built_in">string</span>(<span class="hljs-string">&quot;hello&quot;</span>) + <span class="hljs-string">&quot; world&quot;</span>;<br></code></pre></td></tr></table></figure>
+<p>实际代码中，连续拼接多个片段时，还要注意临时对象的产生。性能敏感路径可以先用
+<code>reserve</code>，再用 <code>append</code> 或
+<code>operator+=</code>
+逐步构造。先保证含义清楚，再根据测量结果优化。</p>
+<h2 id="最后的检查点">最后的检查点</h2>
+<ul>
+<li>看到 <code>char*</code> 或 <code>const char*</code> 的
+<code>==</code>，先确认你想要比较地址还是内容。</li>
+<li>接受 <code>const char*</code> 的函数是否明确要求空字符结束？</li>
+<li>数据可能包含嵌入 <code>'\0'</code> 时，是否仍错误地用
+<code>strlen</code> 计算长度？</li>
+<li><code>c_str()</code> 返回的指针是否跨越了原 <code>std::string</code>
+的修改或销毁？</li>
+<li>返回裸 <code>const char*</code>
+的接口，调用者是否知道内存由谁管理、能活多久？</li>
+<li>比较 <code>size()</code> 与有符号整数时，是否会发生无符号转换？</li>
+</ul>
+<p>把这些边界分清之后，<code>std::string</code>
+和旧接口并不冲突。关键不是完全拒绝 C
+风格字符串，而是每次跨越边界时都明确：哪一边拥有内存，哪一边只是借用，以及长度和结束标记分别代表什么。</p>
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>STL</tag>
+        <tag>string</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我所理解的C++ 02-3｜类型别名、auto 和 decltype</title>
+    <url>/posts/5f91a4fb.html</url>
+    <content><![CDATA[<h2 id="类型别名">1. 类型别名</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//使用typedef关键字定义类型别名</span><br><span class="hljs-keyword">typedef</span> <span class="hljs-type">double</span> dType, *dTypePtr;    <span class="hljs-comment">//dType是double的同义词，dTypePtr是double*的同义词</span><br><span class="hljs-keyword">typedef</span> dType base, *basePtr;       <span class="hljs-comment">//base是double的同义词，basePtr是double*的同义词</span><br><br><span class="hljs-comment">//使用using关键字定义类型别名</span><br><span class="hljs-keyword">using</span> number = <span class="hljs-type">int</span>;                 <span class="hljs-comment">//number是int的同义词</span><br></code></pre></td></tr></table></figure>
+<p>阅读含有类型别名的代码时不要直接将类型别名替换成原来的类型来阅读，只能将类型别名对应的原来的类型从理解上当作一个整体来看</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">typedef</span> <span class="hljs-type">char</span> *pstring;<br><span class="hljs-type">const</span> pstring cstr = <span class="hljs-number">0</span>;     <span class="hljs-comment">//cstr类型是char * cosnt，是顶层const；不能理解成const char *这样的底层const</span><br><span class="hljs-type">const</span> pstring *ps;          <span class="hljs-comment">//ps类型是char *const *</span><br></code></pre></td></tr></table></figure>
+<h2 id="auto关键字">2. auto关键字</h2>
+<p>使用auto关键字修饰变量可以让编译器通过初始值来推断出变量的类型。这也意味着使用auto关键字修饰变量时，必须初始化变量，例如<code>auto i = 1;</code>i的类型为int。</p>
+<p>auto关键字可以在一条语句中定义多个变量，但是所有变量的初始值的<strong>基本</strong>类型必须一致。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">auto</span> i = <span class="hljs-number">0</span>, *p = &amp;i;        <span class="hljs-comment">//正确：基本类型都是int</span><br><span class="hljs-keyword">auto</span> sz = <span class="hljs-number">0</span>, pi = <span class="hljs-number">3.15</span>;     <span class="hljs-comment">//错误：sz的基本类型是int，pi的基本类型是double</span><br></code></pre></td></tr></table></figure>
+<h3 id="auto与const">auto与const</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = i;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;cr = ci;<br><br><span class="hljs-comment">//编译器推断出的类型不一定和初始值的类型一致，编译器会适当改变推断的类型使其更符合初始化规则</span><br><span class="hljs-keyword">auto</span> b = ci;        <span class="hljs-comment">//类型为int，忽略ci的顶层const</span><br><span class="hljs-keyword">auto</span> c = cr;        <span class="hljs-comment">//类型为int，cr是ci的一个别名，忽略ci的顶层const</span><br><br><span class="hljs-keyword">auto</span> d = &amp;i;        <span class="hljs-comment">//类型为int*</span><br><span class="hljs-keyword">auto</span> e = &amp;ci;       <span class="hljs-comment">//类型为const int *，保留底层const</span><br><span class="hljs-keyword">auto</span> *p2 = &amp;ci;     <span class="hljs-comment">//类型为const int *，保留底层const</span><br><br><span class="hljs-type">const</span> <span class="hljs-keyword">auto</span> f = ci;  <span class="hljs-comment">//类型为const int</span><br><br><span class="hljs-keyword">auto</span> &amp;g = ci;       <span class="hljs-comment">//类型为const int &amp;</span><br><span class="hljs-keyword">auto</span> &amp;h = <span class="hljs-number">42</span>;       <span class="hljs-comment">//错误</span><br><span class="hljs-type">const</span> <span class="hljs-keyword">auto</span> &amp;j = <span class="hljs-number">42</span>; <span class="hljs-comment">//类型为const int &amp;</span><br></code></pre></td></tr></table></figure>
+<h2 id="decltype关键字">3. decltype关键字</h2>
+<p>使用decltype关键字可以让编译器分析并返回表达式运算结果的数值类型</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">42</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = i;<br><span class="hljs-type">int</span> &amp;r = i;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;cj = ci;<br><br><span class="hljs-comment">//内容为变量时</span><br><span class="hljs-keyword">decltype</span>(i) o = <span class="hljs-number">0</span>;      <span class="hljs-comment">//int</span><br><span class="hljs-keyword">decltype</span>(ci) x = <span class="hljs-number">0</span>;     <span class="hljs-comment">//类型为const int</span><br><span class="hljs-keyword">decltype</span>(r) m = <span class="hljs-number">0</span>;      <span class="hljs-comment">//类型为int &amp;</span><br><span class="hljs-keyword">decltype</span>(cj) y = x;     <span class="hljs-comment">//类型为const int &amp;</span><br><span class="hljs-keyword">decltype</span>(cj) z;         <span class="hljs-comment">//类型为const int &amp;，但没有初始化，所以报错</span><br><br><span class="hljs-comment">//内容为表达式时</span><br><span class="hljs-type">int</span> *p = &amp;i;<br><span class="hljs-keyword">decltype</span>(r + <span class="hljs-number">0</span>) b;      <span class="hljs-comment">//类型为int</span><br><span class="hljs-keyword">decltype</span>(*p) c;         <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br><span class="hljs-keyword">decltype</span>((i)) d;        <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br>                        <span class="hljs-comment">//    decltype((&lt;变量&gt;))得到的类型永远都是引用</span><br><span class="hljs-keyword">decltype</span>(i=x) e;        <span class="hljs-comment">//类型为int &amp;，但没有初始化，所以报错</span><br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>C++</category>
@@ -1019,456 +1179,6 @@ alt="4个点光源、1个平行光" />
         <tag>图形学</tag>
         <tag>光照</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>我所理解的C++ 03-2｜std::string 与 C 风格字符串：比较、转换和生命周期</title>
-    <url>/posts/9a6f4c2e.html</url>
-    <content><![CDATA[<p>先看一个很像“字符串比较”的例子：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;string&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">const</span> <span class="hljs-type">char</span>* left = <span class="hljs-string">&quot;hello&quot;</span>;<br>    <span class="hljs-type">const</span> <span class="hljs-type">char</span>* right = <span class="hljs-string">&quot;hello&quot;</span>;<br><br>    std::string first = <span class="hljs-string">&quot;hello&quot;</span>;<br>    std::string second = <span class="hljs-string">&quot;hello&quot;</span>;<br><br>    std::cout &lt;&lt; (left == right) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>    std::cout &lt;&lt; (first == second) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>后一行比较的是两个 <code>std::string</code> 的内容，结果是确定的
-<code>true</code>。第一行比较的却是两个指针的值，编译器可以选择让相同的字符串字面量共用存储，也可以不这么做。因此输出
-<code>1</code> 不能证明写法正确，输出 <code>0</code>
-也不是“字符串内容不相等”。</p>
-<p>C
-风格字符串最容易被误会的地方，是它看起来像一种类型，实际上并不是。它是一套约定：从某个
-<code>char*</code> 或 <code>const char*</code>
-开始，一直读取到第一个空字符 <code>'\0'</code>
-为止。<code>std::string</code>
-则是一个管理自身字符缓冲区、同时保存长度的标准库类型。</p>
-<p>两者可以互相配合，但不能把同一套操作习惯直接套过去。</p>
-<h2 id="指针相等不等于内容相等">指针相等不等于内容相等</h2>
-<p>对字符数组名或字符串字面量使用 <code>==</code>
-时，数组通常会转换成指向首元素的指针：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;cstring&gt;</span></span><br><br><span class="hljs-type">const</span> <span class="hljs-type">char</span> left[] = <span class="hljs-string">&quot;hello&quot;</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">char</span> right[] = <span class="hljs-string">&quot;hello&quot;</span>;<br><br><span class="hljs-type">bool</span> pointer_equal = (left == right);        <span class="hljs-comment">// 比较地址</span><br><span class="hljs-type">bool</span> content_equal = (std::<span class="hljs-built_in">strcmp</span>(left, right) == <span class="hljs-number">0</span>);<br><br>std::cout &lt;&lt; pointer_equal &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;          <span class="hljs-comment">// false</span><br>std::cout &lt;&lt; content_equal &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;          <span class="hljs-comment">// true</span><br></code></pre></td></tr></table></figure>
-<p><code>left</code> 和 <code>right</code>
-是两个不同的数组对象，因此地址不同。若把它们直接放进
-<code>==</code>，比较的是地址。<code>std::strcmp</code>
-会从两个地址开始逐字符读取，直到发现不同字符或同时遇到空字符，所以返回
-<code>0</code> 才表示内容相同。</p>
-<p><code>strcmp</code> 的返回值不只用于判断相等：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span> (std::<span class="hljs-built_in">strcmp</span>(left, right) &lt; <span class="hljs-number">0</span>) &#123;<br>    std::cout &lt;&lt; <span class="hljs-string">&quot;left 排在 right 前面\n&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>负值表示左侧较小，正值表示左侧较大。不要把它返回的具体整数当成稳定协议，标准只规定符号，没有规定必须返回
-<code>-1</code> 或 <code>1</code>。</p>
-<p>如果数据本来就是 <code>std::string</code>，直接使用
-<code>==</code>、<code>&lt;</code> 和 <code>+</code> 即可：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string first = <span class="hljs-string">&quot;hello&quot;</span>;<br>std::string second = <span class="hljs-string">&quot;hello&quot;</span>;<br>std::string joined = first + <span class="hljs-string">&quot; &quot;</span> + second;<br></code></pre></td></tr></table></figure>
-<p>这些运算符比较的是字符串内容，不是对象地址。</p>
-<h2 id="c-风格字符串必须真的以空字符结束">C
-风格字符串必须真的以空字符结束</h2>
-<p>下面两个数组都保存了字符 <code>H</code> 和
-<code>i</code>，但只有一个满足 C 风格字符串的约定：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">char</span> with_null[] = &#123;<span class="hljs-string">&#x27;H&#x27;</span>, <span class="hljs-string">&#x27;i&#x27;</span>, <span class="hljs-string">&#x27;\0&#x27;</span>&#125;;<br><span class="hljs-type">char</span> without_null[] = &#123;<span class="hljs-string">&#x27;H&#x27;</span>, <span class="hljs-string">&#x27;i&#x27;</span>&#125;;<br><br>std::cout &lt;&lt; with_null &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br><span class="hljs-comment">// std::cout &lt;&lt; without_null &lt;&lt; &#x27;\n&#x27;; // 错误：读取会越过数组边界</span><br></code></pre></td></tr></table></figure>
-<p>标准库中接受 <code>const char*</code> 的函数，例如
-<code>strlen</code>、<code>strcpy</code>、<code>strcmp</code>
-和流输出，通常都不知道数组的真实长度。它们只能寻找空字符。若数组中不存在
-<code>'\0'</code>，读取就会越过对象边界，行为未定义。</p>
-<p>字符串字面量会自动附带空字符：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">char</span> text[] = <span class="hljs-string">&quot;Hi&quot;</span>;<br><br><span class="hljs-built_in">static_assert</span>(<span class="hljs-built_in">sizeof</span>(text) == <span class="hljs-number">3</span>);<br><span class="hljs-comment">// &#x27;H&#x27;、&#x27;i&#x27;、&#x27;\0&#x27;</span><br></code></pre></td></tr></table></figure>
-<p>但“有 <code>'\0'</code>”与“肉眼能看到几个字符”不是一回事，和
-<code>std::string</code> 的长度也不是一回事：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> std::string_literals;<br><br>std::string text = <span class="hljs-string">&quot;Hello\0World&quot;</span>s;<br><br>std::cout &lt;&lt; text.<span class="hljs-built_in">size</span>() &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;                 <span class="hljs-comment">// 11</span><br>std::cout &lt;&lt; std::<span class="hljs-built_in">strlen</span>(text.<span class="hljs-built_in">c_str</span>()) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;   <span class="hljs-comment">// 5</span><br></code></pre></td></tr></table></figure>
-<p>这个 <code>std::string</code> 明确保存了 11
-个字符，其中包括中间的空字符。<code>c_str()</code>
-会提供末尾空字符，方便旧接口使用，但 <code>strlen</code>
-只数到第一个空字符，所以得到 5。</p>
-<p>这并不是 <code>std::string</code> 的错误，而是两种数据模型不同：</p>
-<ul>
-<li><code>std::string</code>
-同时知道起始位置和长度，可以保存嵌入的空字符；</li>
-<li>C 风格字符串只有起始位置，长度由第一个空字符间接决定。</li>
-</ul>
-<p>如果数据可能包含 <code>'\0'</code>，就不要用 <code>strlen</code>
-推测长度，也不要把它交给只接受 C
-风格字符串的接口。文件、网络和序列化代码中尤其容易遇到这种数据。</p>
-<h2 id="sizestrlen-和无符号类型">size()、strlen() 和无符号类型</h2>
-<p>对普通文本，<code>std::string::size()</code> 与
-<code>strlen(s.c_str())</code> 往往相等，但二者含义不同：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string value = <span class="hljs-string">&quot;abc&quot;</span>;<br><br>std::cout &lt;&lt; value.<span class="hljs-built_in">size</span>() &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;                  <span class="hljs-comment">// 3</span><br>std::cout &lt;&lt; std::<span class="hljs-built_in">strlen</span>(value.<span class="hljs-built_in">c_str</span>()) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;    <span class="hljs-comment">// 3</span><br></code></pre></td></tr></table></figure>
-<p><code>size()</code> 直接读取 <code>std::string</code>
-保存的长度，不扫描字符。<code>strlen</code>
-要沿指针向后寻找空字符，复杂度是线性的，而且前提是指针确实指向合法的 C
-风格字符串。</p>
-<p><code>size()</code> 返回
-<code>std::string::size_type</code>，它是无符号类型。把它与有符号整数混用时要小心：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> index = <span class="hljs-number">-1</span>;<br>std::string value = <span class="hljs-string">&quot;abc&quot;</span>;<br><br><span class="hljs-keyword">if</span> (index &lt; value.<span class="hljs-built_in">size</span>()) &#123;<br>    <span class="hljs-comment">// 条件很可能为 false</span><br>&#125;<br></code></pre></td></tr></table></figure>
-<p>比较时，<code>-1</code>
-会被转换成很大的无符号值，于是“负数小于长度”这个直觉不再成立。循环下标优先使用
-<code>std::size_t</code> 或
-<code>std::string::size_type</code>，并在执行下标访问前检查范围。</p>
-<p>需要访问字符时，还可以直接用范围 <code>for</code>：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">char</span> ch : value) &#123;<br>    std::cout &lt;&lt; ch;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>如果要把字符改成大写，循环变量必须使用引用：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">char</span>&amp; ch : value) &#123;<br>    ch = <span class="hljs-built_in">static_cast</span>&lt;<span class="hljs-type">char</span>&gt;(<br>        std::<span class="hljs-built_in">toupper</span>(<span class="hljs-built_in">static_cast</span>&lt;<span class="hljs-type">unsigned</span> <span class="hljs-type">char</span>&gt;(ch)));<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>这里先把字符转换为 <code>unsigned char</code>，再交给
-<code>std::toupper</code>。对于负值字符，直接把 <code>char</code>
-传给某些 C 字符分类函数可能导致未定义行为。</p>
-<h2 id="c_str-是借用不是所有权转移">c_str() 是借用，不是所有权转移</h2>
-<p>旧接口经常要求 <code>const char*</code>，<code>c_str()</code>
-用来提供这个视图：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">legacy_print</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">char</span>* text)</span></span>;<br><br>std::string message = <span class="hljs-string">&quot;ready&quot;</span>;<br><span class="hljs-built_in">legacy_print</span>(message.<span class="hljs-built_in">c_str</span>());<br></code></pre></td></tr></table></figure>
-<p><code>c_str()</code> 返回的指针由原 <code>std::string</code>
-管理。调用者没有获得一块新的、可以长期保管的字符串，只是在借用原对象当前的缓冲区。</p>
-<p>下面这种写法会留下悬空指针：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">const</span> <span class="hljs-type">char</span>* <span class="hljs-title">make_message</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    std::string message = <span class="hljs-string">&quot;temporary&quot;</span>;<br>    <span class="hljs-keyword">return</span> message.<span class="hljs-built_in">c_str</span>();<br>&#125;<br><br><span class="hljs-type">const</span> <span class="hljs-type">char</span>* text = <span class="hljs-built_in">make_message</span>();<br><span class="hljs-comment">// text 指向已经销毁的局部 string</span><br></code></pre></td></tr></table></figure>
-<p>函数返回时，局部 <code>std::string</code>
-结束生命周期，它管理的缓冲区也随之失效。即使函数返回值恰好还能读到旧内容，也没有任何标准保证。</p>
-<p>另一个常见问题是修改原字符串后继续使用旧指针：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string value = <span class="hljs-string">&quot;hello&quot;</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">char</span>* view = value.<span class="hljs-built_in">c_str</span>();<br><br>value.<span class="hljs-built_in">append</span>(<span class="hljs-number">100</span>, <span class="hljs-string">&#x27;!&#x27;</span>);<br><br>std::cout &lt;&lt; view; <span class="hljs-comment">// 不能再依赖</span><br></code></pre></td></tr></table></figure>
-<p>追加内容可能触发重新分配，旧缓冲区随即失效。是否真的重新分配取决于当前容量和标准库实现，所以“这次还能打印”不能证明代码安全。</p>
-<p>一个简单规则是：只在调用旧接口的短作用域内使用
-<code>c_str()</code>，不要在多次修改 <code>std::string</code>
-之后继续持有它。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string value = <span class="hljs-string">&quot;hello&quot;</span>;<br>value.<span class="hljs-built_in">append</span>(<span class="hljs-number">100</span>, <span class="hljs-string">&#x27;!&#x27;</span>);<br><br><span class="hljs-built_in">legacy_print</span>(value.<span class="hljs-built_in">c_str</span>()); <span class="hljs-comment">// 修改完成后重新取得</span><br></code></pre></td></tr></table></figure>
-<h2 id="返回-const-char-时要明确所有权">返回 const char*
-时要明确所有权</h2>
-<p>如果函数需要返回字符串，优先返回 <code>std::string</code>：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function">std::string <span class="hljs-title">build_name</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;player&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>返回 <code>const char*</code> 时，调用者必须知道这块内存活多久：</p>
-<ul>
-<li>指向字符串字面量的指针具有静态存储期，可以长期使用；</li>
-<li>指向某个 <code>std::string</code>
-内部缓冲区的指针只在满足条件时有效；</li>
-<li>指向局部字符数组的指针在函数返回后失效；</li>
-<li>指向动态分配数组的指针还涉及由谁释放。</li>
-</ul>
-<p>接口只写
-<code>const char*</code>，并没有表达这些所有权差异。若确实需要返回 C
-风格字符串，应该在接口契约中说明生命周期，或者改用能表达所有权的类型。</p>
-<p>现代 C++ 中，只读参数还可以考虑 <code>std::string_view</code>：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;string_view&gt;</span></span><br><br><span class="hljs-function">std::<span class="hljs-type">size_t</span> <span class="hljs-title">count_spaces</span><span class="hljs-params">(std::string_view text)</span></span><br><span class="hljs-function"></span>&#123;<br>    std::<span class="hljs-type">size_t</span> count = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">char</span> ch : text) &#123;<br>        <span class="hljs-keyword">if</span> (ch == <span class="hljs-string">&#x27; &#x27;</span>) &#123;<br>            ++count;<br>        &#125;<br>    &#125;<br>    <span class="hljs-keyword">return</span> count;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p><code>std::string_view</code> 也只借用字符序列，不拥有内存。它避免了
-<code>const std::string&amp;</code> 与 <code>const char*</code>
-之间的临时复制，但调用者仍要保证底层字符在视图使用期间有效。它也不是“更安全的
-<code>std::string</code>”，而是另一种非拥有视图。</p>
-<h2 id="混合拼接时先看运算符两边">混合拼接时先看运算符两边</h2>
-<p><code>std::string</code> 和字符串字面量可以拼接：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string name = <span class="hljs-string">&quot;C++&quot;</span>;<br>std::string title = <span class="hljs-string">&quot;learning &quot;</span> + name;<br>std::string suffix = name + <span class="hljs-string">&quot; tutorial&quot;</span>;<br></code></pre></td></tr></table></figure>
-<p>这是因为标准库提供了接收 <code>std::string</code> 的
-<code>operator+</code> 重载。</p>
-<p>但两个字符串字面量不能直接相加：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// auto invalid = &quot;hello&quot; + &quot; world&quot;; // 错误</span><br></code></pre></td></tr></table></figure>
-<p>两个数组会转换成指针，而两个指针没有合适的 <code>+</code>
-运算。可以先把其中一边变成 <code>std::string</code>：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::string text = std::<span class="hljs-built_in">string</span>(<span class="hljs-string">&quot;hello&quot;</span>) + <span class="hljs-string">&quot; world&quot;</span>;<br></code></pre></td></tr></table></figure>
-<p>实际代码中，连续拼接多个片段时，还要注意临时对象的产生。性能敏感路径可以先用
-<code>reserve</code>，再用 <code>append</code> 或
-<code>operator+=</code>
-逐步构造。先保证含义清楚，再根据测量结果优化。</p>
-<h2 id="最后的检查点">最后的检查点</h2>
-<ul>
-<li>看到 <code>char*</code> 或 <code>const char*</code> 的
-<code>==</code>，先确认你想要比较地址还是内容。</li>
-<li>接受 <code>const char*</code> 的函数是否明确要求空字符结束？</li>
-<li>数据可能包含嵌入 <code>'\0'</code> 时，是否仍错误地用
-<code>strlen</code> 计算长度？</li>
-<li><code>c_str()</code> 返回的指针是否跨越了原 <code>std::string</code>
-的修改或销毁？</li>
-<li>返回裸 <code>const char*</code>
-的接口，调用者是否知道内存由谁管理、能活多久？</li>
-<li>比较 <code>size()</code> 与有符号整数时，是否会发生无符号转换？</li>
-</ul>
-<p>把这些边界分清之后，<code>std::string</code>
-和旧接口并不冲突。关键不是完全拒绝 C
-风格字符串，而是每次跨越边界时都明确：哪一边拥有内存，哪一边只是借用，以及长度和结束标记分别代表什么。</p>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>STL</tag>
-        <tag>string</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我所理解的C++ 03-1｜vector 扩容后，引用和迭代器为什么会失效</title>
-    <url>/posts/ec9911c0.html</url>
-    <content><![CDATA[<p>先看一段很容易写出来的代码：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;vector&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>&#125;;<br>    <span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">40</span>);<br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">50</span>);<br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">60</span>);<br><br>    std::cout &lt;&lt; first &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p><code>first</code> 看起来只是 <code>values[0]</code>
-的另一个名字。可这段代码并不一定安全。</p>
-<p>如果后面的某次 <code>push_back</code> 触发了 <code>vector</code>
-扩容，原来的元素会被搬到一块新的连续内存，旧元素随即结束生命周期。此时
-<code>first</code> 仍然保存着旧缓冲区中的地址，它已经不再引用
-<code>vector</code> 里的任何有效对象。</p>
-<p>继续读取 <code>first</code> 是未定义行为。</p>
-<p>这段代码最容易让人误判的地方在于：它可能每次都打印
-<code>10</code>。程序没有崩溃，输出也符合预期，并不代表代码正确。访问悬空引用本来就可能表现为“看起来正常”。</p>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/03-1-cover.webp"
-alt="vector 扩容示意" />
-<figcaption aria-hidden="true">vector 扩容示意</figcaption>
-</figure>
-<h2 id="引用不是元素的副本">引用不是元素的副本</h2>
-<p><code>values[0]</code> 返回的是 <code>int&amp;</code>。把它绑定到
-<code>const int&amp;</code> 后，<code>first</code>
-绑定的是缓冲区里的那个 <code>int</code>
-对象，并没有复制出一个独立的值。</p>
-<p>可以把 <code>vector</code> 简化成三部分：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">元素所在缓冲区 + size + capacity<br></code></pre></td></tr></table></figure>
-<p><code>size()</code> 是当前真正存在的元素数量。<code>capacity()</code>
-是在不重新分配缓冲区的前提下，最多能容纳多少个元素。</p>
-<p>下面这个关系很常见：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br><br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">1</span>);<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">2</span>);<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">3</span>);<br><br>std::cout &lt;&lt; values.<span class="hljs-built_in">size</span>();     <span class="hljs-comment">// 3</span><br>std::cout &lt;&lt; values.<span class="hljs-built_in">capacity</span>(); <span class="hljs-comment">// 至少为 3</span><br></code></pre></td></tr></table></figure>
-<p>标准并没有规定 <code>vector</code>
-必须按照两倍增长，也没有规定每次请求一定得到多大的容量。不同标准库实现可能采用不同的增长策略。</p>
-<p>我们能够依赖的是：当现有容量不够时，<code>vector</code>
-会重新分配一块能够容纳更多元素的连续空间，把原有元素移动或复制过去，再销毁旧缓冲区中的元素。</p>
-<p>也正是在这一步，指向旧缓冲区的引用、指针和迭代器全部失效。</p>
-<h2 id="失效的不是第几个元素">失效的不是“第几个元素”</h2>
-<p>人们有时把 <code>values[0]</code> 理解成“第 0
-号位置”。更准确的理解是：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">先取得缓冲区首地址，再偏移 0 个元素<br></code></pre></td></tr></table></figure>
-<p>扩容后，元素虽然仍位于新 <code>vector</code> 的第 0
-位，但底层地址已经改变。</p>
-<p>因此下面这些值都可能在扩容后失效：</p>
-<ul>
-<li><code>int&amp;</code> 或 <code>const int&amp;</code>；</li>
-<li>指向元素的 <code>int*</code> 或 <code>const int*</code>；</li>
-<li><code>vector&lt;int&gt;::iterator</code>；</li>
-<li>通过 <code>values.data()</code> 得到的指针；</li>
-<li>范围 <code>for</code> 循环内部保存的迭代器。</li>
-</ul>
-<p>它们共同依赖同一件事：元素仍然位于原来的缓冲区。</p>
-<p>失效后不会触发一个可靠的运行时错误。引用仍能拿来写代码，指针仍能拿来解引用，迭代器仍能拿来执行
-<code>++</code>，只是行为已经不再受语言保证。</p>
-<h2 id="一次运行不能证明安全">一次运行不能证明安全</h2>
-<p>下面这种验证方式没有意义：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span> (values.<span class="hljs-built_in">size</span>() == values.<span class="hljs-built_in">capacity</span>()) &#123;<br>    std::cout &lt;&lt; <span class="hljs-string">&quot;下一次 push_back 会申请新缓冲区\n&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>这段检查只能说明当前这一次 <code>push_back</code>
-的起点在哪里，不能作为长期保存引用的依据。只要之后某次插入把
-<code>size</code> 推到容量之外，重新分配仍会发生。</p>
-<p>更不要通过固定写几个 <code>push_back</code>
-来“记住”某台机器上的容量变化。更换编译器、编译选项、元素类型或
-<code>vector</code> 的初始状态后，结论都可能改变。</p>
-<p>对需要保存元素地址的代码，应该直接消除这种偶然性。</p>
-<h2 id="reserve-要在保存引用之前调用">reserve 要在保存引用之前调用</h2>
-<p>如果已经知道最多需要放入多少元素，可以先预留容量：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">100</span>);<br><br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">10</span>);<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">99</span>; ++i) &#123;<br>    values.<span class="hljs-built_in">push_back</span>(i);<br>&#125;<br><br>std::cout &lt;&lt; first &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br></code></pre></td></tr></table></figure>
-<p>只要后续元素数量没有超过预留容量，<code>push_back</code>
-就不需要重新分配缓冲区，之前取得的引用可以继续使用。</p>
-<p>顺序很重要。先保存引用，再调用
-<code>reserve</code>，同样可能失效：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>&#125;;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">100</span>); <span class="hljs-comment">// 可能重新分配</span><br>std::cout &lt;&lt; first;  <span class="hljs-comment">// 不能再依赖</span><br></code></pre></td></tr></table></figure>
-<p><code>reserve</code>
-只改变容量，不创建元素。下面这段代码仍然是错误的：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">10</span>);<br><br>values[<span class="hljs-number">0</span>] = <span class="hljs-number">1</span>; <span class="hljs-comment">// 错误：size 仍然是 0</span><br></code></pre></td></tr></table></figure>
-<p>容量代表“可以放”，不代表“已经有”。需要真正创建元素时，应使用
-<code>resize</code> 或插入元素的接口。</p>
-<h2 id="范围-for-循环为什么也会出问题">范围 for
-循环为什么也会出问题</h2>
-<p>范围 <code>for</code>
-会先取得序列的起点和终点，再在循环过程中使用这些迭代器。它并不会在每一轮重新查询
-<code>vector</code> 的全部状态。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>    <span class="hljs-keyword">if</span> (value % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) &#123;<br>        values.<span class="hljs-built_in">push_back</span>(value);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>一旦 <code>push_back</code>
-触发扩容，循环正在使用的迭代器可能指向已经销毁的旧缓冲区。这个循环不但可能漏掉新加入的元素，还可能进入未定义行为。</p>
-<p>更清楚的写法是同时保留输入和输出：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; result;<br><br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>    <span class="hljs-keyword">if</span> (value % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) &#123;<br>        result.<span class="hljs-built_in">push_back</span>(value);<br>    &#125;<br>&#125;<br><br>values.<span class="hljs-built_in">swap</span>(result);<br></code></pre></td></tr></table></figure>
-<p>如果确实需要边遍历边追加，至少不要依赖在循环外保存的迭代器或引用。但这通常会让代码意图变得难读，优先考虑拆成输入和输出两步。</p>
-<h2 id="capacity-大不等于元素还活着">capacity 大不等于元素还活着</h2>
-<p><code>clear()</code>
-会销毁所有元素，但通常不会释放已经分配的内存：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>&#125;;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>values.<span class="hljs-built_in">clear</span>();<br><br>std::cout &lt;&lt; first; <span class="hljs-comment">// 错误</span><br></code></pre></td></tr></table></figure>
-<p>调用 <code>clear()</code> 后，<code>capacity()</code> 可能仍然是
-3，但元素对象已经结束生命周期。继续使用 <code>first</code>
-仍然是悬空引用。</p>
-<p><code>erase()</code>、<code>shrink_to_fit()</code>、赋值或移动
-<code>vector</code>
-等操作，也会以各自的规则影响引用和迭代器。判断时不能只看“内存有没有换一块”，还要看原来的元素对象是否仍然存在、是否仍由当前容器管理。</p>
-<h2 id="需要稳定地址时先改变设计">需要稳定地址时，先改变设计</h2>
-<p>如果一段代码必须长期保存元素地址，可以先问一个更根本的问题：真的必须直接保存元素引用吗？</p>
-<p>一种做法是保存索引：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::<span class="hljs-type">size_t</span> first_index = <span class="hljs-number">0</span>;<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">42</span>);<br><br><span class="hljs-type">int</span> value = values.<span class="hljs-built_in">at</span>(first_index);<br></code></pre></td></tr></table></figure>
-<p>只要元素顺序和下标含义没有改变，扩容后仍然可以通过索引访问当前容器中的元素。索引也不是万能的，执行
-<code>erase</code>、排序或替换容器内容后，原来的下标可能已经指向别的元素。</p>
-<p>另一种做法是让对象本身分配在稳定地址，而 <code>vector</code>
-只保存指向它的句柄：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;std::unique_ptr&lt;Item&gt;&gt; items;<br><br>items.<span class="hljs-built_in">push_back</span>(std::<span class="hljs-built_in">make_unique</span>&lt;Item&gt;());<br>Item&amp; first_item = *items[<span class="hljs-number">0</span>];<br><br>items.<span class="hljs-built_in">push_back</span>(std::<span class="hljs-built_in">make_unique</span>&lt;Item&gt;());<br><br><span class="hljs-comment">// vector 扩容后，Item 对象本身没有移动</span><br>first_item.<span class="hljs-built_in">update</span>();<br></code></pre></td></tr></table></figure>
-<p>此时移动的是 <code>unique_ptr</code> 对象，<code>Item</code>
-对象位于独立分配的内存中，地址不会因为 <code>vector</code>
-扩容而改变。代价是多一次间接访问，也更依赖动态分配。</p>
-<p>选择 <code>std::deque</code>、<code>std::list</code>
-或别的容器也可以改变地址稳定性，但它们各自还有不同的失效规则和性能取舍。不要只因为“引用不会失效”就更换容器，先把访问模式、插入位置和遍历需求一起看清。</p>
-<h2 id="最后的检查点">最后的检查点</h2>
-<ul>
-<li>保存了 <code>vector</code>
-元素的引用、指针或迭代器后，中间是否可能执行插入操作？</li>
-<li>这次插入是否可能触发扩容？</li>
-<li><code>reserve</code> 是否在所有保存引用的操作之前完成？</li>
-<li>是否把 <code>capacity</code> 误当成了元素数量？</li>
-<li>是否在范围 <code>for</code> 或持有迭代器的循环中改变了
-<code>vector</code> 的大小？</li>
-</ul>
-<p><code>vector</code>
-的连续内存带来了缓存友好和随机访问，也意味着扩容时必须整体搬走元素。只要记住引用和迭代器绑定的是某一块缓冲区，而不是抽象意义上的“第几个元素”，这些失效规则就不难判断了。</p>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>STL</tag>
-        <tag>vector</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>可编程渲染管线(Scriptable Render Pipeline, SRP)</title>
-    <url>/posts/e35daff.html</url>
-    <content><![CDATA[<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105002824.png?x-oss-process=style/WaterMask" /></p>
-<p>可编程渲染管线处理数据的流程可分为以下3大阶段</p>
-<h1 id="应用阶段">1. 应用阶段</h1>
-<p>这个阶段大概会由CPU处理4件事情。首先会对模型数据进行可见性判断。模型数据由顶点位置、法线方向、顶点颜色、纹理坐标等构成。然后会将模型数据加载到显存以提高读取速度。再为每个图元设置常数寄存器和渲染状态。最后为一个渲染图元列表调用DrawCall指令。</p>
-<p>图元可以是点、线、三角形。</p>
-<h1 id="几何阶段">2. 几何阶段</h1>
-<p>这个阶段由GPU进行处理，会对每一个需要渲染的图元进行逐顶点、逐多边形处理，最根本的任务是将顶点的模型坐标转换到屏幕空间。</p>
-<h2 id="顶点着色器">2.1 顶点着色器</h2>
-<p>顶点着色器的基本任务是将顶点转换到齐次裁剪空间，还可以进行的其他任务有：</p>
-<ul>
-<li>逐顶点着色操作，如逐顶点光照</li>
-<li>纹理计算</li>
-<li>逐顶点蒙皮</li>
-<li>逐顶点程序式动画(procedural animation)</li>
-</ul>
-<p><strong>2.1.1 投影变换</strong></p>
-<p><span
-class="math display">\[Aspect=\frac{近裁剪平面宽度}{近裁剪平面高度}=\frac{远裁剪平面宽度}{远裁剪平面高度}\]</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011112.png) -->
-<p><strong>透视投影</strong></p>
-<p>在摄像机使用透视投影的时候，为了呈现出近大远小的透视收缩(perspective
-foreshortening)效果，需要对顶点进行透视投影变换。使用透视投影矩阵进行变换后，并没有进行裁剪，只是使得w值有了意义，为后面的裁剪做准备。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001504.png?x-oss-process=style/WaterMask" /></p>
-<p><span class="math inline">\(透视投影近裁剪平面高度=2 \cdot Near \cdot
-tan\frac{FOV}{2}\)</span></p>
-<p><span class="math inline">\(透视投影远裁剪平面高度=2 \cdot Far \cdot
-tan\frac{FOV}{2}\)</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011200.png) -->
-<p>Unity透视投影矩阵(右乘)</p>
-<p><span class="math display">\[\begin{vmatrix}
-  \frac{cot\frac{FOV}{2}}{Aspect} &amp; 0 &amp; 0 &amp; 0 \\
-  0 &amp; cot\frac{FOV}{2} &amp; 0 &amp; 0 \\
-  0 &amp; 0 &amp; -\frac{Far+Near}{Far-Near} &amp; -\frac{2 \cdot Near
-\cdot Far}{Far-Near} \\
-  0 &amp; 0 &amp; -1 &amp; 0
-\end{vmatrix}\]</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011212.png) -->
-<p>会改变空间手系，从右手系变成了左手系，因为Unity的观察空间是右手系，NDC空间是左手系</p>
-<p>观察空间中的顶点(x,y,z)透视投影到齐次裁剪空间后变为</p>
-<p><span class="math display">\[(x \cdot
-\frac{cot\frac{FOV}{2}}{Aspect}, y \cdot cot\frac{FOV}{2}, -z \cdot
-\frac{Far+Near}{Far-Near}-\frac{2 \cdot Near \cdot Far}{Far-Near},
--z)\]</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011223.png) -->
-<p>透视投影齐次裁剪空间中坐标的w值为 <span
-class="math inline">\(-Z_{posInViewSpace}\)</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011717.png) -->
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001658.png?x-oss-process=style/WaterMask"
-alt="变换情况" />
-<figcaption aria-hidden="true">变换情况</figcaption>
-</figure>
-<p><strong>正交投影</strong></p>
-<p><span class="math display">\[正交投影远(近)裁剪平面高度=2 \cdot
-Size\]</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011245.png) -->
-<p>Unity正交投影矩阵(右乘)</p>
-<p><span class="math display">\[\begin{vmatrix}
-    \frac{1}{Aspect \cdot Size} &amp; 0 &amp; 0 &amp; 0 \\
-    0 &amp; \frac{1}{Size} &amp; 0 &amp; 0 \\
-    0 &amp; 0 &amp; -\frac{2}{Far-Near} &amp; -\frac{Far+Near}{Far-Near}
-\\
-    0 &amp; 0 &amp; 0 &amp; 1 \\
-\end{vmatrix}\]</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011253.png) -->
-<p>会改变空间手系，从右手系变成了左手系，因为Unity的观察空间是右手系，NDC空间是左手系</p>
-<p>观察空间种的顶点(x,y,z)正交投影到齐次裁剪空间后变为 <span
-class="math inline">\((\frac{x}{Aspect \cdot Size}, \frac{y}{Size},
--\frac{2z}{Far-Near}-\frac{Far+Near}{Far-Near}, 1)\)</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011307.png) -->
-<p>正交投影齐次裁剪空间中坐标的w值为1</p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001921.png) -->
-<h2 id="曲面细分着色器">2.2 曲面细分着色器</h2>
-<p>用于细分图元</p>
-<h2 id="几何着色器">2.3 几何着色器</h2>
-<ul>
-<li>几何着色器的功能是修改、剔除、创建图元，可以实现以下效果：
-<ul>
-<li>阴影体积拉伸(shadow volume extrusion)</li>
-<li>渲染立方体贴图(cube map)的6个面</li>
-<li>在网格的轮廓边拉伸毛发的鳍(fur in)</li>
-<li>从点数据生成例子四边形</li>
-<li>动态镶嵌</li>
-<li>把线段分形细分(fractal subdivision)以模拟闪电、布料</li>
-<li>将数据传到管线开头重新进入管线
-<ul>
-<li>用例：在顶点着色器内对头发样条的控制点进行物理模拟，在几何着色器内把样条镶嵌成线段，通过流输出将线段传到管线开头重新进入管线进行渲染</li>
-</ul></li>
-</ul></li>
-</ul>
-<h2 id="裁剪">2.4 裁剪</h2>
-<p>裁剪的作用是将每个三角形在平截头体以外的部分切掉，把在平截头体以外的三角形剔除。</p>
-<p>满足以下条件的顶点才会被保留下来：</p>
-<p><span class="math display">\[-w&lt;=x&lt;=w\]</span> <span
-class="math display">\[-w&lt;=y&lt;=w\]</span> <span
-class="math display">\[-w&lt;=z&lt;=w\]</span></p>
-<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011331.png) -->
-<h2 id="齐次除法">2.5 齐次除法</h2>
-<p>所谓的齐次除法就是让x、y、z都除以w，这时就可以得到NDC空间中的坐标</p>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/透视投影的齐次除法.png?x-oss-process=style/WaterMask"
-alt="透视投影的齐次除法" />
-<figcaption aria-hidden="true">透视投影的齐次除法</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/正交投影的齐次除法.png?x-oss-process=style/WaterMask"
-alt="正交投影的齐次除法" />
-<figcaption aria-hidden="true">正交投影的齐次除法</figcaption>
-</figure>
-<p>上图右边都是OpenGL的NDC，DirectX的NDC也和上图右边类似，但z范围在[0,1]</p>
-<h2 id="屏幕映射">2.6屏幕映射</h2>
-<p>视口空间：程序运行窗口构成的空间</p>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/屏幕空间：整个显示屏幕构成的空间.png?x-oss-process=style/WaterMask"
-alt="屏幕空间：整个显示屏幕构成的空间" />
-<figcaption
-aria-hidden="true">屏幕空间：整个显示屏幕构成的空间</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Unity中将NDC坐标转换为屏幕坐标的右乘矩阵.png?x-oss-process=style/WaterMask"
-alt="Unity中将NDC坐标转换为屏幕坐标的右乘矩阵" />
-<figcaption
-aria-hidden="true">Unity中将NDC坐标转换为屏幕坐标的右乘矩阵</figcaption>
-</figure>
-<p>矩阵中的X、Y是视口空间原点的屏幕坐标</p>
-<h1 id="光栅化阶段">3. 光栅化阶段</h1>
-<p>这个阶段由GPU来决定绘制哪些片元以及这些片元的颜色</p>
-<p>片元=片段：三角形被栅格化后，其中的每一个小方块都是一个片元，可以看成是还不确定最终是否可以呈现到屏幕上的像素</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105002226.png?x-oss-process=style/WaterMask" /></p>
-<h2 id="三角形设置">3.1 三角形设置</h2>
-<p>这个阶段的任务是找出三角形边界所覆盖的像素</p>
-<h2 id="三角形遍历">3.2 三角形遍历</h2>
-<p>这个阶段会对每个三角形进行栅格化，即找出每个三角形覆盖的像素区域。区域中的片元中信息（屏幕坐标、深度值、法线坐标、纹理坐标）由3个顶点数据进行插值(必要时会采用透视校正插值)得到</p>
-<h2 id="提前深度测试">3.3 提前深度测试</h2>
-<p>如果用户没有在片元着色器中改变深度或自我丢弃(discard)，显卡会自动开启该功能</p>
-<h2 id="片元着色器">3.4 片元着色器</h2>
-<p>用于执行逐像素着色操作，如纹理采样、多重纹理采样、逐像素光照</p>
-<h2 id="逐片元操作">3.5 逐片元操作</h2>
-<p><strong>3.5.1 模板测试</strong> <figure class="highlight scss"><table><tr><td class="code"><pre><code class="hljs scss">if 开启了模板测试 then<br>    比较参考值(使用读取掩码)和模板缓冲区中的模板值(使用读取掩码)<br>    if not 通过模板测试 then<br>        舍弃该片元<br>    end<br>    根据已设置的渲染状态更新模板缓冲区中的值(使用写入掩码)<br>end<br></code></pre></td></tr></table></figure> <strong>3.5.2
-深度测试</strong> <figure class="highlight ada"><table><tr><td class="code"><pre><code class="hljs ada"><span class="hljs-keyword">if</span> 开启了深度测试 <span class="hljs-keyword">then</span><br>    比较该片元的深度值和深度缓冲区中的深度值<br>    <span class="hljs-keyword">if</span> 通过了深度测试 <span class="hljs-keyword">then</span><br>        <span class="hljs-keyword">if</span> 开启了深度写入 <span class="hljs-keyword">then</span><br>            将深度值写入深度缓冲区<br>        <span class="hljs-keyword">end</span><br>    <span class="hljs-keyword">else</span><br>        舍弃该片元<br>    <span class="hljs-keyword">end</span><br><span class="hljs-keyword">else</span><br>    <span class="hljs-keyword">if</span> 开启了深度写入 <span class="hljs-keyword">then</span><br>        将深度值写入深度缓冲区<br>    <span class="hljs-keyword">end</span><br><span class="hljs-keyword">end</span><br></code></pre></td></tr></table></figure> <strong>3.5.3 混合</strong>
-<figure class="highlight ada"><table><tr><td class="code"><pre><code class="hljs ada"><span class="hljs-keyword">if</span> 开启了混合 <span class="hljs-keyword">then</span><br>    用alpha混合函数(alpha blending <span class="hljs-keyword">function</span>)将该片元的颜色值和颜色缓冲区中的颜色值进行混合<br><span class="hljs-keyword">else</span><br>    直接使用该片元的颜色值<br><span class="hljs-keyword">end</span><br>更新颜色缓冲区中的颜色值<br></code></pre></td></tr></table></figure></p>
-]]></content>
-      <categories>
-        <category>图形渲染</category>
-      </categories>
   </entry>
   <entry>
     <title>后处理</title>
@@ -1836,48 +1546,131 @@ alt="排序过程图形化" />
       </categories>
   </entry>
   <entry>
-    <title>技术美术的职责</title>
-    <url>/posts/dd4c3610.html</url>
-    <content><![CDATA[<h1 id="何为技术美术">何为技术美术</h1>
-<p>技术美术(Technical Artist,
-TA)主要职责是作为美术师和程序员之间沟通合作的桥梁。因此TA需要同时兼备编码能力和美术能力，门槛较高，所以身价一般也比较高。前段时间原神的大火，进一步提升了TA的身价。TA是一个复合型工种，所以不同TA的能力侧重点会不一样。TA大致可以再细分为两种类型。一种偏向技术，驻扎在游戏引擎组。一种偏向美术，驻扎在美术支持组。</p>
-<p>其实还可以继续细分的。比如</p>
-<p>效果TA，主要负责实现具体的美术效果，比如人物描边、火焰效果、水流效果、运动模糊。</p>
-<p>流程TA，主要负责各种资源的导出工作，例如全局光照烘焙流程、场景分块导出流程等。</p>
-<p>优化TA主要负责性能优化工作，比如遮挡剔除的实现、具体效果的性能优化。</p>
-<p>引擎TA主要负责游戏引擎整体渲染效果的把控，定制渲染管线，所以需要对引擎非常熟悉，并且能够对团队进行引擎相关的培训。</p>
-<p>资产TA，需要整理、维护项目的资源，比如制定性能指标、资源检查。</p>
-<p>相比于客户端程序，TA跟美术的沟通更加的紧密和频繁，TA需要主动去跟美术进行沟通，不要期待美术会及时反馈问题。
-# 主要工作职责 TA最重要的工作就是实现具体的美术效果，例如 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234443.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234451.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234515.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234522.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234544.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234610.png?x-oss-process=style/WaterMask" />
-一般来说，实现一个美术效果分为4个阶段，方案确定、技术预研、效果实现、生产跟进。</p>
-<p>TA在拿到一个具体的美术效果需求时，需要针对这个需求选择合适的实现方案。为了找到合适的方案，首先需要用技术语言将需求表达出来。然后对竞品进行分析，推测对方使用了什么技术来实现该效果。再去学习与实现技术相关的资料，可以到书籍、SIGGRAPH等地方找到需要的内容。最后针对之前的工作内容整理输出一份文档，发起一次会议和相关人员对齐之后的工作内容。</p>
-<p>方案确定之后，TA就可以尝试在项目生产环境下对效果进行初步的实现，输出一个demo。这个过程中不需要太关注代码架构的合理性和性能问题，尽可能快就好。如果过程中使用的美术素材需要使用比较特殊的方式进行制作，就自己动手制作，不要麻烦美术。因为这个实现方案可能并不是最终的实现方案，这时让美术去学习新的制作方法性价比不高。等这个方案真的成为了最终方案时，再推广新的制作方法。但是常规的素材还是需要积极找美术配合输出的。</p>
-<p>在整个过程中需要习惯性地将自己想法和问题记录到文档上，可以作为备忘录，也方便之后进行技术分享。demo出来之后，可以开会跟相关人员对实现出来的效果进行讨论，确定最终是否采纳该方案。</p>
-<p>如果demo的效果不ok，则需要重新选择实现方案。否则将继续往前推进，这时就进入到了方案实现阶段，这个阶段主要是将demo的效果落地到项目生产环境中。在这个过程中需要依据项目规范重构demo的实现代码。如果存在较明显的性能消耗，则需要开展性能优化工作。开发特殊素材的制作工具并进行优化。输出美术制作文档，配合给出样例素材。如果有必要，则对美术进行基本的生产培训。之后还可以定期给团队成员进行技术分享，确保大家对引擎技术有着一致的认知。</p>
-<p>在方案正式投入生产线使用时，TA需要积极主动跟美术进行交流，确保他们在制作过程没有被问题卡住，保证开发流程通畅。效果的跟进不可以交给QA来进行，QA只负责提出异常效果，表现力需要TA亲自跟进。多向美术收集素材制作工具的使用体验，及时对工具进行改良。
-# 在各研发阶段中的具体工作职责
-在项目研发的不同阶段，TA的工作侧重点会有所不同。</p>
-<p>在项目启动阶段，TA需要配合美术同学给出可供我们项目参考的美术风格，并针对特定的效果进行技术评估，确定效果是否能实现。除了仿制出其它项目的效果之外，TA还需要为项目增加自己的特色，提升项目的市场竞争力。</p>
-<p>在项目Demo制作阶段，TA就需要开始实现具体效果了，可参考上文。</p>
-<p>在项目立项阶段，主要对效果表现力和性能进行优化。</p>
-<p>在中期阶段，TA需要对资产进行良好地分类、维护、升级，因为资产会逐渐变得庞大。控制好资产大小，确保被打包的资产不多也不少。为了更合理地管理好资产，需要输出一定的规范文档，并依据必要的规范实现自动资源检查。还需要关注性能表现，针对性能消耗较大的效果进行优化，如果无法优化，可以考虑直接毙掉该效果。这时还需要开始考虑上线后可能会面临的问题，针对这些问题给出解决方案。</p>
-<p>在内测阶段，需要及时解决运行环境中出现的性能问题、兼容性问题、效果表现力问题。</p>
-<p>项目上线后，可以对之前工作结果进行总结和分享，沉淀下来，为新的项目做准备。</p>
+    <title>我所理解的C++ 03-1｜vector 扩容后，引用和迭代器为什么会失效</title>
+    <url>/posts/ec9911c0.html</url>
+    <content><![CDATA[<p>先看一段很容易写出来的代码：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;vector&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>&#125;;<br>    <span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">40</span>);<br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">50</span>);<br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">60</span>);<br><br>    std::cout &lt;&lt; first &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p><code>first</code> 看起来只是 <code>values[0]</code>
+的另一个名字。可这段代码并不一定安全。</p>
+<p>如果后面的某次 <code>push_back</code> 触发了 <code>vector</code>
+扩容，原来的元素会被搬到一块新的连续内存，旧元素随即结束生命周期。此时
+<code>first</code> 仍然保存着旧缓冲区中的地址，它已经不再引用
+<code>vector</code> 里的任何有效对象。</p>
+<p>继续读取 <code>first</code> 是未定义行为。</p>
+<p>这段代码最容易让人误判的地方在于：它可能每次都打印
+<code>10</code>。程序没有崩溃，输出也符合预期，并不代表代码正确。访问悬空引用本来就可能表现为“看起来正常”。</p>
+<h2 id="引用不是元素的副本">引用不是元素的副本</h2>
+<p><code>values[0]</code> 返回的是 <code>int&amp;</code>。把它绑定到
+<code>const int&amp;</code> 后，<code>first</code>
+绑定的是缓冲区里的那个 <code>int</code>
+对象，并没有复制出一个独立的值。</p>
+<p>可以把 <code>vector</code> 简化成三部分：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">元素所在缓冲区 + size + capacity<br></code></pre></td></tr></table></figure>
+<p><code>size()</code> 是当前真正存在的元素数量。<code>capacity()</code>
+是在不重新分配缓冲区的前提下，最多能容纳多少个元素。</p>
+<p>下面这个关系很常见：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br><br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">1</span>);<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">2</span>);<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">3</span>);<br><br>std::cout &lt;&lt; values.<span class="hljs-built_in">size</span>();     <span class="hljs-comment">// 3</span><br>std::cout &lt;&lt; values.<span class="hljs-built_in">capacity</span>(); <span class="hljs-comment">// 至少为 3</span><br></code></pre></td></tr></table></figure>
+<p>标准并没有规定 <code>vector</code>
+必须按照两倍增长，也没有规定每次请求一定得到多大的容量。不同标准库实现可能采用不同的增长策略。</p>
+<p>我们能够依赖的是：当现有容量不够时，<code>vector</code>
+会重新分配一块能够容纳更多元素的连续空间，把原有元素移动或复制过去，再销毁旧缓冲区中的元素。</p>
+<p>也正是在这一步，指向旧缓冲区的引用、指针和迭代器全部失效。</p>
+<h2 id="失效的不是第几个元素">失效的不是“第几个元素”</h2>
+<p>人们有时把 <code>values[0]</code> 理解成“第 0
+号位置”。更准确的理解是：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">先取得缓冲区首地址，再偏移 0 个元素<br></code></pre></td></tr></table></figure>
+<p>扩容后，元素虽然仍位于新 <code>vector</code> 的第 0
+位，但底层地址已经改变。</p>
+<p>因此下面这些值都可能在扩容后失效：</p>
+<ul>
+<li><code>int&amp;</code> 或 <code>const int&amp;</code>；</li>
+<li>指向元素的 <code>int*</code> 或 <code>const int*</code>；</li>
+<li><code>vector&lt;int&gt;::iterator</code>；</li>
+<li>通过 <code>values.data()</code> 得到的指针；</li>
+<li>范围 <code>for</code> 循环内部保存的迭代器。</li>
+</ul>
+<p>它们共同依赖同一件事：元素仍然位于原来的缓冲区。</p>
+<p>失效后不会触发一个可靠的运行时错误。引用仍能拿来写代码，指针仍能拿来解引用，迭代器仍能拿来执行
+<code>++</code>，只是行为已经不再受语言保证。</p>
+<h2 id="一次运行不能证明安全">一次运行不能证明安全</h2>
+<p>下面这种验证方式没有意义：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span> (values.<span class="hljs-built_in">size</span>() == values.<span class="hljs-built_in">capacity</span>()) &#123;<br>    std::cout &lt;&lt; <span class="hljs-string">&quot;下一次 push_back 会申请新缓冲区\n&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这段检查只能说明当前这一次 <code>push_back</code>
+的起点在哪里，不能作为长期保存引用的依据。只要之后某次插入把
+<code>size</code> 推到容量之外，重新分配仍会发生。</p>
+<p>更不要通过固定写几个 <code>push_back</code>
+来“记住”某台机器上的容量变化。更换编译器、编译选项、元素类型或
+<code>vector</code> 的初始状态后，结论都可能改变。</p>
+<p>对需要保存元素地址的代码，应该直接消除这种偶然性。</p>
+<h2 id="reserve-要在保存引用之前调用">reserve 要在保存引用之前调用</h2>
+<p>如果已经知道最多需要放入多少元素，可以先预留容量：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">100</span>);<br><br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">10</span>);<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">99</span>; ++i) &#123;<br>    values.<span class="hljs-built_in">push_back</span>(i);<br>&#125;<br><br>std::cout &lt;&lt; first &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br></code></pre></td></tr></table></figure>
+<p>只要后续元素数量没有超过预留容量，<code>push_back</code>
+就不需要重新分配缓冲区，之前取得的引用可以继续使用。</p>
+<p>顺序很重要。先保存引用，再调用
+<code>reserve</code>，同样可能失效：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>&#125;;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">100</span>); <span class="hljs-comment">// 可能重新分配</span><br>std::cout &lt;&lt; first;  <span class="hljs-comment">// 不能再依赖</span><br></code></pre></td></tr></table></figure>
+<p><code>reserve</code>
+只改变容量，不创建元素。下面这段代码仍然是错误的：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">10</span>);<br><br>values[<span class="hljs-number">0</span>] = <span class="hljs-number">1</span>; <span class="hljs-comment">// 错误：size 仍然是 0</span><br></code></pre></td></tr></table></figure>
+<p>容量代表“可以放”，不代表“已经有”。需要真正创建元素时，应使用
+<code>resize</code> 或插入元素的接口。</p>
+<h2 id="范围-for-循环为什么也会出问题">范围 for
+循环为什么也会出问题</h2>
+<p>范围 <code>for</code>
+会先取得序列的起点和终点，再在循环过程中使用这些迭代器。它并不会在每一轮重新查询
+<code>vector</code> 的全部状态。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>    <span class="hljs-keyword">if</span> (value % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) &#123;<br>        values.<span class="hljs-built_in">push_back</span>(value);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>一旦 <code>push_back</code>
+触发扩容，循环正在使用的迭代器可能指向已经销毁的旧缓冲区。这个循环不但可能漏掉新加入的元素，还可能进入未定义行为。</p>
+<p>更清楚的写法是同时保留输入和输出：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; result;<br><br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>    <span class="hljs-keyword">if</span> (value % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) &#123;<br>        result.<span class="hljs-built_in">push_back</span>(value);<br>    &#125;<br>&#125;<br><br>values.<span class="hljs-built_in">swap</span>(result);<br></code></pre></td></tr></table></figure>
+<p>如果确实需要边遍历边追加，至少不要依赖在循环外保存的迭代器或引用。但这通常会让代码意图变得难读，优先考虑拆成输入和输出两步。</p>
+<h2 id="capacity-大不等于元素还活着">capacity 大不等于元素还活着</h2>
+<p><code>clear()</code>
+会销毁所有元素，但通常不会释放已经分配的内存：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>&#125;;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>values.<span class="hljs-built_in">clear</span>();<br><br>std::cout &lt;&lt; first; <span class="hljs-comment">// 错误</span><br></code></pre></td></tr></table></figure>
+<p>调用 <code>clear()</code> 后，<code>capacity()</code> 可能仍然是
+3，但元素对象已经结束生命周期。继续使用 <code>first</code>
+仍然是悬空引用。</p>
+<p><code>erase()</code>、<code>shrink_to_fit()</code>、赋值或移动
+<code>vector</code>
+等操作，也会以各自的规则影响引用和迭代器。判断时不能只看“内存有没有换一块”，还要看原来的元素对象是否仍然存在、是否仍由当前容器管理。</p>
+<h2 id="需要稳定地址时先改变设计">需要稳定地址时，先改变设计</h2>
+<p>如果一段代码必须长期保存元素地址，可以先问一个更根本的问题：真的必须直接保存元素引用吗？</p>
+<p>一种做法是保存索引：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::<span class="hljs-type">size_t</span> first_index = <span class="hljs-number">0</span>;<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">42</span>);<br><br><span class="hljs-type">int</span> value = values.<span class="hljs-built_in">at</span>(first_index);<br></code></pre></td></tr></table></figure>
+<p>只要元素顺序和下标含义没有改变，扩容后仍然可以通过索引访问当前容器中的元素。索引也不是万能的，执行
+<code>erase</code>、排序或替换容器内容后，原来的下标可能已经指向别的元素。</p>
+<p>另一种做法是让对象本身分配在稳定地址，而 <code>vector</code>
+只保存指向它的句柄：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;std::unique_ptr&lt;Item&gt;&gt; items;<br><br>items.<span class="hljs-built_in">push_back</span>(std::<span class="hljs-built_in">make_unique</span>&lt;Item&gt;());<br>Item&amp; first_item = *items[<span class="hljs-number">0</span>];<br><br>items.<span class="hljs-built_in">push_back</span>(std::<span class="hljs-built_in">make_unique</span>&lt;Item&gt;());<br><br><span class="hljs-comment">// vector 扩容后，Item 对象本身没有移动</span><br>first_item.<span class="hljs-built_in">update</span>();<br></code></pre></td></tr></table></figure>
+<p>此时移动的是 <code>unique_ptr</code> 对象，<code>Item</code>
+对象位于独立分配的内存中，地址不会因为 <code>vector</code>
+扩容而改变。代价是多一次间接访问，也更依赖动态分配。</p>
+<p>选择 <code>std::deque</code>、<code>std::list</code>
+或别的容器也可以改变地址稳定性，但它们各自还有不同的失效规则和性能取舍。不要只因为“引用不会失效”就更换容器，先把访问模式、插入位置和遍历需求一起看清。</p>
+<h2 id="最后的检查点">最后的检查点</h2>
+<ul>
+<li>保存了 <code>vector</code>
+元素的引用、指针或迭代器后，中间是否可能执行插入操作？</li>
+<li>这次插入是否可能触发扩容？</li>
+<li><code>reserve</code> 是否在所有保存引用的操作之前完成？</li>
+<li>是否把 <code>capacity</code> 误当成了元素数量？</li>
+<li>是否在范围 <code>for</code> 或持有迭代器的循环中改变了
+<code>vector</code> 的大小？</li>
+</ul>
+<p><code>vector</code>
+的连续内存带来了缓存友好和随机访问，也意味着扩容时必须整体搬走元素。只要记住引用和迭代器绑定的是某一块缓冲区，而不是抽象意义上的“第几个元素”，这些失效规则就不难判断了。</p>
 ]]></content>
       <categories>
-        <category>游戏开发碎碎念</category>
+        <category>C++</category>
       </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>STL</tag>
+        <tag>vector</tag>
+      </tags>
   </entry>
   <entry>
     <title>常用设计模式讲解(史上最简短)</title>
@@ -2082,72 +1875,47 @@ Factory)</h2>
       </tags>
   </entry>
   <entry>
-    <title>游戏动画技术简介</title>
-    <url>/posts/49a81750.html</url>
-    <content><![CDATA[<p>动画系统是游戏中对表现力影响最大的系统之一，经过一段时间的调研，最后通过这篇文章总结下游戏动画系统。</p>
-<h1 id="精灵动画系统">精灵动画系统</h1>
-<p>精灵动画系统在早年间计算机性能还比较差的时候被广泛运用，一般作为游戏的背景而存在，比如
+    <title>技术美术的职责</title>
+    <url>/posts/dd4c3610.html</url>
+    <content><![CDATA[<h1 id="何为技术美术">何为技术美术</h1>
+<p>技术美术(Technical Artist,
+TA)主要职责是作为美术师和程序员之间沟通合作的桥梁。因此TA需要同时兼备编码能力和美术能力，门槛较高，所以身价一般也比较高。前段时间原神的大火，进一步提升了TA的身价。TA是一个复合型工种，所以不同TA的能力侧重点会不一样。TA大致可以再细分为两种类型。一种偏向技术，驻扎在游戏引擎组。一种偏向美术，驻扎在美术支持组。</p>
+<p>其实还可以继续细分的。比如</p>
+<p>效果TA，主要负责实现具体的美术效果，比如人物描边、火焰效果、水流效果、运动模糊。</p>
+<p>流程TA，主要负责各种资源的导出工作，例如全局光照烘焙流程、场景分块导出流程等。</p>
+<p>优化TA主要负责性能优化工作，比如遮挡剔除的实现、具体效果的性能优化。</p>
+<p>引擎TA主要负责游戏引擎整体渲染效果的把控，定制渲染管线，所以需要对引擎非常熟悉，并且能够对团队进行引擎相关的培训。</p>
+<p>资产TA，需要整理、维护项目的资源，比如制定性能指标、资源检查。</p>
+<p>相比于客户端程序，TA跟美术的沟通更加的紧密和频繁，TA需要主动去跟美术进行沟通，不要期待美术会及时反馈问题。
+# 主要工作职责 TA最重要的工作就是实现具体的美术效果，例如 <img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234443.png?x-oss-process=style/WaterMask" />
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029175924.png?x-oss-process=style/WaterMask"
-alt="极品飞车系列的路边观众" /> <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180025.png?x-oss-process=style/WaterMask"
-alt="NBA2K系列的观众" />
-这些人物都是一个四边形，游戏引擎会给四边形连续贴上纹理贴图来产生动感。通常为了不暴露这是个扁的四边形，会使这些四边形一直面向摄像机。比如
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234451.png?x-oss-process=style/WaterMask" />
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180040.png?x-oss-process=style/WaterMask"
-alt="DOOM" />
-这类动画系统在早期游戏中盛行，因为当时的计算机性能不够，而该系统对计算机资源的消耗非常低。现在部分手游依然会保留这类动画系统，因为手机性能有限。</p>
-<h1 id="刚性层阶式动画">刚性层阶式动画</h1>
-<p>刚性层阶式动画驱动的人物都由一堆独立的刚性物体组合而成。刚性物体指的是不会发生形变(包括缩放)的物体。然后动画系统会驱动每一个刚性物体，从而实现动画效果。最经典的例子就是1997年在PS上发售的FF7。
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234515.png?x-oss-process=style/WaterMask" />
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180105.png?x-oss-process=style/WaterMask"
-alt="97版FF7" />
-这个系统驱动的是3D模型，而不再是四边形贴图，同时还能保持高效的性能和较低的内存使用量。缺点是不允许网格发生形变，整个人物会显得非常生硬。而且人物的关节位置会产生明显的“裂缝”。</p>
-<h1 id="每顶点动画">每顶点动画</h1>
-每顶点动画需要动画师为每个顶点去k动画。工作量非常巨大，产生的数据量也非常巨大，但是可以获得非常精细的动画效果，网格的三角形产生形变。通常用于制作CG中人物的表情，一般通过硬件设备来捕捉人脸信息，再转换成顶点数据。
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<p><iframe src="//player.bilibili.com/player.html?aid=859596268&bvid=BV1eV4y1g7H7&cid=875385956&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
-</div>
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<p><iframe src="//player.bilibili.com/player.html?aid=559589709&bvid=BV1Re4y127Tn&cid=875387307&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
-</div>
-<h1 id="变形目标动画morphing-animation">变形目标动画(morphing
-animation)</h1>
-<p>由于每顶点动画需要保存大量的动画数据，不方便存储和使用。于是提出了变形目标动画，动画师只需要通过调整网格上所有顶点的信息制作出一些静态姿势(morph
-target)。这些静态姿势都是一些“极端”的姿势，例如生气、开心等。在游戏引擎中通过对这些静态姿势按时间进行线性插值即可得到动画。</p>
-<h1 id="蒙皮动画skinened-animation">蒙皮动画(skinened animation)</h1>
-<blockquote>
-<p>有时也被称为骨骼动画、蒙皮骨骼动画，是一种FK</p>
-</blockquote>
-<p>为了可以得到较生动的动画效果，允许网格的三角形产生形变。同时兼顾较高的性能、较低的存储空间。蒙皮动画便出现了，现在市场上几乎所有的游戏都采用蒙皮动画作为动画解决方案。</p>
-<h2 id="概念">概念</h2>
-<p>在蒙皮动画中有几个重要的概念。首先是骨骼(skeleton)，骨骼由关节通过一棵树的形态组织起来。如果是一个人物模型，一般以髋部为根节点，以肢体末端为叶节点，比如手指、脚指、眼睛等。skeleton本身不需要被渲染引擎渲染出来，仅由动画系统驱动。</p>
-<p>然后是皮肤(skin)，皮肤由多边形网格组成。而网格又由顶点构成，这些顶点将会被动画师通过设置权重绑定(bind)到若干关节上。一般每个顶点最多绑定4个关节。但不是所有的关节都会被顶点绑定，这些没有被绑定的关节又称为定位器(locator)，作为其它模型的挂接点存在。
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234522.png?x-oss-process=style/WaterMask" />
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180348.png?x-oss-process=style/WaterMask"
-alt="DX中skeleton的组织方式" />
-蒙皮动画中存在几个重要的姿势(pose)，这些姿势可以矩阵或者SQT格式来保存。首先是绑定姿势，又称为T-pose，顾名思义，是动画师在给模型顶点做绑定时用的姿势。该姿势从DCC中输出之后就固定好了，在游戏运行时不会被改变。
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234544.png?x-oss-process=style/WaterMask" />
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180400.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180408.png?x-oss-process=style/WaterMask" />
-然后是局部姿势，它保存了当前关节在其父关节空间中的姿势。因为动画引擎直接驱动的是局部姿势，我们经常需要对局部姿势进行各种插值，所以一般不会存储为矩阵形式，而是存储为SQT形式。我们的动画片段就是由一连串的局部姿势组合起来，也就是说动画片段是一个因变量为局部姿势，自变量为时间的函数。</p>
-<p>最后是全局姿势，它保存了关节在其模型空间或世界空间中的姿势，具体保存形式不同的引擎有不同的做法。它是在游戏运行过程中通过联合具有父子关系的局部姿势实时生成的，算是被动画引擎间接驱动。</p>
-<h2 id="蒙皮skinning">蒙皮(skinning)</h2>
-<p>首先需要准备数据，每一个关节都保存着一个绑定姿势逆矩阵，以下简称IBP，该矩阵可以将物体从模型空间转换到当前关节空间。IBP是在3D模型从DCC输出后，利用T-Pose计算出来的。一次计算，无限次使用。</p>
-<p>动画引擎Update之后，每一个关节都会得到一个最新的局部姿势。这个时候可以进行一些额外的插值计算、程序式动画、IK等后处理过程。因为局部姿势一般保存为SQT格式，所以需要在这时转换成矩阵。</p>
-<p>然后我们开始计算每个关节的全局姿势矩阵，计算方法是依次连接关节本身及其所有父节点的局部姿势矩阵。</p>
-<p>最后IBP乘上全局姿势矩阵，就得到了蒙皮矩阵。顶点乘上蒙皮矩阵后会对顶点产生什么样的影响呢？可以这么想象：顶点原本位于模型为T-Pose时的模型空间中，乘上了IBP之后进入到关节空间中；再乘上全局姿势矩阵，这时模型摆出了由动画引擎驱动的姿势，在这个姿势下从关节空间回到模型空间。</p>
-<p>所以最终呈现的效果是，顶点被关节带到了特定位置。计算出所有关节的蒙皮矩阵之后，我们就得到了矩阵调色</p>
-<p>然后开始正式蒙皮。每个顶点都会从矩阵调色板中取得需要绑定的关节的蒙皮矩阵，然后更具动画师设定好的权重对这些矩阵进行混合。顶点乘上混合后的矩阵，这时蒙皮就完成了。</p>
-<p>ps：动画引擎Update时，可以通过多种方式计算出局部姿势。可以对单个动画片段进行一维线性插值实现时间性混合来得到常规的动画效果。可以对两个动画片段进行淡入/淡出计算获得圆滑过渡、冻结过渡等过渡效果。更进一步推广，可以对多个动画片段进行N维线性插值实现自定义的混合。为了充分利用资源，可以对动画片段进行分部混合或加法混合，例如人物在Idle状态时，通过加法混合给人物加入一些小动作，使得人物更真实。例如...
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-14d7181792c45287b55129c0856b82ff_720w.gif" /></p>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234610.png?x-oss-process=style/WaterMask" />
+一般来说，实现一个美术效果分为4个阶段，方案确定、技术预研、效果实现、生产跟进。</p>
+<p>TA在拿到一个具体的美术效果需求时，需要针对这个需求选择合适的实现方案。为了找到合适的方案，首先需要用技术语言将需求表达出来。然后对竞品进行分析，推测对方使用了什么技术来实现该效果。再去学习与实现技术相关的资料，可以到书籍、SIGGRAPH等地方找到需要的内容。最后针对之前的工作内容整理输出一份文档，发起一次会议和相关人员对齐之后的工作内容。</p>
+<p>方案确定之后，TA就可以尝试在项目生产环境下对效果进行初步的实现，输出一个demo。这个过程中不需要太关注代码架构的合理性和性能问题，尽可能快就好。如果过程中使用的美术素材需要使用比较特殊的方式进行制作，就自己动手制作，不要麻烦美术。因为这个实现方案可能并不是最终的实现方案，这时让美术去学习新的制作方法性价比不高。等这个方案真的成为了最终方案时，再推广新的制作方法。但是常规的素材还是需要积极找美术配合输出的。</p>
+<p>在整个过程中需要习惯性地将自己想法和问题记录到文档上，可以作为备忘录，也方便之后进行技术分享。demo出来之后，可以开会跟相关人员对实现出来的效果进行讨论，确定最终是否采纳该方案。</p>
+<p>如果demo的效果不ok，则需要重新选择实现方案。否则将继续往前推进，这时就进入到了方案实现阶段，这个阶段主要是将demo的效果落地到项目生产环境中。在这个过程中需要依据项目规范重构demo的实现代码。如果存在较明显的性能消耗，则需要开展性能优化工作。开发特殊素材的制作工具并进行优化。输出美术制作文档，配合给出样例素材。如果有必要，则对美术进行基本的生产培训。之后还可以定期给团队成员进行技术分享，确保大家对引擎技术有着一致的认知。</p>
+<p>在方案正式投入生产线使用时，TA需要积极主动跟美术进行交流，确保他们在制作过程没有被问题卡住，保证开发流程通畅。效果的跟进不可以交给QA来进行，QA只负责提出异常效果，表现力需要TA亲自跟进。多向美术收集素材制作工具的使用体验，及时对工具进行改良。
+# 在各研发阶段中的具体工作职责
+在项目研发的不同阶段，TA的工作侧重点会有所不同。</p>
+<p>在项目启动阶段，TA需要配合美术同学给出可供我们项目参考的美术风格，并针对特定的效果进行技术评估，确定效果是否能实现。除了仿制出其它项目的效果之外，TA还需要为项目增加自己的特色，提升项目的市场竞争力。</p>
+<p>在项目Demo制作阶段，TA就需要开始实现具体效果了，可参考上文。</p>
+<p>在项目立项阶段，主要对效果表现力和性能进行优化。</p>
+<p>在中期阶段，TA需要对资产进行良好地分类、维护、升级，因为资产会逐渐变得庞大。控制好资产大小，确保被打包的资产不多也不少。为了更合理地管理好资产，需要输出一定的规范文档，并依据必要的规范实现自动资源检查。还需要关注性能表现，针对性能消耗较大的效果进行优化，如果无法优化，可以考虑直接毙掉该效果。这时还需要开始考虑上线后可能会面临的问题，针对这些问题给出解决方案。</p>
+<p>在内测阶段，需要及时解决运行环境中出现的性能问题、兼容性问题、效果表现力问题。</p>
+<p>项目上线后，可以对之前工作结果进行总结和分享，沉淀下来，为新的项目做准备。</p>
 ]]></content>
       <categories>
-        <category>游戏引擎</category>
+        <category>游戏开发碎碎念</category>
       </categories>
   </entry>
   <entry>
@@ -2456,6 +2224,232 @@ Studio等。这些工具输出的资源格式在大部分情况下没有办法�
       </tags>
   </entry>
   <entry>
+    <title>可编程渲染管线(Scriptable Render Pipeline, SRP)</title>
+    <url>/posts/e35daff.html</url>
+    <content><![CDATA[<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105002824.png?x-oss-process=style/WaterMask" /></p>
+<p>可编程渲染管线处理数据的流程可分为以下3大阶段</p>
+<h1 id="应用阶段">1. 应用阶段</h1>
+<p>这个阶段大概会由CPU处理4件事情。首先会对模型数据进行可见性判断。模型数据由顶点位置、法线方向、顶点颜色、纹理坐标等构成。然后会将模型数据加载到显存以提高读取速度。再为每个图元设置常数寄存器和渲染状态。最后为一个渲染图元列表调用DrawCall指令。</p>
+<p>图元可以是点、线、三角形。</p>
+<h1 id="几何阶段">2. 几何阶段</h1>
+<p>这个阶段由GPU进行处理，会对每一个需要渲染的图元进行逐顶点、逐多边形处理，最根本的任务是将顶点的模型坐标转换到屏幕空间。</p>
+<h2 id="顶点着色器">2.1 顶点着色器</h2>
+<p>顶点着色器的基本任务是将顶点转换到齐次裁剪空间，还可以进行的其他任务有：</p>
+<ul>
+<li>逐顶点着色操作，如逐顶点光照</li>
+<li>纹理计算</li>
+<li>逐顶点蒙皮</li>
+<li>逐顶点程序式动画(procedural animation)</li>
+</ul>
+<p><strong>2.1.1 投影变换</strong></p>
+<p><span
+class="math display">\[Aspect=\frac{近裁剪平面宽度}{近裁剪平面高度}=\frac{远裁剪平面宽度}{远裁剪平面高度}\]</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011112.png) -->
+<p><strong>透视投影</strong></p>
+<p>在摄像机使用透视投影的时候，为了呈现出近大远小的透视收缩(perspective
+foreshortening)效果，需要对顶点进行透视投影变换。使用透视投影矩阵进行变换后，并没有进行裁剪，只是使得w值有了意义，为后面的裁剪做准备。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001504.png?x-oss-process=style/WaterMask" /></p>
+<p><span class="math inline">\(透视投影近裁剪平面高度=2 \cdot Near \cdot
+tan\frac{FOV}{2}\)</span></p>
+<p><span class="math inline">\(透视投影远裁剪平面高度=2 \cdot Far \cdot
+tan\frac{FOV}{2}\)</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011200.png) -->
+<p>Unity透视投影矩阵(右乘)</p>
+<p><span class="math display">\[\begin{vmatrix}
+  \frac{cot\frac{FOV}{2}}{Aspect} &amp; 0 &amp; 0 &amp; 0 \\
+  0 &amp; cot\frac{FOV}{2} &amp; 0 &amp; 0 \\
+  0 &amp; 0 &amp; -\frac{Far+Near}{Far-Near} &amp; -\frac{2 \cdot Near
+\cdot Far}{Far-Near} \\
+  0 &amp; 0 &amp; -1 &amp; 0
+\end{vmatrix}\]</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011212.png) -->
+<p>会改变空间手系，从右手系变成了左手系，因为Unity的观察空间是右手系，NDC空间是左手系</p>
+<p>观察空间中的顶点(x,y,z)透视投影到齐次裁剪空间后变为</p>
+<p><span class="math display">\[(x \cdot
+\frac{cot\frac{FOV}{2}}{Aspect}, y \cdot cot\frac{FOV}{2}, -z \cdot
+\frac{Far+Near}{Far-Near}-\frac{2 \cdot Near \cdot Far}{Far-Near},
+-z)\]</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011223.png) -->
+<p>透视投影齐次裁剪空间中坐标的w值为 <span
+class="math inline">\(-Z_{posInViewSpace}\)</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011717.png) -->
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001658.png?x-oss-process=style/WaterMask"
+alt="变换情况" />
+<figcaption aria-hidden="true">变换情况</figcaption>
+</figure>
+<p><strong>正交投影</strong></p>
+<p><span class="math display">\[正交投影远(近)裁剪平面高度=2 \cdot
+Size\]</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011245.png) -->
+<p>Unity正交投影矩阵(右乘)</p>
+<p><span class="math display">\[\begin{vmatrix}
+    \frac{1}{Aspect \cdot Size} &amp; 0 &amp; 0 &amp; 0 \\
+    0 &amp; \frac{1}{Size} &amp; 0 &amp; 0 \\
+    0 &amp; 0 &amp; -\frac{2}{Far-Near} &amp; -\frac{Far+Near}{Far-Near}
+\\
+    0 &amp; 0 &amp; 0 &amp; 1 \\
+\end{vmatrix}\]</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011253.png) -->
+<p>会改变空间手系，从右手系变成了左手系，因为Unity的观察空间是右手系，NDC空间是左手系</p>
+<p>观察空间种的顶点(x,y,z)正交投影到齐次裁剪空间后变为 <span
+class="math inline">\((\frac{x}{Aspect \cdot Size}, \frac{y}{Size},
+-\frac{2z}{Far-Near}-\frac{Far+Near}{Far-Near}, 1)\)</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011307.png) -->
+<p>正交投影齐次裁剪空间中坐标的w值为1</p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105001921.png) -->
+<h2 id="曲面细分着色器">2.2 曲面细分着色器</h2>
+<p>用于细分图元</p>
+<h2 id="几何着色器">2.3 几何着色器</h2>
+<ul>
+<li>几何着色器的功能是修改、剔除、创建图元，可以实现以下效果：
+<ul>
+<li>阴影体积拉伸(shadow volume extrusion)</li>
+<li>渲染立方体贴图(cube map)的6个面</li>
+<li>在网格的轮廓边拉伸毛发的鳍(fur in)</li>
+<li>从点数据生成例子四边形</li>
+<li>动态镶嵌</li>
+<li>把线段分形细分(fractal subdivision)以模拟闪电、布料</li>
+<li>将数据传到管线开头重新进入管线
+<ul>
+<li>用例：在顶点着色器内对头发样条的控制点进行物理模拟，在几何着色器内把样条镶嵌成线段，通过流输出将线段传到管线开头重新进入管线进行渲染</li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 id="裁剪">2.4 裁剪</h2>
+<p>裁剪的作用是将每个三角形在平截头体以外的部分切掉，把在平截头体以外的三角形剔除。</p>
+<p>满足以下条件的顶点才会被保留下来：</p>
+<p><span class="math display">\[-w&lt;=x&lt;=w\]</span> <span
+class="math display">\[-w&lt;=y&lt;=w\]</span> <span
+class="math display">\[-w&lt;=z&lt;=w\]</span></p>
+<!-- ![](https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105011331.png) -->
+<h2 id="齐次除法">2.5 齐次除法</h2>
+<p>所谓的齐次除法就是让x、y、z都除以w，这时就可以得到NDC空间中的坐标</p>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/透视投影的齐次除法.png?x-oss-process=style/WaterMask"
+alt="透视投影的齐次除法" />
+<figcaption aria-hidden="true">透视投影的齐次除法</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/正交投影的齐次除法.png?x-oss-process=style/WaterMask"
+alt="正交投影的齐次除法" />
+<figcaption aria-hidden="true">正交投影的齐次除法</figcaption>
+</figure>
+<p>上图右边都是OpenGL的NDC，DirectX的NDC也和上图右边类似，但z范围在[0,1]</p>
+<h2 id="屏幕映射">2.6屏幕映射</h2>
+<p>视口空间：程序运行窗口构成的空间</p>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/屏幕空间：整个显示屏幕构成的空间.png?x-oss-process=style/WaterMask"
+alt="屏幕空间：整个显示屏幕构成的空间" />
+<figcaption
+aria-hidden="true">屏幕空间：整个显示屏幕构成的空间</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Unity中将NDC坐标转换为屏幕坐标的右乘矩阵.png?x-oss-process=style/WaterMask"
+alt="Unity中将NDC坐标转换为屏幕坐标的右乘矩阵" />
+<figcaption
+aria-hidden="true">Unity中将NDC坐标转换为屏幕坐标的右乘矩阵</figcaption>
+</figure>
+<p>矩阵中的X、Y是视口空间原点的屏幕坐标</p>
+<h1 id="光栅化阶段">3. 光栅化阶段</h1>
+<p>这个阶段由GPU来决定绘制哪些片元以及这些片元的颜色</p>
+<p>片元=片段：三角形被栅格化后，其中的每一个小方块都是一个片元，可以看成是还不确定最终是否可以呈现到屏幕上的像素</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105002226.png?x-oss-process=style/WaterMask" /></p>
+<h2 id="三角形设置">3.1 三角形设置</h2>
+<p>这个阶段的任务是找出三角形边界所覆盖的像素</p>
+<h2 id="三角形遍历">3.2 三角形遍历</h2>
+<p>这个阶段会对每个三角形进行栅格化，即找出每个三角形覆盖的像素区域。区域中的片元中信息（屏幕坐标、深度值、法线坐标、纹理坐标）由3个顶点数据进行插值(必要时会采用透视校正插值)得到</p>
+<h2 id="提前深度测试">3.3 提前深度测试</h2>
+<p>如果用户没有在片元着色器中改变深度或自我丢弃(discard)，显卡会自动开启该功能</p>
+<h2 id="片元着色器">3.4 片元着色器</h2>
+<p>用于执行逐像素着色操作，如纹理采样、多重纹理采样、逐像素光照</p>
+<h2 id="逐片元操作">3.5 逐片元操作</h2>
+<p><strong>3.5.1 模板测试</strong> <figure class="highlight scss"><table><tr><td class="code"><pre><code class="hljs scss">if 开启了模板测试 then<br>    比较参考值(使用读取掩码)和模板缓冲区中的模板值(使用读取掩码)<br>    if not 通过模板测试 then<br>        舍弃该片元<br>    end<br>    根据已设置的渲染状态更新模板缓冲区中的值(使用写入掩码)<br>end<br></code></pre></td></tr></table></figure> <strong>3.5.2
+深度测试</strong> <figure class="highlight ada"><table><tr><td class="code"><pre><code class="hljs ada"><span class="hljs-keyword">if</span> 开启了深度测试 <span class="hljs-keyword">then</span><br>    比较该片元的深度值和深度缓冲区中的深度值<br>    <span class="hljs-keyword">if</span> 通过了深度测试 <span class="hljs-keyword">then</span><br>        <span class="hljs-keyword">if</span> 开启了深度写入 <span class="hljs-keyword">then</span><br>            将深度值写入深度缓冲区<br>        <span class="hljs-keyword">end</span><br>    <span class="hljs-keyword">else</span><br>        舍弃该片元<br>    <span class="hljs-keyword">end</span><br><span class="hljs-keyword">else</span><br>    <span class="hljs-keyword">if</span> 开启了深度写入 <span class="hljs-keyword">then</span><br>        将深度值写入深度缓冲区<br>    <span class="hljs-keyword">end</span><br><span class="hljs-keyword">end</span><br></code></pre></td></tr></table></figure> <strong>3.5.3 混合</strong>
+<figure class="highlight ada"><table><tr><td class="code"><pre><code class="hljs ada"><span class="hljs-keyword">if</span> 开启了混合 <span class="hljs-keyword">then</span><br>    用alpha混合函数(alpha blending <span class="hljs-keyword">function</span>)将该片元的颜色值和颜色缓冲区中的颜色值进行混合<br><span class="hljs-keyword">else</span><br>    直接使用该片元的颜色值<br><span class="hljs-keyword">end</span><br>更新颜色缓冲区中的颜色值<br></code></pre></td></tr></table></figure></p>
+]]></content>
+      <categories>
+        <category>图形渲染</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>游戏动画技术简介</title>
+    <url>/posts/49a81750.html</url>
+    <content><![CDATA[<p>动画系统是游戏中对表现力影响最大的系统之一，经过一段时间的调研，最后通过这篇文章总结下游戏动画系统。</p>
+<h1 id="精灵动画系统">精灵动画系统</h1>
+<p>精灵动画系统在早年间计算机性能还比较差的时候被广泛运用，一般作为游戏的背景而存在，比如
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029175924.png?x-oss-process=style/WaterMask"
+alt="极品飞车系列的路边观众" /> <img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180025.png?x-oss-process=style/WaterMask"
+alt="NBA2K系列的观众" />
+这些人物都是一个四边形，游戏引擎会给四边形连续贴上纹理贴图来产生动感。通常为了不暴露这是个扁的四边形，会使这些四边形一直面向摄像机。比如
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180040.png?x-oss-process=style/WaterMask"
+alt="DOOM" />
+这类动画系统在早期游戏中盛行，因为当时的计算机性能不够，而该系统对计算机资源的消耗非常低。现在部分手游依然会保留这类动画系统，因为手机性能有限。</p>
+<h1 id="刚性层阶式动画">刚性层阶式动画</h1>
+<p>刚性层阶式动画驱动的人物都由一堆独立的刚性物体组合而成。刚性物体指的是不会发生形变(包括缩放)的物体。然后动画系统会驱动每一个刚性物体，从而实现动画效果。最经典的例子就是1997年在PS上发售的FF7。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180105.png?x-oss-process=style/WaterMask"
+alt="97版FF7" />
+这个系统驱动的是3D模型，而不再是四边形贴图，同时还能保持高效的性能和较低的内存使用量。缺点是不允许网格发生形变，整个人物会显得非常生硬。而且人物的关节位置会产生明显的“裂缝”。</p>
+<h1 id="每顶点动画">每顶点动画</h1>
+每顶点动画需要动画师为每个顶点去k动画。工作量非常巨大，产生的数据量也非常巨大，但是可以获得非常精细的动画效果，网格的三角形产生形变。通常用于制作CG中人物的表情，一般通过硬件设备来捕捉人脸信息，再转换成顶点数据。
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<p><iframe src="//player.bilibili.com/player.html?aid=859596268&bvid=BV1eV4y1g7H7&cid=875385956&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
+</div>
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<p><iframe src="//player.bilibili.com/player.html?aid=559589709&bvid=BV1Re4y127Tn&cid=875387307&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
+</div>
+<h1 id="变形目标动画morphing-animation">变形目标动画(morphing
+animation)</h1>
+<p>由于每顶点动画需要保存大量的动画数据，不方便存储和使用。于是提出了变形目标动画，动画师只需要通过调整网格上所有顶点的信息制作出一些静态姿势(morph
+target)。这些静态姿势都是一些“极端”的姿势，例如生气、开心等。在游戏引擎中通过对这些静态姿势按时间进行线性插值即可得到动画。</p>
+<h1 id="蒙皮动画skinened-animation">蒙皮动画(skinened animation)</h1>
+<blockquote>
+<p>有时也被称为骨骼动画、蒙皮骨骼动画，是一种FK</p>
+</blockquote>
+<p>为了可以得到较生动的动画效果，允许网格的三角形产生形变。同时兼顾较高的性能、较低的存储空间。蒙皮动画便出现了，现在市场上几乎所有的游戏都采用蒙皮动画作为动画解决方案。</p>
+<h2 id="概念">概念</h2>
+<p>在蒙皮动画中有几个重要的概念。首先是骨骼(skeleton)，骨骼由关节通过一棵树的形态组织起来。如果是一个人物模型，一般以髋部为根节点，以肢体末端为叶节点，比如手指、脚指、眼睛等。skeleton本身不需要被渲染引擎渲染出来，仅由动画系统驱动。</p>
+<p>然后是皮肤(skin)，皮肤由多边形网格组成。而网格又由顶点构成，这些顶点将会被动画师通过设置权重绑定(bind)到若干关节上。一般每个顶点最多绑定4个关节。但不是所有的关节都会被顶点绑定，这些没有被绑定的关节又称为定位器(locator)，作为其它模型的挂接点存在。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180348.png?x-oss-process=style/WaterMask"
+alt="DX中skeleton的组织方式" />
+蒙皮动画中存在几个重要的姿势(pose)，这些姿势可以矩阵或者SQT格式来保存。首先是绑定姿势，又称为T-pose，顾名思义，是动画师在给模型顶点做绑定时用的姿势。该姿势从DCC中输出之后就固定好了，在游戏运行时不会被改变。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180400.png?x-oss-process=style/WaterMask" />
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180408.png?x-oss-process=style/WaterMask" />
+然后是局部姿势，它保存了当前关节在其父关节空间中的姿势。因为动画引擎直接驱动的是局部姿势，我们经常需要对局部姿势进行各种插值，所以一般不会存储为矩阵形式，而是存储为SQT形式。我们的动画片段就是由一连串的局部姿势组合起来，也就是说动画片段是一个因变量为局部姿势，自变量为时间的函数。</p>
+<p>最后是全局姿势，它保存了关节在其模型空间或世界空间中的姿势，具体保存形式不同的引擎有不同的做法。它是在游戏运行过程中通过联合具有父子关系的局部姿势实时生成的，算是被动画引擎间接驱动。</p>
+<h2 id="蒙皮skinning">蒙皮(skinning)</h2>
+<p>首先需要准备数据，每一个关节都保存着一个绑定姿势逆矩阵，以下简称IBP，该矩阵可以将物体从模型空间转换到当前关节空间。IBP是在3D模型从DCC输出后，利用T-Pose计算出来的。一次计算，无限次使用。</p>
+<p>动画引擎Update之后，每一个关节都会得到一个最新的局部姿势。这个时候可以进行一些额外的插值计算、程序式动画、IK等后处理过程。因为局部姿势一般保存为SQT格式，所以需要在这时转换成矩阵。</p>
+<p>然后我们开始计算每个关节的全局姿势矩阵，计算方法是依次连接关节本身及其所有父节点的局部姿势矩阵。</p>
+<p>最后IBP乘上全局姿势矩阵，就得到了蒙皮矩阵。顶点乘上蒙皮矩阵后会对顶点产生什么样的影响呢？可以这么想象：顶点原本位于模型为T-Pose时的模型空间中，乘上了IBP之后进入到关节空间中；再乘上全局姿势矩阵，这时模型摆出了由动画引擎驱动的姿势，在这个姿势下从关节空间回到模型空间。</p>
+<p>所以最终呈现的效果是，顶点被关节带到了特定位置。计算出所有关节的蒙皮矩阵之后，我们就得到了矩阵调色</p>
+<p>然后开始正式蒙皮。每个顶点都会从矩阵调色板中取得需要绑定的关节的蒙皮矩阵，然后更具动画师设定好的权重对这些矩阵进行混合。顶点乘上混合后的矩阵，这时蒙皮就完成了。</p>
+<p>ps：动画引擎Update时，可以通过多种方式计算出局部姿势。可以对单个动画片段进行一维线性插值实现时间性混合来得到常规的动画效果。可以对两个动画片段进行淡入/淡出计算获得圆滑过渡、冻结过渡等过渡效果。更进一步推广，可以对多个动画片段进行N维线性插值实现自定义的混合。为了充分利用资源，可以对动画片段进行分部混合或加法混合，例如人物在Idle状态时，通过加法混合给人物加入一些小动作，使得人物更真实。例如...
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-14d7181792c45287b55129c0856b82ff_720w.gif" /></p>
+]]></content>
+      <categories>
+        <category>游戏引擎</category>
+      </categories>
+  </entry>
+  <entry>
     <title>漫谈Entity-Component-System</title>
     <url>/posts/1abc5785.html</url>
     <content><![CDATA[<h1 id="简介">简介</h1>
@@ -2593,6 +2587,26 @@ ECS 构架</a></li>
       <categories>
         <category>软件工程</category>
       </categories>
+  </entry>
+  <entry>
+    <title>算法题--从尾到头打印链表</title>
+    <url>/posts/4f46182d.html</url>
+    <content><![CDATA[<p>5 # 要求 时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>输入一个链表，从尾到头打印链表每个节点的值</p>
+<h1 id="解题思路">解题思路</h1>
+<p>链表必须要从头开始访问，如果需要将打印顺序颠倒，可以利用栈的特性。有时候方法就是这么简单
+- -</p>
+<p>如果想展示你的算法能力，可以写成递归--深度优先搜索</p>
+<h1 id="代码">代码</h1>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">struct ListNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  struct ListNode *next;</span><br><span class="hljs-comment">  ListNode(int x) :</span><br><span class="hljs-comment">    val(x), next(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">printListFromTailToHead</span><span class="hljs-params">(ListNode* head)</span></span><br><span class="hljs-function">  </span>&#123;<br>    vector&lt;<span class="hljs-type">int</span>&gt; res;<br>    stack&lt;<span class="hljs-type">int</span>&gt; temp;<br>    <br>    <span class="hljs-keyword">while</span>(head != <span class="hljs-literal">NULL</span>)<br>    &#123;<br>      temp.<span class="hljs-built_in">push</span>(head-&gt;val);<br>      head = head-&gt;next;<br>    &#125;<br>    <br>    <span class="hljs-keyword">while</span>(!temp.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      res.<span class="hljs-built_in">push_back</span>(temp.<span class="hljs-built_in">top</span>());<br>      temp.<span class="hljs-built_in">pop</span>();<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
+      </tags>
   </entry>
   <entry>
     <title>我所理解的C++ 番外｜C++ 中的代码重用</title>
@@ -2879,6 +2893,50 @@ class="invisible">ES9xrySqW7PfpjyQ</span><span class="ellipsis"></span>
       </tags>
   </entry>
   <entry>
+    <title>算法题--旋转数组的最小数字</title>
+    <url>/posts/2bc2b764.html</url>
+    <content><![CDATA[<p>8 # 要求</p>
+<p>时间限制：3秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
+输入一个非递减排序的数组的一个旋转，输出旋转数组的最小元素。
+例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
+NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。</p>
+<h1 id="解题思路">解题思路</h1>
+<p>首先对数组进行观察，发现最小的那个数一定在两个子数组的交界处。并且左边的子数组一定比右边的子数组要大</p>
+<p>根据上面找到的性质，可以简单的想到顺序搜索，找出它们交界处即可；但是时间复杂度为O(n)</p>
+<p>如果要求时间复杂度更低，这里可以采用二分查找法，这样时间复杂度就可以变成O(logn)</p>
+<p>算法执行过程如下图所示：</p>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014437.png?x-oss-process=style/WaterMask"
+alt="每次循环都会计算出P1和P2的中间位置mid，对比P1、mid、P2之间的大小就可以确定mid所在的子数组，然后相应的修改P1或者P2为mid。这么做是为了让P1和P2向交界处逼近。" />
+<figcaption
+aria-hidden="true">每次循环都会计算出P1和P2的中间位置mid，对比P1、mid、P2之间的大小就可以确定mid所在的子数组，然后相应的修改P1或者P2为mid。这么做是为了让P1和P2向交界处逼近。</figcaption>
+</figure>
+<p>这道题还要考虑一些特殊情况：</p>
+<ol type="1">
+<li><span
+class="math inline">\(a[P1]==a[mid]==a[P2]\)</span>，如下图所示</li>
+</ol>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014522.png?x-oss-process=style/WaterMask"
+alt="20221109014522" />
+<figcaption aria-hidden="true">20221109014522</figcaption>
+</figure>
+<ol start="2" type="1">
+<li><p>数组本身就是排好序的，没有旋转也算是一种旋转</p></li>
+<li><p>数组只有一个数字的情况</p></li>
+</ol>
+<h1 id="c代码">C++代码</h1>
+<figure class="highlight reasonml"><table><tr><td class="code"><pre><code class="hljs reasonml"><span class="hljs-keyword">class</span> Solution &#123;<br>public:<br>  <span class="hljs-built_in">int</span> min<span class="hljs-constructor">NumberInRotateArray(<span class="hljs-params">vector</span>&lt;<span class="hljs-params">int</span>&gt; <span class="hljs-params">rotateArray</span>)</span> &#123;<br>  <span class="hljs-built_in">int</span> size = rotateArray.size<span class="hljs-literal">()</span>;<br>    <span class="hljs-keyword">if</span>(size<span class="hljs-operator"> == </span><span class="hljs-number">0</span>)&#123;<br>      return <span class="hljs-number">0</span>;<br>    &#125;<br>    <br>    <span class="hljs-built_in">int</span> leftIdx = <span class="hljs-number">0</span>;<br>    <span class="hljs-built_in">int</span> rightIdx = size - <span class="hljs-number">1</span>;<br>    <span class="hljs-comment">//特殊情况，没有旋转</span><br>    <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span> &lt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)<br>      return rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span>;<br>    <br>    <span class="hljs-built_in">int</span> midIdx=<span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">while</span>(rightIdx - leftIdx != <span class="hljs-number">1</span>)&#123;<br>      midIdx = (leftIdx + rightIdx)<span class="hljs-operator"> / </span><span class="hljs-number">2</span>;<br>      <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span><span class="hljs-operator"> == </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span><span class="hljs-operator"> &amp;&amp; </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span><span class="hljs-operator"> == </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)&#123;<br>        <span class="hljs-comment">//直接用顺序查找</span><br>        return order<span class="hljs-constructor">Search(<span class="hljs-params">rotateArray</span>, <span class="hljs-params">leftIdx</span>, <span class="hljs-params">rightIdx</span>)</span>;<br>      &#125;<br>      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span> &gt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)&#123;<br>        leftIdx = midIdx;<br>      &#125;<br>      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span> &gt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span>)&#123;<br>        rightIdx = midIdx;<br>      &#125;<br>    &#125;<br>    <br>    return rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>;<br>  &#125;<br>  <br>  <span class="hljs-built_in">int</span> order<span class="hljs-constructor">Search(<span class="hljs-params">vector</span>&lt;<span class="hljs-params">int</span>&gt; &amp;<span class="hljs-params">rotateArray</span>, <span class="hljs-params">int</span> <span class="hljs-params">leftIdx</span>, <span class="hljs-params">int</span> <span class="hljs-params">rightIdx</span>)</span>&#123;<br>    <span class="hljs-built_in">int</span> minVal=rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = leftIdx + <span class="hljs-number">1</span>;i &lt;= rightIdx;++i)&#123;<br>      <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span> &lt; minVal)<br>        minVal=rotateArray<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span>;<br>    &#125;<br>    return minVal;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+  </entry>
+  <entry>
     <title>我所理解的C++ 番外｜深扒 C++ 函数</title>
     <url>/posts/f02e98d5.html</url>
     <content><![CDATA[<h2 id="函数指针">函数指针</h2>
@@ -3080,52 +3138,6 @@ class="invisible">ES9xrySqW7PfpjyQ</span><span class="ellipsis"></span>
       </tags>
   </entry>
   <entry>
-    <title>算法题--从尾到头打印链表</title>
-    <url>/posts/4f46182d.html</url>
-    <content><![CDATA[<p>5 # 要求 时间限制：1秒 空间限制：32768K</p>
-<h1 id="题目描述">题目描述</h1>
-<p>输入一个链表，从尾到头打印链表每个节点的值</p>
-<h1 id="解题思路">解题思路</h1>
-<p>链表必须要从头开始访问，如果需要将打印顺序颠倒，可以利用栈的特性。有时候方法就是这么简单
-- -</p>
-<p>如果想展示你的算法能力，可以写成递归--深度优先搜索</p>
-<h1 id="代码">代码</h1>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">struct ListNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  struct ListNode *next;</span><br><span class="hljs-comment">  ListNode(int x) :</span><br><span class="hljs-comment">    val(x), next(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">printListFromTailToHead</span><span class="hljs-params">(ListNode* head)</span></span><br><span class="hljs-function">  </span>&#123;<br>    vector&lt;<span class="hljs-type">int</span>&gt; res;<br>    stack&lt;<span class="hljs-type">int</span>&gt; temp;<br>    <br>    <span class="hljs-keyword">while</span>(head != <span class="hljs-literal">NULL</span>)<br>    &#123;<br>      temp.<span class="hljs-built_in">push</span>(head-&gt;val);<br>      head = head-&gt;next;<br>    &#125;<br>    <br>    <span class="hljs-keyword">while</span>(!temp.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      res.<span class="hljs-built_in">push_back</span>(temp.<span class="hljs-built_in">top</span>());<br>      temp.<span class="hljs-built_in">pop</span>();<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>算法题--斐波那契数列</title>
-    <url>/posts/3af7c65a.html</url>
-    <content><![CDATA[<p>9</p>
-<h1 id="要求">要求</h1>
-<p>时间限制：1秒 空间限制：32768K</p>
-<h1 id="题目描述">题目描述</h1>
-<p>大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项。</p>
-<p>n&lt;=39</p>
-<h1 id="解题思路">解题思路</h1>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014742.png?x-oss-process=style/WaterMask" /></p>
-<p>这道题可以直接用递归来解决，但是递归速度慢(函数调用、重复计算)、容易导致栈溢出(函数调用层级多)
-重复计算如下图所示：</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014758.png?x-oss-process=style/WaterMask" /></p>
-<p>重复计算的问题可以用一个memory来解决，也就变成了top-down形式的动态规划</p>
-<p>为了减少函数调用，使用down-top形式的动态规划来解决</p>
-<p>一般只要能写出状态转换方程就可以写出down-top动态规划</p>
-<h1 id="c代码">C++代码</h1>
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-comment">//斐波那契数列：f(n)=f(n-1)+f(n-2),n&gt;=2,f(0)=0,f(1)=1</span><br><span class="hljs-comment">//此代码已经降维，由一维数组降成了两个点(last和lastlast)，因为每一个状态都只用到了之前的两个状态</span><br><span class="hljs-keyword">class</span> <span class="hljs-symbol">Solution</span> &#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-built_in">int</span> Fibonacci(<span class="hljs-built_in">int</span> n) &#123;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">1</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>    <br>    <span class="hljs-built_in">int</span> lastlast = <span class="hljs-number">0</span>;<br>    <span class="hljs-built_in">int</span> last = <span class="hljs-number">1</span>;<br>    <span class="hljs-built_in">int</span> cur = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = <span class="hljs-number">2</span>;i &lt;= n;++i)&#123;<br>      cur = last + lastlast;<br>      lastlast = last;<br>      last = cur;<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> cur;<br>  &#125;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-  </entry>
-  <entry>
     <title>算法题--替换空格</title>
     <url>/posts/25e9ce90.html</url>
     <content><![CDATA[<p>4 # 要求 时间限制：1秒 空间限制：32768K # 题目描述
@@ -3137,71 +3149,6 @@ Happy.则经过替换之后的字符串为We%20Are%20Happy. # 解题思路
 src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021246.png?x-oss-process=style/WaterMask" /></p>
 <h1 id="代码">代码</h1>
 <figure class="highlight axapta"><table><tr><td class="code"><pre><code class="hljs axapta"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">void</span> replaceSpace(<span class="hljs-built_in">char</span> *<span class="hljs-built_in">str</span>,<span class="hljs-built_in">int</span> length)<br>  &#123;<br>    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>==NULL || length&lt;=<span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span>;<br>    <br>    <span class="hljs-built_in">int</span> endIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> endIndexOfNewStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> curIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-keyword">do</span><br>    &#123;<br>      ++curIndexOfOriStr;<br>      <br>      ++endIndexOfOriStr;<br>      ++endIndexOfNewStr;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] == <span class="hljs-string">&#x27; &#x27;</span>)<br>        endIndexOfNewStr += <span class="hljs-number">2</span>;<br>        <br>    &#125;<span class="hljs-keyword">while</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] != <span class="hljs-string">&#x27;\0&#x27;</span>);<br>    <br>    <span class="hljs-keyword">if</span>(endIndexOfNewStr&gt;=length)<br>      <span class="hljs-keyword">return</span>;<br>        <br>    <span class="hljs-keyword">while</span>(endIndexOfOriStr &gt;= <span class="hljs-number">0</span> &amp;&amp; endIndexOfOriStr &lt; endIndexOfNewStr)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[endIndexOfOriStr]==<span class="hljs-string">&#x27; &#x27;</span>)<br>      &#123;<br>        --endIndexOfOriStr;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;0&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;2&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;%&#x27;</span>;<br>      &#125;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr] = <span class="hljs-built_in">str</span>[endIndexOfOriStr];<br>        --endIndexOfOriStr;<br>        --endIndexOfNewStr;<br>      &#125;<br>    &#125;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>算法题--旋转数组的最小数字</title>
-    <url>/posts/2bc2b764.html</url>
-    <content><![CDATA[<p>8 # 要求</p>
-<p>时间限制：3秒 空间限制：32768K</p>
-<h1 id="题目描述">题目描述</h1>
-<p>把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
-输入一个非递减排序的数组的一个旋转，输出旋转数组的最小元素。
-例如数组{3,4,5,1,2}为{1,2,3,4,5}的一个旋转，该数组的最小值为1。
-NOTE：给出的所有元素都大于0，若数组大小为0，请返回0。</p>
-<h1 id="解题思路">解题思路</h1>
-<p>首先对数组进行观察，发现最小的那个数一定在两个子数组的交界处。并且左边的子数组一定比右边的子数组要大</p>
-<p>根据上面找到的性质，可以简单的想到顺序搜索，找出它们交界处即可；但是时间复杂度为O(n)</p>
-<p>如果要求时间复杂度更低，这里可以采用二分查找法，这样时间复杂度就可以变成O(logn)</p>
-<p>算法执行过程如下图所示：</p>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014437.png?x-oss-process=style/WaterMask"
-alt="每次循环都会计算出P1和P2的中间位置mid，对比P1、mid、P2之间的大小就可以确定mid所在的子数组，然后相应的修改P1或者P2为mid。这么做是为了让P1和P2向交界处逼近。" />
-<figcaption
-aria-hidden="true">每次循环都会计算出P1和P2的中间位置mid，对比P1、mid、P2之间的大小就可以确定mid所在的子数组，然后相应的修改P1或者P2为mid。这么做是为了让P1和P2向交界处逼近。</figcaption>
-</figure>
-<p>这道题还要考虑一些特殊情况：</p>
-<ol type="1">
-<li><span
-class="math inline">\(a[P1]==a[mid]==a[P2]\)</span>，如下图所示</li>
-</ol>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014522.png?x-oss-process=style/WaterMask"
-alt="20221109014522" />
-<figcaption aria-hidden="true">20221109014522</figcaption>
-</figure>
-<ol start="2" type="1">
-<li><p>数组本身就是排好序的，没有旋转也算是一种旋转</p></li>
-<li><p>数组只有一个数字的情况</p></li>
-</ol>
-<h1 id="c代码">C++代码</h1>
-<figure class="highlight reasonml"><table><tr><td class="code"><pre><code class="hljs reasonml"><span class="hljs-keyword">class</span> Solution &#123;<br>public:<br>  <span class="hljs-built_in">int</span> min<span class="hljs-constructor">NumberInRotateArray(<span class="hljs-params">vector</span>&lt;<span class="hljs-params">int</span>&gt; <span class="hljs-params">rotateArray</span>)</span> &#123;<br>  <span class="hljs-built_in">int</span> size = rotateArray.size<span class="hljs-literal">()</span>;<br>    <span class="hljs-keyword">if</span>(size<span class="hljs-operator"> == </span><span class="hljs-number">0</span>)&#123;<br>      return <span class="hljs-number">0</span>;<br>    &#125;<br>    <br>    <span class="hljs-built_in">int</span> leftIdx = <span class="hljs-number">0</span>;<br>    <span class="hljs-built_in">int</span> rightIdx = size - <span class="hljs-number">1</span>;<br>    <span class="hljs-comment">//特殊情况，没有旋转</span><br>    <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span> &lt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)<br>      return rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span>;<br>    <br>    <span class="hljs-built_in">int</span> midIdx=<span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">while</span>(rightIdx - leftIdx != <span class="hljs-number">1</span>)&#123;<br>      midIdx = (leftIdx + rightIdx)<span class="hljs-operator"> / </span><span class="hljs-number">2</span>;<br>      <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span><span class="hljs-operator"> == </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span><span class="hljs-operator"> &amp;&amp; </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span><span class="hljs-operator"> == </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)&#123;<br>        <span class="hljs-comment">//直接用顺序查找</span><br>        return order<span class="hljs-constructor">Search(<span class="hljs-params">rotateArray</span>, <span class="hljs-params">leftIdx</span>, <span class="hljs-params">rightIdx</span>)</span>;<br>      &#125;<br>      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span> &gt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)&#123;<br>        leftIdx = midIdx;<br>      &#125;<br>      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span> &gt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span>)&#123;<br>        rightIdx = midIdx;<br>      &#125;<br>    &#125;<br>    <br>    return rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>;<br>  &#125;<br>  <br>  <span class="hljs-built_in">int</span> order<span class="hljs-constructor">Search(<span class="hljs-params">vector</span>&lt;<span class="hljs-params">int</span>&gt; &amp;<span class="hljs-params">rotateArray</span>, <span class="hljs-params">int</span> <span class="hljs-params">leftIdx</span>, <span class="hljs-params">int</span> <span class="hljs-params">rightIdx</span>)</span>&#123;<br>    <span class="hljs-built_in">int</span> minVal=rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = leftIdx + <span class="hljs-number">1</span>;i &lt;= rightIdx;++i)&#123;<br>      <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span> &lt; minVal)<br>        minVal=rotateArray<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span>;<br>    &#125;<br>    return minVal;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>算法题--重建二叉树</title>
-    <url>/posts/f4b58e74.html</url>
-    <content><![CDATA[<p>6 # 要求 时间限制：1秒 空间限制：32768K</p>
-<h1 id="题目描述">题目描述</h1>
-<p>输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都<strong>不含重复的数字</strong>。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回</p>
-<h1 id="解题思路">解题思路</h1>
-<p>解题的前提：两个序列中必须有一个中序序列</p>
-<p>前（后）序序列用于提供根节点，根节点就是序列第一个元素（最后一个元素）</p>
-<p>中序序列用于确定当前根节点的左右子树有哪些节点</p>
-<p>如下图所示：</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102234717.png?x-oss-process=style/WaterMask" /></p>
-<p>确定了左右子树有哪些元素之后就继续递归</p>
-<h1 id="代码">代码</h1>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">Definition for binary tree</span><br><span class="hljs-comment">struct TreeNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  TreeNode *left;</span><br><span class="hljs-comment">  TreeNode *right;</span><br><span class="hljs-comment">  TreeNode(int x) : val(x), left(NULL), right(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reConstructBinaryTree</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt; pre,vector&lt;<span class="hljs-type">int</span>&gt; vin)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> psize=pre.<span class="hljs-built_in">size</span>();<br>    <span class="hljs-type">int</span> vsize=vin.<span class="hljs-built_in">size</span>();<br>      <br>    <span class="hljs-keyword">if</span>(psize==<span class="hljs-number">0</span> || vsize==<span class="hljs-number">0</span> || psize != vsize)<br>      <span class="hljs-keyword">return</span> <span class="hljs-literal">NULL</span>;<br>      <br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre, <span class="hljs-number">0</span>, psize<span class="hljs-number">-1</span>, vin, <span class="hljs-number">0</span>, vsize<span class="hljs-number">-1</span>);<br>  &#125;<br>  <br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reBuildBinaryTreeCore</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt;&amp; pre, <span class="hljs-type">int</span> startIdxOfP, <span class="hljs-type">int</span> endIdxOfP,</span></span><br><span class="hljs-params"><span class="hljs-function">                                  vector&lt;<span class="hljs-type">int</span>&gt;&amp; vin, <span class="hljs-type">int</span> startIdxOfV, <span class="hljs-type">int</span> endIdxOfV)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> valOfRoot = pre[startIdxOfP];<br>    TreeNode* root = <span class="hljs-keyword">new</span> <span class="hljs-built_in">TreeNode</span>(valOfRoot);<br>    <br>    <span class="hljs-keyword">if</span>(startIdxOfP == endIdxOfP)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(startIdxOfV == endIdxOfV)<br>        <span class="hljs-keyword">return</span> root;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>  	<span class="hljs-built_in">abort</span>();<br>      &#125;<br>    &#125;<br>    <span class="hljs-keyword">else</span><br>    &#123;<br>      <span class="hljs-type">int</span> idxOfRootInV = <span class="hljs-number">0</span>;<br>      <span class="hljs-keyword">for</span>(idxOfRootInV = startIdxOfV;idxOfRootInV &lt;= endIdxOfV &amp;&amp; <br>          vin[idxOfRootInV] != valOfRoot;++idxOfRootInV)<br>      &#123;<br>      &#125;<br>      <span class="hljs-keyword">if</span>(vin[idxOfRootInV] != valOfRoot)<br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>        <span class="hljs-built_in">abort</span>();<br>      &#125;<br>    	<br>      <span class="hljs-type">int</span> leftLength = idxOfRootInV - startIdxOfV;<br>      <span class="hljs-comment">//左</span><br>      <span class="hljs-keyword">if</span>(startIdxOfV &lt;= idxOfRootInV - <span class="hljs-number">1</span>)<br>        root-&gt;left = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                           startIdxOfP + <span class="hljs-number">1</span>,<br>                                           startIdxOfP + leftLength,<br>                                           vin,<br>                                           startIdxOfV,<br>                                           idxOfRootInV - <span class="hljs-number">1</span>);<br>      <span class="hljs-comment">//右</span><br>      <span class="hljs-keyword">if</span>(idxOfRootInV + <span class="hljs-number">1</span> &lt;= endIdxOfV)<br>        root-&gt;right = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                            startIdxOfP + <span class="hljs-number">1</span> + leftLength,<br>                                            endIdxOfP,<br>                                            vin,<br>                                            idxOfRootInV+<span class="hljs-number">1</span>,<br>                                            endIdxOfV);<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> root;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>算法</category>
@@ -3235,6 +3182,53 @@ alt="模拟过程" />
 <figcaption aria-hidden="true">模拟过程</figcaption>
 </figure>
 <p>两个队列的元素要不停的倒来倒去</p>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>算法题--斐波那契数列</title>
+    <url>/posts/3af7c65a.html</url>
+    <content><![CDATA[<p>9</p>
+<h1 id="要求">要求</h1>
+<p>时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>大家都知道斐波那契数列，现在要求输入一个整数n，请你输出斐波那契数列的第n项。</p>
+<p>n&lt;=39</p>
+<h1 id="解题思路">解题思路</h1>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014742.png?x-oss-process=style/WaterMask" /></p>
+<p>这道题可以直接用递归来解决，但是递归速度慢(函数调用、重复计算)、容易导致栈溢出(函数调用层级多)
+重复计算如下图所示：</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014758.png?x-oss-process=style/WaterMask" /></p>
+<p>重复计算的问题可以用一个memory来解决，也就变成了top-down形式的动态规划</p>
+<p>为了减少函数调用，使用down-top形式的动态规划来解决</p>
+<p>一般只要能写出状态转换方程就可以写出down-top动态规划</p>
+<h1 id="c代码">C++代码</h1>
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-comment">//斐波那契数列：f(n)=f(n-1)+f(n-2),n&gt;=2,f(0)=0,f(1)=1</span><br><span class="hljs-comment">//此代码已经降维，由一维数组降成了两个点(last和lastlast)，因为每一个状态都只用到了之前的两个状态</span><br><span class="hljs-keyword">class</span> <span class="hljs-symbol">Solution</span> &#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-built_in">int</span> Fibonacci(<span class="hljs-built_in">int</span> n) &#123;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">1</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>    <br>    <span class="hljs-built_in">int</span> lastlast = <span class="hljs-number">0</span>;<br>    <span class="hljs-built_in">int</span> last = <span class="hljs-number">1</span>;<br>    <span class="hljs-built_in">int</span> cur = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = <span class="hljs-number">2</span>;i &lt;= n;++i)&#123;<br>      cur = last + lastlast;<br>      lastlast = last;<br>      last = cur;<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> cur;<br>  &#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>算法题--重建二叉树</title>
+    <url>/posts/f4b58e74.html</url>
+    <content><![CDATA[<p>6 # 要求 时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都<strong>不含重复的数字</strong>。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回</p>
+<h1 id="解题思路">解题思路</h1>
+<p>解题的前提：两个序列中必须有一个中序序列</p>
+<p>前（后）序序列用于提供根节点，根节点就是序列第一个元素（最后一个元素）</p>
+<p>中序序列用于确定当前根节点的左右子树有哪些节点</p>
+<p>如下图所示：</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102234717.png?x-oss-process=style/WaterMask" /></p>
+<p>确定了左右子树有哪些元素之后就继续递归</p>
+<h1 id="代码">代码</h1>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">Definition for binary tree</span><br><span class="hljs-comment">struct TreeNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  TreeNode *left;</span><br><span class="hljs-comment">  TreeNode *right;</span><br><span class="hljs-comment">  TreeNode(int x) : val(x), left(NULL), right(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reConstructBinaryTree</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt; pre,vector&lt;<span class="hljs-type">int</span>&gt; vin)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> psize=pre.<span class="hljs-built_in">size</span>();<br>    <span class="hljs-type">int</span> vsize=vin.<span class="hljs-built_in">size</span>();<br>      <br>    <span class="hljs-keyword">if</span>(psize==<span class="hljs-number">0</span> || vsize==<span class="hljs-number">0</span> || psize != vsize)<br>      <span class="hljs-keyword">return</span> <span class="hljs-literal">NULL</span>;<br>      <br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre, <span class="hljs-number">0</span>, psize<span class="hljs-number">-1</span>, vin, <span class="hljs-number">0</span>, vsize<span class="hljs-number">-1</span>);<br>  &#125;<br>  <br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reBuildBinaryTreeCore</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt;&amp; pre, <span class="hljs-type">int</span> startIdxOfP, <span class="hljs-type">int</span> endIdxOfP,</span></span><br><span class="hljs-params"><span class="hljs-function">                                  vector&lt;<span class="hljs-type">int</span>&gt;&amp; vin, <span class="hljs-type">int</span> startIdxOfV, <span class="hljs-type">int</span> endIdxOfV)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> valOfRoot = pre[startIdxOfP];<br>    TreeNode* root = <span class="hljs-keyword">new</span> <span class="hljs-built_in">TreeNode</span>(valOfRoot);<br>    <br>    <span class="hljs-keyword">if</span>(startIdxOfP == endIdxOfP)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(startIdxOfV == endIdxOfV)<br>        <span class="hljs-keyword">return</span> root;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>  	<span class="hljs-built_in">abort</span>();<br>      &#125;<br>    &#125;<br>    <span class="hljs-keyword">else</span><br>    &#123;<br>      <span class="hljs-type">int</span> idxOfRootInV = <span class="hljs-number">0</span>;<br>      <span class="hljs-keyword">for</span>(idxOfRootInV = startIdxOfV;idxOfRootInV &lt;= endIdxOfV &amp;&amp; <br>          vin[idxOfRootInV] != valOfRoot;++idxOfRootInV)<br>      &#123;<br>      &#125;<br>      <span class="hljs-keyword">if</span>(vin[idxOfRootInV] != valOfRoot)<br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>        <span class="hljs-built_in">abort</span>();<br>      &#125;<br>    	<br>      <span class="hljs-type">int</span> leftLength = idxOfRootInV - startIdxOfV;<br>      <span class="hljs-comment">//左</span><br>      <span class="hljs-keyword">if</span>(startIdxOfV &lt;= idxOfRootInV - <span class="hljs-number">1</span>)<br>        root-&gt;left = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                           startIdxOfP + <span class="hljs-number">1</span>,<br>                                           startIdxOfP + leftLength,<br>                                           vin,<br>                                           startIdxOfV,<br>                                           idxOfRootInV - <span class="hljs-number">1</span>);<br>      <span class="hljs-comment">//右</span><br>      <span class="hljs-keyword">if</span>(idxOfRootInV + <span class="hljs-number">1</span> &lt;= endIdxOfV)<br>        root-&gt;right = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                            startIdxOfP + <span class="hljs-number">1</span> + leftLength,<br>                                            endIdxOfP,<br>                                            vin,<br>                                            idxOfRootInV+<span class="hljs-number">1</span>,<br>                                            endIdxOfV);<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> root;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>算法</category>
