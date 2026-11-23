@@ -201,44 +201,6 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-91346abb1a400b
       </categories>
   </entry>
   <entry>
-    <title>Game Road 1.写给准备进入职场的游戏人</title>
-    <url>/posts/7d2f1a5e.html</url>
-    <content><![CDATA[<p>​
-准备进入游戏公司工作对于每一个热爱游戏的人来说都是一件令人兴奋的事情，但因为陌生会伴随着不安。本文简单记录一下当年初入职场时的感受以及遇到的各种问题。</p>
-<h1 id="适应">适应</h1>
-<p>刚刚进入职场的新人在前两个月主要做的事情是适应新环境、工作节奏和氛围。</p>
-<p>对于部分新人来说，他可能是从其他城市来到当前这个陌生的城市。需要适应的环境不仅仅是公司的环境，包括生活的环境，例如气候，我刚刚来到杭州的时候正好是最冷的时候，作为一个在广东长大的孩子，感觉难以承受。</p>
-<p>如果之前都是在学校敲代码，没有感受过真实生产环境下敲代码。或者之前以实习的身份来敲代码，现在用正式员工的身份敲代码。或者之前不在这家公司，而是在其他公司。我们都要适应下新的工作节奏。如果项目进度非常赶的话，节奏可能会很快，这时可能会比较吃力。我们还需要适应工作氛围。有些公司的工作氛围很沉闷压抑，自己就不要太跳。有些公司的工作氛围比较活泼，自己就可以多放开一点。</p>
-<p>平日上班时间应该是在学习各种课程，而不是在忙着做项目相关的事情。项目进度再赶都不要给刚刚来到公司的新人安排具体业务。事情总是做不完的，要想安排的话随时都可以把新人的日常全部排满。今天修个bug，明天改个功能，短期来看总产出提升了，但是长期来看对新人是有害的。</p>
-<p>项目进度变得这么赶是一件不正常的事情，公司应该反思一下为什么会这么赶，也许pm的排期并不合理。这个状态可以是阶段性的，不应该是长期性的。但无论如何，如果非要让刚刚来到公司的新人去赶任务，就要跟新人好好沟通。</p>
-<p>可以从公司对待你的态度看出公司是不是重视你。如果公司重视你，它会为你作长远的培养规划，想着怎么让你在未来3~5年内跟公式共同成长。如果公司不重视你，它会急着压榨你身上的剩余价值，压榨完了就赶紧换掉。</p>
-<p>这段时间算是一个过渡期，虽然短期来看没什么产出，但长期来看对公司有很大的价值，如果这家公司有长远眼光的话。</p>
-<p>非常不幸的是，我刚毕业去到公司就被拉到前线去战斗了。当时项目进度非常赶，所有的新人都被拉走了，战况异常激烈。大家都快要患上PTSD了，我也差点阵亡。现在回想起来，当年的自己真热血。</p>
-<p>新人完成过渡之后，就可以开始安排一些业务类型的任务。通过业务类型的任务可以让新人逐步了解公司的产品设计和代码。等新人慢慢上手之后可以和新人进行进一步的沟通，结合新人的意愿去调整之后的任务安排。切忌一直安排差不多的任务，时间长了降低新人的热情。也不要把一些比较恶心的锅甩给新人，我发现不少公司都喜欢将锅甩给新人。这时锅的主人会松一口气，等新人兜不住的时候就pua新人。</p>
-<h1 id="感觉自己在打杂">感觉自己在打杂？</h1>
-<p>大部分刚刚进入游戏研发大厂的同学都是意气风发，磨拳擦掌准备大干一场的。但是进去之后发现自己接到的任务都是一些技术含量不高的任务，这时心里就会开始产生落差，觉得自己这匹千里马没有被伯乐相中，无法施展自己的才华，不被重视。其实这种产生这种心理从某种角度来看也是一种好事，因为这说明这位同学上进、关注自身成长。</p>
-<p>但是不必太过心急，因为刚去到一个新的环境中，同事对你还不够了解，不敢委派比较重要的任务给你。无论如何，你都要把交给自己的任务都当作重要任务来完成，不要因为一个任务很琐屑而敷衍了事。其实大部分情况下，再简单的任务都能学到新的东西，总能把它做得更好。</p>
-<p>你执行的每一项任务都会被leader看在眼里，每一项任务都会在leader心里留下印象。你是希望不断在leader心里累积失望，还是不断在leader心里累积信任，很大程度上取决于你做事情的态度。我记得某大佬说过一句话：“能力还不够也没关系，只要你态度够好，我们就愿意培养。”</p>
-<p>我见过心浮气躁、耐不下性子来处理事情的新人A，也见过勤勤恳恳、脚踏实地的新人B。A完成任务的速度和质量整体来看是不如B的，B做出来的内容总是给人一种一种很精致的感觉，而且时间把控得比较好，不会太快，也不会踩着时间点来。</p>
-<p>慢慢地，leader就会将一些需要投入一定时间进行预研的项目给到B。所以一定要认真对待给到自己的每一个任务，不要以为这个任务琐屑，leader就不关注你。如果自己都觉得自己的任务不重要，就没有人会觉得你的任务重要。</p>
-<p>如果很长一段时间（多长时间算长需要看具体情况，个人感觉4个月左右差不多了）过去了，leader还没有给到你比较重要的任务，但是自己做得已经很不错了，再继续下去提升并不大。而且因为熟练度提升了，leader派下来的任务会越来越多，压榨你每一份精力。</p>
-<p>慢慢就会陷入到疲于应付任务，没有时间思考的状态。这种情况就要引起警觉了，如果是处于业务上升期，可以理解，但是也要有个度，毕竟每个人都要为自己负责，不要对公司过于忠诚。公司不会为你的人生负责。</p>
-<p>这时就要跟leader进行沟通，保持信息对称。</p>
-<p>最担心出现误解，leader所了解的信息、预期和你所了解的信息、预期不一致，但是你以为是一致的。误解会随着时间的推移慢慢被放大，导致双方工作状态不好，降低合作效率。其实你的很多问题都是沟通问题，比如对leader不满意。</p>
-<p>在出现误解之后，为了保持信息对称，要么改变自己的想法，要么想办法说服leader。在信息对称之后，如果你和leader还是处不来，可以选择跨级沟通。如果跨级沟通还是没有办法解决的话，你懂的=
-=</p>
-<h1 id="熟悉">熟悉</h1>
-<p>刚开始处理公司的任务时会有很多地方都是陌生的，做笔记是一个快速熟悉的好方法，而且也非常值得去做。因为这个时候不懂的东西是最多的，提升是最快的，将每一点成长都记录下来可以给后来人留下一段可以借鉴的成长经历。</p>
-<p>有人喜欢每周一记，有人喜欢每日一记，有人喜欢每时每刻都记。我还是比较喜欢每时每刻都记，记录频率尽可能地高。因为我平时的任务都比较多，很多东西如果没有马上记下来就很容易忘记。我也因为这样漏掉了很多内容，所以非常鼓励大家养成记录的习惯。</p>
-<p>有些工作室有着良好的记录文化，这些工作室的策划案整体质量比那些没有良好记录文化的工作要高。除了策划案质量的提升，还会带来看不见的价值。比如研发做好记录可以提升自己的研发效率、沟通效率、成长效率，这些效能的提升不容易让人察觉到是做记录带来的。</p>
-<p>我觉得良好的记录工具是很重要的，舒适的记录环境可以让自己更爱记录。比较通用的记录工具有协同办公软件，例如某书。对于工程师来说，markdown使用起来还是很舒服的，我一般会用vscode+markdown。这些都不喜欢的话，再不济都要用notepad++，怎么都不要用windows自带的记事本来记录。不知道为什么，记事本一打开就犯困。</p>
-<p>很多东西都可以记，比如工作流程的改进、认知的提升、技术点的突破、人生感悟、未来规划。我是那种脑子里一不小心就蹦出一个灵感的人，通过随手记录的方式可以捕捉到这些灵感。</p>
-]]></content>
-      <categories>
-        <category>Game Road</category>
-      </categories>
-  </entry>
-  <entry>
     <title>GDC 2019 Evolving Combat in &#39;God of War&#39; for a New Perspective ⸺ “战神” 战斗模式的全新变革 下篇</title>
     <url>/posts/9b30e53c.html</url>
     <content><![CDATA[<p>该GDC分享只免费公开PPT，视频需要GDC VAULT会员</p>
@@ -395,6 +357,44 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102020602.pn
       </tags>
   </entry>
   <entry>
+    <title>Game Road 1.写给准备进入职场的游戏人</title>
+    <url>/posts/7d2f1a5e.html</url>
+    <content><![CDATA[<p>​
+准备进入游戏公司工作对于每一个热爱游戏的人来说都是一件令人兴奋的事情，但因为陌生会伴随着不安。本文简单记录一下当年初入职场时的感受以及遇到的各种问题。</p>
+<h1 id="适应">适应</h1>
+<p>刚刚进入职场的新人在前两个月主要做的事情是适应新环境、工作节奏和氛围。</p>
+<p>对于部分新人来说，他可能是从其他城市来到当前这个陌生的城市。需要适应的环境不仅仅是公司的环境，包括生活的环境，例如气候，我刚刚来到杭州的时候正好是最冷的时候，作为一个在广东长大的孩子，感觉难以承受。</p>
+<p>如果之前都是在学校敲代码，没有感受过真实生产环境下敲代码。或者之前以实习的身份来敲代码，现在用正式员工的身份敲代码。或者之前不在这家公司，而是在其他公司。我们都要适应下新的工作节奏。如果项目进度非常赶的话，节奏可能会很快，这时可能会比较吃力。我们还需要适应工作氛围。有些公司的工作氛围很沉闷压抑，自己就不要太跳。有些公司的工作氛围比较活泼，自己就可以多放开一点。</p>
+<p>平日上班时间应该是在学习各种课程，而不是在忙着做项目相关的事情。项目进度再赶都不要给刚刚来到公司的新人安排具体业务。事情总是做不完的，要想安排的话随时都可以把新人的日常全部排满。今天修个bug，明天改个功能，短期来看总产出提升了，但是长期来看对新人是有害的。</p>
+<p>项目进度变得这么赶是一件不正常的事情，公司应该反思一下为什么会这么赶，也许pm的排期并不合理。这个状态可以是阶段性的，不应该是长期性的。但无论如何，如果非要让刚刚来到公司的新人去赶任务，就要跟新人好好沟通。</p>
+<p>可以从公司对待你的态度看出公司是不是重视你。如果公司重视你，它会为你作长远的培养规划，想着怎么让你在未来3~5年内跟公式共同成长。如果公司不重视你，它会急着压榨你身上的剩余价值，压榨完了就赶紧换掉。</p>
+<p>这段时间算是一个过渡期，虽然短期来看没什么产出，但长期来看对公司有很大的价值，如果这家公司有长远眼光的话。</p>
+<p>非常不幸的是，我刚毕业去到公司就被拉到前线去战斗了。当时项目进度非常赶，所有的新人都被拉走了，战况异常激烈。大家都快要患上PTSD了，我也差点阵亡。现在回想起来，当年的自己真热血。</p>
+<p>新人完成过渡之后，就可以开始安排一些业务类型的任务。通过业务类型的任务可以让新人逐步了解公司的产品设计和代码。等新人慢慢上手之后可以和新人进行进一步的沟通，结合新人的意愿去调整之后的任务安排。切忌一直安排差不多的任务，时间长了降低新人的热情。也不要把一些比较恶心的锅甩给新人，我发现不少公司都喜欢将锅甩给新人。这时锅的主人会松一口气，等新人兜不住的时候就pua新人。</p>
+<h1 id="感觉自己在打杂">感觉自己在打杂？</h1>
+<p>大部分刚刚进入游戏研发大厂的同学都是意气风发，磨拳擦掌准备大干一场的。但是进去之后发现自己接到的任务都是一些技术含量不高的任务，这时心里就会开始产生落差，觉得自己这匹千里马没有被伯乐相中，无法施展自己的才华，不被重视。其实这种产生这种心理从某种角度来看也是一种好事，因为这说明这位同学上进、关注自身成长。</p>
+<p>但是不必太过心急，因为刚去到一个新的环境中，同事对你还不够了解，不敢委派比较重要的任务给你。无论如何，你都要把交给自己的任务都当作重要任务来完成，不要因为一个任务很琐屑而敷衍了事。其实大部分情况下，再简单的任务都能学到新的东西，总能把它做得更好。</p>
+<p>你执行的每一项任务都会被leader看在眼里，每一项任务都会在leader心里留下印象。你是希望不断在leader心里累积失望，还是不断在leader心里累积信任，很大程度上取决于你做事情的态度。我记得某大佬说过一句话：“能力还不够也没关系，只要你态度够好，我们就愿意培养。”</p>
+<p>我见过心浮气躁、耐不下性子来处理事情的新人A，也见过勤勤恳恳、脚踏实地的新人B。A完成任务的速度和质量整体来看是不如B的，B做出来的内容总是给人一种一种很精致的感觉，而且时间把控得比较好，不会太快，也不会踩着时间点来。</p>
+<p>慢慢地，leader就会将一些需要投入一定时间进行预研的项目给到B。所以一定要认真对待给到自己的每一个任务，不要以为这个任务琐屑，leader就不关注你。如果自己都觉得自己的任务不重要，就没有人会觉得你的任务重要。</p>
+<p>如果很长一段时间（多长时间算长需要看具体情况，个人感觉4个月左右差不多了）过去了，leader还没有给到你比较重要的任务，但是自己做得已经很不错了，再继续下去提升并不大。而且因为熟练度提升了，leader派下来的任务会越来越多，压榨你每一份精力。</p>
+<p>慢慢就会陷入到疲于应付任务，没有时间思考的状态。这种情况就要引起警觉了，如果是处于业务上升期，可以理解，但是也要有个度，毕竟每个人都要为自己负责，不要对公司过于忠诚。公司不会为你的人生负责。</p>
+<p>这时就要跟leader进行沟通，保持信息对称。</p>
+<p>最担心出现误解，leader所了解的信息、预期和你所了解的信息、预期不一致，但是你以为是一致的。误解会随着时间的推移慢慢被放大，导致双方工作状态不好，降低合作效率。其实你的很多问题都是沟通问题，比如对leader不满意。</p>
+<p>在出现误解之后，为了保持信息对称，要么改变自己的想法，要么想办法说服leader。在信息对称之后，如果你和leader还是处不来，可以选择跨级沟通。如果跨级沟通还是没有办法解决的话，你懂的=
+=</p>
+<h1 id="熟悉">熟悉</h1>
+<p>刚开始处理公司的任务时会有很多地方都是陌生的，做笔记是一个快速熟悉的好方法，而且也非常值得去做。因为这个时候不懂的东西是最多的，提升是最快的，将每一点成长都记录下来可以给后来人留下一段可以借鉴的成长经历。</p>
+<p>有人喜欢每周一记，有人喜欢每日一记，有人喜欢每时每刻都记。我还是比较喜欢每时每刻都记，记录频率尽可能地高。因为我平时的任务都比较多，很多东西如果没有马上记下来就很容易忘记。我也因为这样漏掉了很多内容，所以非常鼓励大家养成记录的习惯。</p>
+<p>有些工作室有着良好的记录文化，这些工作室的策划案整体质量比那些没有良好记录文化的工作要高。除了策划案质量的提升，还会带来看不见的价值。比如研发做好记录可以提升自己的研发效率、沟通效率、成长效率，这些效能的提升不容易让人察觉到是做记录带来的。</p>
+<p>我觉得良好的记录工具是很重要的，舒适的记录环境可以让自己更爱记录。比较通用的记录工具有协同办公软件，例如某书。对于工程师来说，markdown使用起来还是很舒服的，我一般会用vscode+markdown。这些都不喜欢的话，再不济都要用notepad++，怎么都不要用windows自带的记事本来记录。不知道为什么，记事本一打开就犯困。</p>
+<p>很多东西都可以记，比如工作流程的改进、认知的提升、技术点的突破、人生感悟、未来规划。我是那种脑子里一不小心就蹦出一个灵感的人，通过随手记录的方式可以捕捉到这些灵感。</p>
+]]></content>
+      <categories>
+        <category>Game Road</category>
+      </categories>
+  </entry>
+  <entry>
     <title>Game Road 2.在研发团队中的做事方式</title>
     <url>/posts/75a0f04b.html</url>
     <content><![CDATA[<h1
@@ -425,6 +425,209 @@ id="如果有我想做或需要做的事情就去积极推动">如果有我想�
 <p>虽然我们是个打工人、新时代的农名工，但如果我们有自己想做的事情，可以主动承接，甚至发起自主任务去解决自己在项目中发现的问题。不用一直被动地接受任务，否则你会经常接到你不喜欢的任务，这样无论是完成任务的效率还是对于自己的提升可能都不会很高。</p>
 <p>因为主动性不够强，任务经常只能做到做完的程度，而没有做好。能做到主动承接任务可以给leader留下一个敢于担当的好印象，这是领导力的一种侧面体现。</p>
 <p>能做到主动发起自主任务，可以看出这个工程师善于发现项目中的潜在问题，洞察力强，这是工程能力的一种体现。在积极主动执行一项任务的时候，工程师可能会爆发自己的小宇宙，最终把任务完成到做好的程度。</p>
+]]></content>
+      <categories>
+        <category>Game Road</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Game Road 3.在工作期间快速提升需要有的态度</title>
+    <url>/posts/70d2a4f9.html</url>
+    <content><![CDATA[<h1
+id="凡事有交代件件有着落事事有回音">凡事有交代，件件有着落，事事有回音</h1>
+<p>我们做的每一件事情都应该闭环，有头有尾。有时候leader可能只是简单跟你说要去做某件事情，不要因为说得比较简单而不重视它。</p>
+<p>例如leader可能会发个截图过来跟你说：“这个地方性能有点问题，去跟进一下看看。”你可能会稍后找个时间来查一下，确定问题之后就开始修复，提交代码的时候也没有给leader去review一下。</p>
+<p>过了很长一段时间之后，leader纳闷怎么这么就都没有回应，是不是哪里卡住了不知道怎么修
+。于是主动来问你性能问题跟进得怎么样了。这时你有可能忘了修复的具体细节，或者说明具体修复细节之后，leader看出了这个修复方案存在问题。这个时候就会给leader留下一种不靠谱的心里印象。</p>
+<p>老实说，要做到这一点挺不容易的。因为游戏行业的研发节奏本身就很快，平时开发压力很大，要顾上所有的事情不是一件简单的事情。但是无论无何，leader交代下来的事情要比其他事情更积极一点，单单是做到这一点，你的升迁速度就已经快很多了。</p>
+<h1
+id="前三年是成长最快的三年工作时间以外也要多花时间提升自己">前三年是成长最快的三年，工作时间以外也要多花时间提升自己</h1>
+<p>新人刚刚来到职场需要学习的东西还很多，有些技能以前在学校读书的时候没有意识到它的重要性。在职场工作的过程中会慢慢需要用到一些比较重要的技能，当发现自己这一块技能水平存在不足时，就给自己规划好时间去学习提升。</p>
+<p>工作时间以外可以花点时间去学习，可以利用早期的时间、午休时间、下班后的时间。当然不是要将这些时间全部用上，能充分利用其中一个时间段就已经很不错了。把自己逼得太紧，效果反而不太理想，娱乐时间还是要有一点的。只会学习不玩耍,聪明孩子也变傻。</p>
+<p>这样坚持几年时间下来会比不做这些事情会累很多，但是我觉得还是值得的。可能有人会说：“这跟加班有什么区别？工贼”我觉得差别很是很大的，加班的产出是给公司的，而经常时对自己成长提升不大的内容。但是自己学习提升得到的东西都是自己的，可以跟着你一辈子（不要说时间长了把它搞忘了=
+=）。</p>
+<p>相信我，只要能坚持住，你的成长速度是飞快的。</p>
+<h1
+id="不能只做一个杂家要先做一个专家">不能只做一个杂家，要先做一个专家</h1>
+<p>刚刚进入到职场面对浩如烟海的技术会顿感迷茫，不要想着一下子抓住所有的技术。我们应该确定一个方向，这个确定过程可以是主动的，也可以是被动的。主动选自己喜欢的，被动选工作需要的。</p>
+<p>锁定了方向之后，我们要深入学习这个方向的内容，要从原理上去了解做过的每一个东西，而不仅仅是满足于完成需求。同时也可以去学习其他技术点，随着主攻方向学习的深入，你可能就会发现其实很多东西是相通的。慢慢地，你的技能树就会形成一超多强的局势。这时就成为了一个T型人才。</p>
+<p>如果有一个确定的方向，在面临岔路口的时候就不会茫然，你会很坚定地选择一个方向。这同样节省了很多时间。因为诱惑还是很多的，每次做选择都纠结很久的话会耗费很多心力，每个人每天的心力都是有限的，心力耗尽之后做事效率会下降很多。</p>
+]]></content>
+      <categories>
+        <category>Game Road</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>MarkDown语法测试</title>
+    <url>/posts/5df9aa96.html</url>
+    <content><![CDATA[<p><a href="https://roudersky.com/">转载自</a></p>
+<h1 id="h1">h1</h1>
+<h2 id="h2">h2</h2>
+<h3 id="h3">h3</h3>
+<h4 id="h4">h4</h4>
+<h5 id="h5">h5</h5>
+<blockquote>
+<p>引用 &gt;引用中的引用</p>
+</blockquote>
+<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+<hr />
+<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+<hr />
+<ul>
+<li>无序列表</li>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+<hr />
+<ol type="1">
+<li>有序列表</li>
+<li>有序列表</li>
+<li>有序列表</li>
+<li>有序列表</li>
+</ol>
+<p>这是正常的文字</p>
+<p><em>斜体文本</em></p>
+<p><em>斜体文本</em></p>
+<p><strong>粗体文本</strong></p>
+<p><strong>粗体文本</strong></p>
+<p><strong><em>粗斜体文本</em></strong></p>
+<p><strong><em>粗斜体文本</em></strong></p>
+<p><del>这是加删除线的文字</del></p>
+<p>$ _{i=1}^n a_i=0 $</p>
+<p><span class="math display">\[\sum_{i=1}^n a_i=0\]</span></p>
+<p><code>int a;</code></p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">(<span class="hljs-type">int</span> argc, <span class="hljs-type">char</span> *argv[])</span> </span>&#123;<br><br>  <span class="hljs-comment">/* An annoying &quot;Hello World&quot; example */</span><br>  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">0xFFFF</span>; i++)<br>    cout &lt;&lt; <span class="hljs-string">&quot;Hello, World!&quot;</span> &lt;&lt; endl;<br><br>  <span class="hljs-type">char</span> c = <span class="hljs-string">&#x27;\n&#x27;</span>;<br>  unordered_map &lt;string, vector&lt;string&gt; &gt; m;<br>  m[<span class="hljs-string">&quot;key&quot;</span>] = <span class="hljs-string">&quot;\\\\&quot;</span>; <span class="hljs-comment">// this is an error</span><br><br>  <span class="hljs-keyword">return</span> <span class="hljs-number">-2e3</span> + <span class="hljs-number">12l</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<pre><code class="hljs">val s = &quot;hello Markdown&quot;
+println( s )</code></pre>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th style="text-align: center;">技能</th>
+<th style="text-align: right;">排行</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>刘备</td>
+<td style="text-align: center;">哭</td>
+<td style="text-align: right;">大哥</td>
+</tr>
+<tr>
+<td>关羽</td>
+<td style="text-align: center;">打</td>
+<td style="text-align: right;">二哥</td>
+</tr>
+<tr>
+<td>张飞</td>
+<td style="text-align: center;">骂</td>
+<td style="text-align: right;">三弟</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>姓名</th>
+<th style="text-align: center;">技能</th>
+<th style="text-align: right;">排行</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>刘备</td>
+<td style="text-align: center;">哭</td>
+<td style="text-align: right;">大哥</td>
+</tr>
+<tr>
+<td>关羽</td>
+<td style="text-align: center;">打</td>
+<td style="text-align: right;">二哥</td>
+</tr>
+<tr>
+<td>张飞</td>
+<td style="text-align: center;">骂</td>
+<td style="text-align: right;">三弟</td>
+</tr>
+</tbody>
+</table>
+<p><span class="math display">\[\begin{vmatrix}
+  \frac{cot\frac{FOV}{2}}{Aspect} &amp; 0 &amp; 0 &amp; 0 \\
+  0 &amp; cot\frac{FOV}{2} &amp; 0 &amp; 0 \\
+  0 &amp; 0 &amp; -\frac{Far+Near}{Far-Near} &amp; -\frac{2 \cdot Near
+\cdot Far}{Far-Near} \\
+  0 &amp; 0 &amp; -1 &amp; 0
+\end{vmatrix}\]</span></p>
+<ul>
+<li><figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029173905.png?x-oss-process=style/WaterMask"
+alt="20221029173905" />
+<figcaption aria-hidden="true">20221029173905</figcaption>
+</figure></li>
+<li><figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/一脚扫开.gif"
+alt="一脚扫开" />
+<figcaption aria-hidden="true">一脚扫开</figcaption>
+</figure></li>
+</ul>
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<pre><code class="hljs">&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=894986163&amp;bvid=BV15P4y1T7nS&amp;cid=555347982&amp;page=1&amp;high_quality=1&quot;  scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot;&gt;&lt;/iframe&gt;</code></pre>
+</div>
+]]></content>
+  </entry>
+  <entry>
+    <title>Game Road 4.执行任务的方式</title>
+    <url>/posts/8ad6de59.html</url>
+    <content><![CDATA[<p>在工作过程中，做事情分为以下4个境界，分别是做了、做完、做好、做对，难度和耗时都依次递增。
+# 第一层境界--做了：被动执行，不关注结果
+处于这个阶段的研发，别人说什么就做什么，不会为这项任务做整体的考虑。</p>
+<p>这类人大致可以分为以下几种：</p>
+<p>第一种人没追求的，得过且过，只是想在公司混混日子。他们会觉得事情只要能够完成就好，至于最终效果怎么样，跟他们没有关系。这类人很难拯救，因为他们根本不想成长。</p>
+<p>第二种人有追求，但是没有意识到需要把事情做到更好，他们以为只要完成了任务就已经是完满完成任务了，上头就已经很满意了。这类人还是可以拯救的，因为他们只是不知道要做得更好而已，有可能是因为他们以前工作的地方给他留下了这种不好的观念。只要合理地对这类人进行引导，他们会明白之后应该怎么去做得更好。</p>
+<p>第三种人有追求、有意识到需要做得更好，但是因为时间不够等原因被逼得只能勉强完成任务。出现这样的情况，责任并不完全在执行者身上，还有一部分原因在leader或者pm身上。游戏行业研发压力大，时间经常会被压得很紧，要把事情做得更好需要花费的时间自然是更多的。</p>
+<p>如果真的要把这件事情做得更好的话，可能需要执行者牺牲私人时间。偶尔牺牲一下私人时间也还可以接受，如果这种情况经常发生，执行者也不可能一直牺牲自己的私人时间。从这一点来看，年轻人比中年人更有优势。因为年轻人，特别是刚刚出来工作的人，私人时间一般都是空闲的。但是中年人的私人时间一般都是有事情要做的。这也是35岁中年危机会出现的其中一个原因。</p>
+<p>更好的解决方法是执行者找leader或者pm沟通重现沟通时间，让执行者有更多的时间去把事情做好。不要不好意思开口请求更多的研发时间，确实需要更多时间就要及时汇报，不需要什么东西都自己默默背负着，搞得自己压力很大，不仅影响工作状态，还可能影响生活状态。</p>
+<p>事情只做到这个程度的话，其实是有点敷衍的，做出来的东西不太能放得上台面。时间长了，leader也能看出来，对自己的发展发展非常不利。</p>
+<h1
+id="第二层境界--做完高质量高标准完成任务">第二层境界--做完：高质量、高标准完成任务</h1>
+<p>处于这个阶段的研发算是负责任的，起码完成的内容完备稳定，可以良好地接入到当前的系统中。
+把事情做到这个程度只能说是比及格线稍微高一丢丢，完成的内容算是能看了。执行者完成任务之后不会有太大的成就感，只会舒一口气。</p>
+<p>leader对这类人地印象不好也不坏，只会觉得这是个还能干活的人。</p>
+<h1
+id="第三层境界--做好完成的内容质量上乘">第三层境界--做好：完成的内容质量上乘</h1>
+<p>这个阶段的人不仅能够完完整整地把事情做完，还会主动为功能作出更多角度的考虑，关注功能的长期发展。</p>
+<p>即使在大厂中，能把事情做到这个程度的人也不多。因为不止要把事情做完，还要额外考虑更多的事情，如可维护性、扩展性、内存占率、cpu占用率、FPS。其实能够考虑到其中一两点已经很不错，我到现在也没有碰到能够把这些点全部考虑到的研发。</p>
+<p>可能有些研发以为自己考虑到了，但那只是他以为，其实并没有。</p>
+<p>例如可维护性，有些研发以为自己的代码写得非常好，但其实很多人都看不懂他的代码，然后他可能还会说：“不是都写得很清楚了吗”。过了一段时间之后他自己都看不懂，然后他就会说：“肯定有人改过我的代码了”，其实并没有人改过。。。</p>
+<p>例如扩展性，有些研发以为自己的架构写得贼牛逼，觉得自己整了几个manager就很厉害，蜜汁自信。认真看一下他写的manager就会发现这几个manager之间的耦合度贼高，没有一个是可以单独运行的，这种并不叫封装，只能说是把原本的一坨代码强行拆开到多个模块中。</p>
+<p>内存占用率、cpu占用率、FPS一般都是在功能完成之后再统一考虑。在开发过程中也可以稍微关注一下，但是不建议投入太多精力，因为过早的优化并不见得是一件好事。</p>
+<p>老实说，如果自己想做，又真的有足够的时间为功能作多方面的考虑，应该是很享受的一件事情。因为可以看着自己的功能变得越来越好，就像自己的孩子长大一样。</p>
+<p>要想得心应手地处理好额外地事情，需要长期的积累，厚积薄发。平时多阅读经典书籍，例如《计算组成原理》、《代码大全》等。</p>
+<h1
+id="第四层境界--做对完成的内容真的能解决用户的问题">第四层境界--做对：完成的内容真的能解决用户的问题</h1>
+<p>处于这一层的人会具有更强的主动性，具备主人翁精神，参与任务方向的决策。</p>
+<p>理论上，把握任务方向这件事情应该由专门的同事负责，在游戏公司中就是策划。把握方向是策划的本职工作。他们必须要达到这个境界。因为方向不对，努力白费。</p>
+<p>把握方向跟研发没有太大关系。但是我们可以影响策划，对方向进行细微的调整。如果在某些设定上，你和策划没有办法达成一致，而你坚定地认为策划地想法是不合理地。那可以和直属leader沟通给方向，某些情况下甚至可以请leader去和策划沟通。</p>
+<p>​<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102015322.png?x-oss-process=style/WaterMask"
+alt="20221102015322" /></p>
+<p>一个差的研发只是做了客户需要他做的事。而一个好的研发创造了客户希望他创造的价值，可以通过客户表面的语言帮客户找到深层次的需求是什么，然后提出一个更好的方案。我们要创造价值而不是创造代码。</p>
+<p>但是做这样一件事其实不容易被leader注意到，而且需要额外花费时间。leader只能看到你在花时间跟策划聊天，也不知道你是在聊八卦还是聊正事。</p>
+<p>但我认为这件事是有意义的，因为这项任务的完成结果能不能被上级认可，很大程度上要看这个功能在游戏中的最终表现。如果最后表现不行，甚至这个功能最后不上线，代码写得再好，上级对你的评价也不会高。</p>
+<p>你的苦劳能不能被承认，还得看功劳够不够。所以为了不做无用功，还是要多关注一下方向。当你的功能被一次次推翻的时候，是很受打击的。因为没有什么成就感，在其他人看来，很多东西你做了跟没做一样。</p>
+<p>这个阶段需要的是较强的沟通能力，能够和策划的思想碰撞出火花，但是又不会破坏关系。可以学习一下沟通方面的知识，推荐《非暴力沟通》。</p>
 ]]></content>
       <categories>
         <category>Game Road</category>
@@ -566,207 +769,37 @@ long中能表示字面值的尺寸最小的那个</p>
       </tags>
   </entry>
   <entry>
-    <title>Game Road 4.执行任务的方式</title>
-    <url>/posts/8ad6de59.html</url>
-    <content><![CDATA[<p>在工作过程中，做事情分为以下4个境界，分别是做了、做完、做好、做对，难度和耗时都依次递增。
-# 第一层境界--做了：被动执行，不关注结果
-处于这个阶段的研发，别人说什么就做什么，不会为这项任务做整体的考虑。</p>
-<p>这类人大致可以分为以下几种：</p>
-<p>第一种人没追求的，得过且过，只是想在公司混混日子。他们会觉得事情只要能够完成就好，至于最终效果怎么样，跟他们没有关系。这类人很难拯救，因为他们根本不想成长。</p>
-<p>第二种人有追求，但是没有意识到需要把事情做到更好，他们以为只要完成了任务就已经是完满完成任务了，上头就已经很满意了。这类人还是可以拯救的，因为他们只是不知道要做得更好而已，有可能是因为他们以前工作的地方给他留下了这种不好的观念。只要合理地对这类人进行引导，他们会明白之后应该怎么去做得更好。</p>
-<p>第三种人有追求、有意识到需要做得更好，但是因为时间不够等原因被逼得只能勉强完成任务。出现这样的情况，责任并不完全在执行者身上，还有一部分原因在leader或者pm身上。游戏行业研发压力大，时间经常会被压得很紧，要把事情做得更好需要花费的时间自然是更多的。</p>
-<p>如果真的要把这件事情做得更好的话，可能需要执行者牺牲私人时间。偶尔牺牲一下私人时间也还可以接受，如果这种情况经常发生，执行者也不可能一直牺牲自己的私人时间。从这一点来看，年轻人比中年人更有优势。因为年轻人，特别是刚刚出来工作的人，私人时间一般都是空闲的。但是中年人的私人时间一般都是有事情要做的。这也是35岁中年危机会出现的其中一个原因。</p>
-<p>更好的解决方法是执行者找leader或者pm沟通重现沟通时间，让执行者有更多的时间去把事情做好。不要不好意思开口请求更多的研发时间，确实需要更多时间就要及时汇报，不需要什么东西都自己默默背负着，搞得自己压力很大，不仅影响工作状态，还可能影响生活状态。</p>
-<p>事情只做到这个程度的话，其实是有点敷衍的，做出来的东西不太能放得上台面。时间长了，leader也能看出来，对自己的发展发展非常不利。</p>
-<h1
-id="第二层境界--做完高质量高标准完成任务">第二层境界--做完：高质量、高标准完成任务</h1>
-<p>处于这个阶段的研发算是负责任的，起码完成的内容完备稳定，可以良好地接入到当前的系统中。
-把事情做到这个程度只能说是比及格线稍微高一丢丢，完成的内容算是能看了。执行者完成任务之后不会有太大的成就感，只会舒一口气。</p>
-<p>leader对这类人地印象不好也不坏，只会觉得这是个还能干活的人。</p>
-<h1
-id="第三层境界--做好完成的内容质量上乘">第三层境界--做好：完成的内容质量上乘</h1>
-<p>这个阶段的人不仅能够完完整整地把事情做完，还会主动为功能作出更多角度的考虑，关注功能的长期发展。</p>
-<p>即使在大厂中，能把事情做到这个程度的人也不多。因为不止要把事情做完，还要额外考虑更多的事情，如可维护性、扩展性、内存占率、cpu占用率、FPS。其实能够考虑到其中一两点已经很不错，我到现在也没有碰到能够把这些点全部考虑到的研发。</p>
-<p>可能有些研发以为自己考虑到了，但那只是他以为，其实并没有。</p>
-<p>例如可维护性，有些研发以为自己的代码写得非常好，但其实很多人都看不懂他的代码，然后他可能还会说：“不是都写得很清楚了吗”。过了一段时间之后他自己都看不懂，然后他就会说：“肯定有人改过我的代码了”，其实并没有人改过。。。</p>
-<p>例如扩展性，有些研发以为自己的架构写得贼牛逼，觉得自己整了几个manager就很厉害，蜜汁自信。认真看一下他写的manager就会发现这几个manager之间的耦合度贼高，没有一个是可以单独运行的，这种并不叫封装，只能说是把原本的一坨代码强行拆开到多个模块中。</p>
-<p>内存占用率、cpu占用率、FPS一般都是在功能完成之后再统一考虑。在开发过程中也可以稍微关注一下，但是不建议投入太多精力，因为过早的优化并不见得是一件好事。</p>
-<p>老实说，如果自己想做，又真的有足够的时间为功能作多方面的考虑，应该是很享受的一件事情。因为可以看着自己的功能变得越来越好，就像自己的孩子长大一样。</p>
-<p>要想得心应手地处理好额外地事情，需要长期的积累，厚积薄发。平时多阅读经典书籍，例如《计算组成原理》、《代码大全》等。</p>
-<h1
-id="第四层境界--做对完成的内容真的能解决用户的问题">第四层境界--做对：完成的内容真的能解决用户的问题</h1>
-<p>处于这一层的人会具有更强的主动性，具备主人翁精神，参与任务方向的决策。</p>
-<p>理论上，把握任务方向这件事情应该由专门的同事负责，在游戏公司中就是策划。把握方向是策划的本职工作。他们必须要达到这个境界。因为方向不对，努力白费。</p>
-<p>把握方向跟研发没有太大关系。但是我们可以影响策划，对方向进行细微的调整。如果在某些设定上，你和策划没有办法达成一致，而你坚定地认为策划地想法是不合理地。那可以和直属leader沟通给方向，某些情况下甚至可以请leader去和策划沟通。</p>
-<p>​<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102015322.png?x-oss-process=style/WaterMask"
-alt="20221102015322" /></p>
-<p>一个差的研发只是做了客户需要他做的事。而一个好的研发创造了客户希望他创造的价值，可以通过客户表面的语言帮客户找到深层次的需求是什么，然后提出一个更好的方案。我们要创造价值而不是创造代码。</p>
-<p>但是做这样一件事其实不容易被leader注意到，而且需要额外花费时间。leader只能看到你在花时间跟策划聊天，也不知道你是在聊八卦还是聊正事。</p>
-<p>但我认为这件事是有意义的，因为这项任务的完成结果能不能被上级认可，很大程度上要看这个功能在游戏中的最终表现。如果最后表现不行，甚至这个功能最后不上线，代码写得再好，上级对你的评价也不会高。</p>
-<p>你的苦劳能不能被承认，还得看功劳够不够。所以为了不做无用功，还是要多关注一下方向。当你的功能被一次次推翻的时候，是很受打击的。因为没有什么成就感，在其他人看来，很多东西你做了跟没做一样。</p>
-<p>这个阶段需要的是较强的沟通能力，能够和策划的思想碰撞出火花，但是又不会破坏关系。可以学习一下沟通方面的知识，推荐《非暴力沟通》。</p>
+    <title>我所理解的C++ 02-2｜const 限定符</title>
+    <url>/posts/897859dc.html</url>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/481055995" class="internal" data-draft-node="block" data-draft-type="link-card" data-draft-title="关于该系列文章" data-draft-cover="https://picx.zhimg.com/v2-3a5e160d8218fea55e57f71f304d50da.jpg?source=7e7ef6e2&amp;needBackground=1">关于该系列文章</a></p>
+<h2 id="const限定符">const限定符</h2>
+<p>定义变量时加上const可以使变量变成const变量。这类变量只能执行不改变其内容的操作，且必须初始化。如果初始值是常量表达式，编译时会把用到该变量的地方都替换成对应的值</p>
+<h2 id="const引用">const引用</h2>
+<p>const引用可以绑定到常量变量、非常量变量、临时变量，例如</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = <span class="hljs-number">2048</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rci = ci;  <span class="hljs-comment">//绑定到常量变量</span><br><br><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;ri = i;    <span class="hljs-comment">//绑定到非常量变量</span><br><br><span class="hljs-type">double</span> d = <span class="hljs-number">3.14</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rcd = d;   <span class="hljs-comment">//绑定到临时变量；因为d隐式转换成int时产生了临时变量</span><br></code></pre></td></tr></table></figure>
+<p>不能通过const引用来修改它所绑定的对象的内容</p>
+<h2 id="const与指针">const与指针</h2>
+<p>只有指针会分为底层const和顶层const，但有时也会把<code>const int i = 1;</code>看成是顶层const</p>
+<h3 id="指向常量的指针">指向常量的指针</h3>
+<p>指向常量的指针又称为底层const指针，指针的值可以改变，但无法通过该指针修改它所指向的变量的值。指向常量的指针可以指向常量变量、非常量变量。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> *cptri1 = &amp;i;    <span class="hljs-comment">//底层const</span><br><span class="hljs-type">int</span> <span class="hljs-type">const</span> *cptri2 = &amp;i;    <span class="hljs-comment">//底层const</span><br></code></pre></td></tr></table></figure>
+<h3 id="常量指针">常量指针</h3>
+<p>常量指针又称为顶层const指针，指针的值不可以改变，可以通过该指针修改它所指向的变量的值。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">int</span> *<span class="hljs-type">const</span> cptri = &amp;i;<br></code></pre></td></tr></table></figure>
+<h2 id="常量表达式和constexpr">常量表达式和constexpr</h2>
+<p>常量表达式是编译时就能得到计算结果的表达式。用常量表达式初始化的const变量也是常量表达式</p>
+<p>定义变量时在类型前加上<code>constexpr</code>关键字之后，编译器会去检查初始值是不是一个常量表达式
+，不是则编译报错。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> n = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> a[n];        <span class="hljs-comment">//错误</span><br><br><span class="hljs-keyword">constexpr</span> <span class="hljs-type">int</span> m = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> b[m];        <span class="hljs-comment">//正确</span><br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> l = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> c[l];        <span class="hljs-comment">//正确</span><br><br></code></pre></td></tr></table></figure>
+<p>constexpr关键字会使变量变成const类型，如果变量是指针变量，则会变成顶层const指针，且初始值必须是0或nullptr或存储与某个固定地址中的变量。函数体内的变量一般不存放在固定地址中。函数体外的变量一般存放在固定地址中。</p>
+<p>constexpr关键字只能修饰字面值类型。字面值类型包括算术类型、引用、指针、字面值常量类。</p>
 ]]></content>
       <categories>
-        <category>Game Road</category>
+        <category>C++</category>
       </categories>
-  </entry>
-  <entry>
-    <title>MarkDown语法测试</title>
-    <url>/posts/5df9aa96.html</url>
-    <content><![CDATA[<p><a href="https://roudersky.com/">转载自</a></p>
-<h1 id="h1">h1</h1>
-<h2 id="h2">h2</h2>
-<h3 id="h3">h3</h3>
-<h4 id="h4">h4</h4>
-<h5 id="h5">h5</h5>
-<blockquote>
-<p>引用 &gt;引用中的引用</p>
-</blockquote>
-<ul>
-<li>无序列表</li>
-<li>无序列表</li>
-<li>无序列表</li>
-<li>无序列表</li>
-</ul>
-<hr />
-<ul>
-<li>无序列表</li>
-<li>无序列表</li>
-<li>无序列表</li>
-</ul>
-<hr />
-<ul>
-<li>无序列表</li>
-<li>无序列表</li>
-<li>无序列表</li>
-</ul>
-<hr />
-<ol type="1">
-<li>有序列表</li>
-<li>有序列表</li>
-<li>有序列表</li>
-<li>有序列表</li>
-</ol>
-<p>这是正常的文字</p>
-<p><em>斜体文本</em></p>
-<p><em>斜体文本</em></p>
-<p><strong>粗体文本</strong></p>
-<p><strong>粗体文本</strong></p>
-<p><strong><em>粗斜体文本</em></strong></p>
-<p><strong><em>粗斜体文本</em></strong></p>
-<p><del>这是加删除线的文字</del></p>
-<p>$ _{i=1}^n a_i=0 $</p>
-<p><span class="math display">\[\sum_{i=1}^n a_i=0\]</span></p>
-<p><code>int a;</code></p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">(<span class="hljs-type">int</span> argc, <span class="hljs-type">char</span> *argv[])</span> </span>&#123;<br><br>  <span class="hljs-comment">/* An annoying &quot;Hello World&quot; example */</span><br>  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">0xFFFF</span>; i++)<br>    cout &lt;&lt; <span class="hljs-string">&quot;Hello, World!&quot;</span> &lt;&lt; endl;<br><br>  <span class="hljs-type">char</span> c = <span class="hljs-string">&#x27;\n&#x27;</span>;<br>  unordered_map &lt;string, vector&lt;string&gt; &gt; m;<br>  m[<span class="hljs-string">&quot;key&quot;</span>] = <span class="hljs-string">&quot;\\\\&quot;</span>; <span class="hljs-comment">// this is an error</span><br><br>  <span class="hljs-keyword">return</span> <span class="hljs-number">-2e3</span> + <span class="hljs-number">12l</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<pre><code class="hljs">val s = &quot;hello Markdown&quot;
-println( s )</code></pre>
-<table>
-<thead>
-<tr>
-<th>姓名</th>
-<th style="text-align: center;">技能</th>
-<th style="text-align: right;">排行</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>刘备</td>
-<td style="text-align: center;">哭</td>
-<td style="text-align: right;">大哥</td>
-</tr>
-<tr>
-<td>关羽</td>
-<td style="text-align: center;">打</td>
-<td style="text-align: right;">二哥</td>
-</tr>
-<tr>
-<td>张飞</td>
-<td style="text-align: center;">骂</td>
-<td style="text-align: right;">三弟</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>姓名</th>
-<th style="text-align: center;">技能</th>
-<th style="text-align: right;">排行</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>刘备</td>
-<td style="text-align: center;">哭</td>
-<td style="text-align: right;">大哥</td>
-</tr>
-<tr>
-<td>关羽</td>
-<td style="text-align: center;">打</td>
-<td style="text-align: right;">二哥</td>
-</tr>
-<tr>
-<td>张飞</td>
-<td style="text-align: center;">骂</td>
-<td style="text-align: right;">三弟</td>
-</tr>
-</tbody>
-</table>
-<p><span class="math display">\[\begin{vmatrix}
-  \frac{cot\frac{FOV}{2}}{Aspect} &amp; 0 &amp; 0 &amp; 0 \\
-  0 &amp; cot\frac{FOV}{2} &amp; 0 &amp; 0 \\
-  0 &amp; 0 &amp; -\frac{Far+Near}{Far-Near} &amp; -\frac{2 \cdot Near
-\cdot Far}{Far-Near} \\
-  0 &amp; 0 &amp; -1 &amp; 0
-\end{vmatrix}\]</span></p>
-<ul>
-<li><figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029173905.png?x-oss-process=style/WaterMask"
-alt="20221029173905" />
-<figcaption aria-hidden="true">20221029173905</figcaption>
-</figure></li>
-<li><figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/一脚扫开.gif"
-alt="一脚扫开" />
-<figcaption aria-hidden="true">一脚扫开</figcaption>
-</figure></li>
-</ul>
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<pre><code class="hljs">&lt;iframe src=&quot;//player.bilibili.com/player.html?aid=894986163&amp;bvid=BV15P4y1T7nS&amp;cid=555347982&amp;page=1&amp;high_quality=1&quot;  scrolling=&quot;no&quot; border=&quot;0&quot; frameborder=&quot;no&quot; framespacing=&quot;0&quot; allowfullscreen=&quot;true&quot; style=&quot;position: absolute; width: 100%; height: 100%; left: 0; top: 0;&quot;&gt;&lt;/iframe&gt;</code></pre>
-</div>
-]]></content>
-  </entry>
-  <entry>
-    <title>Game Road 3.在工作期间快速提升需要有的态度</title>
-    <url>/posts/70d2a4f9.html</url>
-    <content><![CDATA[<h1
-id="凡事有交代件件有着落事事有回音">凡事有交代，件件有着落，事事有回音</h1>
-<p>我们做的每一件事情都应该闭环，有头有尾。有时候leader可能只是简单跟你说要去做某件事情，不要因为说得比较简单而不重视它。</p>
-<p>例如leader可能会发个截图过来跟你说：“这个地方性能有点问题，去跟进一下看看。”你可能会稍后找个时间来查一下，确定问题之后就开始修复，提交代码的时候也没有给leader去review一下。</p>
-<p>过了很长一段时间之后，leader纳闷怎么这么就都没有回应，是不是哪里卡住了不知道怎么修
-。于是主动来问你性能问题跟进得怎么样了。这时你有可能忘了修复的具体细节，或者说明具体修复细节之后，leader看出了这个修复方案存在问题。这个时候就会给leader留下一种不靠谱的心里印象。</p>
-<p>老实说，要做到这一点挺不容易的。因为游戏行业的研发节奏本身就很快，平时开发压力很大，要顾上所有的事情不是一件简单的事情。但是无论无何，leader交代下来的事情要比其他事情更积极一点，单单是做到这一点，你的升迁速度就已经快很多了。</p>
-<h1
-id="前三年是成长最快的三年工作时间以外也要多花时间提升自己">前三年是成长最快的三年，工作时间以外也要多花时间提升自己</h1>
-<p>新人刚刚来到职场需要学习的东西还很多，有些技能以前在学校读书的时候没有意识到它的重要性。在职场工作的过程中会慢慢需要用到一些比较重要的技能，当发现自己这一块技能水平存在不足时，就给自己规划好时间去学习提升。</p>
-<p>工作时间以外可以花点时间去学习，可以利用早期的时间、午休时间、下班后的时间。当然不是要将这些时间全部用上，能充分利用其中一个时间段就已经很不错了。把自己逼得太紧，效果反而不太理想，娱乐时间还是要有一点的。只会学习不玩耍,聪明孩子也变傻。</p>
-<p>这样坚持几年时间下来会比不做这些事情会累很多，但是我觉得还是值得的。可能有人会说：“这跟加班有什么区别？工贼”我觉得差别很是很大的，加班的产出是给公司的，而经常时对自己成长提升不大的内容。但是自己学习提升得到的东西都是自己的，可以跟着你一辈子（不要说时间长了把它搞忘了=
-=）。</p>
-<p>相信我，只要能坚持住，你的成长速度是飞快的。</p>
-<h1
-id="不能只做一个杂家要先做一个专家">不能只做一个杂家，要先做一个专家</h1>
-<p>刚刚进入到职场面对浩如烟海的技术会顿感迷茫，不要想着一下子抓住所有的技术。我们应该确定一个方向，这个确定过程可以是主动的，也可以是被动的。主动选自己喜欢的，被动选工作需要的。</p>
-<p>锁定了方向之后，我们要深入学习这个方向的内容，要从原理上去了解做过的每一个东西，而不仅仅是满足于完成需求。同时也可以去学习其他技术点，随着主攻方向学习的深入，你可能就会发现其实很多东西是相通的。慢慢地，你的技能树就会形成一超多强的局势。这时就成为了一个T型人才。</p>
-<p>如果有一个确定的方向，在面临岔路口的时候就不会茫然，你会很坚定地选择一个方向。这同样节省了很多时间。因为诱惑还是很多的，每次做选择都纠结很久的话会耗费很多心力，每个人每天的心力都是有限的，心力耗尽之后做事效率会下降很多。</p>
-]]></content>
-      <categories>
-        <category>Game Road</category>
-      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
   </entry>
   <entry>
     <title>我所理解的C++ 02-3｜类型别名、auto 和 decltype</title>
@@ -790,6 +823,138 @@ id="不能只做一个杂家要先做一个专家">不能只做一个杂家，�
       </categories>
       <tags>
         <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我所理解的C++ 03-1｜vector 扩容后，引用和迭代器为什么会失效</title>
+    <url>/posts/ec9911c0.html</url>
+    <content><![CDATA[<p>先看一段很容易写出来的代码：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;vector&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>&#125;;<br>    <span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">40</span>);<br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">50</span>);<br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">60</span>);<br><br>    std::cout &lt;&lt; first &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p><code>first</code> 看起来只是 <code>values[0]</code>
+的另一个名字。可这段代码并不一定安全。</p>
+<p>如果后面的某次 <code>push_back</code> 触发了 <code>vector</code>
+扩容，原来的元素会被搬到一块新的连续内存，旧元素随即结束生命周期。此时
+<code>first</code> 仍然保存着旧缓冲区中的地址，它已经不再引用
+<code>vector</code> 里的任何有效对象。</p>
+<p>继续读取 <code>first</code> 是未定义行为。</p>
+<p>这段代码最容易让人误判的地方在于：它可能每次都打印
+<code>10</code>。程序没有崩溃，输出也符合预期，并不代表代码正确。访问悬空引用本来就可能表现为“看起来正常”。</p>
+<figure>
+<img src="/images/cpp/vector-invalidation-cover.png"
+alt="vector 扩容示意" />
+<figcaption aria-hidden="true">vector 扩容示意</figcaption>
+</figure>
+<h2 id="引用不是元素的副本">引用不是元素的副本</h2>
+<p><code>values[0]</code> 返回的是 <code>int&amp;</code>。把它绑定到
+<code>const int&amp;</code> 后，<code>first</code>
+绑定的是缓冲区里的那个 <code>int</code>
+对象，并没有复制出一个独立的值。</p>
+<p>可以把 <code>vector</code> 简化成三部分：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">元素所在缓冲区 + size + capacity<br></code></pre></td></tr></table></figure>
+<p><code>size()</code> 是当前真正存在的元素数量。<code>capacity()</code>
+是在不重新分配缓冲区的前提下，最多能容纳多少个元素。</p>
+<p>下面这个关系很常见：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br><br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">1</span>);<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">2</span>);<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">3</span>);<br><br>std::cout &lt;&lt; values.<span class="hljs-built_in">size</span>();     <span class="hljs-comment">// 3</span><br>std::cout &lt;&lt; values.<span class="hljs-built_in">capacity</span>(); <span class="hljs-comment">// 至少为 3</span><br></code></pre></td></tr></table></figure>
+<p>标准并没有规定 <code>vector</code>
+必须按照两倍增长，也没有规定每次请求一定得到多大的容量。不同标准库实现可能采用不同的增长策略。</p>
+<p>我们能够依赖的是：当现有容量不够时，<code>vector</code>
+会重新分配一块能够容纳更多元素的连续空间，把原有元素移动或复制过去，再销毁旧缓冲区中的元素。</p>
+<p>也正是在这一步，指向旧缓冲区的引用、指针和迭代器全部失效。</p>
+<h2 id="失效的不是第几个元素">失效的不是“第几个元素”</h2>
+<p>人们有时把 <code>values[0]</code> 理解成“第 0
+号位置”。更准确的理解是：</p>
+<figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">先取得缓冲区首地址，再偏移 0 个元素<br></code></pre></td></tr></table></figure>
+<p>扩容后，元素虽然仍位于新 <code>vector</code> 的第 0
+位，但底层地址已经改变。</p>
+<p>因此下面这些值都可能在扩容后失效：</p>
+<ul>
+<li><code>int&amp;</code> 或 <code>const int&amp;</code>；</li>
+<li>指向元素的 <code>int*</code> 或 <code>const int*</code>；</li>
+<li><code>vector&lt;int&gt;::iterator</code>；</li>
+<li>通过 <code>values.data()</code> 得到的指针；</li>
+<li>范围 <code>for</code> 循环内部保存的迭代器。</li>
+</ul>
+<p>它们共同依赖同一件事：元素仍然位于原来的缓冲区。</p>
+<p>失效后不会触发一个可靠的运行时错误。引用仍能拿来写代码，指针仍能拿来解引用，迭代器仍能拿来执行
+<code>++</code>，只是行为已经不再受语言保证。</p>
+<h2 id="一次运行不能证明安全">一次运行不能证明安全</h2>
+<p>下面这种验证方式没有意义：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span> (values.<span class="hljs-built_in">size</span>() == values.<span class="hljs-built_in">capacity</span>()) &#123;<br>    std::cout &lt;&lt; <span class="hljs-string">&quot;下一次 push_back 会申请新缓冲区\n&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这段检查只能说明当前这一次 <code>push_back</code>
+的起点在哪里，不能作为长期保存引用的依据。只要之后某次插入把
+<code>size</code> 推到容量之外，重新分配仍会发生。</p>
+<p>更不要通过固定写几个 <code>push_back</code>
+来“记住”某台机器上的容量变化。更换编译器、编译选项、元素类型或
+<code>vector</code> 的初始状态后，结论都可能改变。</p>
+<p>对需要保存元素地址的代码，应该直接消除这种偶然性。</p>
+<h2 id="reserve-要在保存引用之前调用">reserve 要在保存引用之前调用</h2>
+<p>如果已经知道最多需要放入多少元素，可以先预留容量：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">100</span>);<br><br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">10</span>);<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">99</span>; ++i) &#123;<br>    values.<span class="hljs-built_in">push_back</span>(i);<br>&#125;<br><br>std::cout &lt;&lt; first &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br></code></pre></td></tr></table></figure>
+<p>只要后续元素数量没有超过预留容量，<code>push_back</code>
+就不需要重新分配缓冲区，之前取得的引用可以继续使用。</p>
+<p>顺序很重要。先保存引用，再调用
+<code>reserve</code>，同样可能失效：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>&#125;;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">100</span>); <span class="hljs-comment">// 可能重新分配</span><br>std::cout &lt;&lt; first;  <span class="hljs-comment">// 不能再依赖</span><br></code></pre></td></tr></table></figure>
+<p><code>reserve</code>
+只改变容量，不创建元素。下面这段代码仍然是错误的：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">10</span>);<br><br>values[<span class="hljs-number">0</span>] = <span class="hljs-number">1</span>; <span class="hljs-comment">// 错误：size 仍然是 0</span><br></code></pre></td></tr></table></figure>
+<p>容量代表“可以放”，不代表“已经有”。需要真正创建元素时，应使用
+<code>resize</code> 或插入元素的接口。</p>
+<h2 id="范围-for-循环为什么也会出问题">范围 for
+循环为什么也会出问题</h2>
+<p>范围 <code>for</code>
+会先取得序列的起点和终点，再在循环过程中使用这些迭代器。它并不会在每一轮重新查询
+<code>vector</code> 的全部状态。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>    <span class="hljs-keyword">if</span> (value % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) &#123;<br>        values.<span class="hljs-built_in">push_back</span>(value);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>一旦 <code>push_back</code>
+触发扩容，循环正在使用的迭代器可能指向已经销毁的旧缓冲区。这个循环不但可能漏掉新加入的元素，还可能进入未定义行为。</p>
+<p>更清楚的写法是同时保留输入和输出：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; result;<br><br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>    <span class="hljs-keyword">if</span> (value % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) &#123;<br>        result.<span class="hljs-built_in">push_back</span>(value);<br>    &#125;<br>&#125;<br><br>values.<span class="hljs-built_in">swap</span>(result);<br></code></pre></td></tr></table></figure>
+<p>如果确实需要边遍历边追加，至少不要依赖在循环外保存的迭代器或引用。但这通常会让代码意图变得难读，优先考虑拆成输入和输出两步。</p>
+<h2 id="capacity-大不等于元素还活着">capacity 大不等于元素还活着</h2>
+<p><code>clear()</code>
+会销毁所有元素，但通常不会释放已经分配的内存：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>&#125;;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>values.<span class="hljs-built_in">clear</span>();<br><br>std::cout &lt;&lt; first; <span class="hljs-comment">// 错误</span><br></code></pre></td></tr></table></figure>
+<p>调用 <code>clear()</code> 后，<code>capacity()</code> 可能仍然是
+3，但元素对象已经结束生命周期。继续使用 <code>first</code>
+仍然是悬空引用。</p>
+<p><code>erase()</code>、<code>shrink_to_fit()</code>、赋值或移动
+<code>vector</code>
+等操作，也会以各自的规则影响引用和迭代器。判断时不能只看“内存有没有换一块”，还要看原来的元素对象是否仍然存在、是否仍由当前容器管理。</p>
+<h2 id="需要稳定地址时先改变设计">需要稳定地址时，先改变设计</h2>
+<p>如果一段代码必须长期保存元素地址，可以先问一个更根本的问题：真的必须直接保存元素引用吗？</p>
+<p>一种做法是保存索引：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::<span class="hljs-type">size_t</span> first_index = <span class="hljs-number">0</span>;<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">42</span>);<br><br><span class="hljs-type">int</span> value = values.<span class="hljs-built_in">at</span>(first_index);<br></code></pre></td></tr></table></figure>
+<p>只要元素顺序和下标含义没有改变，扩容后仍然可以通过索引访问当前容器中的元素。索引也不是万能的，执行
+<code>erase</code>、排序或替换容器内容后，原来的下标可能已经指向别的元素。</p>
+<p>另一种做法是让对象本身分配在稳定地址，而 <code>vector</code>
+只保存指向它的句柄：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;std::unique_ptr&lt;Item&gt;&gt; items;<br><br>items.<span class="hljs-built_in">push_back</span>(std::<span class="hljs-built_in">make_unique</span>&lt;Item&gt;());<br>Item&amp; first_item = *items[<span class="hljs-number">0</span>];<br><br>items.<span class="hljs-built_in">push_back</span>(std::<span class="hljs-built_in">make_unique</span>&lt;Item&gt;());<br><br><span class="hljs-comment">// vector 扩容后，Item 对象本身没有移动</span><br>first_item.<span class="hljs-built_in">update</span>();<br></code></pre></td></tr></table></figure>
+<p>此时移动的是 <code>unique_ptr</code> 对象，<code>Item</code>
+对象位于独立分配的内存中，地址不会因为 <code>vector</code>
+扩容而改变。代价是多一次间接访问，也更依赖动态分配。</p>
+<p>选择 <code>std::deque</code>、<code>std::list</code>
+或别的容器也可以改变地址稳定性，但它们各自还有不同的失效规则和性能取舍。不要只因为“引用不会失效”就更换容器，先把访问模式、插入位置和遍历需求一起看清。</p>
+<h2 id="最后的检查点">最后的检查点</h2>
+<ul>
+<li>保存了 <code>vector</code>
+元素的引用、指针或迭代器后，中间是否可能执行插入操作？</li>
+<li>这次插入是否可能触发扩容？</li>
+<li><code>reserve</code> 是否在所有保存引用的操作之前完成？</li>
+<li>是否把 <code>capacity</code> 误当成了元素数量？</li>
+<li>是否在范围 <code>for</code> 或持有迭代器的循环中改变了
+<code>vector</code> 的大小？</li>
+</ul>
+<p><code>vector</code>
+的连续内存带来了缓存友好和随机访问，也意味着扩容时必须整体搬走元素。只要记住引用和迭代器绑定的是某一块缓冲区，而不是抽象意义上的“第几个元素”，这些失效规则就不难判断了。</p>
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+        <tag>STL</tag>
+        <tag>vector</tag>
       </tags>
   </entry>
   <entry>
@@ -988,232 +1153,6 @@ alt="4个点光源、1个平行光" />
       </tags>
   </entry>
   <entry>
-    <title>我所理解的C++ 03-1｜vector 扩容后，引用和迭代器为什么会失效</title>
-    <url>/posts/ec9911c0.html</url>
-    <content><![CDATA[<p>先看一段很容易写出来的代码：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;vector&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>&#125;;<br>    <span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">40</span>);<br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">50</span>);<br>    values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">60</span>);<br><br>    std::cout &lt;&lt; first &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p><code>first</code> 看起来只是 <code>values[0]</code>
-的另一个名字。可这段代码并不一定安全。</p>
-<p>如果后面的某次 <code>push_back</code> 触发了 <code>vector</code>
-扩容，原来的元素会被搬到一块新的连续内存，旧元素随即结束生命周期。此时
-<code>first</code> 仍然保存着旧缓冲区中的地址，它已经不再引用
-<code>vector</code> 里的任何有效对象。</p>
-<p>继续读取 <code>first</code> 是未定义行为。</p>
-<p>这段代码最容易让人误判的地方在于：它可能每次都打印
-<code>10</code>。程序没有崩溃，输出也符合预期，并不代表代码正确。访问悬空引用本来就可能表现为“看起来正常”。</p>
-<figure>
-<img
-src="/Users/rouder/Documents/Domestic-Media-Operations/work/assets/vector-invalidation-cover.png"
-alt="vector 扩容示意" />
-<figcaption aria-hidden="true">vector 扩容示意</figcaption>
-</figure>
-<h2 id="引用不是元素的副本">引用不是元素的副本</h2>
-<p><code>values[0]</code> 返回的是 <code>int&amp;</code>。把它绑定到
-<code>const int&amp;</code> 后，<code>first</code>
-绑定的是缓冲区里的那个 <code>int</code>
-对象，并没有复制出一个独立的值。</p>
-<p>可以把 <code>vector</code> 简化成三部分：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">元素所在缓冲区 + size + capacity<br></code></pre></td></tr></table></figure>
-<p><code>size()</code> 是当前真正存在的元素数量。<code>capacity()</code>
-是在不重新分配缓冲区的前提下，最多能容纳多少个元素。</p>
-<p>下面这个关系很常见：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br><br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">1</span>);<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">2</span>);<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">3</span>);<br><br>std::cout &lt;&lt; values.<span class="hljs-built_in">size</span>();     <span class="hljs-comment">// 3</span><br>std::cout &lt;&lt; values.<span class="hljs-built_in">capacity</span>(); <span class="hljs-comment">// 至少为 3</span><br></code></pre></td></tr></table></figure>
-<p>标准并没有规定 <code>vector</code>
-必须按照两倍增长，也没有规定每次请求一定得到多大的容量。不同标准库实现可能采用不同的增长策略。</p>
-<p>我们能够依赖的是：当现有容量不够时，<code>vector</code>
-会重新分配一块能够容纳更多元素的连续空间，把原有元素移动或复制过去，再销毁旧缓冲区中的元素。</p>
-<p>也正是在这一步，指向旧缓冲区的引用、指针和迭代器全部失效。</p>
-<h2 id="失效的不是第几个元素">失效的不是“第几个元素”</h2>
-<p>人们有时把 <code>values[0]</code> 理解成“第 0
-号位置”。更准确的理解是：</p>
-<figure class="highlight text"><table><tr><td class="code"><pre><code class="hljs text">先取得缓冲区首地址，再偏移 0 个元素<br></code></pre></td></tr></table></figure>
-<p>扩容后，元素虽然仍位于新 <code>vector</code> 的第 0
-位，但底层地址已经改变。</p>
-<p>因此下面这些值都可能在扩容后失效：</p>
-<ul>
-<li><code>int&amp;</code> 或 <code>const int&amp;</code>；</li>
-<li>指向元素的 <code>int*</code> 或 <code>const int*</code>；</li>
-<li><code>vector&lt;int&gt;::iterator</code>；</li>
-<li>通过 <code>values.data()</code> 得到的指针；</li>
-<li>范围 <code>for</code> 循环内部保存的迭代器。</li>
-</ul>
-<p>它们共同依赖同一件事：元素仍然位于原来的缓冲区。</p>
-<p>失效后不会触发一个可靠的运行时错误。引用仍能拿来写代码，指针仍能拿来解引用，迭代器仍能拿来执行
-<code>++</code>，只是行为已经不再受语言保证。</p>
-<h2 id="一次运行不能证明安全">一次运行不能证明安全</h2>
-<p>下面这种验证方式没有意义：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">if</span> (values.<span class="hljs-built_in">size</span>() == values.<span class="hljs-built_in">capacity</span>()) &#123;<br>    std::cout &lt;&lt; <span class="hljs-string">&quot;下一次 push_back 会申请新缓冲区\n&quot;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>这段检查只能说明当前这一次 <code>push_back</code>
-的起点在哪里，不能作为长期保存引用的依据。只要之后某次插入把
-<code>size</code> 推到容量之外，重新分配仍会发生。</p>
-<p>更不要通过固定写几个 <code>push_back</code>
-来“记住”某台机器上的容量变化。更换编译器、编译选项、元素类型或
-<code>vector</code> 的初始状态后，结论都可能改变。</p>
-<p>对需要保存元素地址的代码，应该直接消除这种偶然性。</p>
-<h2 id="reserve-要在保存引用之前调用">reserve 要在保存引用之前调用</h2>
-<p>如果已经知道最多需要放入多少元素，可以先预留容量：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">100</span>);<br><br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">10</span>);<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> i = <span class="hljs-number">0</span>; i &lt; <span class="hljs-number">99</span>; ++i) &#123;<br>    values.<span class="hljs-built_in">push_back</span>(i);<br>&#125;<br><br>std::cout &lt;&lt; first &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br></code></pre></td></tr></table></figure>
-<p>只要后续元素数量没有超过预留容量，<code>push_back</code>
-就不需要重新分配缓冲区，之前取得的引用可以继续使用。</p>
-<p>顺序很重要。先保存引用，再调用
-<code>reserve</code>，同样可能失效：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>&#125;;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">100</span>); <span class="hljs-comment">// 可能重新分配</span><br>std::cout &lt;&lt; first;  <span class="hljs-comment">// 不能再依赖</span><br></code></pre></td></tr></table></figure>
-<p><code>reserve</code>
-只改变容量，不创建元素。下面这段代码仍然是错误的：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values;<br>values.<span class="hljs-built_in">reserve</span>(<span class="hljs-number">10</span>);<br><br>values[<span class="hljs-number">0</span>] = <span class="hljs-number">1</span>; <span class="hljs-comment">// 错误：size 仍然是 0</span><br></code></pre></td></tr></table></figure>
-<p>容量代表“可以放”，不代表“已经有”。需要真正创建元素时，应使用
-<code>resize</code> 或插入元素的接口。</p>
-<h2 id="范围-for-循环为什么也会出问题">范围 for
-循环为什么也会出问题</h2>
-<p>范围 <code>for</code>
-会先取得序列的起点和终点，再在循环过程中使用这些迭代器。它并不会在每一轮重新查询
-<code>vector</code> 的全部状态。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>    <span class="hljs-keyword">if</span> (value % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) &#123;<br>        values.<span class="hljs-built_in">push_back</span>(value);<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>一旦 <code>push_back</code>
-触发扩容，循环正在使用的迭代器可能指向已经销毁的旧缓冲区。这个循环不但可能漏掉新加入的元素，还可能进入未定义行为。</p>
-<p>更清楚的写法是同时保留输入和输出：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; result;<br><br><span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>    <span class="hljs-keyword">if</span> (value % <span class="hljs-number">2</span> == <span class="hljs-number">0</span>) &#123;<br>        result.<span class="hljs-built_in">push_back</span>(value);<br>    &#125;<br>&#125;<br><br>values.<span class="hljs-built_in">swap</span>(result);<br></code></pre></td></tr></table></figure>
-<p>如果确实需要边遍历边追加，至少不要依赖在循环外保存的迭代器或引用。但这通常会让代码意图变得难读，优先考虑拆成输入和输出两步。</p>
-<h2 id="capacity-大不等于元素还活着">capacity 大不等于元素还活着</h2>
-<p><code>clear()</code>
-会销毁所有元素，但通常不会释放已经分配的内存：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;<span class="hljs-type">int</span>&gt; values&#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>&#125;;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span>&amp; first = values[<span class="hljs-number">0</span>];<br><br>values.<span class="hljs-built_in">clear</span>();<br><br>std::cout &lt;&lt; first; <span class="hljs-comment">// 错误</span><br></code></pre></td></tr></table></figure>
-<p>调用 <code>clear()</code> 后，<code>capacity()</code> 可能仍然是
-3，但元素对象已经结束生命周期。继续使用 <code>first</code>
-仍然是悬空引用。</p>
-<p><code>erase()</code>、<code>shrink_to_fit()</code>、赋值或移动
-<code>vector</code>
-等操作，也会以各自的规则影响引用和迭代器。判断时不能只看“内存有没有换一块”，还要看原来的元素对象是否仍然存在、是否仍由当前容器管理。</p>
-<h2 id="需要稳定地址时先改变设计">需要稳定地址时，先改变设计</h2>
-<p>如果一段代码必须长期保存元素地址，可以先问一个更根本的问题：真的必须直接保存元素引用吗？</p>
-<p>一种做法是保存索引：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::<span class="hljs-type">size_t</span> first_index = <span class="hljs-number">0</span>;<br>values.<span class="hljs-built_in">push_back</span>(<span class="hljs-number">42</span>);<br><br><span class="hljs-type">int</span> value = values.<span class="hljs-built_in">at</span>(first_index);<br></code></pre></td></tr></table></figure>
-<p>只要元素顺序和下标含义没有改变，扩容后仍然可以通过索引访问当前容器中的元素。索引也不是万能的，执行
-<code>erase</code>、排序或替换容器内容后，原来的下标可能已经指向别的元素。</p>
-<p>另一种做法是让对象本身分配在稳定地址，而 <code>vector</code>
-只保存指向它的句柄：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp">std::vector&lt;std::unique_ptr&lt;Item&gt;&gt; items;<br><br>items.<span class="hljs-built_in">push_back</span>(std::<span class="hljs-built_in">make_unique</span>&lt;Item&gt;());<br>Item&amp; first_item = *items[<span class="hljs-number">0</span>];<br><br>items.<span class="hljs-built_in">push_back</span>(std::<span class="hljs-built_in">make_unique</span>&lt;Item&gt;());<br><br><span class="hljs-comment">// vector 扩容后，Item 对象本身没有移动</span><br>first_item.<span class="hljs-built_in">update</span>();<br></code></pre></td></tr></table></figure>
-<p>此时移动的是 <code>unique_ptr</code> 对象，<code>Item</code>
-对象位于独立分配的内存中，地址不会因为 <code>vector</code>
-扩容而改变。代价是多一次间接访问，也更依赖动态分配。</p>
-<p>选择 <code>std::deque</code>、<code>std::list</code>
-或别的容器也可以改变地址稳定性，但它们各自还有不同的失效规则和性能取舍。不要只因为“引用不会失效”就更换容器，先把访问模式、插入位置和遍历需求一起看清。</p>
-<h2 id="最后的检查点">最后的检查点</h2>
-<ul>
-<li>保存了 <code>vector</code>
-元素的引用、指针或迭代器后，中间是否可能执行插入操作？</li>
-<li>这次插入是否可能触发扩容？</li>
-<li><code>reserve</code> 是否在所有保存引用的操作之前完成？</li>
-<li>是否把 <code>capacity</code> 误当成了元素数量？</li>
-<li>是否在范围 <code>for</code> 或持有迭代器的循环中改变了
-<code>vector</code> 的大小？</li>
-</ul>
-<p><code>vector</code>
-的连续内存带来了缓存友好和随机访问，也意味着扩容时必须整体搬走元素。只要记住引用和迭代器绑定的是某一块缓冲区，而不是抽象意义上的“第几个元素”，这些失效规则就不难判断了。</p>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>STL</tag>
-        <tag>vector</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我所理解的C++ 02-2｜const 限定符</title>
-    <url>/posts/897859dc.html</url>
-    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/481055995" class="internal" data-draft-node="block" data-draft-type="link-card" data-draft-title="关于该系列文章" data-draft-cover="https://picx.zhimg.com/v2-3a5e160d8218fea55e57f71f304d50da.jpg?source=7e7ef6e2&amp;needBackground=1">关于该系列文章</a></p>
-<h2 id="const限定符">const限定符</h2>
-<p>定义变量时加上const可以使变量变成const变量。这类变量只能执行不改变其内容的操作，且必须初始化。如果初始值是常量表达式，编译时会把用到该变量的地方都替换成对应的值</p>
-<h2 id="const引用">const引用</h2>
-<p>const引用可以绑定到常量变量、非常量变量、临时变量，例如</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = <span class="hljs-number">2048</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rci = ci;  <span class="hljs-comment">//绑定到常量变量</span><br><br><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;ri = i;    <span class="hljs-comment">//绑定到非常量变量</span><br><br><span class="hljs-type">double</span> d = <span class="hljs-number">3.14</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rcd = d;   <span class="hljs-comment">//绑定到临时变量；因为d隐式转换成int时产生了临时变量</span><br></code></pre></td></tr></table></figure>
-<p>不能通过const引用来修改它所绑定的对象的内容</p>
-<h2 id="const与指针">const与指针</h2>
-<p>只有指针会分为底层const和顶层const，但有时也会把<code>const int i = 1;</code>看成是顶层const</p>
-<h3 id="指向常量的指针">指向常量的指针</h3>
-<p>指向常量的指针又称为底层const指针，指针的值可以改变，但无法通过该指针修改它所指向的变量的值。指向常量的指针可以指向常量变量、非常量变量。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> *cptri1 = &amp;i;    <span class="hljs-comment">//底层const</span><br><span class="hljs-type">int</span> <span class="hljs-type">const</span> *cptri2 = &amp;i;    <span class="hljs-comment">//底层const</span><br></code></pre></td></tr></table></figure>
-<h3 id="常量指针">常量指针</h3>
-<p>常量指针又称为顶层const指针，指针的值不可以改变，可以通过该指针修改它所指向的变量的值。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">int</span> *<span class="hljs-type">const</span> cptri = &amp;i;<br></code></pre></td></tr></table></figure>
-<h2 id="常量表达式和constexpr">常量表达式和constexpr</h2>
-<p>常量表达式是编译时就能得到计算结果的表达式。用常量表达式初始化的const变量也是常量表达式</p>
-<p>定义变量时在类型前加上<code>constexpr</code>关键字之后，编译器会去检查初始值是不是一个常量表达式
-，不是则编译报错。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> n = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> a[n];        <span class="hljs-comment">//错误</span><br><br><span class="hljs-keyword">constexpr</span> <span class="hljs-type">int</span> m = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> b[m];        <span class="hljs-comment">//正确</span><br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> l = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> c[l];        <span class="hljs-comment">//正确</span><br><br></code></pre></td></tr></table></figure>
-<p>constexpr关键字会使变量变成const类型，如果变量是指针变量，则会变成顶层const指针，且初始值必须是0或nullptr或存储与某个固定地址中的变量。函数体内的变量一般不存放在固定地址中。函数体外的变量一般存放在固定地址中。</p>
-<p>constexpr关键字只能修饰字面值类型。字面值类型包括算术类型、引用、指针、字面值常量类。</p>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>后处理</title>
-    <url>/posts/19230d75.html</url>
-    <content><![CDATA[<h1 id="blur">Blur</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014101.png"
-alt="Box Blur" />
-<figcaption aria-hidden="true">Box Blur</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014114.png"
-alt="Gaussian Blur" />
-<figcaption aria-hidden="true">Gaussian Blur</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014127.png"
-alt="Dual Box Blur" />
-<figcaption aria-hidden="true">Dual Box Blur</figcaption>
-</figure>
-<h1 id="bloom">Bloom</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Bloom.png"
-alt="Bloom" />
-<figcaption aria-hidden="true">Bloom</figcaption>
-</figure>
-<h1 id="aces-tone-mapping">ACES Tone Mapping</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021445.png"
-alt="未开ACES Tone Mapping" />
-<figcaption aria-hidden="true">未开ACES Tone Mapping</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021540.png"
-alt="开启ACES Tone Mapping" />
-<figcaption aria-hidden="true">开启ACES Tone Mapping</figcaption>
-</figure>
-<h1 id="玻璃破碎">玻璃破碎</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230113014805.png"
-alt="BrokenGlass" />
-<figcaption aria-hidden="true">BrokenGlass</figcaption>
-</figure>
-]]></content>
-      <categories>
-        <category>图形学</category>
-      </categories>
-      <tags>
-        <tag>unity</tag>
-        <tag>shader</tag>
-        <tag>图形学</tag>
-        <tag>特效</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>可编程渲染管线(Scriptable Render Pipeline, SRP)</title>
     <url>/posts/e35daff.html</url>
     <content><![CDATA[<p><img
@@ -1369,6 +1308,66 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221105002226.pn
       <categories>
         <category>图形渲染</category>
       </categories>
+  </entry>
+  <entry>
+    <title>后处理</title>
+    <url>/posts/19230d75.html</url>
+    <content><![CDATA[<h1 id="blur">Blur</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014101.png"
+alt="Box Blur" />
+<figcaption aria-hidden="true">Box Blur</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014114.png"
+alt="Gaussian Blur" />
+<figcaption aria-hidden="true">Gaussian Blur</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230114014127.png"
+alt="Dual Box Blur" />
+<figcaption aria-hidden="true">Dual Box Blur</figcaption>
+</figure>
+<h1 id="bloom">Bloom</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Bloom.png"
+alt="Bloom" />
+<figcaption aria-hidden="true">Bloom</figcaption>
+</figure>
+<h1 id="aces-tone-mapping">ACES Tone Mapping</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021445.png"
+alt="未开ACES Tone Mapping" />
+<figcaption aria-hidden="true">未开ACES Tone Mapping</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230115021540.png"
+alt="开启ACES Tone Mapping" />
+<figcaption aria-hidden="true">开启ACES Tone Mapping</figcaption>
+</figure>
+<h1 id="玻璃破碎">玻璃破碎</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230113014805.png"
+alt="BrokenGlass" />
+<figcaption aria-hidden="true">BrokenGlass</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>图形学</category>
+      </categories>
+      <tags>
+        <tag>unity</tag>
+        <tag>shader</tag>
+        <tag>图形学</tag>
+        <tag>特效</tag>
+      </tags>
   </entry>
   <entry>
     <title>工作多年之后回顾经典排序算法</title>
@@ -1878,6 +1877,50 @@ Factory)</h2>
       </tags>
   </entry>
   <entry>
+    <title>技术美术的职责</title>
+    <url>/posts/dd4c3610.html</url>
+    <content><![CDATA[<h1 id="何为技术美术">何为技术美术</h1>
+<p>技术美术(Technical Artist,
+TA)主要职责是作为美术师和程序员之间沟通合作的桥梁。因此TA需要同时兼备编码能力和美术能力，门槛较高，所以身价一般也比较高。前段时间原神的大火，进一步提升了TA的身价。TA是一个复合型工种，所以不同TA的能力侧重点会不一样。TA大致可以再细分为两种类型。一种偏向技术，驻扎在游戏引擎组。一种偏向美术，驻扎在美术支持组。</p>
+<p>其实还可以继续细分的。比如</p>
+<p>效果TA，主要负责实现具体的美术效果，比如人物描边、火焰效果、水流效果、运动模糊。</p>
+<p>流程TA，主要负责各种资源的导出工作，例如全局光照烘焙流程、场景分块导出流程等。</p>
+<p>优化TA主要负责性能优化工作，比如遮挡剔除的实现、具体效果的性能优化。</p>
+<p>引擎TA主要负责游戏引擎整体渲染效果的把控，定制渲染管线，所以需要对引擎非常熟悉，并且能够对团队进行引擎相关的培训。</p>
+<p>资产TA，需要整理、维护项目的资源，比如制定性能指标、资源检查。</p>
+<p>相比于客户端程序，TA跟美术的沟通更加的紧密和频繁，TA需要主动去跟美术进行沟通，不要期待美术会及时反馈问题。
+# 主要工作职责 TA最重要的工作就是实现具体的美术效果，例如 <img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234443.png?x-oss-process=style/WaterMask" />
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234451.png?x-oss-process=style/WaterMask" />
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234515.png?x-oss-process=style/WaterMask" />
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234522.png?x-oss-process=style/WaterMask" />
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234544.png?x-oss-process=style/WaterMask" />
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234610.png?x-oss-process=style/WaterMask" />
+一般来说，实现一个美术效果分为4个阶段，方案确定、技术预研、效果实现、生产跟进。</p>
+<p>TA在拿到一个具体的美术效果需求时，需要针对这个需求选择合适的实现方案。为了找到合适的方案，首先需要用技术语言将需求表达出来。然后对竞品进行分析，推测对方使用了什么技术来实现该效果。再去学习与实现技术相关的资料，可以到书籍、SIGGRAPH等地方找到需要的内容。最后针对之前的工作内容整理输出一份文档，发起一次会议和相关人员对齐之后的工作内容。</p>
+<p>方案确定之后，TA就可以尝试在项目生产环境下对效果进行初步的实现，输出一个demo。这个过程中不需要太关注代码架构的合理性和性能问题，尽可能快就好。如果过程中使用的美术素材需要使用比较特殊的方式进行制作，就自己动手制作，不要麻烦美术。因为这个实现方案可能并不是最终的实现方案，这时让美术去学习新的制作方法性价比不高。等这个方案真的成为了最终方案时，再推广新的制作方法。但是常规的素材还是需要积极找美术配合输出的。</p>
+<p>在整个过程中需要习惯性地将自己想法和问题记录到文档上，可以作为备忘录，也方便之后进行技术分享。demo出来之后，可以开会跟相关人员对实现出来的效果进行讨论，确定最终是否采纳该方案。</p>
+<p>如果demo的效果不ok，则需要重新选择实现方案。否则将继续往前推进，这时就进入到了方案实现阶段，这个阶段主要是将demo的效果落地到项目生产环境中。在这个过程中需要依据项目规范重构demo的实现代码。如果存在较明显的性能消耗，则需要开展性能优化工作。开发特殊素材的制作工具并进行优化。输出美术制作文档，配合给出样例素材。如果有必要，则对美术进行基本的生产培训。之后还可以定期给团队成员进行技术分享，确保大家对引擎技术有着一致的认知。</p>
+<p>在方案正式投入生产线使用时，TA需要积极主动跟美术进行交流，确保他们在制作过程没有被问题卡住，保证开发流程通畅。效果的跟进不可以交给QA来进行，QA只负责提出异常效果，表现力需要TA亲自跟进。多向美术收集素材制作工具的使用体验，及时对工具进行改良。
+# 在各研发阶段中的具体工作职责
+在项目研发的不同阶段，TA的工作侧重点会有所不同。</p>
+<p>在项目启动阶段，TA需要配合美术同学给出可供我们项目参考的美术风格，并针对特定的效果进行技术评估，确定效果是否能实现。除了仿制出其它项目的效果之外，TA还需要为项目增加自己的特色，提升项目的市场竞争力。</p>
+<p>在项目Demo制作阶段，TA就需要开始实现具体效果了，可参考上文。</p>
+<p>在项目立项阶段，主要对效果表现力和性能进行优化。</p>
+<p>在中期阶段，TA需要对资产进行良好地分类、维护、升级，因为资产会逐渐变得庞大。控制好资产大小，确保被打包的资产不多也不少。为了更合理地管理好资产，需要输出一定的规范文档，并依据必要的规范实现自动资源检查。还需要关注性能表现，针对性能消耗较大的效果进行优化，如果无法优化，可以考虑直接毙掉该效果。这时还需要开始考虑上线后可能会面临的问题，针对这些问题给出解决方案。</p>
+<p>在内测阶段，需要及时解决运行环境中出现的性能问题、兼容性问题、效果表现力问题。</p>
+<p>项目上线后，可以对之前工作结果进行总结和分享，沉淀下来，为新的项目做准备。</p>
+]]></content>
+      <categories>
+        <category>游戏开发碎碎念</category>
+      </categories>
+  </entry>
+  <entry>
     <title>材质特效</title>
     <url>/posts/c4d9d82.html</url>
     <content><![CDATA[<h1 id="dissolve">Dissolve</h1>
@@ -1963,292 +2006,363 @@ alt="20230119023100" />
       </tags>
   </entry>
   <entry>
-    <title>游戏动画技术简介</title>
-    <url>/posts/49a81750.html</url>
-    <content><![CDATA[<p>动画系统是游戏中对表现力影响最大的系统之一，经过一段时间的调研，最后通过这篇文章总结下游戏动画系统。</p>
-<h1 id="精灵动画系统">精灵动画系统</h1>
-<p>精灵动画系统在早年间计算机性能还比较差的时候被广泛运用，一般作为游戏的背景而存在，比如
+    <title>漫谈Entity-Component-System</title>
+    <url>/posts/1abc5785.html</url>
+    <content><![CDATA[<h1 id="简介">简介</h1>
+<p>对于很多人来说，ECS只是一个可以提升性能的架构，但是我觉得ECS更强大的地方在于可以降低代码复杂度。</p>
+<p>在游戏项目开发的过程中，一般会使用OOP的设计方式让GameObject处理自身的业务，然后框架去管理GameObject的集合。但是使用OOP的思想进行框架设计的难点在于一开始就要构建出一个清晰类层次结构。而且在开发过程中需要改动类层次结构的可能性非常大，越到开发后期对类层次结构的改动就会越困难。</p>
+<p>经过一段时间的开发，总会在某个时间点开始引入多重继承。实现一个又可工作、又易理解、又易维护的多重继承类层次结构的难度通常超过其得益。因此多数游戏工作室禁止或严格限制在类层次结构中使用多重继承。若非要使用多重继承，要求一个类只能多重继承一些
+简单且无父类的类(min-in class)，例如Shape和Animator。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029194540.png?x-oss-process=style/WaterMask" /></p>
+<p>也就是说在大型游戏项目中，OOP并不适用于框架设计。但是也不用完全抛弃OOP，只是在很大程度上，代码中的类不再具体地对应现实世界中的具体物件，ECS中类的语义变得更加抽象了。</p>
+<p>ECS有一个很重要的思想：数据都放在一边，需要的时候就去用，不需要的时候不要动。ECS
+的本质就是数据和操作分离。传统OOP思想常常会面临一种情况，A打了B，那么到底是A主动打了B还是B被A打了，这个函数该放在哪里。但是ECS不用纠结这个问题，数据存放到Component种，逻辑直接由System接管。借着这个思想，我们可以大幅度减少函数调用的层次，进而缩短数据流传递的深度。</p>
+<h1 id="基本概念">基本概念</h1>
+<p>Entity由多个Component组成，Component由数据组成，System由逻辑组成。</p>
+<h2 id="component组件">Component(组件)</h2>
+<p>Component是数据的集合，只有变量，没有函数，但可以有getter和setter函数。Component之间不可以直接通信。
+<figure class="highlight gauss"><table><tr><td class="code"><pre><code class="hljs gauss"><span class="hljs-keyword">struct</span> <span class="hljs-type">Component</span>&#123;<br>	<span class="hljs-comment">//子类将会有大量变量，以供System利用</span><br>&#125;<br></code></pre></td></tr></table></figure></p>
+<h2 id="entity实体">Entity(实体)</h2>
+<p>Entity用来代表游戏世界中任意类型的游戏对象，宏观上Entity是一个Component实例的集合，且拥有一个全局唯一的EntityID，用于标识Entity本身。
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">Entity</span>&#123;<br>	Int32 ID;<br>	List&lt;Component&gt; components;<br>        <span class="hljs-comment">//通过观察者模式将自己注册到System可以提升System遍历的速度，因为只需要遍历已经注册的entity</span><br>&#125;<br></code></pre></td></tr></table></figure>
+Entity需要遵循立即创建和延迟销毁原则，销毁放在帧末执行。因为可能会出现这样的情况：systemA提出要在entityA所在位置创建一个特效，然后systemB认为需要销毁entityA。如果systemB直接销毁了entityA，那么稍后FxSystem就会拿不到entityA的位置导致特效播放失败（你可能会问为什么不直接把entityA的位置记录下来，这样就不会有问题了。这里只是简单举个例子，不要太深究(●'◡'●)）。理想的表现效果应该是，播放特效后消失。</p>
+<h2 id="system系统">System(系统)</h2>
+<p>System用来制定游戏的运行规则，只有函数，没有变量。System之间的执行顺序需要严格制定。System之间不可以直接通信。</p>
+<p>一个
+System只关心某一个固定的Component组合，这个组合集合称为tuple。</p>
+<p>各个System的Update顺序要根据具体情况设置好，System在Update时都会遍历所有的Entity，如果一个Entity拥有该System的tuple中指定的所有Component实例，则对该Entity进行处理。
+<figure class="highlight csharp"><table><tr><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">class</span> <span class="hljs-title">System</span>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Update</span>()</span>;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title">ASystem</span>:<span class="hljs-title">System</span>&#123;<br>    Tuple tuple;<br><br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Update</span>()</span>&#123;<br>        <span class="hljs-keyword">for</span>(Entity entity <span class="hljs-keyword">in</span> World.entitys)&#123;<br>            <span class="hljs-keyword">if</span>(entity.components中有tuple指定的所有Component实例)&#123;<br>                <span class="hljs-comment">//do something for Components</span><br>            &#125;<br>        &#125;<br>    &#125;<br>&#125;<br><br></code></pre></td></tr></table></figure>
+一个Component会被不同System区别对待，因为每个System用到的数据可能只有其中一部分，且不一定相同。</p>
+<h2 id="world世界">World(世界)</h2>
+<p>World代表整个游戏世界，游戏会视情况来创建一个或两个World。通常情况下只有一个，但是守望先锋为了做死亡回放，有两个World，分别是liveGame和replyGame。World下面会包含所有的System实例和Entity实例。
+<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">World</span>&#123;<br>    List&lt;System&gt; systems;                   <span class="hljs-comment">//所有System</span><br>    <span class="hljs-built_in">dictionary<span class="hljs-keyword">&lt;Int32, Entity&gt;</span></span> entitys;      <span class="hljs-comment">//所有Entity，Int32是Entity.ID</span><br><br>    <span class="hljs-comment">//由引擎帧循环驱动</span><br>    <span class="hljs-built_in">void</span> Update()&#123;<br>        <span class="hljs-keyword">for</span>(System sys <span class="hljs-keyword">in</span> systems)<br>            sys.Update();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+由ECS架构出来的游戏世界就像是一个数据库表，每个Entity对应一行，每个Component对应一列，打了✔代表Entity拥有Component。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th style="text-align: center;">Component1</th>
+<th style="text-align: center;">Component2</th>
+<th style="text-align: center;">...</th>
+<th style="text-align: center;">ComponentN</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EntityId1</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">✔</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>EntityId2</td>
+<td style="text-align: center;">✔</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;">✔</td>
+</tr>
+<tr>
+<td>...</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td>EntityIdN</td>
+<td style="text-align: center;">✔</td>
+<td style="text-align: center;">✔</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="单例component">单例Component</h2>
+<p>在定义一个Component时最好先搞清楚它的数据是System数据还是Entity数据。如果是System的数据，一般设计成单例Component。例如存放玩家键盘输入的
+Component ，全局只需要一个，很多 System 都需要去读这个唯一的 Component
+中的数据。
+单例Component顾名思义就是只有一个实例的Component，它只能用来存储某些System状态。单例Component在整个架构中的占比通常会很高，据说在守望先锋中占比高达40%。其实换一个角度来看，单例Component可以看成是只有一个Component的匿名Entity单例，但可以通过GetSingletonIns接口来直接访问，而不用通过EntityID。</p>
+<h2 id="例子">例子</h2>
+<p>守望先锋种有一个根据输入状态来决定是不是要把长期不产生输入的对象踢下线的AFKSystem，该System需要对象同时具备连接Component、输入Component等，然后AFKSystem遍历所有符合要求的对象，根据最近输入事件产生的时间，把长期没有输入事件的对象通知下线。</p>
+<h1 id="设计需要遵循的原则">设计需要遵循的原则</h1>
+<ol type="1">
+<li>设计并不是从Entity开始的，而是应该从System抽象出Component，最后组装到Entity中。</li>
+<li>设计的过程中尽量确保每个System都依赖很多Component去运行，也就是说System和Component并不是一对一的关系，而是一对多的关系。所以xxxCOM不一定有xxxSys，xxxSys不一定有xxxCOM。
+<ul>
+<li>System和Component的划分很难在一开始就确定好，一般都是在实现的过程中看情况一步一步地去划分System和Component。而且最终划分出来的System和Component一般都是比较抽象的，也就是说通常不会对应现实世界中的具体物件，可以参考下图守望先锋System和Component划分的例子。
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029175924.png?x-oss-process=style/WaterMask"
-alt="极品飞车系列的路边观众" /> <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180025.png?x-oss-process=style/WaterMask"
-alt="NBA2K系列的观众" />
-这些人物都是一个四边形，游戏引擎会给四边形连续贴上纹理贴图来产生动感。通常为了不暴露这是个扁的四边形，会使这些四边形一直面向摄像机。比如
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180040.png?x-oss-process=style/WaterMask"
-alt="DOOM" />
-这类动画系统在早期游戏中盛行，因为当时的计算机性能不够，而该系统对计算机资源的消耗非常低。现在部分手游依然会保留这类动画系统，因为手机性能有限。</p>
-<h1 id="刚性层阶式动画">刚性层阶式动画</h1>
-<p>刚性层阶式动画驱动的人物都由一堆独立的刚性物体组合而成。刚性物体指的是不会发生形变(包括缩放)的物体。然后动画系统会驱动每一个刚性物体，从而实现动画效果。最经典的例子就是1997年在PS上发售的FF7。
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180105.png?x-oss-process=style/WaterMask"
-alt="97版FF7" />
-这个系统驱动的是3D模型，而不再是四边形贴图，同时还能保持高效的性能和较低的内存使用量。缺点是不允许网格发生形变，整个人物会显得非常生硬。而且人物的关节位置会产生明显的“裂缝”。</p>
-<h1 id="每顶点动画">每顶点动画</h1>
-每顶点动画需要动画师为每个顶点去k动画。工作量非常巨大，产生的数据量也非常巨大，但是可以获得非常精细的动画效果，网格的三角形产生形变。通常用于制作CG中人物的表情，一般通过硬件设备来捕捉人脸信息，再转换成顶点数据。
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<p><iframe src="//player.bilibili.com/player.html?aid=859596268&bvid=BV1eV4y1g7H7&cid=875385956&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
-</div>
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<p><iframe src="//player.bilibili.com/player.html?aid=559589709&bvid=BV1Re4y127Tn&cid=875387307&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
-</div>
-<h1 id="变形目标动画morphing-animation">变形目标动画(morphing
-animation)</h1>
-<p>由于每顶点动画需要保存大量的动画数据，不方便存储和使用。于是提出了变形目标动画，动画师只需要通过调整网格上所有顶点的信息制作出一些静态姿势(morph
-target)。这些静态姿势都是一些“极端”的姿势，例如生气、开心等。在游戏引擎中通过对这些静态姿势按时间进行线性插值即可得到动画。</p>
-<h1 id="蒙皮动画skinened-animation">蒙皮动画(skinened animation)</h1>
-<blockquote>
-<p>有时也被称为骨骼动画、蒙皮骨骼动画，是一种FK</p>
-</blockquote>
-<p>为了可以得到较生动的动画效果，允许网格的三角形产生形变。同时兼顾较高的性能、较低的存储空间。蒙皮动画便出现了，现在市场上几乎所有的游戏都采用蒙皮动画作为动画解决方案。</p>
-<h2 id="概念">概念</h2>
-<p>在蒙皮动画中有几个重要的概念。首先是骨骼(skeleton)，骨骼由关节通过一棵树的形态组织起来。如果是一个人物模型，一般以髋部为根节点，以肢体末端为叶节点，比如手指、脚指、眼睛等。skeleton本身不需要被渲染引擎渲染出来，仅由动画系统驱动。</p>
-<p>然后是皮肤(skin)，皮肤由多边形网格组成。而网格又由顶点构成，这些顶点将会被动画师通过设置权重绑定(bind)到若干关节上。一般每个顶点最多绑定4个关节。但不是所有的关节都会被顶点绑定，这些没有被绑定的关节又称为定位器(locator)，作为其它模型的挂接点存在。
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180348.png?x-oss-process=style/WaterMask"
-alt="DX中skeleton的组织方式" />
-蒙皮动画中存在几个重要的姿势(pose)，这些姿势可以矩阵或者SQT格式来保存。首先是绑定姿势，又称为T-pose，顾名思义，是动画师在给模型顶点做绑定时用的姿势。该姿势从DCC中输出之后就固定好了，在游戏运行时不会被改变。
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180400.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180408.png?x-oss-process=style/WaterMask" />
-然后是局部姿势，它保存了当前关节在其父关节空间中的姿势。因为动画引擎直接驱动的是局部姿势，我们经常需要对局部姿势进行各种插值，所以一般不会存储为矩阵形式，而是存储为SQT形式。我们的动画片段就是由一连串的局部姿势组合起来，也就是说动画片段是一个因变量为局部姿势，自变量为时间的函数。</p>
-<p>最后是全局姿势，它保存了关节在其模型空间或世界空间中的姿势，具体保存形式不同的引擎有不同的做法。它是在游戏运行过程中通过联合具有父子关系的局部姿势实时生成的，算是被动画引擎间接驱动。</p>
-<h2 id="蒙皮skinning">蒙皮(skinning)</h2>
-<p>首先需要准备数据，每一个关节都保存着一个绑定姿势逆矩阵，以下简称IBP，该矩阵可以将物体从模型空间转换到当前关节空间。IBP是在3D模型从DCC输出后，利用T-Pose计算出来的。一次计算，无限次使用。</p>
-<p>动画引擎Update之后，每一个关节都会得到一个最新的局部姿势。这个时候可以进行一些额外的插值计算、程序式动画、IK等后处理过程。因为局部姿势一般保存为SQT格式，所以需要在这时转换成矩阵。</p>
-<p>然后我们开始计算每个关节的全局姿势矩阵，计算方法是依次连接关节本身及其所有父节点的局部姿势矩阵。</p>
-<p>最后IBP乘上全局姿势矩阵，就得到了蒙皮矩阵。顶点乘上蒙皮矩阵后会对顶点产生什么样的影响呢？可以这么想象：顶点原本位于模型为T-Pose时的模型空间中，乘上了IBP之后进入到关节空间中；再乘上全局姿势矩阵，这时模型摆出了由动画引擎驱动的姿势，在这个姿势下从关节空间回到模型空间。</p>
-<p>所以最终呈现的效果是，顶点被关节带到了特定位置。计算出所有关节的蒙皮矩阵之后，我们就得到了矩阵调色</p>
-<p>然后开始正式蒙皮。每个顶点都会从矩阵调色板中取得需要绑定的关节的蒙皮矩阵，然后更具动画师设定好的权重对这些矩阵进行混合。顶点乘上混合后的矩阵，这时蒙皮就完成了。</p>
-<p>ps：动画引擎Update时，可以通过多种方式计算出局部姿势。可以对单个动画片段进行一维线性插值实现时间性混合来得到常规的动画效果。可以对两个动画片段进行淡入/淡出计算获得圆滑过渡、冻结过渡等过渡效果。更进一步推广，可以对多个动画片段进行N维线性插值实现自定义的混合。为了充分利用资源，可以对动画片段进行分部混合或加法混合，例如人物在Idle状态时，通过加法混合给人物加入一些小动作，使得人物更真实。例如...
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-14d7181792c45287b55129c0856b82ff_720w.gif" /></p>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029195909.png?x-oss-process=style/WaterMask"
+alt="20221029195909" /></li>
+</ul></li>
+<li>System尽量不改变Component的数据。
+<ul>
+<li>可以读数据完成的功能就不要写数据来完成。因为写数据会影响到使用了这些数据的模块，如果对于其它模块不熟悉的话，就会产生Bug。如果只是读数据来增加功能的话，即使出Bug也只局限于新功能中，而不会影响其它模块。这样容易管理复杂度，而且给并行处理留下了优化空间。</li>
+</ul></li>
+</ol>
+<h1 id="使用心得">使用心得</h1>
+<p>我在一个游戏demo里尝试使用ECS去进行设计，最大的感受是所有游戏逻辑都变得那么的合理，应对改动、扩展也变得那么的轻松。加班变少了，也不再焦虑。在开始使用ECS来架构业务层之前，我对ECS还是存有一丝疑虑的。担心会不会因为规矩太多了，导致有些功能写不出来。中途也确实因为ECS的种种规矩，导致有些功能不好写出来，需要用到一些奇技淫巧，剑走偏锋。但这些技术最终造就了一个可持续维护的、解耦合的、简洁易读的代码系统。据说守望团队在将整个游戏转成ECS之前也不确定ECS是不是真的好使。现在他们说ECS可以管理快速增长的代码复杂性，也是事后诸葛亮。</p>
+<p>引擎层的System比较好定义，因为引擎相关层级划分比较明确。但是游戏业务逻辑层可能会出现各种奇奇怪怪的System，因为业务层的需求千变万化，有时没有办法划分出一个对应具体业务的System。例如我曾经在业务层定义过DamageHitSystem、PointForceSys。</p>
+<p>推迟技术：不是非常必要马上执行的内容可以推迟到合适的时再执行，这样可以将副作用集中到一处，易于做优化。例如游戏可能会在某个瞬间产生大量的贴花，利用延迟技术可以将这些需要产生的贴花数据保存下来，稍后可以将部分重叠的贴花删除，再依据性能情况分到多个帧中去创建，可以有效平滑性能毛刺。</p>
+<p>如果不知道该如何去划分System，而导致System之间一定要相互通信才能完成功能，可以通过将数据放在中的一个队列里延迟处理。比如SystemA在执行Update的时候，需要执行SystemB中的逻辑。但是这个时候还没轮到SystemB执行Update，只能先将需要执行的内容保存到一个地方。但是System本身又没有数据，所以SystemA只好将需要执行的内容保存到单例Component中的一个队列里，等轮到SystemB执行Update的时候再从队列里拿出数据来执行逻辑。</p>
+<p>但是System之间通过单例Component有个缺点。如果向单例Component中添加太多需要延迟处理的数据，一旦出现bug就不好查了。因为这类数据是一段时间之前添加进来的，到后面才出问题的话，不好定位是何处、何时、基于什么情况添加进来的。解决方案是给每一条需要延迟处理的数据加上调用堆栈信息、时间戳、一个用于描述为什么添加进来的字符串。</p>
+<p>各个System都用到的公共函数可以定义在全局，也可以作为对应System的静态函数，这类函数叫做Utility函数。Utility函数涉及的Component最好尽可能少，不然需要作为参数传进函数Component会很多，导致函数调用不太雅观。Utility函数最好是无副作用的，即不对Component的数据做任何写操作，只读取数据，最后返回计算结果。要改Component的数据的话，也要交给System来改。</p>
+<p>函数调用堆栈的层次变浅了，因为逻辑被摊开到各个System，而System之间又禁止直接访问。代码变得扁平化，扁平化意味的函数封装少了，所以阅读、修改、扩展也很轻松。</p>
+<p>如果可以把整个游戏世界都抽象成数据，存档/读档功能的实现也变得容易了。存档时只需要将所有Component数据保存下来，读档时只需要将所有Component数据加载进来，然后System照常运行。想想就觉得强大，这就是DOP的魅力。</p>
+<h1 id="优点">优点</h1>
+<p>模式简单</p>
+<p>结构清晰</p>
+<p>通过组合高度复用。用组合代替继承，可以像拼积木一样将任意Component组装到任意Entity中。</p>
+<p>扩展性强。Component和System可以随意增删。因为Component之间不可以直接访问，System之间也不可以直接访问，也就是说Component之间不存在耦合，System之间也不存在耦合。System和Component在设计原则上也不存在耦合。对于System来说，Component只是放在一边的数据，Component提供的数据足够就update，数据不够就不update。所以随时增删任意Component和System都不会导致游戏崩溃报错。</p>
+<p>天然与DOP(data-oriented
+processing)亲和。数据都被统一存放到各种各样的Component中，System直接对这些数据进行处理。函数调用堆栈深度大幅度降低，流程被弱化。</p>
+<p>易优化性能。因为数据都被统一存放到Component中，所以如果能够在内存中以合理的方式将所有Component聚合到连续的内存中，这样可以大幅度提升cpu
+cache命中率。cpu
+cache命中良好的情况下，Entity的遍历速度可以提升50倍，游戏对象越多，性能提升越明显。ECS的这项特性给大部分人留下了深刻印象，但是大部分人也认为这就是ECS的全部。我觉得可能是被Unity的官方演示带歪的。</p>
+<p>易实现多线程。由于System之间不可以直接访问，已经完全解耦，所以理论上可以为每个System分配一个线程来运行。需要注意的是，部分System的执行顺序需要严格制定，为这部分System分配线程时需要注意一下执行先后顺序。</p>
+<h1 id="缺点">缺点</h1>
+<p>在充满限制的情况下写代码，有时速度会慢一些。但是习惯之后，后期开发速度会越来越快。</p>
+<h1 id="优化">优化</h1>
+<p>一个entity就是一个ID，所有组成这个entity的component将会被这个ID给标记。因为不用创建entity类，可以降低内存的消耗。如果通过以下方式来组织架构，还可以提升cpu
+cache命中率。 <figure class="highlight less"><table><tr><td class="code"><pre><code class="hljs less"><span class="hljs-comment">//数组下标代表entity的ID</span><br><span class="hljs-selector-tag">ComponentA</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentAs</span>;<br><span class="hljs-selector-tag">ComponentB</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentBs</span>;<br><span class="hljs-selector-tag">ComponentC</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentCs</span>;<br><span class="hljs-selector-tag">ComponentD</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentDs</span>;<br>...<br></code></pre></td></tr></table></figure></p>
+<h1 id="参考资料">参考资料</h1>
+<ul>
+<li><a
+href="https://gameinstitute.qq.com/community/detail/114516">《守望先锋》架构设计与网络同步
+-- GDC2017 精品分享实录</a></li>
+<li>http://gamadu.com/artemis/</li>
+<li>http://gameprogrammingpatterns.com/component.html</li>
+<li>http://t-machine.org/index.php/2014/03/08/data-structures-for-entity-systems-contiguous-memory/</li>
+<li>http://blog.lmorchard.com/2013/11/27/entity-component-system/</li>
+<li><a
+href="https://blog.codingnow.com/2017/06/overwatch_ecs.html">浅谈《守望先锋》中的
+ECS 构架</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>游戏引擎</category>
+        <category>软件工程</category>
       </categories>
   </entry>
   <entry>
-    <title>游戏引擎 1.概述</title>
-    <url>/posts/8ddcbab2.html</url>
-    <content><![CDATA[<p>该系列文章主要面向完全没有引擎基础，但具备一定编程基础的同学。讲解的内容不会展开太深入，只希望读者可以对游戏引擎中的技术有一个基本的理解。如果大家对其中的某些内容感兴趣，可以评论留言。我会根据大家的期望，力所能及地展开讲解。</p>
-<h1 id="简介">简介</h1>
-<p>电子游戏是一款软实时(soft
-real-time)模拟软件。软实时模拟软件需要做到可以响应实时操作，并且即使由于某些原因没有立即响应也不会造成灾难性后果。在电子游戏这样的软实时模拟软件中的大部分数学问题没有闭合式解，因此需要进行离散的模拟才能得到一个结果。</p>
-<p>游戏引擎正是为了完成游戏中各种各样的模拟而整合了各种各样的模块，例如物理模块、渲染模块、逻辑模块等。早期的游戏引擎大多只能运行在特定平台，例如《雷神之锤》的引擎<a
-href="https://github.com/id-Software/Quake">Quake engine</a>、<a
-href="https://zh.wikipedia.org/wiki/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C">魔兽世界</a>用的暴雪自家引擎。</p>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021724.png?x-oss-process=style/WaterMask"
-alt="Quake" />
-<figcaption aria-hidden="true">Quake</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021729.png?x-oss-process=style/WaterMask"
-alt="魔兽世界" />
-<figcaption aria-hidden="true">魔兽世界</figcaption>
-</figure>
-<p>后来出现了可以跨平台运行的通用游戏引擎，例如<a
-href="https://unity.com/cn">Unity</a>、<a
-href="https://www.unrealengine.com/zh-CN/">Unreal</a>。</p>
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=262246257&amp;bvid=BV1Ke411F7ZE&amp;cid=878641990&amp;page=1&amp;high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-</iframe>
-</div>
-<p></br></p>
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<iframe src="//player.bilibili.com/player.html?aid=389714115&amp;bvid=BV1td4y1C71P&amp;cid=878642018&amp;page=1&amp;high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
-</iframe>
-</div>
-<p>一般来说，越通用的游戏引擎，在特定平台上的运行效率会越不如那些只能运行于特定游戏平台的游戏引擎。因为性能优化总是基于特定假设的，这个假设越单一，优化起来会越轻松。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102022943.png?x-oss-process=style/WaterMask" /></p>
-<h1 id="硬件">硬件</h1>
-<p>硬件是运行游戏的物理设备，例如pc、xBox Series X、PS5、ns。</p>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023005.png?x-oss-process=style/WaterMask"
-alt="PC" />
-<figcaption aria-hidden="true">PC</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023017.png?x-oss-process=style/WaterMask"
-alt="xBox Series X" />
-<figcaption aria-hidden="true">xBox Series X</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023023.png?x-oss-process=style/WaterMask"
-alt="PS5" />
-<figcaption aria-hidden="true">PS5</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023028.png?x-oss-process=style/WaterMask"
-alt="NS" />
-<figcaption aria-hidden="true">NS</figcaption>
-</figure>
-<h1 id="驱动">驱动</h1>
-<p>驱动是负责和硬件进行通信的底层软件，常见的驱动有显卡驱动（Nvidia、AMD）、声卡驱动。有了这些驱动之后，开发人员就不需要为具体的硬件设备编写代码。驱动很好地隐藏了硬件设备的复杂性，使开发工作的复杂度降低。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023101.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023109.png?x-oss-process=style/WaterMask" /></p>
-<h1 id="操作系统">操作系统</h1>
-<p>在操作系统层面上，大致上可以分成游戏专用操作系统和非游戏专用操作系统。</p>
-<p>游戏专用操作系统有xbox的XBoxOS、ps4的Orbis
-OS、ns的Horizon。这些操作系统的通常知识一个轻量级的库，在游戏运行时，游戏程序几乎可以占有硬件的所有资源和控制权，所以游戏运行效率很高。</p>
-<p>而非游戏专用操作系统通常都会因为各种各样的原因只能占用硬件的部分资源和控制权，例如windows操作系统采用基于时间片(time-slice)的抢占式多任务(preemptive
-multitasking)方式来运行所有程序。</p>
-<p>这也是为什么同一款游戏在同样硬件性能的PC和PS3上面运行，PC上可能直接变成PPT，而PS3却可以30帧稳定运行。</p>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023136.png?x-oss-process=style/WaterMask"
-alt="xbox的XBoxOS" />
-<figcaption aria-hidden="true">xbox的XBoxOS</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023140.png?x-oss-process=style/WaterMask"
-alt="ps4的Orbis OS" />
-<figcaption aria-hidden="true">ps4的Orbis OS</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023144.png?x-oss-process=style/WaterMask"
-alt="ns的Horizon" />
-<figcaption aria-hidden="true">ns的Horizon</figcaption>
-</figure>
-<h1 id="软件开发包sdk">软件开发包(SDK)</h1>
-<p>软件开发包一批功能良好的函数的集合，这些函数又称为称为API(application
-programming interface)。</p>
-<p>大部分游戏引擎都会接入第三方SDK以增强引擎的功能，通过接入SDK的方式给引擎增加功能可以减少引擎的研发压力，同时又能获得良好的效果表现。</p>
-<p>下面列举一些比较常见的第三方SDK：</p>
-<p>物理引擎有<a href="https://www.havok.com/">Havok</a>、<a
-href="https://developer.nvidia.com/physx-sdk">PhysX</a>、<a
-href="https://pybullet.org/wordpress/">Bullet</a>等。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023250.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023253.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023259.png?x-oss-process=style/WaterMask" /></p>
-<p>动画引擎有<a href="https://www.havok.com/">Havok Animation</a>、<a
-href="http://www.radgametools.com/cn/granny.html">Granny</a>等。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023326.png?x-oss-process=style/WaterMask" /></p>
-<p>Havok Animation可以在运行时给动画加上物理效果，也就是<a
-href="https://en.wikipedia.org/wiki/Physically_based_animation">物理动画技术(Physically
-based animation)</a>。</p>
-<p>动画的制作流程比较复杂繁琐，部分有钱的游戏厂商会通过动捕(motion
-cap)的方式来制作动画，钱包确实顶不住的话可以使用Endorphin来自动生成帧动画，提高生产效率。还有一种减少工作量的方法，使用Euphoria在游戏运行时生成符合物理和生物力学的动画。</p>
-<h1 id="平台独立层">平台独立层</h1>
-<p>平台独立层会为特定模块封装各个平台的底层API，让游戏引擎可以支持在多个平台上运行。这一层算是游戏引擎和外界环境进行沟通的桥梁。</p>
-<h1 id="核心系统">核心系统</h1>
-<p>核心系统会为游戏引擎提供一个软件该有的底层功能，所有类型的软件都会有这一层。</p>
-<p>这一层的内容也不少，我们关注得比较多的是内容管理模块。因为游戏引擎往往都需要保证最多每隔32毫秒就要执行一边全体代码，对于内存的管理要求会比较高，需要实现高效地内存分配和释放，还会自定义数据结构及算法来减少或完全消除动态内存的分配。</p>
-<h1 id="渲染引擎">渲染引擎</h1>
-<p>渲染这一块内容就比较丰富了，已经被独立成一个专业学科--计算机图形学。一般游戏引擎都不会去开发自己的渲染引擎，因为投入产出比太低，而且现有的渲染引擎已经很成熟了。所以游戏引擎一般都会接入已有的渲染引擎。</p>
-<p>常见的渲染引擎有DirectX、OpenGL、Vulkan、Edge等。这里的Edge并不是指微软的Edge浏览器，而是专门为PS3渲染设计的，拥有高效几何处理技术的渲染引擎，同时它还具有动画播放功能。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023437.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023432.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023441.png?x-oss-process=style/WaterMask" /></p>
-<p>渲染引擎一般会采用分层架构(layered
-architecture)来组织代码，一般会被分为低阶渲染器(low-level
-renderer)、场景图(scene graph)/剔除优化、视觉效果、前端。</p>
-<p>低阶渲染器会使用图形SDK来设置好渲染器，实现几何图元(geometric
-primitive)的高速渲染。</p>
-<p>场景图/优化剔除会为不同的游戏场景提供不同的算法来限制提交到GPU的图元数量。常用的算法有平截头体剔除(frustum
-cull)、空间细分(spatial
-subdivision)、portal、遮挡剔除技术。其中空间细分算法可以使用不同的数据结构来构建场景图以快速判别潜在可见集(potentially
-visible set, PVS)。</p>
-<p>视觉效果层专门提供丰富的视觉效果，其中包括粒子系统(particle
-system)、贴花系统(decal system)、光照贴图(light
-mapping)、环境贴图(evironment mapping)、动态阴影(dynamic
-shadow)、全屏后处理效果(full-screen post-processing
-effect)等。其中全屏后处理效果包括高动态范围(high dynamic tange,
-HDR)光照、敷霜效果(bloom)、全屏抗锯齿(full-screen anti-aliasing,
-FSAA)、颜色较正(color
-correction)等。其中颜色较正包括颜色偏移(color-shift)、略过漂白(bleach
-bypass)、饱和度(saturation)、去饱和度(desaturation)等。美术师一般会在这一层上面进行工作。</p>
-<p>前端是开发者、玩家与游戏进行交互的桥梁，包括了平视显示器(heads-up
-display,
-HUD)、辅助开发的工具（如内置菜单、主控台）、图形用户界面(graphical user
-interface, GUI)、全动视频(full-motion video,
-FMV)系统、游戏内置电影(in-game cinematics, IGC)系统等。</p>
-<h1 id="人工智能">人工智能</h1>
-<p>游戏中的传统人工智能并不是类似于深度学习的人工智能，而只是让角色看起来有智能。所有貌似拥有智能的行为都是提前硬编码好的，有限状态机和行为树是最常用的技术。现在游戏也慢慢开始加入了具有自我进化能力的人工智能，以后游戏过程中的不确定性会进一步增加。</p>
-<h1 id="性能分析工具">性能分析工具</h1>
-<p>为了提升游戏运行效率，需要在研发过程中或研发完成时对游戏进行性能分析。现在比较成熟的性能分析工具有Intel的VTune、IBM的Quantify和Purify、Compuware的Bounds
-Checker。有些游戏引擎会开发自己的性能分析工具，例如unty内置的Profiler。一个性能分析工具大致需要具备以下功能：</p>
+    <title>我所理解的C++ 番外｜深扒 C++ 函数</title>
+    <url>/posts/f02e98d5.html</url>
+    <content><![CDATA[<h2 id="函数指针">函数指针</h2>
+<p>获取函数的地址：函数的名字就是地址</p>
+<p>函数指针声明与使用：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">pam</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-type">int</span>);        <span class="hljs-comment">//函数指针声明</span><br>pf=pam;              <span class="hljs-comment">//函数指针赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-type">int</span>)=pam;       <span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-keyword">auto</span> pf=pam;          <span class="hljs-comment">//使用C++11的自动类型推断来声明和赋值</span><br><br><span class="hljs-comment">//使用</span><br><span class="hljs-built_in">pf</span>(<span class="hljs-number">123</span>);<br>(*pf)(<span class="hljs-number">123</span>);          <span class="hljs-comment">//注意(*pf)的括号一定要保留下来，不然意义就不同了</span><br><span class="hljs-built_in">pam</span>(<span class="hljs-number">123</span>);<br><span class="hljs-comment">//这三种形式等价,之所以会这样是因为两种学派的理解不同；而我个人认为第一种用法比第二种用法合理；以后在使用时看到(*pf)(123)，你直接看成pf(123)即可，将(*)看成多余的就好</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f1</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f2</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f3</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-type">int</span>);         <span class="hljs-comment">//函数指针数组的声明</span><br>pfa[<span class="hljs-number">0</span>]=f1;             <span class="hljs-comment">//函数指针数组的赋值示例</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-type">int</span>)=&#123;f1,f2,f3&#125;;  <span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-comment">//不可以使用auto来自动初始化，因为auto只能用于单值初始化,而不能初始化列表</span><br><span class="hljs-comment">//ps：初始化=声明+赋值；初始化列表就是&#123;&#125;</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//老实说，C++的指针声明挺复杂，如果能够很好的理解下面的声明，就证明你对C++的声明了如指掌了</span><br><span class="hljs-type">const</span> <span class="hljs-type">double</span> *(*(*pd)[<span class="hljs-number">3</span>])(<span class="hljs-type">const</span> <span class="hljs-type">double</span> *,<span class="hljs-type">int</span>);<br><span class="hljs-comment">//理解所有指针声明的要点是，从里向外去解读；注意[]的优先级比*高</span><br><br>---------------------------------------------------------------------------------------<br><span class="hljs-comment">//要简化函数指针的声明过程，除了使用auto之外，还可以使用typedef，例如：</span><br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">pam</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//将函数指针类型弄成标识符形式</span><br><span class="hljs-function"><span class="hljs-keyword">typedef</span> <span class="hljs-title">double</span> <span class="hljs-params">(*p_func)</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针声明</span><br>p_func pf;<br></code></pre></td></tr></table></figure>
+<h3 id="非静态类成员函数指针">非静态类成员函数指针</h3>
+<p>与类的非静态数据成员变量不同，类的非静态成员函数不会在运行时为每个类的实例对象生成一份专有的机器语言代码，类的非静态成员函数在内存中只有一份，即类的非静态成员函数的地址也是唯一的。那么为什么不同的实例调用非静态成员函数的时可以访问到属于实例本身的数据呢？这是因为非静态成员函数默认的第一个参数就是this指针，只是没有明写出来罢了</p>
+<p>类的非静态成员函数默认的第一参数就是this</p>
+<p>受this指针的影响， <strong>非静态类成员函数指针</strong>
+的声明和使用与 <strong>一般的函数指针（含静态成员函数指针）</strong>
+都不同</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//类的非静态成员函数指针 声明、赋值、使用 都跟普通情况不同</span><br><span class="hljs-comment">//声明时需要添加类名</span><br><span class="hljs-built_in">int</span> (classA::*pFun)(<span class="hljs-type">int</span>);      <span class="hljs-comment">//注意类名放置的位置，类名是用来指明this指针的类型的</span><br><span class="hljs-comment">//赋值时需要添加类名和&amp;</span><br>pFun=&amp;classA::Fun;<br><span class="hljs-comment">//使用时需要加上实例对象</span><br>(classAInstance-&gt;*pFun)(<span class="hljs-number">12345</span>);     <span class="hljs-comment">//注意一个&#x27;(&#x27;、&#x27;)&#x27;，&#x27;*&#x27;都不能少，格式就这样死死固定住了；</span><br>                 <span class="hljs-comment">//如果这个语句出现在非静态成员函数中，不要认为classAInstance不写系统会自动加上this;如果你是想调用this的pFun就自己手动加上，不然会报错，</span><br><br><br><span class="hljs-comment">//类的静态成员函数指针 声明、赋值、使用</span><br><span class="hljs-comment">//声明时</span><br><span class="hljs-built_in">int</span> (*pFun)(<span class="hljs-type">int</span>);<br><span class="hljs-comment">//赋值时需要添加类名</span><br>pFun=classA::Fun;<br><span class="hljs-comment">//使用时</span><br><span class="hljs-built_in">pFun</span>(<span class="hljs-number">12345</span>);        <span class="hljs-comment">//或</span><br>(*pFun)(<span class="hljs-number">12345</span>);<br></code></pre></td></tr></table></figure>
+<h2 id="函数模板">函数模板</h2>
+<p>函数模板将类型作为参数传递给<strong>函数模板</strong>，使编译器生成该类型的函数；又叫通用编程或参数化类型；</p>
+<p>由函数模板对应的具体函数称为称为<strong>模板实例(instantiation)</strong></p>
+<p>隐式实例化、显式实例化、显式具体化统称为<strong>具体化(specialization)</strong></p>
+<p>类型参数不能有默认值，但是非类型参数可以有默认值</p>
+<h3 id="函数模板的声明格式">函数模板的声明格式</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// T 叫做类型参数</span><br><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;            <span class="hljs-comment">//可以写成 template&lt;class T&gt;，但是这个是C++98之前的写法；typename这个关键字是C++98定义的；函数模板参数列表中可以有多个参数，如template&lt;typename T1,typename T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span>;          <span class="hljs-comment">//返回类型可以不可也写成T？？？</span><br></code></pre></td></tr></table></figure>
+<h3 id="函数模板的定义格式">函数模板的定义格式</h3>
+<p>这只是一个函数模板，并不是函数；函数模板用于告诉编译器如何定义函数；只有在编译时检测到代码中需要用到这个模板，编译器才会依据具体类型按照模板格式生成<strong>模板实例</strong>，这个过程称为<strong>隐式实例化(implicit
+instantiation)</strong></p>
+<p>编译结束之后机器码中并没有函数模板，只可能存在<strong>模板实例</strong>的机器码</p>
+<p>模板函数的定义可以放在使用到函数模板的函数后面</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temp;<br>    temp=a;<br>    a=b;<br>    b=temp;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="模板函数的使用">模板函数的使用</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//使用时都不用指明类型，编译器会自动检测参数列表的数据类型来确定函数的类型</span><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">int</span> j=<span class="hljs-number">20</span>;<br><br>    <span class="hljs-built_in">Swap</span>(i,j);        <span class="hljs-comment">//隐式实例化</span><br> Swap&lt;&gt;(i,j); <span class="hljs-comment">//不带参数的显式实例化，确保编译器使用函数模板的实例化版本</span><br><br>    <span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>    <span class="hljs-type">double</span> y=<span class="hljs-number">3.6</span>;<br><br>    <span class="hljs-built_in">Swap</span>(x,y);        <span class="hljs-comment">//隐式实例化</span><br> Swap&lt;&gt;(x,y); <span class="hljs-comment">//不带参数的显式实例化，确保编译器使用函数模板的实例化版本</span><br><br>    <span class="hljs-comment">//疑问：</span><br> <span class="hljs-comment">//Swap(i,x);   //会怎样？</span><br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="函数模板的重载">函数模板的重载</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temp;<br>    temp=a;<br>    a=b;<br>    b=temp;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T *a,T *b,<span class="hljs-type">int</span> n)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temep;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>;i&lt;n;++i)<br>    &#123;<br>        temp=a[i];<br>        a[i]=b[i];<br>        b[i]=temp;<br>    &#125;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">int</span> j=<span class="hljs-number">20</span>;<br><br>    <span class="hljs-built_in">Swap</span>(i,j);<br><br>    <span class="hljs-type">int</span> array1[<span class="hljs-number">3</span>]=&#123;<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>&#125;;<br>    <span class="hljs-type">int</span> array2[<span class="hljs-number">3</span>]=&#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>&#125;;<br><br>    <span class="hljs-built_in">Swap</span>(array1.array2);<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="函数模板的局限性">函数模板的局限性</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">f</span><span class="hljs-params">(T a,T b)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-comment">//a=b; //原本是想做内容赋值操作的，但如果T类型是数组指针，那么最终只是a变成了b的指针，a并没有获得b数组的内容；又或者当前T类型并没有&#x27;=&#x27;操作;</span><br> <span class="hljs-comment">//a&gt;b;  //原本是想做内容比较操作的，但如果T类型是数组指针，那么最终只是比较了a指针和b指针，并没有进行内容比较；又或者当前T类型并没有&#x27;&gt;&#x27;操作;</span><br> <span class="hljs-comment">//以后注意T只处理非数组类型，T*才是用来处理数组类型的；</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<h2
+id="函数模板的显式具体化explicit-specialization">函数模板的显式具体化(explicit
+specialization)</h2>
+<p>所谓的显式具体化就是手动写一个函数模板的<strong>模板实例</strong></p>
+<p>函数模板<strong>显式具体化</strong>的声明格式：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式具体化，第一种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;job&gt;(job &amp;,job &amp;); <span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br><br><span class="hljs-comment">//函数模板的显式具体化，第二种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(job &amp;,job &amp;)</span></span>;         <span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br></code></pre></td></tr></table></figure>
+<p>如果一个名称f同时存在非模板函数、
+显式具体化函数、常规模板，将遵循第三代函数使用优先顺序(C++98标准)：非模板函数
+&gt; 显式具体化函数 &gt; 常规模板</p>
+<h2 id="实例化和具体化">实例化和具体化</h2>
+<ul>
+<li>实例化和具体化是不同的概念：
+<ul>
+<li>实例化是由编译器自动生成<strong>模板实例</strong>的过程</li>
+<li>具体化是手动写出一个<strong>模板实例</strong>的过程</li>
+<li>实例化 template 后面没有 &lt;&gt;</li>
+<li>具体化 template 后面有 &lt;&gt;</li>
+</ul></li>
+</ul>
+<h3 id="显式实例化explicit-instantiation的方法">显式实例化(explicit
+instantiation)的方法</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式实例化，第一种方式</span><br><span class="hljs-keyword">template</span> <span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">int</span>&gt;(<span class="hljs-type">int</span>,<span class="hljs-type">int</span>); <span class="hljs-comment">//编译器看到这条指令将马上自动生成Swap的int版本，不必等到调用；这样做有什么用？</span><br><br><span class="hljs-comment">//函数模板的显式实例化，第二种方式</span><br>...主函数中<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>    <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">double</span>&gt;(i,x);                <span class="hljs-comment">//生成Swap的double类型的实例以备调用，如果没有显式实例化的话，到这里会报错；因为没有办法隐式实例化；</span><br>                                 <span class="hljs-comment">//ps：但是其实即使使用了显式化，这里由于Swap的参数是double引用类型，可是变量i是int类型；同样会报错，除非Swap函数参数列表改成Swap(const T &amp;,T &amp;)，[笑哭.jpg]这样有意思吗</span><br>...<br></code></pre></td></tr></table></figure>
+<p>ps：同一个文件中如果同时出现<strong>同一类型</strong>函数的
+显式实例化 和 显式具体化 ，将出错</p>
+<h2 id="编译器选择使用哪个函数版本">编译器选择使用哪个函数版本</h2>
+<p>重载解析(overloading
+resolution)：面对函数重载、函数模板、函数模板重载时，C++决定使用哪一个函数的过程</p>
+<p>详细解释这个策略需要将近一章的篇幅= =，下面只讲大致步骤</p>
+<h3
+id="函数调用的步骤假设函数调用为mayb">函数调用的步骤(假设函数调用为may('B'))</h3>
 <ol type="1">
-<li>支持在游戏源码中手动加入测量代码，为希望监测性能的代码进行计时。</li>
-<li>游戏运行期间，在屏幕上显示性能统计数据，这些数据包裹CPU占用率、GPU占用率、显存占用量、内存占用量、内存使用率、1.
-最高使用率、内存泄漏量、网络延迟、FPS等。</li>
-<li>将性能统计数据输出并保存下来，可以保存为文本文件、Excel文件等。</li>
-<li>允许在代码内使用调试用打印语句(print
-statement)，可以切换不同的调试输出种类，并设置输出的冗长级别(verbosity
-level)。</li>
+<li>先找出所有名称为may的函数</li>
+<li>再从这些函数中找出可以只接受<strong>一</strong>个参数<code>'B'</code>的may函数(实参类型可强转为形参类型的也算)</li>
+<li>再从这些函数中选择一个<strong>最佳</strong>函数，优先级为：
+常规函数完全匹配 &gt; 模板函数完全匹配 &gt;
+提升转换(例：char和short自动转为int，float自动转为double) &gt;
+标准转换(例：int转换为char，long转换为double) &gt; 用户定义的转换</li>
 </ol>
-<h1 id="物理">物理</h1>
-<p>游戏物理模拟是个大部头，如果项目有真实物理模拟的需求，那么一般会专门配置一位负责开发物理效果的程序员。</p>
-<p>游戏物理和仿真物理的侧重点并不相同。仿真物理注重模拟效果的准确性，而不关注性能。游戏物理不追求模拟百分百正确，只要最终的效果看起来合理就好，需要特别关注性能表现。因为游戏需要在配置一般的设备上运行，没有太多的算了投放到物理模拟中。只要效果看起来没太大问题，那么它就是对的。</p>
-<h1 id="动画">动画</h1>
-<p>动画同样是一个大部头，如果项目的动画很多且复杂细腻，一般也会专门配置一位专门负责开发动画效果的程序员。</p>
-<p>动画效果可以很简单，也可以很复杂。最简单的就是播放单个帧动画，复杂的可以搞基于物理的动画、IK效果等。</p>
-<p>负责游戏动画的程序员除了要做好表现效果之外，还要做好资源管理，包括动画资源和动画状态机资源。因为现在大部分项目都是使用动画状态机以及动画融合技术来制作动画效果。</p>
-<p>一个表现效果可能由多个动画clip融合而成。使用这种方案来做动画表现，产出的动画资源一般都不少。</p>
-<p>如果某个模型的动画表现比较细腻的话，它的动画状态机也会很复杂。我曾经见过一个动画状态机打开之后整个屏幕都是密密麻麻的transition连线。</p>
-<h1 id="人体学接口设备hid引擎">人体学接口设备(HID)引擎</h1>
-<p>HID引擎会将游戏外设和游戏引擎对接起来。比较常见的游戏外设有键盘、鼠标、手柄。还有一些比较小众的游戏外设，例如赛车模拟设备（方向盘+踏板+挡杆+手刹）、飞行摇杆、VR控制器。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023604.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023609.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023615.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023621.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023625.png?x-oss-process=style/WaterMask" /></p>
-<p>游戏外设的输入信号会先被映射为输入代码，再映射为游戏的具体操作。</p>
-<h1 id="音频">音频</h1>
-<p>游戏的音频也同样重要，好的音频效果可以营造良好的游戏氛围。一般游戏引擎都有自己研发的音频功能，例如cocos、unity、unreal都有。但是在游戏开发过程中一般不会直接使用引擎提供的功能，而是会使用第三方SDK，例如<a
-href="https://www.fmod.com/">FMOD</a>、<a
-href="https://www.audiokinetic.com/zh/products/wwise/">Wwise</a>。因为第三方SDK功能更加完备。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102024059.png?x-oss-process=style/WaterMask" /></p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023711.png?x-oss-process=style/WaterMask" /></p>
-<h1 id="网络">网络</h1>
-<p>游戏引擎提供基本网络通信功能并不是什么特别难的事情，但是要提供一套成熟通用的网络同步功能非常困难。不同游戏对网络同步的需求由很大的区别，所以游戏项目组一般都会开发自己的网络同步功能以匹配自己的游戏业务需求。</p>
-<h1
-id="数字内容创作digital-content-creation-dcc应用软件及资产调节管道">数字内容创作(digital
-content creation, DCC)应用软件及资产调节管道</h1>
-<p>设计师会通过DCC工具将模型、材质、贴图、音频等工具生产游戏素材。团队一般都会使用市面上以由的DCC工具，例如3DMax、Maya、PhotoShop、FMOD
-Studio等。这些工具输出的资源格式在大部分情况下没有办法被游戏引擎直接使用，需要游戏引擎对这些资源进行一次转换，转换为游戏引擎方便使用的格式。这个转换过程有资产调节管道来完成。例如每次往unity中拖入fbx模型资源的时候都会出现一个import进度条，正是在进行资源转换。</p>
-<h1 id="最后">最后</h1>
-<p>这节只是简单带过了各种模块的知识，由于部分内容展开之后量会非常大，所以会在该系列的后续文章中单独讲，也可能会另开一个专栏。希望能帮助到想要从事游戏研发的人。</p>
-<h1 id="参考资料">参考资料</h1>
-<p>《游戏引擎架构》 《游戏编程权威指南》
-《GAMES104-现代游戏引擎：从入门到实践》</p>
+<p>完全匹配：实参类型与形参类型完全等价，等价表如下所示：</p>
+<figure data-size="normal">
+<img src="https://pica.zhimg.com/v2-10f4c571aec0f4d031ff02f95fb6335e_1440w.jpg" class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="855" data-rawheight="270" data-original-token="v2-10f4c571aec0f4d031ff02f95fb6335e" data-original="https://pica.zhimg.com/v2-10f4c571aec0f4d031ff02f95fb6335e_r.jpg" width="855" />
+</figure>
+<p>ps：倒数第二列是不是错了？？？</p>
+<ul>
+<li>如果使用以上优先级选择之后还是剩下一个以上的完全匹配函数，那么将要使用以下规则继续筛选：
+<ul>
+<li>非模板函数优先于模板函数</li>
+<li>非const的指针和引用的实参优先<strong>与</strong>非const的指针和引用的形参配对</li>
+<li>如果剩下的都是完全匹配的模板函数，则使用函数模板的部分排序规则(partial
+ordering
+rules)(C++98特性，主要是处理指针与非指针的问题)来选择最具体的</li>
+</ul></li>
+</ul>
+<p>如果使用以上规则选择之后还是剩下一个以上的候选函数，那么编译器将报错；</p>
+<p>例子：调用函数map('B');</p>
+<table>
+<tbody>
+<tr>
+<td>编号</td>
+<td>候选函数</td>
+<td>第一步结果</td>
+<td>第二步结果</td>
+<td>优先级</td>
+</tr>
+<tr>
+<td>1</td>
+<td>void may(int);</td>
+<td>T</td>
+<td>T</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2</td>
+<td>void may(double,double);</td>
+<td>T</td>
+<td>F</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>float may(float,float = 3);</td>
+<td>T</td>
+<td>T</td>
+<td>5</td>
+</tr>
+<tr>
+<td>4</td>
+<td>void may(char);</td>
+<td>T</td>
+<td>T</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>char * may(const char *);</td>
+<td>T</td>
+<td>F</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>char may(const char &amp;);</td>
+<td>T</td>
+<td>T</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>template&lt; typename T &gt; void may(const T &amp;);</td>
+<td>T</td>
+<td>T</td>
+<td>3</td>
+</tr>
+<tr>
+<td>8</td>
+<td>template&lt; typename T &gt; void may(T *);</td>
+<td>T</td>
+<td>F</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>ps：整数类型是不会隐式转换成指针的</p>
+<p>以上只是介绍了单参函数调用的函数原型匹配问题，若是有多个参数，情况将非常复杂；这里不再介绍；</p>
+<h2 id="模板函数的发展">模板函数的发展</h2>
+<h3 id="问题一">问题一</h3>
+<p>在C++98标准下的函数模板存在着很多不完美的地方，有时候由于不知道具体的类型是什么，导致无法正常编写函数模板定义,例：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>    ...<br>    ?type? xpy = x + y;      <span class="hljs-comment">//这时不知道xpy要定义为什么类型才能正确接收到结果</span><br> ...<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>为了解决上面的问题，C++11引入了一种新的声明数据类型方式,使用关键字<code>decltype</code>;</p>
+<p><code>decltype</code>是在运行时确定变量类型的；</p>
+<p><code>decltype</code>确定类型的方式，满足以下哪个形式就用哪个形式的判定方法；</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式一：</span><br>...<br><span class="hljs-type">int</span> x;<br><span class="hljs-keyword">decltype</span>&#123;x&#125; y;            <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中的**数值**类型；这里y的类型将会是int</span><br><br><span class="hljs-comment">//更多例子：</span><br><span class="hljs-type">int</span> j = <span class="hljs-number">3</span>;<br><span class="hljs-type">int</span> &amp;k = j;<br><span class="hljs-type">int</span> &amp;n = j;<br><span class="hljs-keyword">decltype</span>(j+<span class="hljs-number">6</span>) i1;      <span class="hljs-comment">//i1的类型为   int</span><br><span class="hljs-keyword">decltype</span>(<span class="hljs-number">100L</span>) i2;        <span class="hljs-comment">//i2的类型为   long</span><br><span class="hljs-keyword">decltype</span>(k+n) i3;        <span class="hljs-comment">//i3的类型为 int</span><br>...<br></code></pre></td></tr></table></figure>
+<p><br />
+</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式二：</span><br>...<br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-title">indeed</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;      <span class="hljs-comment">//函数声明</span><br><span class="hljs-keyword">decltype</span>&#123;<span class="hljs-built_in">indeed</span>(<span class="hljs-number">3</span>)&#125; y;  <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中函数的返回值类型；这里y的类型将会是long（书上写说y的类型是int，错了吧？）</span><br>                     <span class="hljs-comment">//注意：indeed(3)并不会真的被调用</span><br>...<br></code></pre></td></tr></table></figure>
+<p><br />
+</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式三：</span><br>...<br><span class="hljs-type">double</span> xx = <span class="hljs-number">4.4</span>;<br><span class="hljs-keyword">decltype</span>&#123;(xx)&#125; y;     <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中变量类型的引用；这里y的类型将会是double &amp;</span><br>                     <span class="hljs-comment">//注意：这里的括号不能省略且括号中必须是变量(左值)</span><br><br><br><span class="hljs-comment">//这里引入一个和函数模板话题不沾边的小概念：</span><br><span class="hljs-comment">//xx = 98.6;</span><br><span class="hljs-comment">//(xx) = 98.6;</span><br><span class="hljs-comment">//以上的两条表达式的作用是一样的，就是赋值，无差别</span><br>...<br></code></pre></td></tr></table></figure>
+<p>于是上面的问题就可以解决：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>    ...<br>    <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpy = x + y;    <span class="hljs-comment">//xpy的类型就是x+y得到的结果数值的类型</span><br> ...<br><br>    <span class="hljs-comment">//如果要多次使用上面这种类型，每次都要写这么长，会觉得很麻烦，那么可以使用关键字typedef，例：</span><br> typrdef <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpytype;<br><br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="问题二">问题二</h3>
+<p>但是即使有了<code>decltype</code>还是存在问题，有时函数返回类型不能确定，例：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;<br>?type? <span class="hljs-built_in">gt</span>(T1 x,T2 y)                   <span class="hljs-comment">//返回类型无法确定，无法将?type?改为decltype&#123;x + y&#125;，因为那时x和y还没有声明</span><br>&#123;<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br>    <span class="hljs-keyword">return</span> x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>为了解决上面的问题，C++11引入了一个新语法<strong>后置返回类型</strong>，格式为：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">auto</span> <span class="hljs-title">h</span><span class="hljs-params">(<span class="hljs-type">int</span> x,<span class="hljs-type">float</span> y)</span> -&gt; <span class="hljs-type">double</span></span>;<br><span class="hljs-comment">//该函数的返回类型是double，auto只是占位用的</span><br></code></pre></td></tr></table></figure>
+<p>于是上面的问题就可以解决：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-keyword">auto</span> <span class="hljs-title">gt</span><span class="hljs-params">(T1 x,T2 y)</span> -&gt; <span class="hljs-keyword">decltype</span></span>&#123;x + y&#125;        <span class="hljs-comment">//这时由于x和y已经声明，所以decltype可以确定类型，函数的返回值类型也可以确定了</span><br>&#123;<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br>    <span class="hljs-keyword">return</span> x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
+<hr />
+<p>私信太多，回复不过来，资料我直接整理出来放在下面了</p>
+<figure data-size="normal">
+<img src="https://pica.zhimg.com/v2-59ec5aea54c30df7a1171775b1527b4a_1440w.jpg" class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="545" data-rawheight="149" data-original-token="v2-59ec5aea54c30df7a1171775b1527b4a" data-original="https://pica.zhimg.com/v2-59ec5aea54c30df7a1171775b1527b4a_r.jpg" width="545" />
+</figure>
+<p>链接：<span class="invisible">https://</span><span
+class="visible">pan.baidu.com/s/1C-9TE9</span><span
+class="invisible">ES9xrySqW7PfpjyQ</span><span class="ellipsis"></span>
+提取码：<strong>cqmd</strong></p>
+<p><br />
+</p>
+<p>觉得有帮助的话可以点个赞让更多人看到</p>
+<p>系列内容会更新到专栏 「我所理解的C++」</p>
 ]]></content>
       <categories>
-        <category>游戏引擎</category>
+        <category>C++</category>
       </categories>
       <tags>
-        <tag>游戏引擎</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法题--从尾到头打印链表</title>
+    <url>/posts/4f46182d.html</url>
+    <content><![CDATA[<p>5 # 要求 时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>输入一个链表，从尾到头打印链表每个节点的值</p>
+<h1 id="解题思路">解题思路</h1>
+<p>链表必须要从头开始访问，如果需要将打印顺序颠倒，可以利用栈的特性。有时候方法就是这么简单
+- -</p>
+<p>如果想展示你的算法能力，可以写成递归--深度优先搜索</p>
+<h1 id="代码">代码</h1>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">struct ListNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  struct ListNode *next;</span><br><span class="hljs-comment">  ListNode(int x) :</span><br><span class="hljs-comment">    val(x), next(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">printListFromTailToHead</span><span class="hljs-params">(ListNode* head)</span></span><br><span class="hljs-function">  </span>&#123;<br>    vector&lt;<span class="hljs-type">int</span>&gt; res;<br>    stack&lt;<span class="hljs-type">int</span>&gt; temp;<br>    <br>    <span class="hljs-keyword">while</span>(head != <span class="hljs-literal">NULL</span>)<br>    &#123;<br>      temp.<span class="hljs-built_in">push</span>(head-&gt;val);<br>      head = head-&gt;next;<br>    &#125;<br>    <br>    <span class="hljs-keyword">while</span>(!temp.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      res.<span class="hljs-built_in">push_back</span>(temp.<span class="hljs-built_in">top</span>());<br>      temp.<span class="hljs-built_in">pop</span>();<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -2536,70 +2650,6 @@ class="invisible">ES9xrySqW7PfpjyQ</span><span class="ellipsis"></span>
       </tags>
   </entry>
   <entry>
-    <title>技术美术的职责</title>
-    <url>/posts/dd4c3610.html</url>
-    <content><![CDATA[<h1 id="何为技术美术">何为技术美术</h1>
-<p>技术美术(Technical Artist,
-TA)主要职责是作为美术师和程序员之间沟通合作的桥梁。因此TA需要同时兼备编码能力和美术能力，门槛较高，所以身价一般也比较高。前段时间原神的大火，进一步提升了TA的身价。TA是一个复合型工种，所以不同TA的能力侧重点会不一样。TA大致可以再细分为两种类型。一种偏向技术，驻扎在游戏引擎组。一种偏向美术，驻扎在美术支持组。</p>
-<p>其实还可以继续细分的。比如</p>
-<p>效果TA，主要负责实现具体的美术效果，比如人物描边、火焰效果、水流效果、运动模糊。</p>
-<p>流程TA，主要负责各种资源的导出工作，例如全局光照烘焙流程、场景分块导出流程等。</p>
-<p>优化TA主要负责性能优化工作，比如遮挡剔除的实现、具体效果的性能优化。</p>
-<p>引擎TA主要负责游戏引擎整体渲染效果的把控，定制渲染管线，所以需要对引擎非常熟悉，并且能够对团队进行引擎相关的培训。</p>
-<p>资产TA，需要整理、维护项目的资源，比如制定性能指标、资源检查。</p>
-<p>相比于客户端程序，TA跟美术的沟通更加的紧密和频繁，TA需要主动去跟美术进行沟通，不要期待美术会及时反馈问题。
-# 主要工作职责 TA最重要的工作就是实现具体的美术效果，例如 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234443.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234451.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234515.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234522.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234544.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221030234610.png?x-oss-process=style/WaterMask" />
-一般来说，实现一个美术效果分为4个阶段，方案确定、技术预研、效果实现、生产跟进。</p>
-<p>TA在拿到一个具体的美术效果需求时，需要针对这个需求选择合适的实现方案。为了找到合适的方案，首先需要用技术语言将需求表达出来。然后对竞品进行分析，推测对方使用了什么技术来实现该效果。再去学习与实现技术相关的资料，可以到书籍、SIGGRAPH等地方找到需要的内容。最后针对之前的工作内容整理输出一份文档，发起一次会议和相关人员对齐之后的工作内容。</p>
-<p>方案确定之后，TA就可以尝试在项目生产环境下对效果进行初步的实现，输出一个demo。这个过程中不需要太关注代码架构的合理性和性能问题，尽可能快就好。如果过程中使用的美术素材需要使用比较特殊的方式进行制作，就自己动手制作，不要麻烦美术。因为这个实现方案可能并不是最终的实现方案，这时让美术去学习新的制作方法性价比不高。等这个方案真的成为了最终方案时，再推广新的制作方法。但是常规的素材还是需要积极找美术配合输出的。</p>
-<p>在整个过程中需要习惯性地将自己想法和问题记录到文档上，可以作为备忘录，也方便之后进行技术分享。demo出来之后，可以开会跟相关人员对实现出来的效果进行讨论，确定最终是否采纳该方案。</p>
-<p>如果demo的效果不ok，则需要重新选择实现方案。否则将继续往前推进，这时就进入到了方案实现阶段，这个阶段主要是将demo的效果落地到项目生产环境中。在这个过程中需要依据项目规范重构demo的实现代码。如果存在较明显的性能消耗，则需要开展性能优化工作。开发特殊素材的制作工具并进行优化。输出美术制作文档，配合给出样例素材。如果有必要，则对美术进行基本的生产培训。之后还可以定期给团队成员进行技术分享，确保大家对引擎技术有着一致的认知。</p>
-<p>在方案正式投入生产线使用时，TA需要积极主动跟美术进行交流，确保他们在制作过程没有被问题卡住，保证开发流程通畅。效果的跟进不可以交给QA来进行，QA只负责提出异常效果，表现力需要TA亲自跟进。多向美术收集素材制作工具的使用体验，及时对工具进行改良。
-# 在各研发阶段中的具体工作职责
-在项目研发的不同阶段，TA的工作侧重点会有所不同。</p>
-<p>在项目启动阶段，TA需要配合美术同学给出可供我们项目参考的美术风格，并针对特定的效果进行技术评估，确定效果是否能实现。除了仿制出其它项目的效果之外，TA还需要为项目增加自己的特色，提升项目的市场竞争力。</p>
-<p>在项目Demo制作阶段，TA就需要开始实现具体效果了，可参考上文。</p>
-<p>在项目立项阶段，主要对效果表现力和性能进行优化。</p>
-<p>在中期阶段，TA需要对资产进行良好地分类、维护、升级，因为资产会逐渐变得庞大。控制好资产大小，确保被打包的资产不多也不少。为了更合理地管理好资产，需要输出一定的规范文档，并依据必要的规范实现自动资源检查。还需要关注性能表现，针对性能消耗较大的效果进行优化，如果无法优化，可以考虑直接毙掉该效果。这时还需要开始考虑上线后可能会面临的问题，针对这些问题给出解决方案。</p>
-<p>在内测阶段，需要及时解决运行环境中出现的性能问题、兼容性问题、效果表现力问题。</p>
-<p>项目上线后，可以对之前工作结果进行总结和分享，沉淀下来，为新的项目做准备。</p>
-]]></content>
-      <categories>
-        <category>游戏开发碎碎念</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>算法题--从尾到头打印链表</title>
-    <url>/posts/4f46182d.html</url>
-    <content><![CDATA[<p>5 # 要求 时间限制：1秒 空间限制：32768K</p>
-<h1 id="题目描述">题目描述</h1>
-<p>输入一个链表，从尾到头打印链表每个节点的值</p>
-<h1 id="解题思路">解题思路</h1>
-<p>链表必须要从头开始访问，如果需要将打印顺序颠倒，可以利用栈的特性。有时候方法就是这么简单
-- -</p>
-<p>如果想展示你的算法能力，可以写成递归--深度优先搜索</p>
-<h1 id="代码">代码</h1>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">struct ListNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  struct ListNode *next;</span><br><span class="hljs-comment">  ListNode(int x) :</span><br><span class="hljs-comment">    val(x), next(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">printListFromTailToHead</span><span class="hljs-params">(ListNode* head)</span></span><br><span class="hljs-function">  </span>&#123;<br>    vector&lt;<span class="hljs-type">int</span>&gt; res;<br>    stack&lt;<span class="hljs-type">int</span>&gt; temp;<br>    <br>    <span class="hljs-keyword">while</span>(head != <span class="hljs-literal">NULL</span>)<br>    &#123;<br>      temp.<span class="hljs-built_in">push</span>(head-&gt;val);<br>      head = head-&gt;next;<br>    &#125;<br>    <br>    <span class="hljs-keyword">while</span>(!temp.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      res.<span class="hljs-built_in">push_back</span>(temp.<span class="hljs-built_in">top</span>());<br>      temp.<span class="hljs-built_in">pop</span>();<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>算法题--斐波那契数列</title>
     <url>/posts/3af7c65a.html</url>
     <content><![CDATA[<p>9</p>
@@ -2626,36 +2676,72 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014758.pn
       </categories>
   </entry>
   <entry>
-    <title>算法题--用两个栈实现队列</title>
-    <url>/posts/bcbbc7d8.html</url>
-    <content><![CDATA[<p>7 # 要求 时间限制：1秒 空间限制：32768K</p>
-<h1 id="题目描述">题目描述</h1>
-<p>用两个栈来实现一个队列，完成队列的Push和Pop操作。
-队列中的元素为int类型</p>
-<h1 id="解题思路">解题思路</h1>
-<p>利用栈可以颠倒一个序列的顺序这个特性来思考</p>
-<p>像这类题目只要模拟一下就能找到答案：先加入一些元素，然后思考如何弹出你想要的元素，这样就解决了弹出的问题；再思考添加的问题</p>
-<figure>
+    <title>游戏动画技术简介</title>
+    <url>/posts/49a81750.html</url>
+    <content><![CDATA[<p>动画系统是游戏中对表现力影响最大的系统之一，经过一段时间的调研，最后通过这篇文章总结下游戏动画系统。</p>
+<h1 id="精灵动画系统">精灵动画系统</h1>
+<p>精灵动画系统在早年间计算机性能还比较差的时候被广泛运用，一般作为游戏的背景而存在，比如
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102235103.png?x-oss-process=style/WaterMask"
-alt="模拟过程" />
-<figcaption aria-hidden="true">模拟过程</figcaption>
-</figure>
-<p>这道题中，stack1用于入队，stack2用于出队，只是出队是要注意：要保证stack2不为空时才可以出队；如果它为空，就要先将stack1中所有元素弹出到stack2中，再从stack2中弹出一个元素；如果它不为空，直接从stack2中弹出一个元素即可</p>
-<h1 id="代码">代码</h1>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">push</span><span class="hljs-params">(<span class="hljs-type">int</span> node)</span></span><br><span class="hljs-function">  </span>&#123;<br>    stack1.<span class="hljs-built_in">push</span>(node);<br>  &#125;<br><br>  <span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">pop</span><span class="hljs-params">()</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-keyword">if</span>(stack2.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      <span class="hljs-keyword">while</span>(!stack1.<span class="hljs-built_in">empty</span>())<br>      &#123;<br>         stack2.<span class="hljs-built_in">push</span>(stack1.<span class="hljs-built_in">top</span>());<br>         stack1.<span class="hljs-built_in">pop</span>();<br>      &#125;<br>    &#125;<br>      <br>    <span class="hljs-keyword">if</span>(stack2.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      cout &lt;&lt; <span class="hljs-string">&quot;队列为空&quot;</span> &lt;&lt; endl;<br>      <span class="hljs-built_in">abort</span>();<br>    &#125;<br>    <br>    <span class="hljs-type">int</span> res = stack2.<span class="hljs-built_in">top</span>();<br>    stack2.<span class="hljs-built_in">pop</span>();<br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br><br><span class="hljs-keyword">private</span>:<br>    stack&lt;<span class="hljs-type">int</span>&gt; stack1;	<span class="hljs-comment">//入</span><br>    stack&lt;<span class="hljs-type">int</span>&gt; stack2;	<span class="hljs-comment">//出</span><br>&#125;;<br></code></pre></td></tr></table></figure>
-<h1 id="拓展">拓展</h1>
-<p>用两个队列来模拟栈，思考方式和这道题一样</p>
-<figure>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029175924.png?x-oss-process=style/WaterMask"
+alt="极品飞车系列的路边观众" /> <img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180025.png?x-oss-process=style/WaterMask"
+alt="NBA2K系列的观众" />
+这些人物都是一个四边形，游戏引擎会给四边形连续贴上纹理贴图来产生动感。通常为了不暴露这是个扁的四边形，会使这些四边形一直面向摄像机。比如
 <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102235134.png?x-oss-process=style/WaterMask"
-alt="模拟过程" />
-<figcaption aria-hidden="true">模拟过程</figcaption>
-</figure>
-<p>两个队列的元素要不停的倒来倒去</p>
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180040.png?x-oss-process=style/WaterMask"
+alt="DOOM" />
+这类动画系统在早期游戏中盛行，因为当时的计算机性能不够，而该系统对计算机资源的消耗非常低。现在部分手游依然会保留这类动画系统，因为手机性能有限。</p>
+<h1 id="刚性层阶式动画">刚性层阶式动画</h1>
+<p>刚性层阶式动画驱动的人物都由一堆独立的刚性物体组合而成。刚性物体指的是不会发生形变(包括缩放)的物体。然后动画系统会驱动每一个刚性物体，从而实现动画效果。最经典的例子就是1997年在PS上发售的FF7。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180105.png?x-oss-process=style/WaterMask"
+alt="97版FF7" />
+这个系统驱动的是3D模型，而不再是四边形贴图，同时还能保持高效的性能和较低的内存使用量。缺点是不允许网格发生形变，整个人物会显得非常生硬。而且人物的关节位置会产生明显的“裂缝”。</p>
+<h1 id="每顶点动画">每顶点动画</h1>
+每顶点动画需要动画师为每个顶点去k动画。工作量非常巨大，产生的数据量也非常巨大，但是可以获得非常精细的动画效果，网格的三角形产生形变。通常用于制作CG中人物的表情，一般通过硬件设备来捕捉人脸信息，再转换成顶点数据。
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<p><iframe src="//player.bilibili.com/player.html?aid=859596268&bvid=BV1eV4y1g7H7&cid=875385956&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
+</div>
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<p><iframe src="//player.bilibili.com/player.html?aid=559589709&bvid=BV1Re4y127Tn&cid=875387307&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
+</div>
+<h1 id="变形目标动画morphing-animation">变形目标动画(morphing
+animation)</h1>
+<p>由于每顶点动画需要保存大量的动画数据，不方便存储和使用。于是提出了变形目标动画，动画师只需要通过调整网格上所有顶点的信息制作出一些静态姿势(morph
+target)。这些静态姿势都是一些“极端”的姿势，例如生气、开心等。在游戏引擎中通过对这些静态姿势按时间进行线性插值即可得到动画。</p>
+<h1 id="蒙皮动画skinened-animation">蒙皮动画(skinened animation)</h1>
+<blockquote>
+<p>有时也被称为骨骼动画、蒙皮骨骼动画，是一种FK</p>
+</blockquote>
+<p>为了可以得到较生动的动画效果，允许网格的三角形产生形变。同时兼顾较高的性能、较低的存储空间。蒙皮动画便出现了，现在市场上几乎所有的游戏都采用蒙皮动画作为动画解决方案。</p>
+<h2 id="概念">概念</h2>
+<p>在蒙皮动画中有几个重要的概念。首先是骨骼(skeleton)，骨骼由关节通过一棵树的形态组织起来。如果是一个人物模型，一般以髋部为根节点，以肢体末端为叶节点，比如手指、脚指、眼睛等。skeleton本身不需要被渲染引擎渲染出来，仅由动画系统驱动。</p>
+<p>然后是皮肤(skin)，皮肤由多边形网格组成。而网格又由顶点构成，这些顶点将会被动画师通过设置权重绑定(bind)到若干关节上。一般每个顶点最多绑定4个关节。但不是所有的关节都会被顶点绑定，这些没有被绑定的关节又称为定位器(locator)，作为其它模型的挂接点存在。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180348.png?x-oss-process=style/WaterMask"
+alt="DX中skeleton的组织方式" />
+蒙皮动画中存在几个重要的姿势(pose)，这些姿势可以矩阵或者SQT格式来保存。首先是绑定姿势，又称为T-pose，顾名思义，是动画师在给模型顶点做绑定时用的姿势。该姿势从DCC中输出之后就固定好了，在游戏运行时不会被改变。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180400.png?x-oss-process=style/WaterMask" />
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180408.png?x-oss-process=style/WaterMask" />
+然后是局部姿势，它保存了当前关节在其父关节空间中的姿势。因为动画引擎直接驱动的是局部姿势，我们经常需要对局部姿势进行各种插值，所以一般不会存储为矩阵形式，而是存储为SQT形式。我们的动画片段就是由一连串的局部姿势组合起来，也就是说动画片段是一个因变量为局部姿势，自变量为时间的函数。</p>
+<p>最后是全局姿势，它保存了关节在其模型空间或世界空间中的姿势，具体保存形式不同的引擎有不同的做法。它是在游戏运行过程中通过联合具有父子关系的局部姿势实时生成的，算是被动画引擎间接驱动。</p>
+<h2 id="蒙皮skinning">蒙皮(skinning)</h2>
+<p>首先需要准备数据，每一个关节都保存着一个绑定姿势逆矩阵，以下简称IBP，该矩阵可以将物体从模型空间转换到当前关节空间。IBP是在3D模型从DCC输出后，利用T-Pose计算出来的。一次计算，无限次使用。</p>
+<p>动画引擎Update之后，每一个关节都会得到一个最新的局部姿势。这个时候可以进行一些额外的插值计算、程序式动画、IK等后处理过程。因为局部姿势一般保存为SQT格式，所以需要在这时转换成矩阵。</p>
+<p>然后我们开始计算每个关节的全局姿势矩阵，计算方法是依次连接关节本身及其所有父节点的局部姿势矩阵。</p>
+<p>最后IBP乘上全局姿势矩阵，就得到了蒙皮矩阵。顶点乘上蒙皮矩阵后会对顶点产生什么样的影响呢？可以这么想象：顶点原本位于模型为T-Pose时的模型空间中，乘上了IBP之后进入到关节空间中；再乘上全局姿势矩阵，这时模型摆出了由动画引擎驱动的姿势，在这个姿势下从关节空间回到模型空间。</p>
+<p>所以最终呈现的效果是，顶点被关节带到了特定位置。计算出所有关节的蒙皮矩阵之后，我们就得到了矩阵调色</p>
+<p>然后开始正式蒙皮。每个顶点都会从矩阵调色板中取得需要绑定的关节的蒙皮矩阵，然后更具动画师设定好的权重对这些矩阵进行混合。顶点乘上混合后的矩阵，这时蒙皮就完成了。</p>
+<p>ps：动画引擎Update时，可以通过多种方式计算出局部姿势。可以对单个动画片段进行一维线性插值实现时间性混合来得到常规的动画效果。可以对两个动画片段进行淡入/淡出计算获得圆滑过渡、冻结过渡等过渡效果。更进一步推广，可以对多个动画片段进行N维线性插值实现自定义的混合。为了充分利用资源，可以对动画片段进行分部混合或加法混合，例如人物在Idle状态时，通过加法混合给人物加入一些小动作，使得人物更真实。例如...
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-14d7181792c45287b55129c0856b82ff_720w.gif" /></p>
 ]]></content>
       <categories>
-        <category>算法</category>
+        <category>游戏引擎</category>
       </categories>
   </entry>
   <entry>
@@ -2703,360 +2789,256 @@ alt="20221109014522" />
       </categories>
   </entry>
   <entry>
-    <title>我所理解的C++ 番外｜深扒 C++ 函数</title>
-    <url>/posts/f02e98d5.html</url>
-    <content><![CDATA[<h2 id="函数指针">函数指针</h2>
-<p>获取函数的地址：函数的名字就是地址</p>
-<p>函数指针声明与使用：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">pam</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-type">int</span>);        <span class="hljs-comment">//函数指针声明</span><br>pf=pam;              <span class="hljs-comment">//函数指针赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-type">int</span>)=pam;       <span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-keyword">auto</span> pf=pam;          <span class="hljs-comment">//使用C++11的自动类型推断来声明和赋值</span><br><br><span class="hljs-comment">//使用</span><br><span class="hljs-built_in">pf</span>(<span class="hljs-number">123</span>);<br>(*pf)(<span class="hljs-number">123</span>);          <span class="hljs-comment">//注意(*pf)的括号一定要保留下来，不然意义就不同了</span><br><span class="hljs-built_in">pam</span>(<span class="hljs-number">123</span>);<br><span class="hljs-comment">//这三种形式等价,之所以会这样是因为两种学派的理解不同；而我个人认为第一种用法比第二种用法合理；以后在使用时看到(*pf)(123)，你直接看成pf(123)即可，将(*)看成多余的就好</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f1</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f2</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f3</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-type">int</span>);         <span class="hljs-comment">//函数指针数组的声明</span><br>pfa[<span class="hljs-number">0</span>]=f1;             <span class="hljs-comment">//函数指针数组的赋值示例</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-type">int</span>)=&#123;f1,f2,f3&#125;;  <span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-comment">//不可以使用auto来自动初始化，因为auto只能用于单值初始化,而不能初始化列表</span><br><span class="hljs-comment">//ps：初始化=声明+赋值；初始化列表就是&#123;&#125;</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//老实说，C++的指针声明挺复杂，如果能够很好的理解下面的声明，就证明你对C++的声明了如指掌了</span><br><span class="hljs-type">const</span> <span class="hljs-type">double</span> *(*(*pd)[<span class="hljs-number">3</span>])(<span class="hljs-type">const</span> <span class="hljs-type">double</span> *,<span class="hljs-type">int</span>);<br><span class="hljs-comment">//理解所有指针声明的要点是，从里向外去解读；注意[]的优先级比*高</span><br><br>---------------------------------------------------------------------------------------<br><span class="hljs-comment">//要简化函数指针的声明过程，除了使用auto之外，还可以使用typedef，例如：</span><br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">pam</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//将函数指针类型弄成标识符形式</span><br><span class="hljs-function"><span class="hljs-keyword">typedef</span> <span class="hljs-title">double</span> <span class="hljs-params">(*p_func)</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针声明</span><br>p_func pf;<br></code></pre></td></tr></table></figure>
-<h3 id="非静态类成员函数指针">非静态类成员函数指针</h3>
-<p>与类的非静态数据成员变量不同，类的非静态成员函数不会在运行时为每个类的实例对象生成一份专有的机器语言代码，类的非静态成员函数在内存中只有一份，即类的非静态成员函数的地址也是唯一的。那么为什么不同的实例调用非静态成员函数的时可以访问到属于实例本身的数据呢？这是因为非静态成员函数默认的第一个参数就是this指针，只是没有明写出来罢了</p>
-<p>类的非静态成员函数默认的第一参数就是this</p>
-<p>受this指针的影响， <strong>非静态类成员函数指针</strong>
-的声明和使用与 <strong>一般的函数指针（含静态成员函数指针）</strong>
-都不同</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//类的非静态成员函数指针 声明、赋值、使用 都跟普通情况不同</span><br><span class="hljs-comment">//声明时需要添加类名</span><br><span class="hljs-built_in">int</span> (classA::*pFun)(<span class="hljs-type">int</span>);      <span class="hljs-comment">//注意类名放置的位置，类名是用来指明this指针的类型的</span><br><span class="hljs-comment">//赋值时需要添加类名和&amp;</span><br>pFun=&amp;classA::Fun;<br><span class="hljs-comment">//使用时需要加上实例对象</span><br>(classAInstance-&gt;*pFun)(<span class="hljs-number">12345</span>);     <span class="hljs-comment">//注意一个&#x27;(&#x27;、&#x27;)&#x27;，&#x27;*&#x27;都不能少，格式就这样死死固定住了；</span><br>                 <span class="hljs-comment">//如果这个语句出现在非静态成员函数中，不要认为classAInstance不写系统会自动加上this;如果你是想调用this的pFun就自己手动加上，不然会报错，</span><br><br><br><span class="hljs-comment">//类的静态成员函数指针 声明、赋值、使用</span><br><span class="hljs-comment">//声明时</span><br><span class="hljs-built_in">int</span> (*pFun)(<span class="hljs-type">int</span>);<br><span class="hljs-comment">//赋值时需要添加类名</span><br>pFun=classA::Fun;<br><span class="hljs-comment">//使用时</span><br><span class="hljs-built_in">pFun</span>(<span class="hljs-number">12345</span>);        <span class="hljs-comment">//或</span><br>(*pFun)(<span class="hljs-number">12345</span>);<br></code></pre></td></tr></table></figure>
-<h2 id="函数模板">函数模板</h2>
-<p>函数模板将类型作为参数传递给<strong>函数模板</strong>，使编译器生成该类型的函数；又叫通用编程或参数化类型；</p>
-<p>由函数模板对应的具体函数称为称为<strong>模板实例(instantiation)</strong></p>
-<p>隐式实例化、显式实例化、显式具体化统称为<strong>具体化(specialization)</strong></p>
-<p>类型参数不能有默认值，但是非类型参数可以有默认值</p>
-<h3 id="函数模板的声明格式">函数模板的声明格式</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// T 叫做类型参数</span><br><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;            <span class="hljs-comment">//可以写成 template&lt;class T&gt;，但是这个是C++98之前的写法；typename这个关键字是C++98定义的；函数模板参数列表中可以有多个参数，如template&lt;typename T1,typename T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span>;          <span class="hljs-comment">//返回类型可以不可也写成T？？？</span><br></code></pre></td></tr></table></figure>
-<h3 id="函数模板的定义格式">函数模板的定义格式</h3>
-<p>这只是一个函数模板，并不是函数；函数模板用于告诉编译器如何定义函数；只有在编译时检测到代码中需要用到这个模板，编译器才会依据具体类型按照模板格式生成<strong>模板实例</strong>，这个过程称为<strong>隐式实例化(implicit
-instantiation)</strong></p>
-<p>编译结束之后机器码中并没有函数模板，只可能存在<strong>模板实例</strong>的机器码</p>
-<p>模板函数的定义可以放在使用到函数模板的函数后面</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temp;<br>    temp=a;<br>    a=b;<br>    b=temp;<br>&#125;<br></code></pre></td></tr></table></figure>
-<h3 id="模板函数的使用">模板函数的使用</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//使用时都不用指明类型，编译器会自动检测参数列表的数据类型来确定函数的类型</span><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">int</span> j=<span class="hljs-number">20</span>;<br><br>    <span class="hljs-built_in">Swap</span>(i,j);        <span class="hljs-comment">//隐式实例化</span><br> Swap&lt;&gt;(i,j); <span class="hljs-comment">//不带参数的显式实例化，确保编译器使用函数模板的实例化版本</span><br><br>    <span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>    <span class="hljs-type">double</span> y=<span class="hljs-number">3.6</span>;<br><br>    <span class="hljs-built_in">Swap</span>(x,y);        <span class="hljs-comment">//隐式实例化</span><br> Swap&lt;&gt;(x,y); <span class="hljs-comment">//不带参数的显式实例化，确保编译器使用函数模板的实例化版本</span><br><br>    <span class="hljs-comment">//疑问：</span><br> <span class="hljs-comment">//Swap(i,x);   //会怎样？</span><br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<h2 id="函数模板的重载">函数模板的重载</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temp;<br>    temp=a;<br>    a=b;<br>    b=temp;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T *a,T *b,<span class="hljs-type">int</span> n)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temep;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>;i&lt;n;++i)<br>    &#123;<br>        temp=a[i];<br>        a[i]=b[i];<br>        b[i]=temp;<br>    &#125;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">int</span> j=<span class="hljs-number">20</span>;<br><br>    <span class="hljs-built_in">Swap</span>(i,j);<br><br>    <span class="hljs-type">int</span> array1[<span class="hljs-number">3</span>]=&#123;<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>&#125;;<br>    <span class="hljs-type">int</span> array2[<span class="hljs-number">3</span>]=&#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>&#125;;<br><br>    <span class="hljs-built_in">Swap</span>(array1.array2);<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<h2 id="函数模板的局限性">函数模板的局限性</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">f</span><span class="hljs-params">(T a,T b)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-comment">//a=b; //原本是想做内容赋值操作的，但如果T类型是数组指针，那么最终只是a变成了b的指针，a并没有获得b数组的内容；又或者当前T类型并没有&#x27;=&#x27;操作;</span><br> <span class="hljs-comment">//a&gt;b;  //原本是想做内容比较操作的，但如果T类型是数组指针，那么最终只是比较了a指针和b指针，并没有进行内容比较；又或者当前T类型并没有&#x27;&gt;&#x27;操作;</span><br> <span class="hljs-comment">//以后注意T只处理非数组类型，T*才是用来处理数组类型的；</span><br>&#125;<br></code></pre></td></tr></table></figure>
-<h2
-id="函数模板的显式具体化explicit-specialization">函数模板的显式具体化(explicit
-specialization)</h2>
-<p>所谓的显式具体化就是手动写一个函数模板的<strong>模板实例</strong></p>
-<p>函数模板<strong>显式具体化</strong>的声明格式：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式具体化，第一种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;job&gt;(job &amp;,job &amp;); <span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br><br><span class="hljs-comment">//函数模板的显式具体化，第二种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(job &amp;,job &amp;)</span></span>;         <span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br></code></pre></td></tr></table></figure>
-<p>如果一个名称f同时存在非模板函数、
-显式具体化函数、常规模板，将遵循第三代函数使用优先顺序(C++98标准)：非模板函数
-&gt; 显式具体化函数 &gt; 常规模板</p>
-<h2 id="实例化和具体化">实例化和具体化</h2>
-<ul>
-<li>实例化和具体化是不同的概念：
-<ul>
-<li>实例化是由编译器自动生成<strong>模板实例</strong>的过程</li>
-<li>具体化是手动写出一个<strong>模板实例</strong>的过程</li>
-<li>实例化 template 后面没有 &lt;&gt;</li>
-<li>具体化 template 后面有 &lt;&gt;</li>
-</ul></li>
-</ul>
-<h3 id="显式实例化explicit-instantiation的方法">显式实例化(explicit
-instantiation)的方法</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式实例化，第一种方式</span><br><span class="hljs-keyword">template</span> <span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">int</span>&gt;(<span class="hljs-type">int</span>,<span class="hljs-type">int</span>); <span class="hljs-comment">//编译器看到这条指令将马上自动生成Swap的int版本，不必等到调用；这样做有什么用？</span><br><br><span class="hljs-comment">//函数模板的显式实例化，第二种方式</span><br>...主函数中<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>    <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">double</span>&gt;(i,x);                <span class="hljs-comment">//生成Swap的double类型的实例以备调用，如果没有显式实例化的话，到这里会报错；因为没有办法隐式实例化；</span><br>                                 <span class="hljs-comment">//ps：但是其实即使使用了显式化，这里由于Swap的参数是double引用类型，可是变量i是int类型；同样会报错，除非Swap函数参数列表改成Swap(const T &amp;,T &amp;)，[笑哭.jpg]这样有意思吗</span><br>...<br></code></pre></td></tr></table></figure>
-<p>ps：同一个文件中如果同时出现<strong>同一类型</strong>函数的
-显式实例化 和 显式具体化 ，将出错</p>
-<h2 id="编译器选择使用哪个函数版本">编译器选择使用哪个函数版本</h2>
-<p>重载解析(overloading
-resolution)：面对函数重载、函数模板、函数模板重载时，C++决定使用哪一个函数的过程</p>
-<p>详细解释这个策略需要将近一章的篇幅= =，下面只讲大致步骤</p>
-<h3
-id="函数调用的步骤假设函数调用为mayb">函数调用的步骤(假设函数调用为may('B'))</h3>
+    <title>游戏引擎 1.概述</title>
+    <url>/posts/8ddcbab2.html</url>
+    <content><![CDATA[<p>该系列文章主要面向完全没有引擎基础，但具备一定编程基础的同学。讲解的内容不会展开太深入，只希望读者可以对游戏引擎中的技术有一个基本的理解。如果大家对其中的某些内容感兴趣，可以评论留言。我会根据大家的期望，力所能及地展开讲解。</p>
+<h1 id="简介">简介</h1>
+<p>电子游戏是一款软实时(soft
+real-time)模拟软件。软实时模拟软件需要做到可以响应实时操作，并且即使由于某些原因没有立即响应也不会造成灾难性后果。在电子游戏这样的软实时模拟软件中的大部分数学问题没有闭合式解，因此需要进行离散的模拟才能得到一个结果。</p>
+<p>游戏引擎正是为了完成游戏中各种各样的模拟而整合了各种各样的模块，例如物理模块、渲染模块、逻辑模块等。早期的游戏引擎大多只能运行在特定平台，例如《雷神之锤》的引擎<a
+href="https://github.com/id-Software/Quake">Quake engine</a>、<a
+href="https://zh.wikipedia.org/wiki/%E9%AD%94%E5%85%BD%E4%B8%96%E7%95%8C">魔兽世界</a>用的暴雪自家引擎。</p>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021724.png?x-oss-process=style/WaterMask"
+alt="Quake" />
+<figcaption aria-hidden="true">Quake</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021729.png?x-oss-process=style/WaterMask"
+alt="魔兽世界" />
+<figcaption aria-hidden="true">魔兽世界</figcaption>
+</figure>
+<p>后来出现了可以跨平台运行的通用游戏引擎，例如<a
+href="https://unity.com/cn">Unity</a>、<a
+href="https://www.unrealengine.com/zh-CN/">Unreal</a>。</p>
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=262246257&amp;bvid=BV1Ke411F7ZE&amp;cid=878641990&amp;page=1&amp;high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+</iframe>
+</div>
+<p></br></p>
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<iframe src="//player.bilibili.com/player.html?aid=389714115&amp;bvid=BV1td4y1C71P&amp;cid=878642018&amp;page=1&amp;high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;">
+</iframe>
+</div>
+<p>一般来说，越通用的游戏引擎，在特定平台上的运行效率会越不如那些只能运行于特定游戏平台的游戏引擎。因为性能优化总是基于特定假设的，这个假设越单一，优化起来会越轻松。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102022943.png?x-oss-process=style/WaterMask" /></p>
+<h1 id="硬件">硬件</h1>
+<p>硬件是运行游戏的物理设备，例如pc、xBox Series X、PS5、ns。</p>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023005.png?x-oss-process=style/WaterMask"
+alt="PC" />
+<figcaption aria-hidden="true">PC</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023017.png?x-oss-process=style/WaterMask"
+alt="xBox Series X" />
+<figcaption aria-hidden="true">xBox Series X</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023023.png?x-oss-process=style/WaterMask"
+alt="PS5" />
+<figcaption aria-hidden="true">PS5</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023028.png?x-oss-process=style/WaterMask"
+alt="NS" />
+<figcaption aria-hidden="true">NS</figcaption>
+</figure>
+<h1 id="驱动">驱动</h1>
+<p>驱动是负责和硬件进行通信的底层软件，常见的驱动有显卡驱动（Nvidia、AMD）、声卡驱动。有了这些驱动之后，开发人员就不需要为具体的硬件设备编写代码。驱动很好地隐藏了硬件设备的复杂性，使开发工作的复杂度降低。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023101.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023109.png?x-oss-process=style/WaterMask" /></p>
+<h1 id="操作系统">操作系统</h1>
+<p>在操作系统层面上，大致上可以分成游戏专用操作系统和非游戏专用操作系统。</p>
+<p>游戏专用操作系统有xbox的XBoxOS、ps4的Orbis
+OS、ns的Horizon。这些操作系统的通常知识一个轻量级的库，在游戏运行时，游戏程序几乎可以占有硬件的所有资源和控制权，所以游戏运行效率很高。</p>
+<p>而非游戏专用操作系统通常都会因为各种各样的原因只能占用硬件的部分资源和控制权，例如windows操作系统采用基于时间片(time-slice)的抢占式多任务(preemptive
+multitasking)方式来运行所有程序。</p>
+<p>这也是为什么同一款游戏在同样硬件性能的PC和PS3上面运行，PC上可能直接变成PPT，而PS3却可以30帧稳定运行。</p>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023136.png?x-oss-process=style/WaterMask"
+alt="xbox的XBoxOS" />
+<figcaption aria-hidden="true">xbox的XBoxOS</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023140.png?x-oss-process=style/WaterMask"
+alt="ps4的Orbis OS" />
+<figcaption aria-hidden="true">ps4的Orbis OS</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023144.png?x-oss-process=style/WaterMask"
+alt="ns的Horizon" />
+<figcaption aria-hidden="true">ns的Horizon</figcaption>
+</figure>
+<h1 id="软件开发包sdk">软件开发包(SDK)</h1>
+<p>软件开发包一批功能良好的函数的集合，这些函数又称为称为API(application
+programming interface)。</p>
+<p>大部分游戏引擎都会接入第三方SDK以增强引擎的功能，通过接入SDK的方式给引擎增加功能可以减少引擎的研发压力，同时又能获得良好的效果表现。</p>
+<p>下面列举一些比较常见的第三方SDK：</p>
+<p>物理引擎有<a href="https://www.havok.com/">Havok</a>、<a
+href="https://developer.nvidia.com/physx-sdk">PhysX</a>、<a
+href="https://pybullet.org/wordpress/">Bullet</a>等。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023250.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023253.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023259.png?x-oss-process=style/WaterMask" /></p>
+<p>动画引擎有<a href="https://www.havok.com/">Havok Animation</a>、<a
+href="http://www.radgametools.com/cn/granny.html">Granny</a>等。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023326.png?x-oss-process=style/WaterMask" /></p>
+<p>Havok Animation可以在运行时给动画加上物理效果，也就是<a
+href="https://en.wikipedia.org/wiki/Physically_based_animation">物理动画技术(Physically
+based animation)</a>。</p>
+<p>动画的制作流程比较复杂繁琐，部分有钱的游戏厂商会通过动捕(motion
+cap)的方式来制作动画，钱包确实顶不住的话可以使用Endorphin来自动生成帧动画，提高生产效率。还有一种减少工作量的方法，使用Euphoria在游戏运行时生成符合物理和生物力学的动画。</p>
+<h1 id="平台独立层">平台独立层</h1>
+<p>平台独立层会为特定模块封装各个平台的底层API，让游戏引擎可以支持在多个平台上运行。这一层算是游戏引擎和外界环境进行沟通的桥梁。</p>
+<h1 id="核心系统">核心系统</h1>
+<p>核心系统会为游戏引擎提供一个软件该有的底层功能，所有类型的软件都会有这一层。</p>
+<p>这一层的内容也不少，我们关注得比较多的是内容管理模块。因为游戏引擎往往都需要保证最多每隔32毫秒就要执行一边全体代码，对于内存的管理要求会比较高，需要实现高效地内存分配和释放，还会自定义数据结构及算法来减少或完全消除动态内存的分配。</p>
+<h1 id="渲染引擎">渲染引擎</h1>
+<p>渲染这一块内容就比较丰富了，已经被独立成一个专业学科--计算机图形学。一般游戏引擎都不会去开发自己的渲染引擎，因为投入产出比太低，而且现有的渲染引擎已经很成熟了。所以游戏引擎一般都会接入已有的渲染引擎。</p>
+<p>常见的渲染引擎有DirectX、OpenGL、Vulkan、Edge等。这里的Edge并不是指微软的Edge浏览器，而是专门为PS3渲染设计的，拥有高效几何处理技术的渲染引擎，同时它还具有动画播放功能。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023437.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023432.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023441.png?x-oss-process=style/WaterMask" /></p>
+<p>渲染引擎一般会采用分层架构(layered
+architecture)来组织代码，一般会被分为低阶渲染器(low-level
+renderer)、场景图(scene graph)/剔除优化、视觉效果、前端。</p>
+<p>低阶渲染器会使用图形SDK来设置好渲染器，实现几何图元(geometric
+primitive)的高速渲染。</p>
+<p>场景图/优化剔除会为不同的游戏场景提供不同的算法来限制提交到GPU的图元数量。常用的算法有平截头体剔除(frustum
+cull)、空间细分(spatial
+subdivision)、portal、遮挡剔除技术。其中空间细分算法可以使用不同的数据结构来构建场景图以快速判别潜在可见集(potentially
+visible set, PVS)。</p>
+<p>视觉效果层专门提供丰富的视觉效果，其中包括粒子系统(particle
+system)、贴花系统(decal system)、光照贴图(light
+mapping)、环境贴图(evironment mapping)、动态阴影(dynamic
+shadow)、全屏后处理效果(full-screen post-processing
+effect)等。其中全屏后处理效果包括高动态范围(high dynamic tange,
+HDR)光照、敷霜效果(bloom)、全屏抗锯齿(full-screen anti-aliasing,
+FSAA)、颜色较正(color
+correction)等。其中颜色较正包括颜色偏移(color-shift)、略过漂白(bleach
+bypass)、饱和度(saturation)、去饱和度(desaturation)等。美术师一般会在这一层上面进行工作。</p>
+<p>前端是开发者、玩家与游戏进行交互的桥梁，包括了平视显示器(heads-up
+display,
+HUD)、辅助开发的工具（如内置菜单、主控台）、图形用户界面(graphical user
+interface, GUI)、全动视频(full-motion video,
+FMV)系统、游戏内置电影(in-game cinematics, IGC)系统等。</p>
+<h1 id="人工智能">人工智能</h1>
+<p>游戏中的传统人工智能并不是类似于深度学习的人工智能，而只是让角色看起来有智能。所有貌似拥有智能的行为都是提前硬编码好的，有限状态机和行为树是最常用的技术。现在游戏也慢慢开始加入了具有自我进化能力的人工智能，以后游戏过程中的不确定性会进一步增加。</p>
+<h1 id="性能分析工具">性能分析工具</h1>
+<p>为了提升游戏运行效率，需要在研发过程中或研发完成时对游戏进行性能分析。现在比较成熟的性能分析工具有Intel的VTune、IBM的Quantify和Purify、Compuware的Bounds
+Checker。有些游戏引擎会开发自己的性能分析工具，例如unty内置的Profiler。一个性能分析工具大致需要具备以下功能：</p>
 <ol type="1">
-<li>先找出所有名称为may的函数</li>
-<li>再从这些函数中找出可以只接受<strong>一</strong>个参数<code>'B'</code>的may函数(实参类型可强转为形参类型的也算)</li>
-<li>再从这些函数中选择一个<strong>最佳</strong>函数，优先级为：
-常规函数完全匹配 &gt; 模板函数完全匹配 &gt;
-提升转换(例：char和short自动转为int，float自动转为double) &gt;
-标准转换(例：int转换为char，long转换为double) &gt; 用户定义的转换</li>
+<li>支持在游戏源码中手动加入测量代码，为希望监测性能的代码进行计时。</li>
+<li>游戏运行期间，在屏幕上显示性能统计数据，这些数据包裹CPU占用率、GPU占用率、显存占用量、内存占用量、内存使用率、1.
+最高使用率、内存泄漏量、网络延迟、FPS等。</li>
+<li>将性能统计数据输出并保存下来，可以保存为文本文件、Excel文件等。</li>
+<li>允许在代码内使用调试用打印语句(print
+statement)，可以切换不同的调试输出种类，并设置输出的冗长级别(verbosity
+level)。</li>
 </ol>
-<p>完全匹配：实参类型与形参类型完全等价，等价表如下所示：</p>
-<figure data-size="normal">
-<img src="https://pica.zhimg.com/v2-10f4c571aec0f4d031ff02f95fb6335e_1440w.jpg" class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="855" data-rawheight="270" data-original-token="v2-10f4c571aec0f4d031ff02f95fb6335e" data-original="https://pica.zhimg.com/v2-10f4c571aec0f4d031ff02f95fb6335e_r.jpg" width="855" />
-</figure>
-<p>ps：倒数第二列是不是错了？？？</p>
-<ul>
-<li>如果使用以上优先级选择之后还是剩下一个以上的完全匹配函数，那么将要使用以下规则继续筛选：
-<ul>
-<li>非模板函数优先于模板函数</li>
-<li>非const的指针和引用的实参优先<strong>与</strong>非const的指针和引用的形参配对</li>
-<li>如果剩下的都是完全匹配的模板函数，则使用函数模板的部分排序规则(partial
-ordering
-rules)(C++98特性，主要是处理指针与非指针的问题)来选择最具体的</li>
-</ul></li>
-</ul>
-<p>如果使用以上规则选择之后还是剩下一个以上的候选函数，那么编译器将报错；</p>
-<p>例子：调用函数map('B');</p>
-<table>
-<tbody>
-<tr>
-<td>编号</td>
-<td>候选函数</td>
-<td>第一步结果</td>
-<td>第二步结果</td>
-<td>优先级</td>
-</tr>
-<tr>
-<td>1</td>
-<td>void may(int);</td>
-<td>T</td>
-<td>T</td>
-<td>4</td>
-</tr>
-<tr>
-<td>2</td>
-<td>void may(double,double);</td>
-<td>T</td>
-<td>F</td>
-<td></td>
-</tr>
-<tr>
-<td>3</td>
-<td>float may(float,float = 3);</td>
-<td>T</td>
-<td>T</td>
-<td>5</td>
-</tr>
-<tr>
-<td>4</td>
-<td>void may(char);</td>
-<td>T</td>
-<td>T</td>
-<td>1</td>
-</tr>
-<tr>
-<td>5</td>
-<td>char * may(const char *);</td>
-<td>T</td>
-<td>F</td>
-<td></td>
-</tr>
-<tr>
-<td>6</td>
-<td>char may(const char &amp;);</td>
-<td>T</td>
-<td>T</td>
-<td>1</td>
-</tr>
-<tr>
-<td>7</td>
-<td>template&lt; typename T &gt; void may(const T &amp;);</td>
-<td>T</td>
-<td>T</td>
-<td>3</td>
-</tr>
-<tr>
-<td>8</td>
-<td>template&lt; typename T &gt; void may(T *);</td>
-<td>T</td>
-<td>F</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>ps：整数类型是不会隐式转换成指针的</p>
-<p>以上只是介绍了单参函数调用的函数原型匹配问题，若是有多个参数，情况将非常复杂；这里不再介绍；</p>
-<h2 id="模板函数的发展">模板函数的发展</h2>
-<h3 id="问题一">问题一</h3>
-<p>在C++98标准下的函数模板存在着很多不完美的地方，有时候由于不知道具体的类型是什么，导致无法正常编写函数模板定义,例：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>    ...<br>    ?type? xpy = x + y;      <span class="hljs-comment">//这时不知道xpy要定义为什么类型才能正确接收到结果</span><br> ...<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>为了解决上面的问题，C++11引入了一种新的声明数据类型方式,使用关键字<code>decltype</code>;</p>
-<p><code>decltype</code>是在运行时确定变量类型的；</p>
-<p><code>decltype</code>确定类型的方式，满足以下哪个形式就用哪个形式的判定方法；</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式一：</span><br>...<br><span class="hljs-type">int</span> x;<br><span class="hljs-keyword">decltype</span>&#123;x&#125; y;            <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中的**数值**类型；这里y的类型将会是int</span><br><br><span class="hljs-comment">//更多例子：</span><br><span class="hljs-type">int</span> j = <span class="hljs-number">3</span>;<br><span class="hljs-type">int</span> &amp;k = j;<br><span class="hljs-type">int</span> &amp;n = j;<br><span class="hljs-keyword">decltype</span>(j+<span class="hljs-number">6</span>) i1;      <span class="hljs-comment">//i1的类型为   int</span><br><span class="hljs-keyword">decltype</span>(<span class="hljs-number">100L</span>) i2;        <span class="hljs-comment">//i2的类型为   long</span><br><span class="hljs-keyword">decltype</span>(k+n) i3;        <span class="hljs-comment">//i3的类型为 int</span><br>...<br></code></pre></td></tr></table></figure>
-<p><br />
-</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式二：</span><br>...<br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-title">indeed</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;      <span class="hljs-comment">//函数声明</span><br><span class="hljs-keyword">decltype</span>&#123;<span class="hljs-built_in">indeed</span>(<span class="hljs-number">3</span>)&#125; y;  <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中函数的返回值类型；这里y的类型将会是long（书上写说y的类型是int，错了吧？）</span><br>                     <span class="hljs-comment">//注意：indeed(3)并不会真的被调用</span><br>...<br></code></pre></td></tr></table></figure>
-<p><br />
-</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式三：</span><br>...<br><span class="hljs-type">double</span> xx = <span class="hljs-number">4.4</span>;<br><span class="hljs-keyword">decltype</span>&#123;(xx)&#125; y;     <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中变量类型的引用；这里y的类型将会是double &amp;</span><br>                     <span class="hljs-comment">//注意：这里的括号不能省略且括号中必须是变量(左值)</span><br><br><br><span class="hljs-comment">//这里引入一个和函数模板话题不沾边的小概念：</span><br><span class="hljs-comment">//xx = 98.6;</span><br><span class="hljs-comment">//(xx) = 98.6;</span><br><span class="hljs-comment">//以上的两条表达式的作用是一样的，就是赋值，无差别</span><br>...<br></code></pre></td></tr></table></figure>
-<p>于是上面的问题就可以解决：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>    ...<br>    <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpy = x + y;    <span class="hljs-comment">//xpy的类型就是x+y得到的结果数值的类型</span><br> ...<br><br>    <span class="hljs-comment">//如果要多次使用上面这种类型，每次都要写这么长，会觉得很麻烦，那么可以使用关键字typedef，例：</span><br> typrdef <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpytype;<br><br>&#125;<br></code></pre></td></tr></table></figure>
-<h3 id="问题二">问题二</h3>
-<p>但是即使有了<code>decltype</code>还是存在问题，有时函数返回类型不能确定，例：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;<br>?type? <span class="hljs-built_in">gt</span>(T1 x,T2 y)                   <span class="hljs-comment">//返回类型无法确定，无法将?type?改为decltype&#123;x + y&#125;，因为那时x和y还没有声明</span><br>&#123;<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br>    <span class="hljs-keyword">return</span> x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>为了解决上面的问题，C++11引入了一个新语法<strong>后置返回类型</strong>，格式为：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">auto</span> <span class="hljs-title">h</span><span class="hljs-params">(<span class="hljs-type">int</span> x,<span class="hljs-type">float</span> y)</span> -&gt; <span class="hljs-type">double</span></span>;<br><span class="hljs-comment">//该函数的返回类型是double，auto只是占位用的</span><br></code></pre></td></tr></table></figure>
-<p>于是上面的问题就可以解决：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-keyword">auto</span> <span class="hljs-title">gt</span><span class="hljs-params">(T1 x,T2 y)</span> -&gt; <span class="hljs-keyword">decltype</span></span>&#123;x + y&#125;        <span class="hljs-comment">//这时由于x和y已经声明，所以decltype可以确定类型，函数的返回值类型也可以确定了</span><br>&#123;<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br>    <span class="hljs-keyword">return</span> x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
-<hr />
-<p>私信太多，回复不过来，资料我直接整理出来放在下面了</p>
-<figure data-size="normal">
-<img src="https://pica.zhimg.com/v2-59ec5aea54c30df7a1171775b1527b4a_1440w.jpg" class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="545" data-rawheight="149" data-original-token="v2-59ec5aea54c30df7a1171775b1527b4a" data-original="https://pica.zhimg.com/v2-59ec5aea54c30df7a1171775b1527b4a_r.jpg" width="545" />
-</figure>
-<p>链接：<span class="invisible">https://</span><span
-class="visible">pan.baidu.com/s/1C-9TE9</span><span
-class="invisible">ES9xrySqW7PfpjyQ</span><span class="ellipsis"></span>
-提取码：<strong>cqmd</strong></p>
-<p><br />
-</p>
-<p>觉得有帮助的话可以点个赞让更多人看到</p>
-<p>系列内容会更新到专栏 「我所理解的C++」</p>
+<h1 id="物理">物理</h1>
+<p>游戏物理模拟是个大部头，如果项目有真实物理模拟的需求，那么一般会专门配置一位负责开发物理效果的程序员。</p>
+<p>游戏物理和仿真物理的侧重点并不相同。仿真物理注重模拟效果的准确性，而不关注性能。游戏物理不追求模拟百分百正确，只要最终的效果看起来合理就好，需要特别关注性能表现。因为游戏需要在配置一般的设备上运行，没有太多的算了投放到物理模拟中。只要效果看起来没太大问题，那么它就是对的。</p>
+<h1 id="动画">动画</h1>
+<p>动画同样是一个大部头，如果项目的动画很多且复杂细腻，一般也会专门配置一位专门负责开发动画效果的程序员。</p>
+<p>动画效果可以很简单，也可以很复杂。最简单的就是播放单个帧动画，复杂的可以搞基于物理的动画、IK效果等。</p>
+<p>负责游戏动画的程序员除了要做好表现效果之外，还要做好资源管理，包括动画资源和动画状态机资源。因为现在大部分项目都是使用动画状态机以及动画融合技术来制作动画效果。</p>
+<p>一个表现效果可能由多个动画clip融合而成。使用这种方案来做动画表现，产出的动画资源一般都不少。</p>
+<p>如果某个模型的动画表现比较细腻的话，它的动画状态机也会很复杂。我曾经见过一个动画状态机打开之后整个屏幕都是密密麻麻的transition连线。</p>
+<h1 id="人体学接口设备hid引擎">人体学接口设备(HID)引擎</h1>
+<p>HID引擎会将游戏外设和游戏引擎对接起来。比较常见的游戏外设有键盘、鼠标、手柄。还有一些比较小众的游戏外设，例如赛车模拟设备（方向盘+踏板+挡杆+手刹）、飞行摇杆、VR控制器。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023604.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023609.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023615.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023621.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023625.png?x-oss-process=style/WaterMask" /></p>
+<p>游戏外设的输入信号会先被映射为输入代码，再映射为游戏的具体操作。</p>
+<h1 id="音频">音频</h1>
+<p>游戏的音频也同样重要，好的音频效果可以营造良好的游戏氛围。一般游戏引擎都有自己研发的音频功能，例如cocos、unity、unreal都有。但是在游戏开发过程中一般不会直接使用引擎提供的功能，而是会使用第三方SDK，例如<a
+href="https://www.fmod.com/">FMOD</a>、<a
+href="https://www.audiokinetic.com/zh/products/wwise/">Wwise</a>。因为第三方SDK功能更加完备。</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102024059.png?x-oss-process=style/WaterMask" /></p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102023711.png?x-oss-process=style/WaterMask" /></p>
+<h1 id="网络">网络</h1>
+<p>游戏引擎提供基本网络通信功能并不是什么特别难的事情，但是要提供一套成熟通用的网络同步功能非常困难。不同游戏对网络同步的需求由很大的区别，所以游戏项目组一般都会开发自己的网络同步功能以匹配自己的游戏业务需求。</p>
+<h1
+id="数字内容创作digital-content-creation-dcc应用软件及资产调节管道">数字内容创作(digital
+content creation, DCC)应用软件及资产调节管道</h1>
+<p>设计师会通过DCC工具将模型、材质、贴图、音频等工具生产游戏素材。团队一般都会使用市面上以由的DCC工具，例如3DMax、Maya、PhotoShop、FMOD
+Studio等。这些工具输出的资源格式在大部分情况下没有办法被游戏引擎直接使用，需要游戏引擎对这些资源进行一次转换，转换为游戏引擎方便使用的格式。这个转换过程有资产调节管道来完成。例如每次往unity中拖入fbx模型资源的时候都会出现一个import进度条，正是在进行资源转换。</p>
+<h1 id="最后">最后</h1>
+<p>这节只是简单带过了各种模块的知识，由于部分内容展开之后量会非常大，所以会在该系列的后续文章中单独讲，也可能会另开一个专栏。希望能帮助到想要从事游戏研发的人。</p>
+<h1 id="参考资料">参考资料</h1>
+<p>《游戏引擎架构》 《游戏编程权威指南》
+《GAMES104-现代游戏引擎：从入门到实践》</p>
 ]]></content>
       <categories>
-        <category>C++</category>
+        <category>游戏引擎</category>
       </categories>
       <tags>
-        <tag>C++</tag>
+        <tag>游戏引擎</tag>
       </tags>
   </entry>
   <entry>
-    <title>算法题--替换空格</title>
-    <url>/posts/25e9ce90.html</url>
-    <content><![CDATA[<p>4 # 要求 时间限制：1秒 空间限制：32768K # 题目描述
-请实现一个函数，将一个字符串中的空格替换成“%20”。例如，当字符串为We Are
-Happy.则经过替换之后的字符串为We%20Are%20Happy. # 解题思路
-拿到题目之后，一般会首先想到从头开始扫描这个字符串，遇到空格就将后面所有的字符都向后移动两格，再插入%20。虽然这个办法可行，但是时间复杂度为O（n^2），每一个字符都会有多次移动</p>
-<p>现在希望每个字符只移动一次。我们要用两个指针P1和P2，P1指向字符串的最后一个字符'\0',P2指向替换了空格后的字符串尾部。每一个空格都会导致字符串增长两个字符</p>
-<p>具体过程如下图所示 ​ <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021246.png?x-oss-process=style/WaterMask" /></p>
+    <title>算法题--用两个栈实现队列</title>
+    <url>/posts/bcbbc7d8.html</url>
+    <content><![CDATA[<p>7 # 要求 时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>用两个栈来实现一个队列，完成队列的Push和Pop操作。
+队列中的元素为int类型</p>
+<h1 id="解题思路">解题思路</h1>
+<p>利用栈可以颠倒一个序列的顺序这个特性来思考</p>
+<p>像这类题目只要模拟一下就能找到答案：先加入一些元素，然后思考如何弹出你想要的元素，这样就解决了弹出的问题；再思考添加的问题</p>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102235103.png?x-oss-process=style/WaterMask"
+alt="模拟过程" />
+<figcaption aria-hidden="true">模拟过程</figcaption>
+</figure>
+<p>这道题中，stack1用于入队，stack2用于出队，只是出队是要注意：要保证stack2不为空时才可以出队；如果它为空，就要先将stack1中所有元素弹出到stack2中，再从stack2中弹出一个元素；如果它不为空，直接从stack2中弹出一个元素即可</p>
 <h1 id="代码">代码</h1>
-<figure class="highlight axapta"><table><tr><td class="code"><pre><code class="hljs axapta"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">void</span> replaceSpace(<span class="hljs-built_in">char</span> *<span class="hljs-built_in">str</span>,<span class="hljs-built_in">int</span> length)<br>  &#123;<br>    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>==NULL || length&lt;=<span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span>;<br>    <br>    <span class="hljs-built_in">int</span> endIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> endIndexOfNewStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> curIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-keyword">do</span><br>    &#123;<br>      ++curIndexOfOriStr;<br>      <br>      ++endIndexOfOriStr;<br>      ++endIndexOfNewStr;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] == <span class="hljs-string">&#x27; &#x27;</span>)<br>        endIndexOfNewStr += <span class="hljs-number">2</span>;<br>        <br>    &#125;<span class="hljs-keyword">while</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] != <span class="hljs-string">&#x27;\0&#x27;</span>);<br>    <br>    <span class="hljs-keyword">if</span>(endIndexOfNewStr&gt;=length)<br>      <span class="hljs-keyword">return</span>;<br>        <br>    <span class="hljs-keyword">while</span>(endIndexOfOriStr &gt;= <span class="hljs-number">0</span> &amp;&amp; endIndexOfOriStr &lt; endIndexOfNewStr)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[endIndexOfOriStr]==<span class="hljs-string">&#x27; &#x27;</span>)<br>      &#123;<br>        --endIndexOfOriStr;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;0&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;2&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;%&#x27;</span>;<br>      &#125;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr] = <span class="hljs-built_in">str</span>[endIndexOfOriStr];<br>        --endIndexOfOriStr;<br>        --endIndexOfNewStr;<br>      &#125;<br>    &#125;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">push</span><span class="hljs-params">(<span class="hljs-type">int</span> node)</span></span><br><span class="hljs-function">  </span>&#123;<br>    stack1.<span class="hljs-built_in">push</span>(node);<br>  &#125;<br><br>  <span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">pop</span><span class="hljs-params">()</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-keyword">if</span>(stack2.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      <span class="hljs-keyword">while</span>(!stack1.<span class="hljs-built_in">empty</span>())<br>      &#123;<br>         stack2.<span class="hljs-built_in">push</span>(stack1.<span class="hljs-built_in">top</span>());<br>         stack1.<span class="hljs-built_in">pop</span>();<br>      &#125;<br>    &#125;<br>      <br>    <span class="hljs-keyword">if</span>(stack2.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      cout &lt;&lt; <span class="hljs-string">&quot;队列为空&quot;</span> &lt;&lt; endl;<br>      <span class="hljs-built_in">abort</span>();<br>    &#125;<br>    <br>    <span class="hljs-type">int</span> res = stack2.<span class="hljs-built_in">top</span>();<br>    stack2.<span class="hljs-built_in">pop</span>();<br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br><br><span class="hljs-keyword">private</span>:<br>    stack&lt;<span class="hljs-type">int</span>&gt; stack1;	<span class="hljs-comment">//入</span><br>    stack&lt;<span class="hljs-type">int</span>&gt; stack2;	<span class="hljs-comment">//出</span><br>&#125;;<br></code></pre></td></tr></table></figure>
+<h1 id="拓展">拓展</h1>
+<p>用两个队列来模拟栈，思考方式和这道题一样</p>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102235134.png?x-oss-process=style/WaterMask"
+alt="模拟过程" />
+<figcaption aria-hidden="true">模拟过程</figcaption>
+</figure>
+<p>两个队列的元素要不停的倒来倒去</p>
 ]]></content>
       <categories>
         <category>算法</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>漫谈Entity-Component-System</title>
-    <url>/posts/1abc5785.html</url>
-    <content><![CDATA[<h1 id="简介">简介</h1>
-<p>对于很多人来说，ECS只是一个可以提升性能的架构，但是我觉得ECS更强大的地方在于可以降低代码复杂度。</p>
-<p>在游戏项目开发的过程中，一般会使用OOP的设计方式让GameObject处理自身的业务，然后框架去管理GameObject的集合。但是使用OOP的思想进行框架设计的难点在于一开始就要构建出一个清晰类层次结构。而且在开发过程中需要改动类层次结构的可能性非常大，越到开发后期对类层次结构的改动就会越困难。</p>
-<p>经过一段时间的开发，总会在某个时间点开始引入多重继承。实现一个又可工作、又易理解、又易维护的多重继承类层次结构的难度通常超过其得益。因此多数游戏工作室禁止或严格限制在类层次结构中使用多重继承。若非要使用多重继承，要求一个类只能多重继承一些
-简单且无父类的类(min-in class)，例如Shape和Animator。</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029194540.png?x-oss-process=style/WaterMask" /></p>
-<p>也就是说在大型游戏项目中，OOP并不适用于框架设计。但是也不用完全抛弃OOP，只是在很大程度上，代码中的类不再具体地对应现实世界中的具体物件，ECS中类的语义变得更加抽象了。</p>
-<p>ECS有一个很重要的思想：数据都放在一边，需要的时候就去用，不需要的时候不要动。ECS
-的本质就是数据和操作分离。传统OOP思想常常会面临一种情况，A打了B，那么到底是A主动打了B还是B被A打了，这个函数该放在哪里。但是ECS不用纠结这个问题，数据存放到Component种，逻辑直接由System接管。借着这个思想，我们可以大幅度减少函数调用的层次，进而缩短数据流传递的深度。</p>
-<h1 id="基本概念">基本概念</h1>
-<p>Entity由多个Component组成，Component由数据组成，System由逻辑组成。</p>
-<h2 id="component组件">Component(组件)</h2>
-<p>Component是数据的集合，只有变量，没有函数，但可以有getter和setter函数。Component之间不可以直接通信。
-<figure class="highlight gauss"><table><tr><td class="code"><pre><code class="hljs gauss"><span class="hljs-keyword">struct</span> <span class="hljs-type">Component</span>&#123;<br>	<span class="hljs-comment">//子类将会有大量变量，以供System利用</span><br>&#125;<br></code></pre></td></tr></table></figure></p>
-<h2 id="entity实体">Entity(实体)</h2>
-<p>Entity用来代表游戏世界中任意类型的游戏对象，宏观上Entity是一个Component实例的集合，且拥有一个全局唯一的EntityID，用于标识Entity本身。
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">Entity</span>&#123;<br>	Int32 ID;<br>	List&lt;Component&gt; components;<br>        <span class="hljs-comment">//通过观察者模式将自己注册到System可以提升System遍历的速度，因为只需要遍历已经注册的entity</span><br>&#125;<br></code></pre></td></tr></table></figure>
-Entity需要遵循立即创建和延迟销毁原则，销毁放在帧末执行。因为可能会出现这样的情况：systemA提出要在entityA所在位置创建一个特效，然后systemB认为需要销毁entityA。如果systemB直接销毁了entityA，那么稍后FxSystem就会拿不到entityA的位置导致特效播放失败（你可能会问为什么不直接把entityA的位置记录下来，这样就不会有问题了。这里只是简单举个例子，不要太深究(●'◡'●)）。理想的表现效果应该是，播放特效后消失。</p>
-<h2 id="system系统">System(系统)</h2>
-<p>System用来制定游戏的运行规则，只有函数，没有变量。System之间的执行顺序需要严格制定。System之间不可以直接通信。</p>
-<p>一个
-System只关心某一个固定的Component组合，这个组合集合称为tuple。</p>
-<p>各个System的Update顺序要根据具体情况设置好，System在Update时都会遍历所有的Entity，如果一个Entity拥有该System的tuple中指定的所有Component实例，则对该Entity进行处理。
-<figure class="highlight csharp"><table><tr><td class="code"><pre><code class="hljs csharp"><span class="hljs-keyword">class</span> <span class="hljs-title">System</span>&#123;<br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">abstract</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Update</span>()</span>;<br>&#125;<br><br><span class="hljs-keyword">class</span> <span class="hljs-title">ASystem</span>:<span class="hljs-title">System</span>&#123;<br>    Tuple tuple;<br><br>    <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">override</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Update</span>()</span>&#123;<br>        <span class="hljs-keyword">for</span>(Entity entity <span class="hljs-keyword">in</span> World.entitys)&#123;<br>            <span class="hljs-keyword">if</span>(entity.components中有tuple指定的所有Component实例)&#123;<br>                <span class="hljs-comment">//do something for Components</span><br>            &#125;<br>        &#125;<br>    &#125;<br>&#125;<br><br></code></pre></td></tr></table></figure>
-一个Component会被不同System区别对待，因为每个System用到的数据可能只有其中一部分，且不一定相同。</p>
-<h2 id="world世界">World(世界)</h2>
-<p>World代表整个游戏世界，游戏会视情况来创建一个或两个World。通常情况下只有一个，但是守望先锋为了做死亡回放，有两个World，分别是liveGame和replyGame。World下面会包含所有的System实例和Entity实例。
-<figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-keyword">class</span> <span class="hljs-symbol">World</span>&#123;<br>    List&lt;System&gt; systems;                   <span class="hljs-comment">//所有System</span><br>    <span class="hljs-built_in">dictionary<span class="hljs-keyword">&lt;Int32, Entity&gt;</span></span> entitys;      <span class="hljs-comment">//所有Entity，Int32是Entity.ID</span><br><br>    <span class="hljs-comment">//由引擎帧循环驱动</span><br>    <span class="hljs-built_in">void</span> Update()&#123;<br>        <span class="hljs-keyword">for</span>(System sys <span class="hljs-keyword">in</span> systems)<br>            sys.Update();<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
-由ECS架构出来的游戏世界就像是一个数据库表，每个Entity对应一行，每个Component对应一列，打了✔代表Entity拥有Component。</p>
-<table>
-<thead>
-<tr>
-<th></th>
-<th style="text-align: center;">Component1</th>
-<th style="text-align: center;">Component2</th>
-<th style="text-align: center;">...</th>
-<th style="text-align: center;">ComponentN</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>EntityId1</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✔</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>EntityId2</td>
-<td style="text-align: center;">✔</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;">✔</td>
-</tr>
-<tr>
-<td>...</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-<tr>
-<td>EntityIdN</td>
-<td style="text-align: center;">✔</td>
-<td style="text-align: center;">✔</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-</tr>
-</tbody>
-</table>
-<h2 id="单例component">单例Component</h2>
-<p>在定义一个Component时最好先搞清楚它的数据是System数据还是Entity数据。如果是System的数据，一般设计成单例Component。例如存放玩家键盘输入的
-Component ，全局只需要一个，很多 System 都需要去读这个唯一的 Component
-中的数据。
-单例Component顾名思义就是只有一个实例的Component，它只能用来存储某些System状态。单例Component在整个架构中的占比通常会很高，据说在守望先锋中占比高达40%。其实换一个角度来看，单例Component可以看成是只有一个Component的匿名Entity单例，但可以通过GetSingletonIns接口来直接访问，而不用通过EntityID。</p>
-<h2 id="例子">例子</h2>
-<p>守望先锋种有一个根据输入状态来决定是不是要把长期不产生输入的对象踢下线的AFKSystem，该System需要对象同时具备连接Component、输入Component等，然后AFKSystem遍历所有符合要求的对象，根据最近输入事件产生的时间，把长期没有输入事件的对象通知下线。</p>
-<h1 id="设计需要遵循的原则">设计需要遵循的原则</h1>
-<ol type="1">
-<li>设计并不是从Entity开始的，而是应该从System抽象出Component，最后组装到Entity中。</li>
-<li>设计的过程中尽量确保每个System都依赖很多Component去运行，也就是说System和Component并不是一对一的关系，而是一对多的关系。所以xxxCOM不一定有xxxSys，xxxSys不一定有xxxCOM。
-<ul>
-<li>System和Component的划分很难在一开始就确定好，一般都是在实现的过程中看情况一步一步地去划分System和Component。而且最终划分出来的System和Component一般都是比较抽象的，也就是说通常不会对应现实世界中的具体物件，可以参考下图守望先锋System和Component划分的例子。
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029195909.png?x-oss-process=style/WaterMask"
-alt="20221029195909" /></li>
-</ul></li>
-<li>System尽量不改变Component的数据。
-<ul>
-<li>可以读数据完成的功能就不要写数据来完成。因为写数据会影响到使用了这些数据的模块，如果对于其它模块不熟悉的话，就会产生Bug。如果只是读数据来增加功能的话，即使出Bug也只局限于新功能中，而不会影响其它模块。这样容易管理复杂度，而且给并行处理留下了优化空间。</li>
-</ul></li>
-</ol>
-<h1 id="使用心得">使用心得</h1>
-<p>我在一个游戏demo里尝试使用ECS去进行设计，最大的感受是所有游戏逻辑都变得那么的合理，应对改动、扩展也变得那么的轻松。加班变少了，也不再焦虑。在开始使用ECS来架构业务层之前，我对ECS还是存有一丝疑虑的。担心会不会因为规矩太多了，导致有些功能写不出来。中途也确实因为ECS的种种规矩，导致有些功能不好写出来，需要用到一些奇技淫巧，剑走偏锋。但这些技术最终造就了一个可持续维护的、解耦合的、简洁易读的代码系统。据说守望团队在将整个游戏转成ECS之前也不确定ECS是不是真的好使。现在他们说ECS可以管理快速增长的代码复杂性，也是事后诸葛亮。</p>
-<p>引擎层的System比较好定义，因为引擎相关层级划分比较明确。但是游戏业务逻辑层可能会出现各种奇奇怪怪的System，因为业务层的需求千变万化，有时没有办法划分出一个对应具体业务的System。例如我曾经在业务层定义过DamageHitSystem、PointForceSys。</p>
-<p>推迟技术：不是非常必要马上执行的内容可以推迟到合适的时再执行，这样可以将副作用集中到一处，易于做优化。例如游戏可能会在某个瞬间产生大量的贴花，利用延迟技术可以将这些需要产生的贴花数据保存下来，稍后可以将部分重叠的贴花删除，再依据性能情况分到多个帧中去创建，可以有效平滑性能毛刺。</p>
-<p>如果不知道该如何去划分System，而导致System之间一定要相互通信才能完成功能，可以通过将数据放在中的一个队列里延迟处理。比如SystemA在执行Update的时候，需要执行SystemB中的逻辑。但是这个时候还没轮到SystemB执行Update，只能先将需要执行的内容保存到一个地方。但是System本身又没有数据，所以SystemA只好将需要执行的内容保存到单例Component中的一个队列里，等轮到SystemB执行Update的时候再从队列里拿出数据来执行逻辑。</p>
-<p>但是System之间通过单例Component有个缺点。如果向单例Component中添加太多需要延迟处理的数据，一旦出现bug就不好查了。因为这类数据是一段时间之前添加进来的，到后面才出问题的话，不好定位是何处、何时、基于什么情况添加进来的。解决方案是给每一条需要延迟处理的数据加上调用堆栈信息、时间戳、一个用于描述为什么添加进来的字符串。</p>
-<p>各个System都用到的公共函数可以定义在全局，也可以作为对应System的静态函数，这类函数叫做Utility函数。Utility函数涉及的Component最好尽可能少，不然需要作为参数传进函数Component会很多，导致函数调用不太雅观。Utility函数最好是无副作用的，即不对Component的数据做任何写操作，只读取数据，最后返回计算结果。要改Component的数据的话，也要交给System来改。</p>
-<p>函数调用堆栈的层次变浅了，因为逻辑被摊开到各个System，而System之间又禁止直接访问。代码变得扁平化，扁平化意味的函数封装少了，所以阅读、修改、扩展也很轻松。</p>
-<p>如果可以把整个游戏世界都抽象成数据，存档/读档功能的实现也变得容易了。存档时只需要将所有Component数据保存下来，读档时只需要将所有Component数据加载进来，然后System照常运行。想想就觉得强大，这就是DOP的魅力。</p>
-<h1 id="优点">优点</h1>
-<p>模式简单</p>
-<p>结构清晰</p>
-<p>通过组合高度复用。用组合代替继承，可以像拼积木一样将任意Component组装到任意Entity中。</p>
-<p>扩展性强。Component和System可以随意增删。因为Component之间不可以直接访问，System之间也不可以直接访问，也就是说Component之间不存在耦合，System之间也不存在耦合。System和Component在设计原则上也不存在耦合。对于System来说，Component只是放在一边的数据，Component提供的数据足够就update，数据不够就不update。所以随时增删任意Component和System都不会导致游戏崩溃报错。</p>
-<p>天然与DOP(data-oriented
-processing)亲和。数据都被统一存放到各种各样的Component中，System直接对这些数据进行处理。函数调用堆栈深度大幅度降低，流程被弱化。</p>
-<p>易优化性能。因为数据都被统一存放到Component中，所以如果能够在内存中以合理的方式将所有Component聚合到连续的内存中，这样可以大幅度提升cpu
-cache命中率。cpu
-cache命中良好的情况下，Entity的遍历速度可以提升50倍，游戏对象越多，性能提升越明显。ECS的这项特性给大部分人留下了深刻印象，但是大部分人也认为这就是ECS的全部。我觉得可能是被Unity的官方演示带歪的。</p>
-<p>易实现多线程。由于System之间不可以直接访问，已经完全解耦，所以理论上可以为每个System分配一个线程来运行。需要注意的是，部分System的执行顺序需要严格制定，为这部分System分配线程时需要注意一下执行先后顺序。</p>
-<h1 id="缺点">缺点</h1>
-<p>在充满限制的情况下写代码，有时速度会慢一些。但是习惯之后，后期开发速度会越来越快。</p>
-<h1 id="优化">优化</h1>
-<p>一个entity就是一个ID，所有组成这个entity的component将会被这个ID给标记。因为不用创建entity类，可以降低内存的消耗。如果通过以下方式来组织架构，还可以提升cpu
-cache命中率。 <figure class="highlight less"><table><tr><td class="code"><pre><code class="hljs less"><span class="hljs-comment">//数组下标代表entity的ID</span><br><span class="hljs-selector-tag">ComponentA</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentAs</span>;<br><span class="hljs-selector-tag">ComponentB</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentBs</span>;<br><span class="hljs-selector-tag">ComponentC</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentCs</span>;<br><span class="hljs-selector-tag">ComponentD</span><span class="hljs-selector-attr">[]</span> <span class="hljs-selector-tag">componentDs</span>;<br>...<br></code></pre></td></tr></table></figure></p>
-<h1 id="参考资料">参考资料</h1>
-<ul>
-<li><a
-href="https://gameinstitute.qq.com/community/detail/114516">《守望先锋》架构设计与网络同步
--- GDC2017 精品分享实录</a></li>
-<li>http://gamadu.com/artemis/</li>
-<li>http://gameprogrammingpatterns.com/component.html</li>
-<li>http://t-machine.org/index.php/2014/03/08/data-structures-for-entity-systems-contiguous-memory/</li>
-<li>http://blog.lmorchard.com/2013/11/27/entity-component-system/</li>
-<li><a
-href="https://blog.codingnow.com/2017/06/overwatch_ecs.html">浅谈《守望先锋》中的
-ECS 构架</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>软件工程</category>
       </categories>
   </entry>
   <entry>
@@ -3075,6 +3057,23 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102234717.pn
 <p>确定了左右子树有哪些元素之后就继续递归</p>
 <h1 id="代码">代码</h1>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">Definition for binary tree</span><br><span class="hljs-comment">struct TreeNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  TreeNode *left;</span><br><span class="hljs-comment">  TreeNode *right;</span><br><span class="hljs-comment">  TreeNode(int x) : val(x), left(NULL), right(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reConstructBinaryTree</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt; pre,vector&lt;<span class="hljs-type">int</span>&gt; vin)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> psize=pre.<span class="hljs-built_in">size</span>();<br>    <span class="hljs-type">int</span> vsize=vin.<span class="hljs-built_in">size</span>();<br>      <br>    <span class="hljs-keyword">if</span>(psize==<span class="hljs-number">0</span> || vsize==<span class="hljs-number">0</span> || psize != vsize)<br>      <span class="hljs-keyword">return</span> <span class="hljs-literal">NULL</span>;<br>      <br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre, <span class="hljs-number">0</span>, psize<span class="hljs-number">-1</span>, vin, <span class="hljs-number">0</span>, vsize<span class="hljs-number">-1</span>);<br>  &#125;<br>  <br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reBuildBinaryTreeCore</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt;&amp; pre, <span class="hljs-type">int</span> startIdxOfP, <span class="hljs-type">int</span> endIdxOfP,</span></span><br><span class="hljs-params"><span class="hljs-function">                                  vector&lt;<span class="hljs-type">int</span>&gt;&amp; vin, <span class="hljs-type">int</span> startIdxOfV, <span class="hljs-type">int</span> endIdxOfV)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> valOfRoot = pre[startIdxOfP];<br>    TreeNode* root = <span class="hljs-keyword">new</span> <span class="hljs-built_in">TreeNode</span>(valOfRoot);<br>    <br>    <span class="hljs-keyword">if</span>(startIdxOfP == endIdxOfP)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(startIdxOfV == endIdxOfV)<br>        <span class="hljs-keyword">return</span> root;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>  	<span class="hljs-built_in">abort</span>();<br>      &#125;<br>    &#125;<br>    <span class="hljs-keyword">else</span><br>    &#123;<br>      <span class="hljs-type">int</span> idxOfRootInV = <span class="hljs-number">0</span>;<br>      <span class="hljs-keyword">for</span>(idxOfRootInV = startIdxOfV;idxOfRootInV &lt;= endIdxOfV &amp;&amp; <br>          vin[idxOfRootInV] != valOfRoot;++idxOfRootInV)<br>      &#123;<br>      &#125;<br>      <span class="hljs-keyword">if</span>(vin[idxOfRootInV] != valOfRoot)<br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>        <span class="hljs-built_in">abort</span>();<br>      &#125;<br>    	<br>      <span class="hljs-type">int</span> leftLength = idxOfRootInV - startIdxOfV;<br>      <span class="hljs-comment">//左</span><br>      <span class="hljs-keyword">if</span>(startIdxOfV &lt;= idxOfRootInV - <span class="hljs-number">1</span>)<br>        root-&gt;left = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                           startIdxOfP + <span class="hljs-number">1</span>,<br>                                           startIdxOfP + leftLength,<br>                                           vin,<br>                                           startIdxOfV,<br>                                           idxOfRootInV - <span class="hljs-number">1</span>);<br>      <span class="hljs-comment">//右</span><br>      <span class="hljs-keyword">if</span>(idxOfRootInV + <span class="hljs-number">1</span> &lt;= endIdxOfV)<br>        root-&gt;right = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                            startIdxOfP + <span class="hljs-number">1</span> + leftLength,<br>                                            endIdxOfP,<br>                                            vin,<br>                                            idxOfRootInV+<span class="hljs-number">1</span>,<br>                                            endIdxOfV);<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> root;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>算法题--替换空格</title>
+    <url>/posts/25e9ce90.html</url>
+    <content><![CDATA[<p>4 # 要求 时间限制：1秒 空间限制：32768K # 题目描述
+请实现一个函数，将一个字符串中的空格替换成“%20”。例如，当字符串为We Are
+Happy.则经过替换之后的字符串为We%20Are%20Happy. # 解题思路
+拿到题目之后，一般会首先想到从头开始扫描这个字符串，遇到空格就将后面所有的字符都向后移动两格，再插入%20。虽然这个办法可行，但是时间复杂度为O（n^2），每一个字符都会有多次移动</p>
+<p>现在希望每个字符只移动一次。我们要用两个指针P1和P2，P1指向字符串的最后一个字符'\0',P2指向替换了空格后的字符串尾部。每一个空格都会导致字符串增长两个字符</p>
+<p>具体过程如下图所示 ​ <img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021246.png?x-oss-process=style/WaterMask" /></p>
+<h1 id="代码">代码</h1>
+<figure class="highlight axapta"><table><tr><td class="code"><pre><code class="hljs axapta"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">void</span> replaceSpace(<span class="hljs-built_in">char</span> *<span class="hljs-built_in">str</span>,<span class="hljs-built_in">int</span> length)<br>  &#123;<br>    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>==NULL || length&lt;=<span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span>;<br>    <br>    <span class="hljs-built_in">int</span> endIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> endIndexOfNewStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> curIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-keyword">do</span><br>    &#123;<br>      ++curIndexOfOriStr;<br>      <br>      ++endIndexOfOriStr;<br>      ++endIndexOfNewStr;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] == <span class="hljs-string">&#x27; &#x27;</span>)<br>        endIndexOfNewStr += <span class="hljs-number">2</span>;<br>        <br>    &#125;<span class="hljs-keyword">while</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] != <span class="hljs-string">&#x27;\0&#x27;</span>);<br>    <br>    <span class="hljs-keyword">if</span>(endIndexOfNewStr&gt;=length)<br>      <span class="hljs-keyword">return</span>;<br>        <br>    <span class="hljs-keyword">while</span>(endIndexOfOriStr &gt;= <span class="hljs-number">0</span> &amp;&amp; endIndexOfOriStr &lt; endIndexOfNewStr)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[endIndexOfOriStr]==<span class="hljs-string">&#x27; &#x27;</span>)<br>      &#123;<br>        --endIndexOfOriStr;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;0&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;2&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;%&#x27;</span>;<br>      &#125;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr] = <span class="hljs-built_in">str</span>[endIndexOfOriStr];<br>        --endIndexOfOriStr;<br>        --endIndexOfNewStr;<br>      &#125;<br>    &#125;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>算法</category>
