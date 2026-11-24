@@ -1,0 +1,966 @@
+
+
+<!DOCTYPE html>
+<html lang="zh-CN" data-default-color-scheme=dark>
+
+
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="apple-touch-icon" sizes="76x76" href="/img/fluid.png">
+  <link rel="icon" href="/img/fluid.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
+  <meta name="theme-color" content="#2f4154">
+  <meta name="author" content="Rouder">
+  <meta name="keywords" content="GameDev">
+  
+    <meta name="description" content="从 sizeof、函数参数、数组引用和 std::begin 入手，分清数组类型在哪些上下文里会转换成指向首元素的指针。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="我所理解的C++ 03-3｜数组名什么时候会退化成指针">
+<meta property="og:url" content="https://roudersky.com/posts/63570799.html">
+<meta property="og:site_name" content="RouderSky">
+<meta property="og:description" content="从 sizeof、函数参数、数组引用和 std::begin 入手，分清数组类型在哪些上下文里会转换成指向首元素的指针。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/03-3-array-decay-cover.webp">
+<meta property="article:published_time" content="2026-11-24T10:30:00.000Z">
+<meta property="article:modified_time" content="2026-11-24T10:11:00.129Z">
+<meta property="article:author" content="Rouder">
+<meta property="article:tag" content="C++">
+<meta property="article:tag" content="array">
+<meta property="article:tag" content="pointer">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/03-3-array-decay-cover.webp">
+  
+  
+  
+  <title>我所理解的C++ 03-3｜数组名什么时候会退化成指针 - RouderSky</title>
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
+
+
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/github-markdown-css/4.0.0/github-markdown.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/hint.css/2.7.0/hint.min.css" />
+
+  <link  rel="stylesheet" href="https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.css" />
+
+
+
+<!-- 主题依赖的图标库，不要自行修改 -->
+<!-- Do not modify the link that theme dependent icons -->
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1749284_hj8rtnfg7um.css">
+
+
+
+<link rel="stylesheet" href="//at.alicdn.com/t/font_1736178_lbnruvf0jn.css">
+
+
+<link  rel="stylesheet" href="/css/main.css" />
+
+
+  <link id="highlight-css" rel="stylesheet" href="/css/highlight.css" />
+  
+    <link id="highlight-css-dark" rel="stylesheet" href="/css/highlight-dark.css" />
+  
+
+
+
+  
+<link rel="stylesheet" href="/css/mac3.css">
+
+
+
+  <script id="fluid-configs">
+    var Fluid = window.Fluid || {};
+    Fluid.ctx = Object.assign({}, Fluid.ctx)
+    var CONFIG = {"hostname":"roudersky.com","root":"/","version":"1.9.4","typing":{"enable":true,"typeSpeed":70,"cursorChar":"_","loop":false,"scope":[]},"anchorjs":{"enable":true,"element":"h1,h2,h3,h4,h5,h6","placement":"left","visible":"hover","icon":""},"progressbar":{"enable":true,"height_px":3,"color":"#29d","options":{"showSpinner":false,"trickleSpeed":100}},"code_language":{"enable":true,"default":"TEXT"},"copy_btn":true,"image_caption":{"enable":true},"image_zoom":{"enable":true,"img_url_replace":["",""]},"toc":{"enable":true,"placement":"left","headingSelector":"h1,h2,h3,h4,h5,h6","collapseDepth":0},"lazyload":{"enable":true,"loading_img":"/img/loading.gif","onlypost":false,"offset_factor":2},"web_analytics":{"enable":true,"follow_dnt":true,"baidu":null,"google":null,"gtag":null,"tencent":{"sid":null,"cid":null},"woyaola":null,"cnzz":null,"leancloud":{"app_id":"WSbioSFpYCK9t2Hwn7pJixX7-gzGzoHsz","app_key":"OY2z1FU6BunzlaSUlcwRQxvZ","server_url":"https://wsbiosfp.lc-cn-n1-shared.com","path":"window.location.pathname","ignore_local":true}},"search_path":"/local-search.xml"};
+
+    if (CONFIG.web_analytics.follow_dnt) {
+      var dntVal = navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack;
+      Fluid.ctx.dnt = dntVal && (dntVal.startsWith('1') || dntVal.startsWith('yes') || dntVal.startsWith('on'));
+    }
+  </script>
+  <script  src="/js/utils.js" ></script>
+  <script  src="/js/color-schema.js" ></script>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+  
+
+
+
+  
+<meta name="generator" content="Hexo 6.3.0"><style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}.beian img{display:inline-block!important}</style></head>
+
+
+<body>
+  
+
+  <header>
+    
+
+<div class="header-inner" style="height: 70vh;">
+  <nav id="navbar" class="navbar fixed-top  navbar-expand-lg navbar-dark scrolling-navbar">
+  <div class="container">
+    <a class="navbar-brand" href="/">
+      <strong>Rouder</strong>
+    </a>
+
+    <button id="navbar-toggler-btn" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <div class="animated-icon"><span></span><span></span><span></span></div>
+    </button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto text-center">
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/">
+                <i class="iconfont icon-home-fill"></i>
+                <span>首页</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/archives/">
+                <i class="iconfont icon-archive-fill"></i>
+                <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/tags/">
+                <i class="iconfont icon-tags-fill"></i>
+                <span>标签</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/about/">
+                <i class="iconfont icon-user-fill"></i>
+                <span>关于</span>
+              </a>
+            </li>
+          
+        
+        
+          <li class="nav-item" id="search-btn">
+            <a class="nav-link" target="_self" href="javascript:;" data-toggle="modal" data-target="#modalSearch" aria-label="Search">
+              <i class="iconfont icon-search"></i>
+            </a>
+          </li>
+          
+        
+        
+          <li class="nav-item" id="color-toggle-btn">
+            <a class="nav-link" target="_self" href="javascript:;" aria-label="Color Toggle">
+              <i class="iconfont icon-dark" id="color-toggle-icon"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  
+
+<div id="banner" class="banner" parallax=true
+     style="background: url('https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/03-3-array-decay-cover.webp') no-repeat center center; background-size: cover;">
+  <div class="full-bg-img">
+    <div class="mask flex-center" style="background-color: rgba(0, 0, 0, 0.3)">
+      <div class="banner-text text-center fade-in-up">
+        <div class="h2">
+          
+            <span id="subtitle" data-typed-text="我所理解的C++ 03-3｜数组名什么时候会退化成指针"></span>
+          
+        </div>
+
+        <!-- 随机英文句子 -->
+        <p><a id="rainbow" href=''>🌈 获取中...</a></p>
+
+        
+
+        
+          
+  <div class="mt-3">
+    
+    
+      <span class="post-meta">
+        <i class="iconfont icon-date-fill" aria-hidden="true"></i>
+        <time datetime="2026-11-24 18:30" pubdate>
+          2026年11月24日 晚上
+        </time>
+      </span>
+    
+  </div>
+
+  <div class="mt-1">
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-chart"></i>
+        
+          7.1k 字
+        
+      </span>
+    
+
+    
+      <span class="post-meta mr-2">
+        <i class="iconfont icon-clock-fill"></i>
+        
+        
+        
+          60 分钟
+        
+      </span>
+    
+
+    
+    
+      
+        <span id="leancloud-page-views-container" class="post-meta" style="display: none">
+          <i class="iconfont icon-eye" aria-hidden="true"></i>
+          <span id="leancloud-page-views"></span> 次
+        </span>
+        
+      
+    
+  </div>
+
+
+        
+      </div>
+
+      
+    </div>
+  </div>
+</div>
+
+<!-- 随机英文句子 -->
+<script>
+  fetch('https://api.eatrice.top')
+    .then(response => response.json())
+    .then(data => {
+      var rainbow = document.getElementById('rainbow');
+      rainbow.innerHTML = data.Content;
+      rainbow.href = "https://rainbow.eatrice.top/?ID=" + data.ID;
+    })
+    .catch(console.error)
+</script>
+</div>
+
+  </header>
+
+  <main>
+    
+      
+
+<div class="container-fluid nopadding-x">
+  <div class="row nomargin-x">
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+  <aside class="sidebar" style="padding-left: 2rem; margin-right: -1rem">
+    <div id="toc">
+  <p class="toc-header">
+    <i class="iconfont icon-list"></i>
+    <span>目录</span>
+  </p>
+  <div class="toc-body" id="toc-body"></div>
+</div>
+
+
+
+  </aside>
+
+
+    </div>
+
+    <div class="col-lg-8 nopadding-x-md">
+      <div class="container nopadding-x-md" id="board-ctn">
+        <div id="board">
+          <article class="post-content mx-auto">
+            <!-- SEO header -->
+            <h1 style="display: none">我所理解的C++ 03-3｜数组名什么时候会退化成指针</h1>
+            
+              <p class="note note-info">
+                
+                  
+                    本文最后更新于：2026年11月24日 晚上
+                  
+                
+              </p>
+            
+            
+              <div class="markdown-body" id="container">
+                
+                <p>先看一个经常被写进“通用数组工具函数”的例子：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;cstddef&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function">std::<span class="hljs-type">size_t</span> <span class="hljs-title">array_size</span><span class="hljs-params">(<span class="hljs-type">int</span> values[])</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">sizeof</span>(values) / <span class="hljs-built_in">sizeof</span>(values[<span class="hljs-number">0</span>]);<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> values[] = &#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>&#125;;<br><br>    std::cout &lt;&lt; <span class="hljs-built_in">sizeof</span>(values) / <span class="hljs-built_in">sizeof</span>(values[<span class="hljs-number">0</span>]) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>    std::cout &lt;&lt; <span class="hljs-built_in">array_size</span>(values) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>在常见的 64 位平台上，第一行输出 <code>4</code>，第二行却输出
+<code>2</code>。这并不是编译器算错了，而是 <code>values</code>
+在两处具有不同的类型。</p>
+<p>在 <code>main</code> 中，<code>values</code> 是包含四个
+<code>int</code> 的数组对象。传给 <code>array_size</code>
+时，它转换成指向首元素的 <code>int*</code>。函数参数写成
+<code>int values[]</code>
+只保留了“可以像数组一样使用”的外观，实际类型仍然是指针。</p>
+<p>所以函数里的 <code>sizeof(values)</code>
+得到的是一个指针的大小，<code>sizeof(values[0])</code> 得到的是一个
+<code>int</code> 的大小。两个数相除，自然不再是元素个数。</p>
+<p>“数组名会退化成指针”这句话经常被当作固定规则记住。更准确的说法是：数组在大多数值表达式中会执行数组到指针的转换，但有些上下文必须保留数组本身的类型。分不清这两种情况，就会出现看似能用、换一个位置就失效的代码。</p>
+<h2
+id="数组对象和指向首元素的指针不是同一件事">数组对象和指向首元素的指针不是同一件事</h2>
+<p>下面这个数组是一个完整对象：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> values[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>&#125;;<br></code></pre></td></tr></table></figure>
+<p>它的类型是 <code>int[4]</code>，对象大小为四个 <code>int</code>
+连续存放所需的空间。数组没有独立的长度成员，长度属于类型的一部分。</p>
+<p>当数组出现在需要“值”的位置时，通常会转换成指向首元素的指针：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span>* first = values;<br></code></pre></td></tr></table></figure>
+<p>这里的 <code>first</code> 保存的是
+<code>&amp;values[0]</code>，类型为
+<code>int*</code>。指针本身只知道一个地址，不知道它后面究竟有四个、十个还是一个元素。</p>
+<p>可以把两种视角画成：</p>
+<figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs text">数组对象: [int][int][int][int]<br>数组类型: int[4]<br><br>退化后的指针:<br>          first<br>            |<br>            v<br>          [int][int][int][int]<br></code></pre></td></tr></table></figure>
+<p>指针指向第一个元素，但“还有四个元素”这个信息没有跟着指针一起保留下来。</p>
+<p>这也是为什么数组不能整体赋值：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> left[<span class="hljs-number">3</span>] = &#123;<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>&#125;;<br><span class="hljs-type">int</span> right[<span class="hljs-number">3</span>] = &#123;<span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>&#125;;<br><br><span class="hljs-comment">// left = right; // 错误：数组不是可赋值的对象</span><br></code></pre></td></tr></table></figure>
+<p>赋值表达式需要右侧的值转换成左侧可接收的类型。数组会转换成指针，而数组本身又不能作为赋值目标，所以这不会变成“复制三个元素”。</p>
+<h2 id="sizeof-看到的是数组对象">sizeof 看到的是数组对象</h2>
+<p><code>sizeof</code> 是少数不会让数组转换成指针的上下文之一：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;cstddef&gt;</span></span><br><br><span class="hljs-type">int</span> values[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>&#125;;<br><br><span class="hljs-keyword">constexpr</span> std::<span class="hljs-type">size_t</span> element_count =<br>    <span class="hljs-built_in">sizeof</span>(values) / <span class="hljs-built_in">sizeof</span>(values[<span class="hljs-number">0</span>]);<br></code></pre></td></tr></table></figure>
+<p>这里 <code>sizeof(values)</code>
+得到整个数组的字节数，<code>sizeof(values[0])</code>
+得到一个元素的字节数。只要数组类型在当前位置仍然完整，这个除法就能得到元素数量。</p>
+<p>如果把数组交给函数，情况马上改变：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">inspect</span><span class="hljs-params">(<span class="hljs-type">int</span> values[<span class="hljs-number">4</span>])</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-comment">// 参数声明中的 4 不影响实际类型</span><br>    <span class="hljs-built_in">static_assert</span>(<span class="hljs-built_in">sizeof</span>(values) == <span class="hljs-built_in">sizeof</span>(<span class="hljs-type">int</span>*));<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>函数参数中的 <code>int values[4]</code> 会被调整成
+<code>int*</code>。方括号里的 <code>4</code>
+不会交给函数，也不会在运行时检查调用者是否真的传了四个元素。</p>
+<p>下面三种写法在函数参数类型上等价：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">first_form</span><span class="hljs-params">(<span class="hljs-type">int</span> values[<span class="hljs-number">4</span>])</span></span>;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">second_form</span><span class="hljs-params">(<span class="hljs-type">int</span> values[])</span></span>;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">third_form</span><span class="hljs-params">(<span class="hljs-type">int</span>* values)</span></span>;<br></code></pre></td></tr></table></figure>
+<p>它们都可以接收数组实参，但函数体内拿到的都是指针。若要保留长度，必须从别的地方把长度一起传进来。</p>
+<h2 id="函数参数为什么一定要另传长度">函数参数为什么一定要另传长度</h2>
+<p>一个明确的接口可以同时接收起始地址和元素数量：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;cstddef&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-type">long</span> <span class="hljs-title">sum</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">int</span>* values, std::<span class="hljs-type">size_t</span> count)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">long</span> <span class="hljs-type">long</span> result = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (std::<span class="hljs-type">size_t</span> i = <span class="hljs-number">0</span>; i &lt; count; ++i) &#123;<br>        result += values[i];<br>    &#125;<br>    <span class="hljs-keyword">return</span> result;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> values[] = &#123;<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>&#125;;<br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">sum</span>(values, <span class="hljs-number">4</span>) == <span class="hljs-number">10</span> ? <span class="hljs-number">0</span> : <span class="hljs-number">1</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>调用表达式 <code>sum(values, 4)</code> 里，<code>values</code>
+已经转换成
+<code>const int*</code>。函数并不知道它来自一个包含四个元素的数组，只能相信调用者传入的
+<code>count</code>。</p>
+<p>也可以让函数接收数组引用，使长度进入参数类型：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;cstddef&gt;</span></span><br><br><span class="hljs-keyword">template</span> &lt;std::<span class="hljs-type">size_t</span> N&gt;<br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-type">long</span> <span class="hljs-title">sum_array</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">int</span> (&amp;values)[N])</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">long</span> <span class="hljs-type">long</span> result = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : values) &#123;<br>        result += value;<br>    &#125;<br>    <span class="hljs-keyword">return</span> result;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> values[] = &#123;<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>&#125;;<br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">sum_array</span>(values) == <span class="hljs-number">10</span> ? <span class="hljs-number">0</span> : <span class="hljs-number">1</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p><code>const int (&amp;values)[N]</code>
+是对数组的引用。引用不会复制数组，也不会把数组转换成指针。模板实参
+<code>N</code> 可以直接从数组类型推导出来。</p>
+<p>这种写法适合明确只接收数组、并且调用处能看到数组对象的场景。它不会接受一个已经退化成指针的变量：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span>* pointer = values;<br><span class="hljs-comment">// sum_array(pointer); // 错误：实参不是数组引用</span><br></code></pre></td></tr></table></figure>
+<p>如果接口还需要处理动态数组、子区间或其他连续序列，接收“起始地址 +
+长度”或者使用专门的非拥有视图类型更合适。</p>
+<h2 id="arrayauto-和-decltype-保留了不同类型">&amp;array、auto 和
+decltype 保留了不同类型</h2>
+<p>假设有：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> values[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>&#125;;<br></code></pre></td></tr></table></figure>
+<p><code>values</code> 在普通表达式中会转换成
+<code>int*</code>，但对数组取地址得到的是“指向整个数组的指针”：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-built_in">int</span> (*whole)[<span class="hljs-number">4</span>] = &amp;values;<br><span class="hljs-type">int</span>* first = values;<br></code></pre></td></tr></table></figure>
+<p>两者数值上可能相同，类型却完全不同：</p>
+<ul>
+<li><code>first</code> 的类型是 <code>int*</code>，加一后移动到下一个
+<code>int</code>；</li>
+<li><code>whole</code> 的类型是
+<code>int (*)[4]</code>，加一后跳过整个包含四个 <code>int</code>
+的数组。</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> values[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>&#125;;<br>    <span class="hljs-built_in">int</span> (*whole)[<span class="hljs-number">4</span>] = &amp;values;<br>    <span class="hljs-type">int</span>* first = values;<br><br>    std::cout &lt;&lt; (whole + <span class="hljs-number">1</span> == &amp;values + <span class="hljs-number">1</span>) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>    std::cout &lt;&lt; (first + <span class="hljs-number">1</span> == &amp;values[<span class="hljs-number">1</span>]) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这段代码两个比较都为真。<code>&amp;values + 1</code>
+不是数组末尾元素的下一个元素，而是整个数组对象之后的地址，所以不能通过普通下标去访问它指向的内容。</p>
+<p><code>auto</code> 的推导也会暴露这种差别：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">auto</span> pointer = values;      <span class="hljs-comment">// int*</span><br><span class="hljs-keyword">auto</span>&amp; reference = values;   <span class="hljs-comment">// int (&amp;)[4]</span><br><span class="hljs-keyword">auto</span> copy = &amp;values;        <span class="hljs-comment">// int (*)[4]</span><br></code></pre></td></tr></table></figure>
+<p><code>auto pointer = values</code>
+的右侧处于普通值表达式上下文，数组先转换成指针，所以 <code>auto</code>
+看到的是 <code>int*</code>。</p>
+<p><code>auto&amp; reference = values</code>
+绑定到原数组对象，保留数组类型。引用本身不是新数组，它只是原数组的另一个名字。</p>
+<p><code>decltype(values)</code> 得到的类型也是
+<code>int[4]</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;type_traits&gt;</span></span><br><br><span class="hljs-type">int</span> values[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>&#125;;<br><br><span class="hljs-built_in">static_assert</span>(std::is_same_v&lt;<span class="hljs-keyword">decltype</span>(values), <span class="hljs-type">int</span>[<span class="hljs-number">4</span>]&gt;);<br><span class="hljs-built_in">static_assert</span>(std::is_same_v&lt;<span class="hljs-keyword">decltype</span>(values + <span class="hljs-number">0</span>), <span class="hljs-type">int</span>*&gt;);<br></code></pre></td></tr></table></figure>
+<p>不要把 <code>decltype(values)</code> 和 <code>auto</code>
+的推导结果混为一谈。前者的操作数是表达式本身，后者通常要先把右侧表达式按值处理。</p>
+<h2 id="指针运算依赖的是元素大小">指针运算依赖的是元素大小</h2>
+<p>数组到指针转换之后，指针运算仍能正确移动，因为指针类型知道单个元素的大小：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> values[<span class="hljs-number">4</span>] = &#123;<span class="hljs-number">10</span>, <span class="hljs-number">20</span>, <span class="hljs-number">30</span>, <span class="hljs-number">40</span>&#125;;<br>    <span class="hljs-type">int</span>* current = values;<br><br>    std::cout &lt;&lt; *current &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;       <span class="hljs-comment">// 10</span><br>    ++current;<br>    std::cout &lt;&lt; *current &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;       <span class="hljs-comment">// 20</span><br>    std::cout &lt;&lt; *(values + <span class="hljs-number">3</span>) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;  <span class="hljs-comment">// 40</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p><code>values + 1</code>
+的结果是指向第二个元素的指针，而不是“地址加一个字节”。编译器会按照
+<code>int</code> 的大小计算偏移。</p>
+<p>下标运算的定义也与此有关。对数组或指针使用
+<code>values[i]</code>，标准语义等价于：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp">*(values + i)<br></code></pre></td></tr></table></figure>
+<p>这也是为什么 <code>values[2]</code> 和 <code>*(values + 2)</code>
+表示同一个元素。</p>
+<p>注意，等价不代表越界检查会自动出现。指针还能继续向后移动，编译器不会知道原数组只有四个元素。只要最终访问越过有效范围，行为就是未定义的。</p>
+<h2 id="多维数组首先是一维数组">多维数组首先是一维数组</h2>
+<p>二维数组并不是“一个带两个下标的特殊指针”，而是元素本身也是数组的数组：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> matrix[<span class="hljs-number">2</span>][<span class="hljs-number">3</span>] = &#123;<br>    &#123;<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>&#125;,<br>    &#123;<span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>&#125;,<br>&#125;;<br></code></pre></td></tr></table></figure>
+<p><code>matrix</code> 的类型是
+<code>int[2][3]</code>。在普通表达式中，它会转换成指向第一行的指针，类型为
+<code>int (*)[3]</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-built_in">int</span> (*row_pointer)[<span class="hljs-number">3</span>] = matrix;<br></code></pre></td></tr></table></figure>
+<p>这里加一会跳过一整行，也就是三个 <code>int</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> matrix[<span class="hljs-number">2</span>][<span class="hljs-number">3</span>] = &#123;<br>        &#123;<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>&#125;,<br>        &#123;<span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>&#125;,<br>    &#125;;<br><br>    <span class="hljs-built_in">int</span> (*row) [<span class="hljs-number">3</span>] = matrix;<br>    std::cout &lt;&lt; (*row)[<span class="hljs-number">1</span>] &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;       <span class="hljs-comment">// 2</span><br>    std::cout &lt;&lt; (*(row + <span class="hljs-number">1</span>))[<span class="hljs-number">1</span>] &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>; <span class="hljs-comment">// 5</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p><code>matrix[1]</code> 的类型仍然是
+<code>int[3]</code>。当它再次参与值表达式时，又会转换成指向该行首元素的
+<code>int*</code>。</p>
+<p>因此，二维数组传给函数时，第一维的元素数量可能丢失，但后续维度必须出现在参数类型中：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-type">long</span> <span class="hljs-title">sum_row</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">int</span> row[], std::<span class="hljs-type">size_t</span> count)</span></span>;<br><br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-type">long</span> <span class="hljs-title">sum_matrix</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">int</span> (*rows)[<span class="hljs-number">3</span>], std::<span class="hljs-type">size_t</span> row_count)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">long</span> <span class="hljs-type">long</span> result = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span> (std::<span class="hljs-type">size_t</span> i = <span class="hljs-number">0</span>; i &lt; row_count; ++i) &#123;<br>        result += <span class="hljs-built_in">sum_row</span>(rows[i], <span class="hljs-number">3</span>);<br>    &#125;<br>    <span class="hljs-keyword">return</span> result;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这里的 <code>rows[i]</code> 是一行，它会转换成
+<code>const int*</code>。函数仍然需要知道每行有三个元素，因为指针运算依赖这个类型信息。</p>
+<p>如果使用数组引用或模板，可以把第一维长度也保留下来，但接口就会限定为精确的数组类型。实际代码中应根据调用场景选择，不要把数组引用当成所有参数的统一替代品。</p>
+<h2 id="范围-for-处理多维数组时要注意引用">范围 for
+处理多维数组时要注意引用</h2>
+<p>范围 <code>for</code>
+会自动取得序列的起点和终点。多维数组的外层元素是“行数组”，所以外层循环变量应当使用引用：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> matrix[<span class="hljs-number">2</span>][<span class="hljs-number">3</span>] = &#123;<br>        &#123;<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>&#125;,<br>        &#123;<span class="hljs-number">4</span>, <span class="hljs-number">5</span>, <span class="hljs-number">6</span>&#125;,<br>    &#125;;<br><br>    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">auto</span>&amp; row : matrix) &#123;<br>        <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : row) &#123;<br>            std::cout &lt;&lt; value &lt;&lt; <span class="hljs-string">&#x27; &#x27;</span>;<br>        &#125;<br>        std::cout &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这里 <code>row</code> 绑定到每一行的数组对象，内层范围
+<code>for</code> 才能把它当作序列。如果写成
+<code>auto row : matrix</code>，<code>row</code>
+会按值接收，而数组不能按值复制，编译器会拒绝这种写法。</p>
+<p>如果只需要读取，可以使用 <code>const auto&amp;</code>：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">for</span> (<span class="hljs-type">const</span> <span class="hljs-keyword">auto</span>&amp; row : matrix) &#123;<br>    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> value : row) &#123;<br>        <span class="hljs-comment">// 只观察，不修改</span><br>    &#125;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这和普通数组名退化并不矛盾。范围 <code>for</code>
+需要的是“可遍历的序列”，而保留数组引用正是为了不让外层元素提前变成单个指针。</p>
+<h2 id="stdbegin-和-stdsize-也依赖数组类型">std::begin 和 std::size
+也依赖数组类型</h2>
+<p>标准库提供了不手写 <code>sizeof</code> 除法的工具：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iterator&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iostream&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> values[] = &#123;<span class="hljs-number">1</span>, <span class="hljs-number">2</span>, <span class="hljs-number">3</span>, <span class="hljs-number">4</span>&#125;;<br><br>    std::cout &lt;&lt; (std::<span class="hljs-built_in">end</span>(values) - std::<span class="hljs-built_in">begin</span>(values)) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>    std::cout &lt;&lt; std::<span class="hljs-built_in">size</span>(values) &lt;&lt; <span class="hljs-string">&#x27;\n&#x27;</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>对数组使用 <code>std::begin</code> 和 <code>std::end</code>
+时，模板参数仍能看见完整的数组类型。C++17 的 <code>std::size</code>
+直接返回元素数量。</p>
+<p>但如果数组已经传给指针参数，这些工具就拿不到长度：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iterator&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">count_elements</span><span class="hljs-params">(<span class="hljs-type">int</span>* values)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-comment">// std::size(values); // 错误：指针没有已知长度</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这不是标准库“不支持数组”，而是函数里根本没有数组对象了。<code>values</code>
+已经是 <code>int*</code>，无法从地址恢复原始的数组边界。</p>
+<p>因此，一个稳妥的设计原则是：在数组类型仍然完整的调用处取得长度，再把起始地址和长度一起传给下层函数。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs cpp"><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;cstddef&gt;</span></span><br><span class="hljs-meta">#<span class="hljs-keyword">include</span> <span class="hljs-string">&lt;iterator&gt;</span></span><br><br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-type">long</span> <span class="hljs-title">sum</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">int</span>* values, std::<span class="hljs-type">size_t</span> count)</span></span>;<br><br><span class="hljs-keyword">template</span> &lt;std::<span class="hljs-type">size_t</span> N&gt;<br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-type">long</span> <span class="hljs-title">sum_array</span><span class="hljs-params">(<span class="hljs-type">const</span> <span class="hljs-type">int</span> (&amp;values)[N])</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">sum</span>(values, N);<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>这样，需要指针和长度的底层实现保持通用，数组的边界则在能够看到数组类型的地方确定。</p>
+<h2 id="最后的检查点">最后的检查点</h2>
+<ul>
+<li>函数参数写成 <code>int values[4]</code> 时，是否误以为
+<code>4</code> 会在运行时检查长度？</li>
+<li>在函数内部对参数使用 <code>sizeof(values) / sizeof(values[0])</code>
+时，是否还在计算数组元素个数？</li>
+<li>需要完整数组类型时，是否考虑了数组引用或模板参数
+<code>N</code>？</li>
+<li><code>auto values2 = values</code> 是否把数组转换成了指针？</li>
+<li>对多维数组做范围 <code>for</code>
+时，外层循环变量是否使用了引用？</li>
+<li>已经退化成指针的变量，是否还被交给了
+<code>std::size</code>、<code>std::begin</code>
+或依赖数组边界的模板？</li>
+<li>计算指针偏移前，是否确认了目标元素仍位于同一个有效数组范围内？</li>
+</ul>
+<p>数组到指针转换本身不是错误，它是 C 和 C++
+接口能够共享连续内存的基础。真正需要警惕的是把转换后的指针误当成“仍然携带长度信息的数组”。</p>
+
+                
+              </div>
+            
+            <hr/>
+            <div>
+              <div class="post-metas my-3">
+  
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/C/" class="category-chain-item">C++</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
+  
+    <div class="post-meta">
+      <i class="iconfont icon-tags"></i>
+      
+        <a href="/tags/C/">#C++</a>
+      
+        <a href="/tags/array/">#array</a>
+      
+        <a href="/tags/pointer/">#pointer</a>
+      
+    </div>
+  
+</div>
+
+
+              
+  
+
+  <div class="license-box my-3">
+    <div class="license-title">
+      <div>我所理解的C++ 03-3｜数组名什么时候会退化成指针</div>
+      <div>https://roudersky.com/posts/63570799.html</div>
+    </div>
+    <div class="license-meta">
+      
+        <div class="license-meta-item">
+          <div>作者</div>
+          <div>Rouder</div>
+        </div>
+      
+      
+        <div class="license-meta-item license-meta-date">
+          <div>发布于</div>
+          <div>2026年11月24日</div>
+        </div>
+      
+      
+      
+        <div class="license-meta-item">
+          <div>许可协议</div>
+          <div>
+            
+              
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="BY - 署名">
+                    <i class="iconfont icon-by"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="NC - 非商业性使用">
+                    <i class="iconfont icon-nc"></i>
+                  </span>
+                </a>
+              
+                <a target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                  <span class="hint--top hint--rounded" aria-label="SA - 相同方式共享">
+                    <i class="iconfont icon-sa"></i>
+                  </span>
+                </a>
+              
+            
+          </div>
+        </div>
+      
+    </div>
+    <div class="license-icon iconfont"></div>
+  </div>
+
+
+
+              
+                <div class="post-prevnext my-3">
+                  <article class="post-prev col-6">
+                    
+                    
+                  </article>
+                  <article class="post-next col-6">
+                    
+                    
+                      <a href="/posts/9a6f4c2e.html" title="我所理解的C++ 03-2｜std::string 与 C 风格字符串：比较、转换和生命周期">
+                        <span class="hidden-mobile">我所理解的C++ 03-2｜std::string 与 C 风格字符串：比较、转换和生命周期</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
+                    
+                  </article>
+                </div>
+              
+            </div>
+
+            
+          </article>
+        </div>
+      </div>
+    </div>
+
+    <div class="side-col d-none d-lg-block col-lg-2">
+      
+
+    </div>
+  </div>
+</div>
+
+
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+<!-- 关注公众号获取验证码解锁文章内容的功能 -->
+<script src="https://readmore.openwrite.cn/js/readmore.js" type="text/javascript"></script>
+<script>
+    const btw = new BTWPlugin();
+    btw.init({
+        id: 'container',
+        blogId: '27882-1666536373183-280',
+        name: '三年游戏人',
+        qrcode: 'https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/1.png',
+        keyword: 'more',
+    });
+</script>
+    
+
+    
+      <a id="scroll-top-button" aria-label="TOP" href="#" role="button">
+        <i class="iconfont icon-arrowup" aria-hidden="true"></i>
+      </a>
+    
+
+    
+      <div class="modal fade" id="modalSearch" tabindex="-1" role="dialog" aria-labelledby="ModalLabel"
+     aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header text-center">
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
+        <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body mx-3">
+        <div class="md-form mb-5">
+          <input type="text" id="local-search-input" class="form-control validate">
+          <label data-error="x" data-success="v" for="local-search-input">关键词</label>
+        </div>
+        <div class="list-group" id="local-search-result"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    
+
+    
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+  
+    <div class="footer-content">
+      <a>见众生</a>
+    </div>
+  
+  
+    <div class="statistics">
+  
+  
+
+  
+    
+      <span id="leancloud-site-pv-container" style="display: none">
+        总访问量 
+        <span id="leancloud-site-pv"></span>
+         次
+      </span>
+    
+    
+      <span id="leancloud-site-uv-container" style="display: none">
+        总访客数 
+        <span id="leancloud-site-uv"></span>
+         人
+      </span>
+    
+    
+
+  
+</div>
+
+  
+  
+  
+</div>
+
+  </footer>
+
+  <!-- Scripts -->
+  
+  <script  src="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.js" ></script>
+  <link  rel="stylesheet" href="https://lib.baomitu.com/nprogress/0.2.0/nprogress.min.css" />
+
+  <script>
+    NProgress.configure({"showSpinner":false,"trickleSpeed":100})
+    NProgress.start()
+    window.addEventListener('load', function() {
+      NProgress.done();
+    })
+  </script>
+
+
+<script  src="https://lib.baomitu.com/jquery/3.6.0/jquery.min.js" ></script>
+<script  src="https://lib.baomitu.com/twitter-bootstrap/4.6.1/js/bootstrap.min.js" ></script>
+<script  src="/js/events.js" ></script>
+<script  src="/js/plugins.js" ></script>
+
+
+  <script  src="https://lib.baomitu.com/typed.js/2.0.12/typed.min.js" ></script>
+  <script>
+    (function (window, document) {
+      var typing = Fluid.plugins.typing;
+      var subtitle = document.getElementById('subtitle');
+      if (!subtitle || !typing) {
+        return;
+      }
+      var text = subtitle.getAttribute('data-typed-text');
+      
+        typing(text);
+      
+    })(window, document);
+  </script>
+
+
+
+
+  
+    <script  src="/js/img-lazyload.js" ></script>
+  
+
+
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/tocbot/4.18.2/tocbot.min.js', function() {
+    var toc = jQuery('#toc');
+    if (toc.length === 0 || !window.tocbot) { return; }
+    var boardCtn = jQuery('#board-ctn');
+    var boardTop = boardCtn.offset().top;
+
+    window.tocbot.init(Object.assign({
+      tocSelector     : '#toc-body',
+      contentSelector : '.markdown-body',
+      linkClass       : 'tocbot-link',
+      activeLinkClass : 'tocbot-active-link',
+      listClass       : 'tocbot-list',
+      isCollapsedClass: 'tocbot-is-collapsed',
+      collapsibleClass: 'tocbot-is-collapsible',
+      scrollSmooth    : true,
+      includeTitleTags: true,
+      headingsOffset  : -boardTop,
+    }, CONFIG.toc));
+    if (toc.find('.toc-list-item').length > 0) {
+      toc.css('visibility', 'visible');
+    }
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('tocbot' in window) {
+        tocbot.refresh();
+        var toc = jQuery('#toc');
+        if (toc.length === 0 || !tocbot) {
+          return;
+        }
+        if (toc.find('.toc-list-item').length > 0) {
+          toc.css('visibility', 'visible');
+        }
+      }
+    });
+  });
+</script>
+
+
+  <script src=https://lib.baomitu.com/clipboard.js/2.0.11/clipboard.min.js></script>
+
+  <script>Fluid.plugins.codeWidget();</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/anchor-js/4.3.1/anchor.min.js', function() {
+    window.anchors.options = {
+      placement: CONFIG.anchorjs.placement,
+      visible  : CONFIG.anchorjs.visible
+    };
+    if (CONFIG.anchorjs.icon) {
+      window.anchors.options.icon = CONFIG.anchorjs.icon;
+    }
+    var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+    var res = [];
+    for (var item of el) {
+      res.push('.markdown-body > ' + item.trim());
+    }
+    if (CONFIG.anchorjs.placement === 'left') {
+      window.anchors.options.class = 'anchorjs-link-left';
+    }
+    window.anchors.add(res.join(', '));
+
+    Fluid.events.registerRefreshCallback(function() {
+      if ('anchors' in window) {
+        anchors.removeAll();
+        var el = (CONFIG.anchorjs.element || 'h1,h2,h3,h4,h5,h6').split(',');
+        var res = [];
+        for (var item of el) {
+          res.push('.markdown-body > ' + item.trim());
+        }
+        if (CONFIG.anchorjs.placement === 'left') {
+          anchors.options.class = 'anchorjs-link-left';
+        }
+        anchors.add(res.join(', '));
+      }
+    });
+  });
+</script>
+
+
+  
+<script>
+  Fluid.utils.createScript('https://lib.baomitu.com/fancybox/3.5.7/jquery.fancybox.min.js', function() {
+    Fluid.plugins.fancyBox();
+  });
+</script>
+
+
+  <script>Fluid.plugins.imageCaption();</script>
+
+  
+      <script>
+        if (!window.MathJax) {
+          window.MathJax = {
+            tex    : {
+              inlineMath: { '[+]': [['$', '$']] }
+            },
+            loader : {
+              load: ['ui/lazy']
+            },
+            options: {
+              renderActions: {
+                insertedScript: [200, () => {
+                  document.querySelectorAll('mjx-container').forEach(node => {
+                    let target = node.parentNode;
+                    if (target.nodeName.toLowerCase() === 'li') {
+                      target.parentNode.classList.add('has-jax');
+                    }
+                  });
+                }, '', false]
+              }
+            }
+          };
+        } else {
+          MathJax.startup.document.state(0);
+          MathJax.texReset();
+          MathJax.typeset();
+          MathJax.typesetPromise();
+        }
+
+        Fluid.events.registerRefreshCallback(function() {
+          if ('MathJax' in window && MathJax.startup.document && typeof MathJax.startup.document.state === 'function') {
+            MathJax.startup.document.state(0);
+            MathJax.texReset();
+            MathJax.typeset();
+            MathJax.typesetPromise();
+          }
+        });
+      </script>
+    
+
+  <script  src="https://lib.baomitu.com/mathjax/3.2.2/es5/tex-mml-chtml.js" ></script>
+
+  <script defer src="/js/leancloud.js" ></script>
+
+  <script  src="/js/local-search.js" ></script>
+
+
+
+
+
+<!-- 主题的启动项，将它保持在最底部 -->
+<!-- the boot of the theme, keep it at the bottom -->
+<script  src="/js/boot.js" ></script>
+
+
+  
+
+  <noscript>
+    <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
+  </noscript>
+</body>
+</html>
