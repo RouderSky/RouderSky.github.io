@@ -357,38 +357,27 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-91346abb1a400b
       </categories>
   </entry>
   <entry>
-    <title>Game Road 1.写给准备进入职场的游戏人</title>
-    <url>/posts/7d2f1a5e.html</url>
-    <content><![CDATA[<p>​
-准备进入游戏公司工作对于每一个热爱游戏的人来说都是一件令人兴奋的事情，但因为陌生会伴随着不安。本文简单记录一下当年初入职场时的感受以及遇到的各种问题。</p>
-<h1 id="适应">适应</h1>
-<p>刚刚进入职场的新人在前两个月主要做的事情是适应新环境、工作节奏和氛围。</p>
-<p>对于部分新人来说，他可能是从其他城市来到当前这个陌生的城市。需要适应的环境不仅仅是公司的环境，包括生活的环境，例如气候，我刚刚来到杭州的时候正好是最冷的时候，作为一个在广东长大的孩子，感觉难以承受。</p>
-<p>如果之前都是在学校敲代码，没有感受过真实生产环境下敲代码。或者之前以实习的身份来敲代码，现在用正式员工的身份敲代码。或者之前不在这家公司，而是在其他公司。我们都要适应下新的工作节奏。如果项目进度非常赶的话，节奏可能会很快，这时可能会比较吃力。我们还需要适应工作氛围。有些公司的工作氛围很沉闷压抑，自己就不要太跳。有些公司的工作氛围比较活泼，自己就可以多放开一点。</p>
-<p>平日上班时间应该是在学习各种课程，而不是在忙着做项目相关的事情。项目进度再赶都不要给刚刚来到公司的新人安排具体业务。事情总是做不完的，要想安排的话随时都可以把新人的日常全部排满。今天修个bug，明天改个功能，短期来看总产出提升了，但是长期来看对新人是有害的。</p>
-<p>项目进度变得这么赶是一件不正常的事情，公司应该反思一下为什么会这么赶，也许pm的排期并不合理。这个状态可以是阶段性的，不应该是长期性的。但无论如何，如果非要让刚刚来到公司的新人去赶任务，就要跟新人好好沟通。</p>
-<p>可以从公司对待你的态度看出公司是不是重视你。如果公司重视你，它会为你作长远的培养规划，想着怎么让你在未来3~5年内跟公式共同成长。如果公司不重视你，它会急着压榨你身上的剩余价值，压榨完了就赶紧换掉。</p>
-<p>这段时间算是一个过渡期，虽然短期来看没什么产出，但长期来看对公司有很大的价值，如果这家公司有长远眼光的话。</p>
-<p>非常不幸的是，我刚毕业去到公司就被拉到前线去战斗了。当时项目进度非常赶，所有的新人都被拉走了，战况异常激烈。大家都快要患上PTSD了，我也差点阵亡。现在回想起来，当年的自己真热血。</p>
-<p>新人完成过渡之后，就可以开始安排一些业务类型的任务。通过业务类型的任务可以让新人逐步了解公司的产品设计和代码。等新人慢慢上手之后可以和新人进行进一步的沟通，结合新人的意愿去调整之后的任务安排。切忌一直安排差不多的任务，时间长了降低新人的热情。也不要把一些比较恶心的锅甩给新人，我发现不少公司都喜欢将锅甩给新人。这时锅的主人会松一口气，等新人兜不住的时候就pua新人。</p>
-<h1 id="感觉自己在打杂">感觉自己在打杂？</h1>
-<p>大部分刚刚进入游戏研发大厂的同学都是意气风发，磨拳擦掌准备大干一场的。但是进去之后发现自己接到的任务都是一些技术含量不高的任务，这时心里就会开始产生落差，觉得自己这匹千里马没有被伯乐相中，无法施展自己的才华，不被重视。其实这种产生这种心理从某种角度来看也是一种好事，因为这说明这位同学上进、关注自身成长。</p>
-<p>但是不必太过心急，因为刚去到一个新的环境中，同事对你还不够了解，不敢委派比较重要的任务给你。无论如何，你都要把交给自己的任务都当作重要任务来完成，不要因为一个任务很琐屑而敷衍了事。其实大部分情况下，再简单的任务都能学到新的东西，总能把它做得更好。</p>
-<p>你执行的每一项任务都会被leader看在眼里，每一项任务都会在leader心里留下印象。你是希望不断在leader心里累积失望，还是不断在leader心里累积信任，很大程度上取决于你做事情的态度。我记得某大佬说过一句话：“能力还不够也没关系，只要你态度够好，我们就愿意培养。”</p>
-<p>我见过心浮气躁、耐不下性子来处理事情的新人A，也见过勤勤恳恳、脚踏实地的新人B。A完成任务的速度和质量整体来看是不如B的，B做出来的内容总是给人一种一种很精致的感觉，而且时间把控得比较好，不会太快，也不会踩着时间点来。</p>
-<p>慢慢地，leader就会将一些需要投入一定时间进行预研的项目给到B。所以一定要认真对待给到自己的每一个任务，不要以为这个任务琐屑，leader就不关注你。如果自己都觉得自己的任务不重要，就没有人会觉得你的任务重要。</p>
-<p>如果很长一段时间（多长时间算长需要看具体情况，个人感觉4个月左右差不多了）过去了，leader还没有给到你比较重要的任务，但是自己做得已经很不错了，再继续下去提升并不大。而且因为熟练度提升了，leader派下来的任务会越来越多，压榨你每一份精力。</p>
-<p>慢慢就会陷入到疲于应付任务，没有时间思考的状态。这种情况就要引起警觉了，如果是处于业务上升期，可以理解，但是也要有个度，毕竟每个人都要为自己负责，不要对公司过于忠诚。公司不会为你的人生负责。</p>
-<p>这时就要跟leader进行沟通，保持信息对称。</p>
-<p>最担心出现误解，leader所了解的信息、预期和你所了解的信息、预期不一致，但是你以为是一致的。误解会随着时间的推移慢慢被放大，导致双方工作状态不好，降低合作效率。其实你的很多问题都是沟通问题，比如对leader不满意。</p>
-<p>在出现误解之后，为了保持信息对称，要么改变自己的想法，要么想办法说服leader。在信息对称之后，如果你和leader还是处不来，可以选择跨级沟通。如果跨级沟通还是没有办法解决的话，你懂的=
-=</p>
-<h1 id="熟悉">熟悉</h1>
-<p>刚开始处理公司的任务时会有很多地方都是陌生的，做笔记是一个快速熟悉的好方法，而且也非常值得去做。因为这个时候不懂的东西是最多的，提升是最快的，将每一点成长都记录下来可以给后来人留下一段可以借鉴的成长经历。</p>
-<p>有人喜欢每周一记，有人喜欢每日一记，有人喜欢每时每刻都记。我还是比较喜欢每时每刻都记，记录频率尽可能地高。因为我平时的任务都比较多，很多东西如果没有马上记下来就很容易忘记。我也因为这样漏掉了很多内容，所以非常鼓励大家养成记录的习惯。</p>
-<p>有些工作室有着良好的记录文化，这些工作室的策划案整体质量比那些没有良好记录文化的工作要高。除了策划案质量的提升，还会带来看不见的价值。比如研发做好记录可以提升自己的研发效率、沟通效率、成长效率，这些效能的提升不容易让人察觉到是做记录带来的。</p>
-<p>我觉得良好的记录工具是很重要的，舒适的记录环境可以让自己更爱记录。比较通用的记录工具有协同办公软件，例如某书。对于工程师来说，markdown使用起来还是很舒服的，我一般会用vscode+markdown。这些都不喜欢的话，再不济都要用notepad++，怎么都不要用windows自带的记事本来记录。不知道为什么，记事本一打开就犯困。</p>
-<p>很多东西都可以记，比如工作流程的改进、认知的提升、技术点的突破、人生感悟、未来规划。我是那种脑子里一不小心就蹦出一个灵感的人，通过随手记录的方式可以捕捉到这些灵感。</p>
+    <title>Game Road 3.在工作期间快速提升需要有的态度</title>
+    <url>/posts/70d2a4f9.html</url>
+    <content><![CDATA[<h1
+id="凡事有交代件件有着落事事有回音">凡事有交代，件件有着落，事事有回音</h1>
+<p>我们做的每一件事情都应该闭环，有头有尾。有时候leader可能只是简单跟你说要去做某件事情，不要因为说得比较简单而不重视它。</p>
+<p>例如leader可能会发个截图过来跟你说：“这个地方性能有点问题，去跟进一下看看。”你可能会稍后找个时间来查一下，确定问题之后就开始修复，提交代码的时候也没有给leader去review一下。</p>
+<p>过了很长一段时间之后，leader纳闷怎么这么就都没有回应，是不是哪里卡住了不知道怎么修
+。于是主动来问你性能问题跟进得怎么样了。这时你有可能忘了修复的具体细节，或者说明具体修复细节之后，leader看出了这个修复方案存在问题。这个时候就会给leader留下一种不靠谱的心里印象。</p>
+<p>老实说，要做到这一点挺不容易的。因为游戏行业的研发节奏本身就很快，平时开发压力很大，要顾上所有的事情不是一件简单的事情。但是无论无何，leader交代下来的事情要比其他事情更积极一点，单单是做到这一点，你的升迁速度就已经快很多了。</p>
+<h1
+id="前三年是成长最快的三年工作时间以外也要多花时间提升自己">前三年是成长最快的三年，工作时间以外也要多花时间提升自己</h1>
+<p>新人刚刚来到职场需要学习的东西还很多，有些技能以前在学校读书的时候没有意识到它的重要性。在职场工作的过程中会慢慢需要用到一些比较重要的技能，当发现自己这一块技能水平存在不足时，就给自己规划好时间去学习提升。</p>
+<p>工作时间以外可以花点时间去学习，可以利用早期的时间、午休时间、下班后的时间。当然不是要将这些时间全部用上，能充分利用其中一个时间段就已经很不错了。把自己逼得太紧，效果反而不太理想，娱乐时间还是要有一点的。只会学习不玩耍,聪明孩子也变傻。</p>
+<p>这样坚持几年时间下来会比不做这些事情会累很多，但是我觉得还是值得的。可能有人会说：“这跟加班有什么区别？工贼”我觉得差别很是很大的，加班的产出是给公司的，而经常时对自己成长提升不大的内容。但是自己学习提升得到的东西都是自己的，可以跟着你一辈子（不要说时间长了把它搞忘了=
+=）。</p>
+<p>相信我，只要能坚持住，你的成长速度是飞快的。</p>
+<h1
+id="不能只做一个杂家要先做一个专家">不能只做一个杂家，要先做一个专家</h1>
+<p>刚刚进入到职场面对浩如烟海的技术会顿感迷茫，不要想着一下子抓住所有的技术。我们应该确定一个方向，这个确定过程可以是主动的，也可以是被动的。主动选自己喜欢的，被动选工作需要的。</p>
+<p>锁定了方向之后，我们要深入学习这个方向的内容，要从原理上去了解做过的每一个东西，而不仅仅是满足于完成需求。同时也可以去学习其他技术点，随着主攻方向学习的深入，你可能就会发现其实很多东西是相通的。慢慢地，你的技能树就会形成一超多强的局势。这时就成为了一个T型人才。</p>
+<p>如果有一个确定的方向，在面临岔路口的时候就不会茫然，你会很坚定地选择一个方向。这同样节省了很多时间。因为诱惑还是很多的，每次做选择都纠结很久的话会耗费很多心力，每个人每天的心力都是有限的，心力耗尽之后做事效率会下降很多。</p>
 ]]></content>
       <categories>
         <category>Game Road</category>
@@ -431,27 +420,38 @@ id="如果有我想做或需要做的事情就去积极推动">如果有我想�
       </categories>
   </entry>
   <entry>
-    <title>Game Road 3.在工作期间快速提升需要有的态度</title>
-    <url>/posts/70d2a4f9.html</url>
-    <content><![CDATA[<h1
-id="凡事有交代件件有着落事事有回音">凡事有交代，件件有着落，事事有回音</h1>
-<p>我们做的每一件事情都应该闭环，有头有尾。有时候leader可能只是简单跟你说要去做某件事情，不要因为说得比较简单而不重视它。</p>
-<p>例如leader可能会发个截图过来跟你说：“这个地方性能有点问题，去跟进一下看看。”你可能会稍后找个时间来查一下，确定问题之后就开始修复，提交代码的时候也没有给leader去review一下。</p>
-<p>过了很长一段时间之后，leader纳闷怎么这么就都没有回应，是不是哪里卡住了不知道怎么修
-。于是主动来问你性能问题跟进得怎么样了。这时你有可能忘了修复的具体细节，或者说明具体修复细节之后，leader看出了这个修复方案存在问题。这个时候就会给leader留下一种不靠谱的心里印象。</p>
-<p>老实说，要做到这一点挺不容易的。因为游戏行业的研发节奏本身就很快，平时开发压力很大，要顾上所有的事情不是一件简单的事情。但是无论无何，leader交代下来的事情要比其他事情更积极一点，单单是做到这一点，你的升迁速度就已经快很多了。</p>
-<h1
-id="前三年是成长最快的三年工作时间以外也要多花时间提升自己">前三年是成长最快的三年，工作时间以外也要多花时间提升自己</h1>
-<p>新人刚刚来到职场需要学习的东西还很多，有些技能以前在学校读书的时候没有意识到它的重要性。在职场工作的过程中会慢慢需要用到一些比较重要的技能，当发现自己这一块技能水平存在不足时，就给自己规划好时间去学习提升。</p>
-<p>工作时间以外可以花点时间去学习，可以利用早期的时间、午休时间、下班后的时间。当然不是要将这些时间全部用上，能充分利用其中一个时间段就已经很不错了。把自己逼得太紧，效果反而不太理想，娱乐时间还是要有一点的。只会学习不玩耍,聪明孩子也变傻。</p>
-<p>这样坚持几年时间下来会比不做这些事情会累很多，但是我觉得还是值得的。可能有人会说：“这跟加班有什么区别？工贼”我觉得差别很是很大的，加班的产出是给公司的，而经常时对自己成长提升不大的内容。但是自己学习提升得到的东西都是自己的，可以跟着你一辈子（不要说时间长了把它搞忘了=
-=）。</p>
-<p>相信我，只要能坚持住，你的成长速度是飞快的。</p>
-<h1
-id="不能只做一个杂家要先做一个专家">不能只做一个杂家，要先做一个专家</h1>
-<p>刚刚进入到职场面对浩如烟海的技术会顿感迷茫，不要想着一下子抓住所有的技术。我们应该确定一个方向，这个确定过程可以是主动的，也可以是被动的。主动选自己喜欢的，被动选工作需要的。</p>
-<p>锁定了方向之后，我们要深入学习这个方向的内容，要从原理上去了解做过的每一个东西，而不仅仅是满足于完成需求。同时也可以去学习其他技术点，随着主攻方向学习的深入，你可能就会发现其实很多东西是相通的。慢慢地，你的技能树就会形成一超多强的局势。这时就成为了一个T型人才。</p>
-<p>如果有一个确定的方向，在面临岔路口的时候就不会茫然，你会很坚定地选择一个方向。这同样节省了很多时间。因为诱惑还是很多的，每次做选择都纠结很久的话会耗费很多心力，每个人每天的心力都是有限的，心力耗尽之后做事效率会下降很多。</p>
+    <title>Game Road 1.写给准备进入职场的游戏人</title>
+    <url>/posts/7d2f1a5e.html</url>
+    <content><![CDATA[<p>​
+准备进入游戏公司工作对于每一个热爱游戏的人来说都是一件令人兴奋的事情，但因为陌生会伴随着不安。本文简单记录一下当年初入职场时的感受以及遇到的各种问题。</p>
+<h1 id="适应">适应</h1>
+<p>刚刚进入职场的新人在前两个月主要做的事情是适应新环境、工作节奏和氛围。</p>
+<p>对于部分新人来说，他可能是从其他城市来到当前这个陌生的城市。需要适应的环境不仅仅是公司的环境，包括生活的环境，例如气候，我刚刚来到杭州的时候正好是最冷的时候，作为一个在广东长大的孩子，感觉难以承受。</p>
+<p>如果之前都是在学校敲代码，没有感受过真实生产环境下敲代码。或者之前以实习的身份来敲代码，现在用正式员工的身份敲代码。或者之前不在这家公司，而是在其他公司。我们都要适应下新的工作节奏。如果项目进度非常赶的话，节奏可能会很快，这时可能会比较吃力。我们还需要适应工作氛围。有些公司的工作氛围很沉闷压抑，自己就不要太跳。有些公司的工作氛围比较活泼，自己就可以多放开一点。</p>
+<p>平日上班时间应该是在学习各种课程，而不是在忙着做项目相关的事情。项目进度再赶都不要给刚刚来到公司的新人安排具体业务。事情总是做不完的，要想安排的话随时都可以把新人的日常全部排满。今天修个bug，明天改个功能，短期来看总产出提升了，但是长期来看对新人是有害的。</p>
+<p>项目进度变得这么赶是一件不正常的事情，公司应该反思一下为什么会这么赶，也许pm的排期并不合理。这个状态可以是阶段性的，不应该是长期性的。但无论如何，如果非要让刚刚来到公司的新人去赶任务，就要跟新人好好沟通。</p>
+<p>可以从公司对待你的态度看出公司是不是重视你。如果公司重视你，它会为你作长远的培养规划，想着怎么让你在未来3~5年内跟公式共同成长。如果公司不重视你，它会急着压榨你身上的剩余价值，压榨完了就赶紧换掉。</p>
+<p>这段时间算是一个过渡期，虽然短期来看没什么产出，但长期来看对公司有很大的价值，如果这家公司有长远眼光的话。</p>
+<p>非常不幸的是，我刚毕业去到公司就被拉到前线去战斗了。当时项目进度非常赶，所有的新人都被拉走了，战况异常激烈。大家都快要患上PTSD了，我也差点阵亡。现在回想起来，当年的自己真热血。</p>
+<p>新人完成过渡之后，就可以开始安排一些业务类型的任务。通过业务类型的任务可以让新人逐步了解公司的产品设计和代码。等新人慢慢上手之后可以和新人进行进一步的沟通，结合新人的意愿去调整之后的任务安排。切忌一直安排差不多的任务，时间长了降低新人的热情。也不要把一些比较恶心的锅甩给新人，我发现不少公司都喜欢将锅甩给新人。这时锅的主人会松一口气，等新人兜不住的时候就pua新人。</p>
+<h1 id="感觉自己在打杂">感觉自己在打杂？</h1>
+<p>大部分刚刚进入游戏研发大厂的同学都是意气风发，磨拳擦掌准备大干一场的。但是进去之后发现自己接到的任务都是一些技术含量不高的任务，这时心里就会开始产生落差，觉得自己这匹千里马没有被伯乐相中，无法施展自己的才华，不被重视。其实这种产生这种心理从某种角度来看也是一种好事，因为这说明这位同学上进、关注自身成长。</p>
+<p>但是不必太过心急，因为刚去到一个新的环境中，同事对你还不够了解，不敢委派比较重要的任务给你。无论如何，你都要把交给自己的任务都当作重要任务来完成，不要因为一个任务很琐屑而敷衍了事。其实大部分情况下，再简单的任务都能学到新的东西，总能把它做得更好。</p>
+<p>你执行的每一项任务都会被leader看在眼里，每一项任务都会在leader心里留下印象。你是希望不断在leader心里累积失望，还是不断在leader心里累积信任，很大程度上取决于你做事情的态度。我记得某大佬说过一句话：“能力还不够也没关系，只要你态度够好，我们就愿意培养。”</p>
+<p>我见过心浮气躁、耐不下性子来处理事情的新人A，也见过勤勤恳恳、脚踏实地的新人B。A完成任务的速度和质量整体来看是不如B的，B做出来的内容总是给人一种一种很精致的感觉，而且时间把控得比较好，不会太快，也不会踩着时间点来。</p>
+<p>慢慢地，leader就会将一些需要投入一定时间进行预研的项目给到B。所以一定要认真对待给到自己的每一个任务，不要以为这个任务琐屑，leader就不关注你。如果自己都觉得自己的任务不重要，就没有人会觉得你的任务重要。</p>
+<p>如果很长一段时间（多长时间算长需要看具体情况，个人感觉4个月左右差不多了）过去了，leader还没有给到你比较重要的任务，但是自己做得已经很不错了，再继续下去提升并不大。而且因为熟练度提升了，leader派下来的任务会越来越多，压榨你每一份精力。</p>
+<p>慢慢就会陷入到疲于应付任务，没有时间思考的状态。这种情况就要引起警觉了，如果是处于业务上升期，可以理解，但是也要有个度，毕竟每个人都要为自己负责，不要对公司过于忠诚。公司不会为你的人生负责。</p>
+<p>这时就要跟leader进行沟通，保持信息对称。</p>
+<p>最担心出现误解，leader所了解的信息、预期和你所了解的信息、预期不一致，但是你以为是一致的。误解会随着时间的推移慢慢被放大，导致双方工作状态不好，降低合作效率。其实你的很多问题都是沟通问题，比如对leader不满意。</p>
+<p>在出现误解之后，为了保持信息对称，要么改变自己的想法，要么想办法说服leader。在信息对称之后，如果你和leader还是处不来，可以选择跨级沟通。如果跨级沟通还是没有办法解决的话，你懂的=
+=</p>
+<h1 id="熟悉">熟悉</h1>
+<p>刚开始处理公司的任务时会有很多地方都是陌生的，做笔记是一个快速熟悉的好方法，而且也非常值得去做。因为这个时候不懂的东西是最多的，提升是最快的，将每一点成长都记录下来可以给后来人留下一段可以借鉴的成长经历。</p>
+<p>有人喜欢每周一记，有人喜欢每日一记，有人喜欢每时每刻都记。我还是比较喜欢每时每刻都记，记录频率尽可能地高。因为我平时的任务都比较多，很多东西如果没有马上记下来就很容易忘记。我也因为这样漏掉了很多内容，所以非常鼓励大家养成记录的习惯。</p>
+<p>有些工作室有着良好的记录文化，这些工作室的策划案整体质量比那些没有良好记录文化的工作要高。除了策划案质量的提升，还会带来看不见的价值。比如研发做好记录可以提升自己的研发效率、沟通效率、成长效率，这些效能的提升不容易让人察觉到是做记录带来的。</p>
+<p>我觉得良好的记录工具是很重要的，舒适的记录环境可以让自己更爱记录。比较通用的记录工具有协同办公软件，例如某书。对于工程师来说，markdown使用起来还是很舒服的，我一般会用vscode+markdown。这些都不喜欢的话，再不济都要用notepad++，怎么都不要用windows自带的记事本来记录。不知道为什么，记事本一打开就犯困。</p>
+<p>很多东西都可以记，比如工作流程的改进、认知的提升、技术点的突破、人生感悟、未来规划。我是那种脑子里一不小心就蹦出一个灵感的人，通过随手记录的方式可以捕捉到这些灵感。</p>
 ]]></content>
       <categories>
         <category>Game Road</category>
@@ -812,39 +812,6 @@ decltype 保留了不同类型</h2>
       </tags>
   </entry>
   <entry>
-    <title>我所理解的C++ 02-2｜const 限定符</title>
-    <url>/posts/897859dc.html</url>
-    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/481055995" class="internal" data-draft-node="block" data-draft-type="link-card" data-draft-title="关于该系列文章" data-draft-cover="https://picx.zhimg.com/v2-3a5e160d8218fea55e57f71f304d50da.jpg?source=7e7ef6e2&amp;needBackground=1">关于该系列文章</a></p>
-<h2 id="const限定符">const限定符</h2>
-<p>定义变量时加上const可以使变量变成const变量。这类变量只能执行不改变其内容的操作，且必须初始化。如果初始值是常量表达式，编译时会把用到该变量的地方都替换成对应的值</p>
-<h2 id="const引用">const引用</h2>
-<p>const引用可以绑定到常量变量、非常量变量、临时变量，例如</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = <span class="hljs-number">2048</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rci = ci;  <span class="hljs-comment">//绑定到常量变量</span><br><br><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;ri = i;    <span class="hljs-comment">//绑定到非常量变量</span><br><br><span class="hljs-type">double</span> d = <span class="hljs-number">3.14</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rcd = d;   <span class="hljs-comment">//绑定到临时变量；因为d隐式转换成int时产生了临时变量</span><br></code></pre></td></tr></table></figure>
-<p>不能通过const引用来修改它所绑定的对象的内容</p>
-<h2 id="const与指针">const与指针</h2>
-<p>只有指针会分为底层const和顶层const，但有时也会把<code>const int i = 1;</code>看成是顶层const</p>
-<h3 id="指向常量的指针">指向常量的指针</h3>
-<p>指向常量的指针又称为底层const指针，指针的值可以改变，但无法通过该指针修改它所指向的变量的值。指向常量的指针可以指向常量变量、非常量变量。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> *cptri1 = &amp;i;    <span class="hljs-comment">//底层const</span><br><span class="hljs-type">int</span> <span class="hljs-type">const</span> *cptri2 = &amp;i;    <span class="hljs-comment">//底层const</span><br></code></pre></td></tr></table></figure>
-<h3 id="常量指针">常量指针</h3>
-<p>常量指针又称为顶层const指针，指针的值不可以改变，可以通过该指针修改它所指向的变量的值。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">int</span> *<span class="hljs-type">const</span> cptri = &amp;i;<br></code></pre></td></tr></table></figure>
-<h2 id="常量表达式和constexpr">常量表达式和constexpr</h2>
-<p>常量表达式是编译时就能得到计算结果的表达式。用常量表达式初始化的const变量也是常量表达式</p>
-<p>定义变量时在类型前加上<code>constexpr</code>关键字之后，编译器会去检查初始值是不是一个常量表达式
-，不是则编译报错。</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> n = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> a[n];        <span class="hljs-comment">//错误</span><br><br><span class="hljs-keyword">constexpr</span> <span class="hljs-type">int</span> m = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> b[m];        <span class="hljs-comment">//正确</span><br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> l = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> c[l];        <span class="hljs-comment">//正确</span><br><br></code></pre></td></tr></table></figure>
-<p>constexpr关键字会使变量变成const类型，如果变量是指针变量，则会变成顶层const指针，且初始值必须是0或nullptr或存储与某个固定地址中的变量。函数体内的变量一般不存放在固定地址中。函数体外的变量一般存放在固定地址中。</p>
-<p>constexpr关键字只能修饰字面值类型。字面值类型包括算术类型、引用、指针、字面值常量类。</p>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>我所理解的C++ 02-1｜C++的基本内置类型和变量</title>
     <url>/posts/2eedda69.html</url>
     <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/481055995" class="internal" data-draft-node="block" data-draft-type="link-card" data-draft-title="关于该系列文章" data-draft-cover="https://picx.zhimg.com/v2-3a5e160d8218fea55e57f71f304d50da.jpg?source=7e7ef6e2&amp;needBackground=1">关于该系列文章</a></p>
@@ -971,6 +938,39 @@ long中能表示字面值的尺寸最小的那个</p>
 <p>所谓的复合类型指的是基于其他类型的类型，简单点说就是引用类型和指针类型</p>
 <p>一般我们提到的引用指的是左值引用。左值引用其实只是一个已存在变量的另一个名字，我们说当前这个左值引用绑定了一个已存在变量。一个左值引用只能在定义时被绑定，之后再也无法改变绑定的目标变量，所以在定义左值引用变量时必须初始化。左值引用只能绑定到变量上，无法绑定到字面值或表达式的计算结果上</p>
 <p>指针变量存储着指向特定类型变量的地址。指针不必在定义时初始化，所以可以为空。可以通过nullptr、NULL显式地初始化或赋值为空指针。nullptr是一种特殊类型的字面值。NULL是一个预处理变量，其实就是字面值0。注意，虽然地址可以看成一个整型数字，但是不能给指针赋上整型值，只能赋上通过取址赋得到的值。特别建议对所有的指针进行初始化，访问未初始化的指针会对内存中的造成恶性破坏。</p>
+]]></content>
+      <categories>
+        <category>C++</category>
+      </categories>
+      <tags>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我所理解的C++ 02-2｜const 限定符</title>
+    <url>/posts/897859dc.html</url>
+    <content><![CDATA[<p><a href="https://zhuanlan.zhihu.com/p/481055995" class="internal" data-draft-node="block" data-draft-type="link-card" data-draft-title="关于该系列文章" data-draft-cover="https://picx.zhimg.com/v2-3a5e160d8218fea55e57f71f304d50da.jpg?source=7e7ef6e2&amp;needBackground=1">关于该系列文章</a></p>
+<h2 id="const限定符">const限定符</h2>
+<p>定义变量时加上const可以使变量变成const变量。这类变量只能执行不改变其内容的操作，且必须初始化。如果初始值是常量表达式，编译时会把用到该变量的地方都替换成对应的值</p>
+<h2 id="const引用">const引用</h2>
+<p>const引用可以绑定到常量变量、非常量变量、临时变量，例如</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">const</span> <span class="hljs-type">int</span> ci = <span class="hljs-number">2048</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rci = ci;  <span class="hljs-comment">//绑定到常量变量</span><br><br><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;ri = i;    <span class="hljs-comment">//绑定到非常量变量</span><br><br><span class="hljs-type">double</span> d = <span class="hljs-number">3.14</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> &amp;rcd = d;   <span class="hljs-comment">//绑定到临时变量；因为d隐式转换成int时产生了临时变量</span><br></code></pre></td></tr></table></figure>
+<p>不能通过const引用来修改它所绑定的对象的内容</p>
+<h2 id="const与指针">const与指针</h2>
+<p>只有指针会分为底层const和顶层const，但有时也会把<code>const int i = 1;</code>看成是顶层const</p>
+<h3 id="指向常量的指针">指向常量的指针</h3>
+<p>指向常量的指针又称为底层const指针，指针的值可以改变，但无法通过该指针修改它所指向的变量的值。指向常量的指针可以指向常量变量、非常量变量。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">const</span> <span class="hljs-type">int</span> *cptri1 = &amp;i;    <span class="hljs-comment">//底层const</span><br><span class="hljs-type">int</span> <span class="hljs-type">const</span> *cptri2 = &amp;i;    <span class="hljs-comment">//底层const</span><br></code></pre></td></tr></table></figure>
+<h3 id="常量指针">常量指针</h3>
+<p>常量指针又称为顶层const指针，指针的值不可以改变，可以通过该指针修改它所指向的变量的值。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> i = <span class="hljs-number">1024</span>;<br><span class="hljs-type">int</span> *<span class="hljs-type">const</span> cptri = &amp;i;<br></code></pre></td></tr></table></figure>
+<h2 id="常量表达式和constexpr">常量表达式和constexpr</h2>
+<p>常量表达式是编译时就能得到计算结果的表达式。用常量表达式初始化的const变量也是常量表达式</p>
+<p>定义变量时在类型前加上<code>constexpr</code>关键字之后，编译器会去检查初始值是不是一个常量表达式
+，不是则编译报错。</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-type">int</span> n = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> a[n];        <span class="hljs-comment">//错误</span><br><br><span class="hljs-keyword">constexpr</span> <span class="hljs-type">int</span> m = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> b[m];        <span class="hljs-comment">//正确</span><br><br><span class="hljs-type">const</span> <span class="hljs-type">int</span> l = <span class="hljs-number">0</span>;<br><span class="hljs-type">char</span> c[l];        <span class="hljs-comment">//正确</span><br><br></code></pre></td></tr></table></figure>
+<p>constexpr关键字会使变量变成const类型，如果变量是指针变量，则会变成顶层const指针，且初始值必须是0或nullptr或存储与某个固定地址中的变量。函数体内的变量一般不存放在固定地址中。函数体外的变量一般存放在固定地址中。</p>
+<p>constexpr关键字只能修饰字面值类型。字面值类型包括算术类型、引用、指针、字面值常量类。</p>
 ]]></content>
       <categories>
         <category>C++</category>
@@ -2062,75 +2062,6 @@ Factory)</h2>
       </tags>
   </entry>
   <entry>
-    <title>游戏动画技术简介</title>
-    <url>/posts/49a81750.html</url>
-    <content><![CDATA[<p>动画系统是游戏中对表现力影响最大的系统之一，经过一段时间的调研，最后通过这篇文章总结下游戏动画系统。</p>
-<h1 id="精灵动画系统">精灵动画系统</h1>
-<p>精灵动画系统在早年间计算机性能还比较差的时候被广泛运用，一般作为游戏的背景而存在，比如
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029175924.png?x-oss-process=style/WaterMask"
-alt="极品飞车系列的路边观众" /> <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180025.png?x-oss-process=style/WaterMask"
-alt="NBA2K系列的观众" />
-这些人物都是一个四边形，游戏引擎会给四边形连续贴上纹理贴图来产生动感。通常为了不暴露这是个扁的四边形，会使这些四边形一直面向摄像机。比如
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180040.png?x-oss-process=style/WaterMask"
-alt="DOOM" />
-这类动画系统在早期游戏中盛行，因为当时的计算机性能不够，而该系统对计算机资源的消耗非常低。现在部分手游依然会保留这类动画系统，因为手机性能有限。</p>
-<h1 id="刚性层阶式动画">刚性层阶式动画</h1>
-<p>刚性层阶式动画驱动的人物都由一堆独立的刚性物体组合而成。刚性物体指的是不会发生形变(包括缩放)的物体。然后动画系统会驱动每一个刚性物体，从而实现动画效果。最经典的例子就是1997年在PS上发售的FF7。
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180105.png?x-oss-process=style/WaterMask"
-alt="97版FF7" />
-这个系统驱动的是3D模型，而不再是四边形贴图，同时还能保持高效的性能和较低的内存使用量。缺点是不允许网格发生形变，整个人物会显得非常生硬。而且人物的关节位置会产生明显的“裂缝”。</p>
-<h1 id="每顶点动画">每顶点动画</h1>
-每顶点动画需要动画师为每个顶点去k动画。工作量非常巨大，产生的数据量也非常巨大，但是可以获得非常精细的动画效果，网格的三角形产生形变。通常用于制作CG中人物的表情，一般通过硬件设备来捕捉人脸信息，再转换成顶点数据。
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<p><iframe src="//player.bilibili.com/player.html?aid=859596268&bvid=BV1eV4y1g7H7&cid=875385956&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
-</div>
-<div
-style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
-<p><iframe src="//player.bilibili.com/player.html?aid=559589709&bvid=BV1Re4y127Tn&cid=875387307&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
-</div>
-<h1 id="变形目标动画morphing-animation">变形目标动画(morphing
-animation)</h1>
-<p>由于每顶点动画需要保存大量的动画数据，不方便存储和使用。于是提出了变形目标动画，动画师只需要通过调整网格上所有顶点的信息制作出一些静态姿势(morph
-target)。这些静态姿势都是一些“极端”的姿势，例如生气、开心等。在游戏引擎中通过对这些静态姿势按时间进行线性插值即可得到动画。</p>
-<h1 id="蒙皮动画skinened-animation">蒙皮动画(skinened animation)</h1>
-<blockquote>
-<p>有时也被称为骨骼动画、蒙皮骨骼动画，是一种FK</p>
-</blockquote>
-<p>为了可以得到较生动的动画效果，允许网格的三角形产生形变。同时兼顾较高的性能、较低的存储空间。蒙皮动画便出现了，现在市场上几乎所有的游戏都采用蒙皮动画作为动画解决方案。</p>
-<h2 id="概念">概念</h2>
-<p>在蒙皮动画中有几个重要的概念。首先是骨骼(skeleton)，骨骼由关节通过一棵树的形态组织起来。如果是一个人物模型，一般以髋部为根节点，以肢体末端为叶节点，比如手指、脚指、眼睛等。skeleton本身不需要被渲染引擎渲染出来，仅由动画系统驱动。</p>
-<p>然后是皮肤(skin)，皮肤由多边形网格组成。而网格又由顶点构成，这些顶点将会被动画师通过设置权重绑定(bind)到若干关节上。一般每个顶点最多绑定4个关节。但不是所有的关节都会被顶点绑定，这些没有被绑定的关节又称为定位器(locator)，作为其它模型的挂接点存在。
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180348.png?x-oss-process=style/WaterMask"
-alt="DX中skeleton的组织方式" />
-蒙皮动画中存在几个重要的姿势(pose)，这些姿势可以矩阵或者SQT格式来保存。首先是绑定姿势，又称为T-pose，顾名思义，是动画师在给模型顶点做绑定时用的姿势。该姿势从DCC中输出之后就固定好了，在游戏运行时不会被改变。
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180400.png?x-oss-process=style/WaterMask" />
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180408.png?x-oss-process=style/WaterMask" />
-然后是局部姿势，它保存了当前关节在其父关节空间中的姿势。因为动画引擎直接驱动的是局部姿势，我们经常需要对局部姿势进行各种插值，所以一般不会存储为矩阵形式，而是存储为SQT形式。我们的动画片段就是由一连串的局部姿势组合起来，也就是说动画片段是一个因变量为局部姿势，自变量为时间的函数。</p>
-<p>最后是全局姿势，它保存了关节在其模型空间或世界空间中的姿势，具体保存形式不同的引擎有不同的做法。它是在游戏运行过程中通过联合具有父子关系的局部姿势实时生成的，算是被动画引擎间接驱动。</p>
-<h2 id="蒙皮skinning">蒙皮(skinning)</h2>
-<p>首先需要准备数据，每一个关节都保存着一个绑定姿势逆矩阵，以下简称IBP，该矩阵可以将物体从模型空间转换到当前关节空间。IBP是在3D模型从DCC输出后，利用T-Pose计算出来的。一次计算，无限次使用。</p>
-<p>动画引擎Update之后，每一个关节都会得到一个最新的局部姿势。这个时候可以进行一些额外的插值计算、程序式动画、IK等后处理过程。因为局部姿势一般保存为SQT格式，所以需要在这时转换成矩阵。</p>
-<p>然后我们开始计算每个关节的全局姿势矩阵，计算方法是依次连接关节本身及其所有父节点的局部姿势矩阵。</p>
-<p>最后IBP乘上全局姿势矩阵，就得到了蒙皮矩阵。顶点乘上蒙皮矩阵后会对顶点产生什么样的影响呢？可以这么想象：顶点原本位于模型为T-Pose时的模型空间中，乘上了IBP之后进入到关节空间中；再乘上全局姿势矩阵，这时模型摆出了由动画引擎驱动的姿势，在这个姿势下从关节空间回到模型空间。</p>
-<p>所以最终呈现的效果是，顶点被关节带到了特定位置。计算出所有关节的蒙皮矩阵之后，我们就得到了矩阵调色</p>
-<p>然后开始正式蒙皮。每个顶点都会从矩阵调色板中取得需要绑定的关节的蒙皮矩阵，然后更具动画师设定好的权重对这些矩阵进行混合。顶点乘上混合后的矩阵，这时蒙皮就完成了。</p>
-<p>ps：动画引擎Update时，可以通过多种方式计算出局部姿势。可以对单个动画片段进行一维线性插值实现时间性混合来得到常规的动画效果。可以对两个动画片段进行淡入/淡出计算获得圆滑过渡、冻结过渡等过渡效果。更进一步推广，可以对多个动画片段进行N维线性插值实现自定义的混合。为了充分利用资源，可以对动画片段进行分部混合或加法混合，例如人物在Idle状态时，通过加法混合给人物加入一些小动作，使得人物更真实。例如...
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-14d7181792c45287b55129c0856b82ff_720w.gif" /></p>
-]]></content>
-      <categories>
-        <category>游戏引擎</category>
-      </categories>
-  </entry>
-  <entry>
     <title>技术美术的职责</title>
     <url>/posts/dd4c3610.html</url>
     <content><![CDATA[<h1 id="何为技术美术">何为技术美术</h1>
@@ -2478,6 +2409,160 @@ alt="排序过程图形化" />
       <categories>
         <category>算法</category>
       </categories>
+  </entry>
+  <entry>
+    <title>游戏动画技术简介</title>
+    <url>/posts/49a81750.html</url>
+    <content><![CDATA[<p>动画系统是游戏中对表现力影响最大的系统之一，经过一段时间的调研，最后通过这篇文章总结下游戏动画系统。</p>
+<h1 id="精灵动画系统">精灵动画系统</h1>
+<p>精灵动画系统在早年间计算机性能还比较差的时候被广泛运用，一般作为游戏的背景而存在，比如
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029175924.png?x-oss-process=style/WaterMask"
+alt="极品飞车系列的路边观众" /> <img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180025.png?x-oss-process=style/WaterMask"
+alt="NBA2K系列的观众" />
+这些人物都是一个四边形，游戏引擎会给四边形连续贴上纹理贴图来产生动感。通常为了不暴露这是个扁的四边形，会使这些四边形一直面向摄像机。比如
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180040.png?x-oss-process=style/WaterMask"
+alt="DOOM" />
+这类动画系统在早期游戏中盛行，因为当时的计算机性能不够，而该系统对计算机资源的消耗非常低。现在部分手游依然会保留这类动画系统，因为手机性能有限。</p>
+<h1 id="刚性层阶式动画">刚性层阶式动画</h1>
+<p>刚性层阶式动画驱动的人物都由一堆独立的刚性物体组合而成。刚性物体指的是不会发生形变(包括缩放)的物体。然后动画系统会驱动每一个刚性物体，从而实现动画效果。最经典的例子就是1997年在PS上发售的FF7。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180105.png?x-oss-process=style/WaterMask"
+alt="97版FF7" />
+这个系统驱动的是3D模型，而不再是四边形贴图，同时还能保持高效的性能和较低的内存使用量。缺点是不允许网格发生形变，整个人物会显得非常生硬。而且人物的关节位置会产生明显的“裂缝”。</p>
+<h1 id="每顶点动画">每顶点动画</h1>
+每顶点动画需要动画师为每个顶点去k动画。工作量非常巨大，产生的数据量也非常巨大，但是可以获得非常精细的动画效果，网格的三角形产生形变。通常用于制作CG中人物的表情，一般通过硬件设备来捕捉人脸信息，再转换成顶点数据。
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<p><iframe src="//player.bilibili.com/player.html?aid=859596268&bvid=BV1eV4y1g7H7&cid=875385956&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
+</div>
+<div
+style="position: relative; width: 100%; height: 0; padding-bottom: 75%;">
+<p><iframe src="//player.bilibili.com/player.html?aid=559589709&bvid=BV1Re4y127Tn&cid=875387307&page=1&high_quality=1"  scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;"></iframe></p>
+</div>
+<h1 id="变形目标动画morphing-animation">变形目标动画(morphing
+animation)</h1>
+<p>由于每顶点动画需要保存大量的动画数据，不方便存储和使用。于是提出了变形目标动画，动画师只需要通过调整网格上所有顶点的信息制作出一些静态姿势(morph
+target)。这些静态姿势都是一些“极端”的姿势，例如生气、开心等。在游戏引擎中通过对这些静态姿势按时间进行线性插值即可得到动画。</p>
+<h1 id="蒙皮动画skinened-animation">蒙皮动画(skinened animation)</h1>
+<blockquote>
+<p>有时也被称为骨骼动画、蒙皮骨骼动画，是一种FK</p>
+</blockquote>
+<p>为了可以得到较生动的动画效果，允许网格的三角形产生形变。同时兼顾较高的性能、较低的存储空间。蒙皮动画便出现了，现在市场上几乎所有的游戏都采用蒙皮动画作为动画解决方案。</p>
+<h2 id="概念">概念</h2>
+<p>在蒙皮动画中有几个重要的概念。首先是骨骼(skeleton)，骨骼由关节通过一棵树的形态组织起来。如果是一个人物模型，一般以髋部为根节点，以肢体末端为叶节点，比如手指、脚指、眼睛等。skeleton本身不需要被渲染引擎渲染出来，仅由动画系统驱动。</p>
+<p>然后是皮肤(skin)，皮肤由多边形网格组成。而网格又由顶点构成，这些顶点将会被动画师通过设置权重绑定(bind)到若干关节上。一般每个顶点最多绑定4个关节。但不是所有的关节都会被顶点绑定，这些没有被绑定的关节又称为定位器(locator)，作为其它模型的挂接点存在。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180348.png?x-oss-process=style/WaterMask"
+alt="DX中skeleton的组织方式" />
+蒙皮动画中存在几个重要的姿势(pose)，这些姿势可以矩阵或者SQT格式来保存。首先是绑定姿势，又称为T-pose，顾名思义，是动画师在给模型顶点做绑定时用的姿势。该姿势从DCC中输出之后就固定好了，在游戏运行时不会被改变。
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180400.png?x-oss-process=style/WaterMask" />
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221029180408.png?x-oss-process=style/WaterMask" />
+然后是局部姿势，它保存了当前关节在其父关节空间中的姿势。因为动画引擎直接驱动的是局部姿势，我们经常需要对局部姿势进行各种插值，所以一般不会存储为矩阵形式，而是存储为SQT形式。我们的动画片段就是由一连串的局部姿势组合起来，也就是说动画片段是一个因变量为局部姿势，自变量为时间的函数。</p>
+<p>最后是全局姿势，它保存了关节在其模型空间或世界空间中的姿势，具体保存形式不同的引擎有不同的做法。它是在游戏运行过程中通过联合具有父子关系的局部姿势实时生成的，算是被动画引擎间接驱动。</p>
+<h2 id="蒙皮skinning">蒙皮(skinning)</h2>
+<p>首先需要准备数据，每一个关节都保存着一个绑定姿势逆矩阵，以下简称IBP，该矩阵可以将物体从模型空间转换到当前关节空间。IBP是在3D模型从DCC输出后，利用T-Pose计算出来的。一次计算，无限次使用。</p>
+<p>动画引擎Update之后，每一个关节都会得到一个最新的局部姿势。这个时候可以进行一些额外的插值计算、程序式动画、IK等后处理过程。因为局部姿势一般保存为SQT格式，所以需要在这时转换成矩阵。</p>
+<p>然后我们开始计算每个关节的全局姿势矩阵，计算方法是依次连接关节本身及其所有父节点的局部姿势矩阵。</p>
+<p>最后IBP乘上全局姿势矩阵，就得到了蒙皮矩阵。顶点乘上蒙皮矩阵后会对顶点产生什么样的影响呢？可以这么想象：顶点原本位于模型为T-Pose时的模型空间中，乘上了IBP之后进入到关节空间中；再乘上全局姿势矩阵，这时模型摆出了由动画引擎驱动的姿势，在这个姿势下从关节空间回到模型空间。</p>
+<p>所以最终呈现的效果是，顶点被关节带到了特定位置。计算出所有关节的蒙皮矩阵之后，我们就得到了矩阵调色</p>
+<p>然后开始正式蒙皮。每个顶点都会从矩阵调色板中取得需要绑定的关节的蒙皮矩阵，然后更具动画师设定好的权重对这些矩阵进行混合。顶点乘上混合后的矩阵，这时蒙皮就完成了。</p>
+<p>ps：动画引擎Update时，可以通过多种方式计算出局部姿势。可以对单个动画片段进行一维线性插值实现时间性混合来得到常规的动画效果。可以对两个动画片段进行淡入/淡出计算获得圆滑过渡、冻结过渡等过渡效果。更进一步推广，可以对多个动画片段进行N维线性插值实现自定义的混合。为了充分利用资源，可以对动画片段进行分部混合或加法混合，例如人物在Idle状态时，通过加法混合给人物加入一些小动作，使得人物更真实。例如...
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/v2-14d7181792c45287b55129c0856b82ff_720w.gif" /></p>
+]]></content>
+      <categories>
+        <category>游戏引擎</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>材质特效</title>
+    <url>/posts/c4d9d82.html</url>
+    <content><![CDATA[<h1 id="dissolve">Dissolve</h1>
+<blockquote>
+<p>使用UV坐标和时间信息对噪声图进行采样，采样的结果作为clip的其中一个参考值</p>
+</blockquote>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Dissolve.gif"
+alt="Dissolve" />
+<figcaption aria-hidden="true">Dissolve</figcaption>
+</figure>
+<h1 id="rim">Rim</h1>
+<blockquote>
+<p>菲涅尔效应的近似实现</p>
+</blockquote>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103235902.png"
+alt="Rim" />
+<figcaption aria-hidden="true">Rim</figcaption>
+</figure>
+<h1 id="scan">Scan</h1>
+<blockquote>
+<p>将模型空间坐标作为UV坐标进行纹理采样</p>
+</blockquote>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Scan.gif"
+alt="Scan" />
+<figcaption aria-hidden="true">Scan</figcaption>
+</figure>
+<h1 id="matcap">MatCap</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103235949.png"
+alt="MatCap" />
+<figcaption aria-hidden="true">MatCap</figcaption>
+</figure>
+<h1 id="薄膜干涉">薄膜干涉</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230104000011.png"
+alt="薄膜干涉" />
+<figcaption aria-hidden="true">薄膜干涉</figcaption>
+</figure>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230104000107.png"
+alt="两层MatCap+薄膜干涉" />
+<figcaption aria-hidden="true">两层MatCap+薄膜干涉</figcaption>
+</figure>
+<h1 id="藤曼生长">藤曼生长</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Grow.gif"
+alt="Grow" />
+<figcaption aria-hidden="true">Grow</figcaption>
+</figure>
+<h1 id="vertex-animation">Vertex Animation</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/GIUHAULIGALHGAIHGAUOIYG32563.gif"
+alt="Vertex Animation" />
+<figcaption aria-hidden="true">Vertex Animation</figcaption>
+</figure>
+<h1 id="三平面映射">三平面映射</h1>
+<figure>
+<img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230119023100.png"
+alt="20230119023100" />
+<figcaption aria-hidden="true">20230119023100</figcaption>
+</figure>
+]]></content>
+      <categories>
+        <category>图形学</category>
+      </categories>
+      <tags>
+        <tag>unity</tag>
+        <tag>shader</tag>
+        <tag>图形学</tag>
+        <tag>特效</tag>
+      </tags>
   </entry>
   <entry>
     <title>游戏引擎 1.概述</title>
@@ -2839,88 +2924,224 @@ ECS 构架</a></li>
       </categories>
   </entry>
   <entry>
-    <title>材质特效</title>
-    <url>/posts/c4d9d82.html</url>
-    <content><![CDATA[<h1 id="dissolve">Dissolve</h1>
-<blockquote>
-<p>使用UV坐标和时间信息对噪声图进行采样，采样的结果作为clip的其中一个参考值</p>
-</blockquote>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Dissolve.gif"
-alt="Dissolve" />
-<figcaption aria-hidden="true">Dissolve</figcaption>
+    <title>我所理解的C++ 番外｜深扒 C++ 函数</title>
+    <url>/posts/f02e98d5.html</url>
+    <content><![CDATA[<h2 id="函数指针">函数指针</h2>
+<p>获取函数的地址：函数的名字就是地址</p>
+<p>函数指针声明与使用：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">pam</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-type">int</span>);        <span class="hljs-comment">//函数指针声明</span><br>pf=pam;              <span class="hljs-comment">//函数指针赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-type">int</span>)=pam;       <span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-keyword">auto</span> pf=pam;          <span class="hljs-comment">//使用C++11的自动类型推断来声明和赋值</span><br><br><span class="hljs-comment">//使用</span><br><span class="hljs-built_in">pf</span>(<span class="hljs-number">123</span>);<br>(*pf)(<span class="hljs-number">123</span>);          <span class="hljs-comment">//注意(*pf)的括号一定要保留下来，不然意义就不同了</span><br><span class="hljs-built_in">pam</span>(<span class="hljs-number">123</span>);<br><span class="hljs-comment">//这三种形式等价,之所以会这样是因为两种学派的理解不同；而我个人认为第一种用法比第二种用法合理；以后在使用时看到(*pf)(123)，你直接看成pf(123)即可，将(*)看成多余的就好</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f1</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f2</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f3</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-type">int</span>);         <span class="hljs-comment">//函数指针数组的声明</span><br>pfa[<span class="hljs-number">0</span>]=f1;             <span class="hljs-comment">//函数指针数组的赋值示例</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-type">int</span>)=&#123;f1,f2,f3&#125;;  <span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-comment">//不可以使用auto来自动初始化，因为auto只能用于单值初始化,而不能初始化列表</span><br><span class="hljs-comment">//ps：初始化=声明+赋值；初始化列表就是&#123;&#125;</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//老实说，C++的指针声明挺复杂，如果能够很好的理解下面的声明，就证明你对C++的声明了如指掌了</span><br><span class="hljs-type">const</span> <span class="hljs-type">double</span> *(*(*pd)[<span class="hljs-number">3</span>])(<span class="hljs-type">const</span> <span class="hljs-type">double</span> *,<span class="hljs-type">int</span>);<br><span class="hljs-comment">//理解所有指针声明的要点是，从里向外去解读；注意[]的优先级比*高</span><br><br>---------------------------------------------------------------------------------------<br><span class="hljs-comment">//要简化函数指针的声明过程，除了使用auto之外，还可以使用typedef，例如：</span><br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">pam</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//将函数指针类型弄成标识符形式</span><br><span class="hljs-function"><span class="hljs-keyword">typedef</span> <span class="hljs-title">double</span> <span class="hljs-params">(*p_func)</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针声明</span><br>p_func pf;<br></code></pre></td></tr></table></figure>
+<h3 id="非静态类成员函数指针">非静态类成员函数指针</h3>
+<p>与类的非静态数据成员变量不同，类的非静态成员函数不会在运行时为每个类的实例对象生成一份专有的机器语言代码，类的非静态成员函数在内存中只有一份，即类的非静态成员函数的地址也是唯一的。那么为什么不同的实例调用非静态成员函数的时可以访问到属于实例本身的数据呢？这是因为非静态成员函数默认的第一个参数就是this指针，只是没有明写出来罢了</p>
+<p>类的非静态成员函数默认的第一参数就是this</p>
+<p>受this指针的影响， <strong>非静态类成员函数指针</strong>
+的声明和使用与 <strong>一般的函数指针（含静态成员函数指针）</strong>
+都不同</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//类的非静态成员函数指针 声明、赋值、使用 都跟普通情况不同</span><br><span class="hljs-comment">//声明时需要添加类名</span><br><span class="hljs-built_in">int</span> (classA::*pFun)(<span class="hljs-type">int</span>);      <span class="hljs-comment">//注意类名放置的位置，类名是用来指明this指针的类型的</span><br><span class="hljs-comment">//赋值时需要添加类名和&amp;</span><br>pFun=&amp;classA::Fun;<br><span class="hljs-comment">//使用时需要加上实例对象</span><br>(classAInstance-&gt;*pFun)(<span class="hljs-number">12345</span>);     <span class="hljs-comment">//注意一个&#x27;(&#x27;、&#x27;)&#x27;，&#x27;*&#x27;都不能少，格式就这样死死固定住了；</span><br>                 <span class="hljs-comment">//如果这个语句出现在非静态成员函数中，不要认为classAInstance不写系统会自动加上this;如果你是想调用this的pFun就自己手动加上，不然会报错，</span><br><br><br><span class="hljs-comment">//类的静态成员函数指针 声明、赋值、使用</span><br><span class="hljs-comment">//声明时</span><br><span class="hljs-built_in">int</span> (*pFun)(<span class="hljs-type">int</span>);<br><span class="hljs-comment">//赋值时需要添加类名</span><br>pFun=classA::Fun;<br><span class="hljs-comment">//使用时</span><br><span class="hljs-built_in">pFun</span>(<span class="hljs-number">12345</span>);        <span class="hljs-comment">//或</span><br>(*pFun)(<span class="hljs-number">12345</span>);<br></code></pre></td></tr></table></figure>
+<h2 id="函数模板">函数模板</h2>
+<p>函数模板将类型作为参数传递给<strong>函数模板</strong>，使编译器生成该类型的函数；又叫通用编程或参数化类型；</p>
+<p>由函数模板对应的具体函数称为称为<strong>模板实例(instantiation)</strong></p>
+<p>隐式实例化、显式实例化、显式具体化统称为<strong>具体化(specialization)</strong></p>
+<p>类型参数不能有默认值，但是非类型参数可以有默认值</p>
+<h3 id="函数模板的声明格式">函数模板的声明格式</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// T 叫做类型参数</span><br><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;            <span class="hljs-comment">//可以写成 template&lt;class T&gt;，但是这个是C++98之前的写法；typename这个关键字是C++98定义的；函数模板参数列表中可以有多个参数，如template&lt;typename T1,typename T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span>;          <span class="hljs-comment">//返回类型可以不可也写成T？？？</span><br></code></pre></td></tr></table></figure>
+<h3 id="函数模板的定义格式">函数模板的定义格式</h3>
+<p>这只是一个函数模板，并不是函数；函数模板用于告诉编译器如何定义函数；只有在编译时检测到代码中需要用到这个模板，编译器才会依据具体类型按照模板格式生成<strong>模板实例</strong>，这个过程称为<strong>隐式实例化(implicit
+instantiation)</strong></p>
+<p>编译结束之后机器码中并没有函数模板，只可能存在<strong>模板实例</strong>的机器码</p>
+<p>模板函数的定义可以放在使用到函数模板的函数后面</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temp;<br>    temp=a;<br>    a=b;<br>    b=temp;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="模板函数的使用">模板函数的使用</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//使用时都不用指明类型，编译器会自动检测参数列表的数据类型来确定函数的类型</span><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">int</span> j=<span class="hljs-number">20</span>;<br><br>    <span class="hljs-built_in">Swap</span>(i,j);        <span class="hljs-comment">//隐式实例化</span><br> Swap&lt;&gt;(i,j); <span class="hljs-comment">//不带参数的显式实例化，确保编译器使用函数模板的实例化版本</span><br><br>    <span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>    <span class="hljs-type">double</span> y=<span class="hljs-number">3.6</span>;<br><br>    <span class="hljs-built_in">Swap</span>(x,y);        <span class="hljs-comment">//隐式实例化</span><br> Swap&lt;&gt;(x,y); <span class="hljs-comment">//不带参数的显式实例化，确保编译器使用函数模板的实例化版本</span><br><br>    <span class="hljs-comment">//疑问：</span><br> <span class="hljs-comment">//Swap(i,x);   //会怎样？</span><br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="函数模板的重载">函数模板的重载</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temp;<br>    temp=a;<br>    a=b;<br>    b=temp;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T *a,T *b,<span class="hljs-type">int</span> n)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temep;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>;i&lt;n;++i)<br>    &#123;<br>        temp=a[i];<br>        a[i]=b[i];<br>        b[i]=temp;<br>    &#125;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">int</span> j=<span class="hljs-number">20</span>;<br><br>    <span class="hljs-built_in">Swap</span>(i,j);<br><br>    <span class="hljs-type">int</span> array1[<span class="hljs-number">3</span>]=&#123;<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>&#125;;<br>    <span class="hljs-type">int</span> array2[<span class="hljs-number">3</span>]=&#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>&#125;;<br><br>    <span class="hljs-built_in">Swap</span>(array1.array2);<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
+<h2 id="函数模板的局限性">函数模板的局限性</h2>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">f</span><span class="hljs-params">(T a,T b)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-comment">//a=b; //原本是想做内容赋值操作的，但如果T类型是数组指针，那么最终只是a变成了b的指针，a并没有获得b数组的内容；又或者当前T类型并没有&#x27;=&#x27;操作;</span><br> <span class="hljs-comment">//a&gt;b;  //原本是想做内容比较操作的，但如果T类型是数组指针，那么最终只是比较了a指针和b指针，并没有进行内容比较；又或者当前T类型并没有&#x27;&gt;&#x27;操作;</span><br> <span class="hljs-comment">//以后注意T只处理非数组类型，T*才是用来处理数组类型的；</span><br>&#125;<br></code></pre></td></tr></table></figure>
+<h2
+id="函数模板的显式具体化explicit-specialization">函数模板的显式具体化(explicit
+specialization)</h2>
+<p>所谓的显式具体化就是手动写一个函数模板的<strong>模板实例</strong></p>
+<p>函数模板<strong>显式具体化</strong>的声明格式：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式具体化，第一种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;job&gt;(job &amp;,job &amp;); <span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br><br><span class="hljs-comment">//函数模板的显式具体化，第二种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(job &amp;,job &amp;)</span></span>;         <span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br></code></pre></td></tr></table></figure>
+<p>如果一个名称f同时存在非模板函数、
+显式具体化函数、常规模板，将遵循第三代函数使用优先顺序(C++98标准)：非模板函数
+&gt; 显式具体化函数 &gt; 常规模板</p>
+<h2 id="实例化和具体化">实例化和具体化</h2>
+<ul>
+<li>实例化和具体化是不同的概念：
+<ul>
+<li>实例化是由编译器自动生成<strong>模板实例</strong>的过程</li>
+<li>具体化是手动写出一个<strong>模板实例</strong>的过程</li>
+<li>实例化 template 后面没有 &lt;&gt;</li>
+<li>具体化 template 后面有 &lt;&gt;</li>
+</ul></li>
+</ul>
+<h3 id="显式实例化explicit-instantiation的方法">显式实例化(explicit
+instantiation)的方法</h3>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式实例化，第一种方式</span><br><span class="hljs-keyword">template</span> <span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">int</span>&gt;(<span class="hljs-type">int</span>,<span class="hljs-type">int</span>); <span class="hljs-comment">//编译器看到这条指令将马上自动生成Swap的int版本，不必等到调用；这样做有什么用？</span><br><br><span class="hljs-comment">//函数模板的显式实例化，第二种方式</span><br>...主函数中<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>    <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">double</span>&gt;(i,x);                <span class="hljs-comment">//生成Swap的double类型的实例以备调用，如果没有显式实例化的话，到这里会报错；因为没有办法隐式实例化；</span><br>                                 <span class="hljs-comment">//ps：但是其实即使使用了显式化，这里由于Swap的参数是double引用类型，可是变量i是int类型；同样会报错，除非Swap函数参数列表改成Swap(const T &amp;,T &amp;)，[笑哭.jpg]这样有意思吗</span><br>...<br></code></pre></td></tr></table></figure>
+<p>ps：同一个文件中如果同时出现<strong>同一类型</strong>函数的
+显式实例化 和 显式具体化 ，将出错</p>
+<h2 id="编译器选择使用哪个函数版本">编译器选择使用哪个函数版本</h2>
+<p>重载解析(overloading
+resolution)：面对函数重载、函数模板、函数模板重载时，C++决定使用哪一个函数的过程</p>
+<p>详细解释这个策略需要将近一章的篇幅= =，下面只讲大致步骤</p>
+<h3
+id="函数调用的步骤假设函数调用为mayb">函数调用的步骤(假设函数调用为may('B'))</h3>
+<ol type="1">
+<li>先找出所有名称为may的函数</li>
+<li>再从这些函数中找出可以只接受<strong>一</strong>个参数<code>'B'</code>的may函数(实参类型可强转为形参类型的也算)</li>
+<li>再从这些函数中选择一个<strong>最佳</strong>函数，优先级为：
+常规函数完全匹配 &gt; 模板函数完全匹配 &gt;
+提升转换(例：char和short自动转为int，float自动转为double) &gt;
+标准转换(例：int转换为char，long转换为double) &gt; 用户定义的转换</li>
+</ol>
+<p>完全匹配：实参类型与形参类型完全等价，等价表如下所示：</p>
+<figure data-size="normal">
+<img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-functions-1.webp" class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="855" data-rawheight="270" data-original-token="v2-10f4c571aec0f4d031ff02f95fb6335e" data-original="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-functions-1.webp" width="855" />
 </figure>
-<h1 id="rim">Rim</h1>
-<blockquote>
-<p>菲涅尔效应的近似实现</p>
-</blockquote>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103235902.png"
-alt="Rim" />
-<figcaption aria-hidden="true">Rim</figcaption>
+<p>ps：倒数第二列是不是错了？？？</p>
+<ul>
+<li>如果使用以上优先级选择之后还是剩下一个以上的完全匹配函数，那么将要使用以下规则继续筛选：
+<ul>
+<li>非模板函数优先于模板函数</li>
+<li>非const的指针和引用的实参优先<strong>与</strong>非const的指针和引用的形参配对</li>
+<li>如果剩下的都是完全匹配的模板函数，则使用函数模板的部分排序规则(partial
+ordering
+rules)(C++98特性，主要是处理指针与非指针的问题)来选择最具体的</li>
+</ul></li>
+</ul>
+<p>如果使用以上规则选择之后还是剩下一个以上的候选函数，那么编译器将报错；</p>
+<p>例子：调用函数map('B');</p>
+<table>
+<tbody>
+<tr>
+<td>编号</td>
+<td>候选函数</td>
+<td>第一步结果</td>
+<td>第二步结果</td>
+<td>优先级</td>
+</tr>
+<tr>
+<td>1</td>
+<td>void may(int);</td>
+<td>T</td>
+<td>T</td>
+<td>4</td>
+</tr>
+<tr>
+<td>2</td>
+<td>void may(double,double);</td>
+<td>T</td>
+<td>F</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td>float may(float,float = 3);</td>
+<td>T</td>
+<td>T</td>
+<td>5</td>
+</tr>
+<tr>
+<td>4</td>
+<td>void may(char);</td>
+<td>T</td>
+<td>T</td>
+<td>1</td>
+</tr>
+<tr>
+<td>5</td>
+<td>char * may(const char *);</td>
+<td>T</td>
+<td>F</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td>char may(const char &amp;);</td>
+<td>T</td>
+<td>T</td>
+<td>1</td>
+</tr>
+<tr>
+<td>7</td>
+<td>template&lt; typename T &gt; void may(const T &amp;);</td>
+<td>T</td>
+<td>T</td>
+<td>3</td>
+</tr>
+<tr>
+<td>8</td>
+<td>template&lt; typename T &gt; void may(T *);</td>
+<td>T</td>
+<td>F</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>ps：整数类型是不会隐式转换成指针的</p>
+<p>以上只是介绍了单参函数调用的函数原型匹配问题，若是有多个参数，情况将非常复杂；这里不再介绍；</p>
+<h2 id="模板函数的发展">模板函数的发展</h2>
+<h3 id="问题一">问题一</h3>
+<p>在C++98标准下的函数模板存在着很多不完美的地方，有时候由于不知道具体的类型是什么，导致无法正常编写函数模板定义,例：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>    ...<br>    ?type? xpy = x + y;      <span class="hljs-comment">//这时不知道xpy要定义为什么类型才能正确接收到结果</span><br> ...<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>为了解决上面的问题，C++11引入了一种新的声明数据类型方式,使用关键字<code>decltype</code>;</p>
+<p><code>decltype</code>是在运行时确定变量类型的；</p>
+<p><code>decltype</code>确定类型的方式，满足以下哪个形式就用哪个形式的判定方法；</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式一：</span><br>...<br><span class="hljs-type">int</span> x;<br><span class="hljs-keyword">decltype</span>&#123;x&#125; y;            <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中的**数值**类型；这里y的类型将会是int</span><br><br><span class="hljs-comment">//更多例子：</span><br><span class="hljs-type">int</span> j = <span class="hljs-number">3</span>;<br><span class="hljs-type">int</span> &amp;k = j;<br><span class="hljs-type">int</span> &amp;n = j;<br><span class="hljs-keyword">decltype</span>(j+<span class="hljs-number">6</span>) i1;      <span class="hljs-comment">//i1的类型为   int</span><br><span class="hljs-keyword">decltype</span>(<span class="hljs-number">100L</span>) i2;        <span class="hljs-comment">//i2的类型为   long</span><br><span class="hljs-keyword">decltype</span>(k+n) i3;        <span class="hljs-comment">//i3的类型为 int</span><br>...<br></code></pre></td></tr></table></figure>
+<p><br />
+</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式二：</span><br>...<br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-title">indeed</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;      <span class="hljs-comment">//函数声明</span><br><span class="hljs-keyword">decltype</span>&#123;<span class="hljs-built_in">indeed</span>(<span class="hljs-number">3</span>)&#125; y;  <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中函数的返回值类型；这里y的类型将会是long（书上写说y的类型是int，错了吧？）</span><br>                     <span class="hljs-comment">//注意：indeed(3)并不会真的被调用</span><br>...<br></code></pre></td></tr></table></figure>
+<p><br />
+</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式三：</span><br>...<br><span class="hljs-type">double</span> xx = <span class="hljs-number">4.4</span>;<br><span class="hljs-keyword">decltype</span>&#123;(xx)&#125; y;     <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中变量类型的引用；这里y的类型将会是double &amp;</span><br>                     <span class="hljs-comment">//注意：这里的括号不能省略且括号中必须是变量(左值)</span><br><br><br><span class="hljs-comment">//这里引入一个和函数模板话题不沾边的小概念：</span><br><span class="hljs-comment">//xx = 98.6;</span><br><span class="hljs-comment">//(xx) = 98.6;</span><br><span class="hljs-comment">//以上的两条表达式的作用是一样的，就是赋值，无差别</span><br>...<br></code></pre></td></tr></table></figure>
+<p>于是上面的问题就可以解决：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>    ...<br>    <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpy = x + y;    <span class="hljs-comment">//xpy的类型就是x+y得到的结果数值的类型</span><br> ...<br><br>    <span class="hljs-comment">//如果要多次使用上面这种类型，每次都要写这么长，会觉得很麻烦，那么可以使用关键字typedef，例：</span><br> typrdef <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpytype;<br><br>&#125;<br></code></pre></td></tr></table></figure>
+<h3 id="问题二">问题二</h3>
+<p>但是即使有了<code>decltype</code>还是存在问题，有时函数返回类型不能确定，例：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;<br>?type? <span class="hljs-built_in">gt</span>(T1 x,T2 y)                   <span class="hljs-comment">//返回类型无法确定，无法将?type?改为decltype&#123;x + y&#125;，因为那时x和y还没有声明</span><br>&#123;<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br>    <span class="hljs-keyword">return</span> x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
+<p>为了解决上面的问题，C++11引入了一个新语法<strong>后置返回类型</strong>，格式为：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">auto</span> <span class="hljs-title">h</span><span class="hljs-params">(<span class="hljs-type">int</span> x,<span class="hljs-type">float</span> y)</span> -&gt; <span class="hljs-type">double</span></span>;<br><span class="hljs-comment">//该函数的返回类型是double，auto只是占位用的</span><br></code></pre></td></tr></table></figure>
+<p>于是上面的问题就可以解决：</p>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-keyword">auto</span> <span class="hljs-title">gt</span><span class="hljs-params">(T1 x,T2 y)</span> -&gt; <span class="hljs-keyword">decltype</span></span>&#123;x + y&#125;        <span class="hljs-comment">//这时由于x和y已经声明，所以decltype可以确定类型，函数的返回值类型也可以确定了</span><br>&#123;<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br>    <span class="hljs-keyword">return</span> x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
+<hr />
+<p>私信太多，回复不过来，资料我直接整理出来放在下面了</p>
+<figure data-size="normal">
+<img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-shared-1.webp" class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="545" data-rawheight="149" data-original-token="v2-59ec5aea54c30df7a1171775b1527b4a" data-original="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-shared-1.webp" width="545" />
 </figure>
-<h1 id="scan">Scan</h1>
-<blockquote>
-<p>将模型空间坐标作为UV坐标进行纹理采样</p>
-</blockquote>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Scan.gif"
-alt="Scan" />
-<figcaption aria-hidden="true">Scan</figcaption>
-</figure>
-<h1 id="matcap">MatCap</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230103235949.png"
-alt="MatCap" />
-<figcaption aria-hidden="true">MatCap</figcaption>
-</figure>
-<h1 id="薄膜干涉">薄膜干涉</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230104000011.png"
-alt="薄膜干涉" />
-<figcaption aria-hidden="true">薄膜干涉</figcaption>
-</figure>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230104000107.png"
-alt="两层MatCap+薄膜干涉" />
-<figcaption aria-hidden="true">两层MatCap+薄膜干涉</figcaption>
-</figure>
-<h1 id="藤曼生长">藤曼生长</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/Grow.gif"
-alt="Grow" />
-<figcaption aria-hidden="true">Grow</figcaption>
-</figure>
-<h1 id="vertex-animation">Vertex Animation</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/GIUHAULIGALHGAIHGAUOIYG32563.gif"
-alt="Vertex Animation" />
-<figcaption aria-hidden="true">Vertex Animation</figcaption>
-</figure>
-<h1 id="三平面映射">三平面映射</h1>
-<figure>
-<img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20230119023100.png"
-alt="20230119023100" />
-<figcaption aria-hidden="true">20230119023100</figcaption>
-</figure>
+<p>链接：<span class="invisible">https://</span><span
+class="visible">pan.baidu.com/s/1C-9TE9</span><span
+class="invisible">ES9xrySqW7PfpjyQ</span><span class="ellipsis"></span>
+提取码：<strong>cqmd</strong></p>
+<p><br />
+</p>
+<p>觉得有帮助的话可以点个赞让更多人看到</p>
+<p>系列内容会更新到专栏 「我所理解的C++」</p>
 ]]></content>
       <categories>
-        <category>图形学</category>
+        <category>C++</category>
       </categories>
       <tags>
-        <tag>unity</tag>
-        <tag>shader</tag>
-        <tag>图形学</tag>
-        <tag>特效</tag>
+        <tag>C++</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>算法题--从尾到头打印链表</title>
+    <url>/posts/4f46182d.html</url>
+    <content><![CDATA[<p>5 # 要求 时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>输入一个链表，从尾到头打印链表每个节点的值</p>
+<h1 id="解题思路">解题思路</h1>
+<p>链表必须要从头开始访问，如果需要将打印顺序颠倒，可以利用栈的特性。有时候方法就是这么简单
+- -</p>
+<p>如果想展示你的算法能力，可以写成递归--深度优先搜索</p>
+<h1 id="代码">代码</h1>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">struct ListNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  struct ListNode *next;</span><br><span class="hljs-comment">  ListNode(int x) :</span><br><span class="hljs-comment">    val(x), next(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">printListFromTailToHead</span><span class="hljs-params">(ListNode* head)</span></span><br><span class="hljs-function">  </span>&#123;<br>    vector&lt;<span class="hljs-type">int</span>&gt; res;<br>    stack&lt;<span class="hljs-type">int</span>&gt; temp;<br>    <br>    <span class="hljs-keyword">while</span>(head != <span class="hljs-literal">NULL</span>)<br>    &#123;<br>      temp.<span class="hljs-built_in">push</span>(head-&gt;val);<br>      head = head-&gt;next;<br>    &#125;<br>    <br>    <span class="hljs-keyword">while</span>(!temp.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      res.<span class="hljs-built_in">push_back</span>(temp.<span class="hljs-built_in">top</span>());<br>      temp.<span class="hljs-built_in">pop</span>();<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+      <tags>
+        <tag>算法</tag>
       </tags>
   </entry>
   <entry>
@@ -3208,207 +3429,6 @@ class="invisible">ES9xrySqW7PfpjyQ</span><span class="ellipsis"></span>
       </tags>
   </entry>
   <entry>
-    <title>我所理解的C++ 番外｜深扒 C++ 函数</title>
-    <url>/posts/f02e98d5.html</url>
-    <content><![CDATA[<h2 id="函数指针">函数指针</h2>
-<p>获取函数的地址：函数的名字就是地址</p>
-<p>函数指针声明与使用：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">pam</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-type">int</span>);        <span class="hljs-comment">//函数指针声明</span><br>pf=pam;              <span class="hljs-comment">//函数指针赋值</span><br><span class="hljs-built_in">double</span> (*pf)(<span class="hljs-type">int</span>)=pam;       <span class="hljs-comment">//函数指针声明和赋值</span><br><span class="hljs-keyword">auto</span> pf=pam;          <span class="hljs-comment">//使用C++11的自动类型推断来声明和赋值</span><br><br><span class="hljs-comment">//使用</span><br><span class="hljs-built_in">pf</span>(<span class="hljs-number">123</span>);<br>(*pf)(<span class="hljs-number">123</span>);          <span class="hljs-comment">//注意(*pf)的括号一定要保留下来，不然意义就不同了</span><br><span class="hljs-built_in">pam</span>(<span class="hljs-number">123</span>);<br><span class="hljs-comment">//这三种形式等价,之所以会这样是因为两种学派的理解不同；而我个人认为第一种用法比第二种用法合理；以后在使用时看到(*pf)(123)，你直接看成pf(123)即可，将(*)看成多余的就好</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f1</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f2</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">f3</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-type">int</span>);         <span class="hljs-comment">//函数指针数组的声明</span><br>pfa[<span class="hljs-number">0</span>]=f1;             <span class="hljs-comment">//函数指针数组的赋值示例</span><br><span class="hljs-built_in">double</span> (*pfa[<span class="hljs-number">3</span>])(<span class="hljs-type">int</span>)=&#123;f1,f2,f3&#125;;  <span class="hljs-comment">//函数指针数组的声明和赋值</span><br><span class="hljs-comment">//不可以使用auto来自动初始化，因为auto只能用于单值初始化,而不能初始化列表</span><br><span class="hljs-comment">//ps：初始化=声明+赋值；初始化列表就是&#123;&#125;</span><br><br>---------------------------------------------------------------------------------------<br><br><span class="hljs-comment">//老实说，C++的指针声明挺复杂，如果能够很好的理解下面的声明，就证明你对C++的声明了如指掌了</span><br><span class="hljs-type">const</span> <span class="hljs-type">double</span> *(*(*pd)[<span class="hljs-number">3</span>])(<span class="hljs-type">const</span> <span class="hljs-type">double</span> *,<span class="hljs-type">int</span>);<br><span class="hljs-comment">//理解所有指针声明的要点是，从里向外去解读；注意[]的优先级比*高</span><br><br>---------------------------------------------------------------------------------------<br><span class="hljs-comment">//要简化函数指针的声明过程，除了使用auto之外，还可以使用typedef，例如：</span><br><br><span class="hljs-comment">//函数原型</span><br><span class="hljs-function"><span class="hljs-type">double</span> <span class="hljs-title">pam</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//将函数指针类型弄成标识符形式</span><br><span class="hljs-function"><span class="hljs-keyword">typedef</span> <span class="hljs-title">double</span> <span class="hljs-params">(*p_func)</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;<br><br><span class="hljs-comment">//函数指针声明</span><br>p_func pf;<br></code></pre></td></tr></table></figure>
-<h3 id="非静态类成员函数指针">非静态类成员函数指针</h3>
-<p>与类的非静态数据成员变量不同，类的非静态成员函数不会在运行时为每个类的实例对象生成一份专有的机器语言代码，类的非静态成员函数在内存中只有一份，即类的非静态成员函数的地址也是唯一的。那么为什么不同的实例调用非静态成员函数的时可以访问到属于实例本身的数据呢？这是因为非静态成员函数默认的第一个参数就是this指针，只是没有明写出来罢了</p>
-<p>类的非静态成员函数默认的第一参数就是this</p>
-<p>受this指针的影响， <strong>非静态类成员函数指针</strong>
-的声明和使用与 <strong>一般的函数指针（含静态成员函数指针）</strong>
-都不同</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//类的非静态成员函数指针 声明、赋值、使用 都跟普通情况不同</span><br><span class="hljs-comment">//声明时需要添加类名</span><br><span class="hljs-built_in">int</span> (classA::*pFun)(<span class="hljs-type">int</span>);      <span class="hljs-comment">//注意类名放置的位置，类名是用来指明this指针的类型的</span><br><span class="hljs-comment">//赋值时需要添加类名和&amp;</span><br>pFun=&amp;classA::Fun;<br><span class="hljs-comment">//使用时需要加上实例对象</span><br>(classAInstance-&gt;*pFun)(<span class="hljs-number">12345</span>);     <span class="hljs-comment">//注意一个&#x27;(&#x27;、&#x27;)&#x27;，&#x27;*&#x27;都不能少，格式就这样死死固定住了；</span><br>                 <span class="hljs-comment">//如果这个语句出现在非静态成员函数中，不要认为classAInstance不写系统会自动加上this;如果你是想调用this的pFun就自己手动加上，不然会报错，</span><br><br><br><span class="hljs-comment">//类的静态成员函数指针 声明、赋值、使用</span><br><span class="hljs-comment">//声明时</span><br><span class="hljs-built_in">int</span> (*pFun)(<span class="hljs-type">int</span>);<br><span class="hljs-comment">//赋值时需要添加类名</span><br>pFun=classA::Fun;<br><span class="hljs-comment">//使用时</span><br><span class="hljs-built_in">pFun</span>(<span class="hljs-number">12345</span>);        <span class="hljs-comment">//或</span><br>(*pFun)(<span class="hljs-number">12345</span>);<br></code></pre></td></tr></table></figure>
-<h2 id="函数模板">函数模板</h2>
-<p>函数模板将类型作为参数传递给<strong>函数模板</strong>，使编译器生成该类型的函数；又叫通用编程或参数化类型；</p>
-<p>由函数模板对应的具体函数称为称为<strong>模板实例(instantiation)</strong></p>
-<p>隐式实例化、显式实例化、显式具体化统称为<strong>具体化(specialization)</strong></p>
-<p>类型参数不能有默认值，但是非类型参数可以有默认值</p>
-<h3 id="函数模板的声明格式">函数模板的声明格式</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">// T 叫做类型参数</span><br><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;            <span class="hljs-comment">//可以写成 template&lt;class T&gt;，但是这个是C++98之前的写法；typename这个关键字是C++98定义的；函数模板参数列表中可以有多个参数，如template&lt;typename T1,typename T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span>;          <span class="hljs-comment">//返回类型可以不可也写成T？？？</span><br></code></pre></td></tr></table></figure>
-<h3 id="函数模板的定义格式">函数模板的定义格式</h3>
-<p>这只是一个函数模板，并不是函数；函数模板用于告诉编译器如何定义函数；只有在编译时检测到代码中需要用到这个模板，编译器才会依据具体类型按照模板格式生成<strong>模板实例</strong>，这个过程称为<strong>隐式实例化(implicit
-instantiation)</strong></p>
-<p>编译结束之后机器码中并没有函数模板，只可能存在<strong>模板实例</strong>的机器码</p>
-<p>模板函数的定义可以放在使用到函数模板的函数后面</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temp;<br>    temp=a;<br>    a=b;<br>    b=temp;<br>&#125;<br></code></pre></td></tr></table></figure>
-<h3 id="模板函数的使用">模板函数的使用</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//使用时都不用指明类型，编译器会自动检测参数列表的数据类型来确定函数的类型</span><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">int</span> j=<span class="hljs-number">20</span>;<br><br>    <span class="hljs-built_in">Swap</span>(i,j);        <span class="hljs-comment">//隐式实例化</span><br> Swap&lt;&gt;(i,j); <span class="hljs-comment">//不带参数的显式实例化，确保编译器使用函数模板的实例化版本</span><br><br>    <span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>    <span class="hljs-type">double</span> y=<span class="hljs-number">3.6</span>;<br><br>    <span class="hljs-built_in">Swap</span>(x,y);        <span class="hljs-comment">//隐式实例化</span><br> Swap&lt;&gt;(x,y); <span class="hljs-comment">//不带参数的显式实例化，确保编译器使用函数模板的实例化版本</span><br><br>    <span class="hljs-comment">//疑问：</span><br> <span class="hljs-comment">//Swap(i,x);   //会怎样？</span><br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<h2 id="函数模板的重载">函数模板的重载</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;a,T &amp;b)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temp;<br>    temp=a;<br>    a=b;<br>    b=temp;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T *a,T *b,<span class="hljs-type">int</span> n)</span></span><br><span class="hljs-function"></span>&#123;<br>    T temep;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-type">int</span> i=<span class="hljs-number">0</span>;i&lt;n;++i)<br>    &#123;<br>        temp=a[i];<br>        a[i]=b[i];<br>        b[i]=temp;<br>    &#125;<br>&#125;<br><br><span class="hljs-function"><span class="hljs-type">int</span> <span class="hljs-title">main</span><span class="hljs-params">()</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">int</span> j=<span class="hljs-number">20</span>;<br><br>    <span class="hljs-built_in">Swap</span>(i,j);<br><br>    <span class="hljs-type">int</span> array1[<span class="hljs-number">3</span>]=&#123;<span class="hljs-number">1</span>,<span class="hljs-number">2</span>,<span class="hljs-number">3</span>&#125;;<br>    <span class="hljs-type">int</span> array2[<span class="hljs-number">3</span>]=&#123;<span class="hljs-number">4</span>,<span class="hljs-number">5</span>,<span class="hljs-number">6</span>&#125;;<br><br>    <span class="hljs-built_in">Swap</span>(array1.array2);<br><br>    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>&#125;<br></code></pre></td></tr></table></figure>
-<h2 id="函数模板的局限性">函数模板的局限性</h2>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">f</span><span class="hljs-params">(T a,T b)</span></span><br><span class="hljs-function"></span>&#123;<br>    <span class="hljs-comment">//a=b; //原本是想做内容赋值操作的，但如果T类型是数组指针，那么最终只是a变成了b的指针，a并没有获得b数组的内容；又或者当前T类型并没有&#x27;=&#x27;操作;</span><br> <span class="hljs-comment">//a&gt;b;  //原本是想做内容比较操作的，但如果T类型是数组指针，那么最终只是比较了a指针和b指针，并没有进行内容比较；又或者当前T类型并没有&#x27;&gt;&#x27;操作;</span><br> <span class="hljs-comment">//以后注意T只处理非数组类型，T*才是用来处理数组类型的；</span><br>&#125;<br></code></pre></td></tr></table></figure>
-<h2
-id="函数模板的显式具体化explicit-specialization">函数模板的显式具体化(explicit
-specialization)</h2>
-<p>所谓的显式具体化就是手动写一个函数模板的<strong>模板实例</strong></p>
-<p>函数模板<strong>显式具体化</strong>的声明格式：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式具体化，第一种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;job&gt;(job &amp;,job &amp;); <span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br><br><span class="hljs-comment">//函数模板的显式具体化，第二种写法</span><br><span class="hljs-keyword">template</span> &lt;&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(job &amp;,job &amp;)</span></span>;         <span class="hljs-comment">//注意参数列表一定要和对应的模板相同；</span><br></code></pre></td></tr></table></figure>
-<p>如果一个名称f同时存在非模板函数、
-显式具体化函数、常规模板，将遵循第三代函数使用优先顺序(C++98标准)：非模板函数
-&gt; 显式具体化函数 &gt; 常规模板</p>
-<h2 id="实例化和具体化">实例化和具体化</h2>
-<ul>
-<li>实例化和具体化是不同的概念：
-<ul>
-<li>实例化是由编译器自动生成<strong>模板实例</strong>的过程</li>
-<li>具体化是手动写出一个<strong>模板实例</strong>的过程</li>
-<li>实例化 template 后面没有 &lt;&gt;</li>
-<li>具体化 template 后面有 &lt;&gt;</li>
-</ul></li>
-</ul>
-<h3 id="显式实例化explicit-instantiation的方法">显式实例化(explicit
-instantiation)的方法</h3>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//函数模板</span><br><span class="hljs-keyword">template</span> &lt;<span class="hljs-keyword">typename</span> T&gt;<br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">Swap</span><span class="hljs-params">(T &amp;,T &amp;)</span></span>;<br><br><span class="hljs-comment">//函数模板的显式实例化，第一种方式</span><br><span class="hljs-keyword">template</span> <span class="hljs-type">void</span> <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">int</span>&gt;(<span class="hljs-type">int</span>,<span class="hljs-type">int</span>); <span class="hljs-comment">//编译器看到这条指令将马上自动生成Swap的int版本，不必等到调用；这样做有什么用？</span><br><br><span class="hljs-comment">//函数模板的显式实例化，第二种方式</span><br>...主函数中<br>    <span class="hljs-type">int</span> i=<span class="hljs-number">10</span>;<br>    <span class="hljs-type">double</span> x=<span class="hljs-number">1.3</span>;<br>    <span class="hljs-built_in">Swap</span>&lt;<span class="hljs-type">double</span>&gt;(i,x);                <span class="hljs-comment">//生成Swap的double类型的实例以备调用，如果没有显式实例化的话，到这里会报错；因为没有办法隐式实例化；</span><br>                                 <span class="hljs-comment">//ps：但是其实即使使用了显式化，这里由于Swap的参数是double引用类型，可是变量i是int类型；同样会报错，除非Swap函数参数列表改成Swap(const T &amp;,T &amp;)，[笑哭.jpg]这样有意思吗</span><br>...<br></code></pre></td></tr></table></figure>
-<p>ps：同一个文件中如果同时出现<strong>同一类型</strong>函数的
-显式实例化 和 显式具体化 ，将出错</p>
-<h2 id="编译器选择使用哪个函数版本">编译器选择使用哪个函数版本</h2>
-<p>重载解析(overloading
-resolution)：面对函数重载、函数模板、函数模板重载时，C++决定使用哪一个函数的过程</p>
-<p>详细解释这个策略需要将近一章的篇幅= =，下面只讲大致步骤</p>
-<h3
-id="函数调用的步骤假设函数调用为mayb">函数调用的步骤(假设函数调用为may('B'))</h3>
-<ol type="1">
-<li>先找出所有名称为may的函数</li>
-<li>再从这些函数中找出可以只接受<strong>一</strong>个参数<code>'B'</code>的may函数(实参类型可强转为形参类型的也算)</li>
-<li>再从这些函数中选择一个<strong>最佳</strong>函数，优先级为：
-常规函数完全匹配 &gt; 模板函数完全匹配 &gt;
-提升转换(例：char和short自动转为int，float自动转为double) &gt;
-标准转换(例：int转换为char，long转换为double) &gt; 用户定义的转换</li>
-</ol>
-<p>完全匹配：实参类型与形参类型完全等价，等价表如下所示：</p>
-<figure data-size="normal">
-<img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-functions-1.webp" class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="855" data-rawheight="270" data-original-token="v2-10f4c571aec0f4d031ff02f95fb6335e" data-original="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-functions-1.webp" width="855" />
-</figure>
-<p>ps：倒数第二列是不是错了？？？</p>
-<ul>
-<li>如果使用以上优先级选择之后还是剩下一个以上的完全匹配函数，那么将要使用以下规则继续筛选：
-<ul>
-<li>非模板函数优先于模板函数</li>
-<li>非const的指针和引用的实参优先<strong>与</strong>非const的指针和引用的形参配对</li>
-<li>如果剩下的都是完全匹配的模板函数，则使用函数模板的部分排序规则(partial
-ordering
-rules)(C++98特性，主要是处理指针与非指针的问题)来选择最具体的</li>
-</ul></li>
-</ul>
-<p>如果使用以上规则选择之后还是剩下一个以上的候选函数，那么编译器将报错；</p>
-<p>例子：调用函数map('B');</p>
-<table>
-<tbody>
-<tr>
-<td>编号</td>
-<td>候选函数</td>
-<td>第一步结果</td>
-<td>第二步结果</td>
-<td>优先级</td>
-</tr>
-<tr>
-<td>1</td>
-<td>void may(int);</td>
-<td>T</td>
-<td>T</td>
-<td>4</td>
-</tr>
-<tr>
-<td>2</td>
-<td>void may(double,double);</td>
-<td>T</td>
-<td>F</td>
-<td></td>
-</tr>
-<tr>
-<td>3</td>
-<td>float may(float,float = 3);</td>
-<td>T</td>
-<td>T</td>
-<td>5</td>
-</tr>
-<tr>
-<td>4</td>
-<td>void may(char);</td>
-<td>T</td>
-<td>T</td>
-<td>1</td>
-</tr>
-<tr>
-<td>5</td>
-<td>char * may(const char *);</td>
-<td>T</td>
-<td>F</td>
-<td></td>
-</tr>
-<tr>
-<td>6</td>
-<td>char may(const char &amp;);</td>
-<td>T</td>
-<td>T</td>
-<td>1</td>
-</tr>
-<tr>
-<td>7</td>
-<td>template&lt; typename T &gt; void may(const T &amp;);</td>
-<td>T</td>
-<td>T</td>
-<td>3</td>
-</tr>
-<tr>
-<td>8</td>
-<td>template&lt; typename T &gt; void may(T *);</td>
-<td>T</td>
-<td>F</td>
-<td></td>
-</tr>
-</tbody>
-</table>
-<p>ps：整数类型是不会隐式转换成指针的</p>
-<p>以上只是介绍了单参函数调用的函数原型匹配问题，若是有多个参数，情况将非常复杂；这里不再介绍；</p>
-<h2 id="模板函数的发展">模板函数的发展</h2>
-<h3 id="问题一">问题一</h3>
-<p>在C++98标准下的函数模板存在着很多不完美的地方，有时候由于不知道具体的类型是什么，导致无法正常编写函数模板定义,例：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>    ...<br>    ?type? xpy = x + y;      <span class="hljs-comment">//这时不知道xpy要定义为什么类型才能正确接收到结果</span><br> ...<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>为了解决上面的问题，C++11引入了一种新的声明数据类型方式,使用关键字<code>decltype</code>;</p>
-<p><code>decltype</code>是在运行时确定变量类型的；</p>
-<p><code>decltype</code>确定类型的方式，满足以下哪个形式就用哪个形式的判定方法；</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式一：</span><br>...<br><span class="hljs-type">int</span> x;<br><span class="hljs-keyword">decltype</span>&#123;x&#125; y;            <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中的**数值**类型；这里y的类型将会是int</span><br><br><span class="hljs-comment">//更多例子：</span><br><span class="hljs-type">int</span> j = <span class="hljs-number">3</span>;<br><span class="hljs-type">int</span> &amp;k = j;<br><span class="hljs-type">int</span> &amp;n = j;<br><span class="hljs-keyword">decltype</span>(j+<span class="hljs-number">6</span>) i1;      <span class="hljs-comment">//i1的类型为   int</span><br><span class="hljs-keyword">decltype</span>(<span class="hljs-number">100L</span>) i2;        <span class="hljs-comment">//i2的类型为   long</span><br><span class="hljs-keyword">decltype</span>(k+n) i3;        <span class="hljs-comment">//i3的类型为 int</span><br>...<br></code></pre></td></tr></table></figure>
-<p><br />
-</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式二：</span><br>...<br><span class="hljs-function"><span class="hljs-type">long</span> <span class="hljs-title">indeed</span><span class="hljs-params">(<span class="hljs-type">int</span>)</span></span>;      <span class="hljs-comment">//函数声明</span><br><span class="hljs-keyword">decltype</span>&#123;<span class="hljs-built_in">indeed</span>(<span class="hljs-number">3</span>)&#125; y;  <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中函数的返回值类型；这里y的类型将会是long（书上写说y的类型是int，错了吧？）</span><br>                     <span class="hljs-comment">//注意：indeed(3)并不会真的被调用</span><br>...<br></code></pre></td></tr></table></figure>
-<p><br />
-</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">//形式三：</span><br>...<br><span class="hljs-type">double</span> xx = <span class="hljs-number">4.4</span>;<br><span class="hljs-keyword">decltype</span>&#123;(xx)&#125; y;     <span class="hljs-comment">//判定方法：y的类型将为&#123;&#125;中变量类型的引用；这里y的类型将会是double &amp;</span><br>                     <span class="hljs-comment">//注意：这里的括号不能省略且括号中必须是变量(左值)</span><br><br><br><span class="hljs-comment">//这里引入一个和函数模板话题不沾边的小概念：</span><br><span class="hljs-comment">//xx = 98.6;</span><br><span class="hljs-comment">//(xx) = 98.6;</span><br><span class="hljs-comment">//以上的两条表达式的作用是一样的，就是赋值，无差别</span><br>...<br></code></pre></td></tr></table></figure>
-<p>于是上面的问题就可以解决：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-type">void</span> <span class="hljs-title">ft</span><span class="hljs-params">(T1 x,T2 y)</span></span><br><span class="hljs-function"></span>&#123;<br>    ...<br>    <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpy = x + y;    <span class="hljs-comment">//xpy的类型就是x+y得到的结果数值的类型</span><br> ...<br><br>    <span class="hljs-comment">//如果要多次使用上面这种类型，每次都要写这么长，会觉得很麻烦，那么可以使用关键字typedef，例：</span><br> typrdef <span class="hljs-keyword">decltype</span>&#123;x + y&#125; xpytype;<br><br>&#125;<br></code></pre></td></tr></table></figure>
-<h3 id="问题二">问题二</h3>
-<p>但是即使有了<code>decltype</code>还是存在问题，有时函数返回类型不能确定，例：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;<br>?type? <span class="hljs-built_in">gt</span>(T1 x,T2 y)                   <span class="hljs-comment">//返回类型无法确定，无法将?type?改为decltype&#123;x + y&#125;，因为那时x和y还没有声明</span><br>&#123;<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br>    <span class="hljs-keyword">return</span> x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
-<p>为了解决上面的问题，C++11引入了一个新语法<strong>后置返回类型</strong>，格式为：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">auto</span> <span class="hljs-title">h</span><span class="hljs-params">(<span class="hljs-type">int</span> x,<span class="hljs-type">float</span> y)</span> -&gt; <span class="hljs-type">double</span></span>;<br><span class="hljs-comment">//该函数的返回类型是double，auto只是占位用的</span><br></code></pre></td></tr></table></figure>
-<p>于是上面的问题就可以解决：</p>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-function"><span class="hljs-keyword">template</span>&lt;<span class="hljs-keyword">typename</span> T1,<span class="hljs-keyword">typename</span> T2&gt;</span><br><span class="hljs-function"><span class="hljs-keyword">auto</span> <span class="hljs-title">gt</span><span class="hljs-params">(T1 x,T2 y)</span> -&gt; <span class="hljs-keyword">decltype</span></span>&#123;x + y&#125;        <span class="hljs-comment">//这时由于x和y已经声明，所以decltype可以确定类型，函数的返回值类型也可以确定了</span><br>&#123;<br>    <span class="hljs-string">&#x27;&#x27;&#x27;</span><br>    <span class="hljs-keyword">return</span> x + y;<br>&#125;<br></code></pre></td></tr></table></figure>
-<hr />
-<p>私信太多，回复不过来，资料我直接整理出来放在下面了</p>
-<figure data-size="normal">
-<img src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-shared-1.webp" class="origin_image zh-lightbox-thumb" data-caption="" data-size="normal" data-rawwidth="545" data-rawheight="149" data-original-token="v2-59ec5aea54c30df7a1171775b1527b4a" data-original="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/cpp/extra-shared-1.webp" width="545" />
-</figure>
-<p>链接：<span class="invisible">https://</span><span
-class="visible">pan.baidu.com/s/1C-9TE9</span><span
-class="invisible">ES9xrySqW7PfpjyQ</span><span class="ellipsis"></span>
-提取码：<strong>cqmd</strong></p>
-<p><br />
-</p>
-<p>觉得有帮助的话可以点个赞让更多人看到</p>
-<p>系列内容会更新到专栏 「我所理解的C++」</p>
-]]></content>
-      <categories>
-        <category>C++</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>算法题--斐波那契数列</title>
     <url>/posts/3af7c65a.html</url>
     <content><![CDATA[<p>9</p>
@@ -3429,6 +3449,44 @@ src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221109014758.pn
 <p>一般只要能写出状态转换方程就可以写出down-top动态规划</p>
 <h1 id="c代码">C++代码</h1>
 <figure class="highlight angelscript"><table><tr><td class="code"><pre><code class="hljs angelscript"><span class="hljs-comment">//斐波那契数列：f(n)=f(n-1)+f(n-2),n&gt;=2,f(0)=0,f(1)=1</span><br><span class="hljs-comment">//此代码已经降维，由一维数组降成了两个点(last和lastlast)，因为每一个状态都只用到了之前的两个状态</span><br><span class="hljs-keyword">class</span> <span class="hljs-symbol">Solution</span> &#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-built_in">int</span> Fibonacci(<span class="hljs-built_in">int</span> n) &#123;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">if</span>(n == <span class="hljs-number">1</span>)<br>      <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;<br>    <br>    <span class="hljs-built_in">int</span> lastlast = <span class="hljs-number">0</span>;<br>    <span class="hljs-built_in">int</span> last = <span class="hljs-number">1</span>;<br>    <span class="hljs-built_in">int</span> cur = <span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = <span class="hljs-number">2</span>;i &lt;= n;++i)&#123;<br>      cur = last + lastlast;<br>      lastlast = last;<br>      last = cur;<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> cur;<br>  &#125;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>算法题--替换空格</title>
+    <url>/posts/25e9ce90.html</url>
+    <content><![CDATA[<p>4 # 要求 时间限制：1秒 空间限制：32768K # 题目描述
+请实现一个函数，将一个字符串中的空格替换成“%20”。例如，当字符串为We Are
+Happy.则经过替换之后的字符串为We%20Are%20Happy. # 解题思路
+拿到题目之后，一般会首先想到从头开始扫描这个字符串，遇到空格就将后面所有的字符都向后移动两格，再插入%20。虽然这个办法可行，但是时间复杂度为O（n^2），每一个字符都会有多次移动</p>
+<p>现在希望每个字符只移动一次。我们要用两个指针P1和P2，P1指向字符串的最后一个字符'\0',P2指向替换了空格后的字符串尾部。每一个空格都会导致字符串增长两个字符</p>
+<p>具体过程如下图所示 ​ <img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021246.png?x-oss-process=style/WaterMask" /></p>
+<h1 id="代码">代码</h1>
+<figure class="highlight axapta"><table><tr><td class="code"><pre><code class="hljs axapta"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">void</span> replaceSpace(<span class="hljs-built_in">char</span> *<span class="hljs-built_in">str</span>,<span class="hljs-built_in">int</span> length)<br>  &#123;<br>    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>==NULL || length&lt;=<span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span>;<br>    <br>    <span class="hljs-built_in">int</span> endIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> endIndexOfNewStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> curIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-keyword">do</span><br>    &#123;<br>      ++curIndexOfOriStr;<br>      <br>      ++endIndexOfOriStr;<br>      ++endIndexOfNewStr;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] == <span class="hljs-string">&#x27; &#x27;</span>)<br>        endIndexOfNewStr += <span class="hljs-number">2</span>;<br>        <br>    &#125;<span class="hljs-keyword">while</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] != <span class="hljs-string">&#x27;\0&#x27;</span>);<br>    <br>    <span class="hljs-keyword">if</span>(endIndexOfNewStr&gt;=length)<br>      <span class="hljs-keyword">return</span>;<br>        <br>    <span class="hljs-keyword">while</span>(endIndexOfOriStr &gt;= <span class="hljs-number">0</span> &amp;&amp; endIndexOfOriStr &lt; endIndexOfNewStr)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[endIndexOfOriStr]==<span class="hljs-string">&#x27; &#x27;</span>)<br>      &#123;<br>        --endIndexOfOriStr;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;0&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;2&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;%&#x27;</span>;<br>      &#125;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr] = <span class="hljs-built_in">str</span>[endIndexOfOriStr];<br>        --endIndexOfOriStr;<br>        --endIndexOfNewStr;<br>      &#125;<br>    &#125;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
+]]></content>
+      <categories>
+        <category>算法</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>算法题--重建二叉树</title>
+    <url>/posts/f4b58e74.html</url>
+    <content><![CDATA[<p>6 # 要求 时间限制：1秒 空间限制：32768K</p>
+<h1 id="题目描述">题目描述</h1>
+<p>输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都<strong>不含重复的数字</strong>。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回</p>
+<h1 id="解题思路">解题思路</h1>
+<p>解题的前提：两个序列中必须有一个中序序列</p>
+<p>前（后）序序列用于提供根节点，根节点就是序列第一个元素（最后一个元素）</p>
+<p>中序序列用于确定当前根节点的左右子树有哪些节点</p>
+<p>如下图所示：</p>
+<p><img
+src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102234717.png?x-oss-process=style/WaterMask" /></p>
+<p>确定了左右子树有哪些元素之后就继续递归</p>
+<h1 id="代码">代码</h1>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">Definition for binary tree</span><br><span class="hljs-comment">struct TreeNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  TreeNode *left;</span><br><span class="hljs-comment">  TreeNode *right;</span><br><span class="hljs-comment">  TreeNode(int x) : val(x), left(NULL), right(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reConstructBinaryTree</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt; pre,vector&lt;<span class="hljs-type">int</span>&gt; vin)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> psize=pre.<span class="hljs-built_in">size</span>();<br>    <span class="hljs-type">int</span> vsize=vin.<span class="hljs-built_in">size</span>();<br>      <br>    <span class="hljs-keyword">if</span>(psize==<span class="hljs-number">0</span> || vsize==<span class="hljs-number">0</span> || psize != vsize)<br>      <span class="hljs-keyword">return</span> <span class="hljs-literal">NULL</span>;<br>      <br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre, <span class="hljs-number">0</span>, psize<span class="hljs-number">-1</span>, vin, <span class="hljs-number">0</span>, vsize<span class="hljs-number">-1</span>);<br>  &#125;<br>  <br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reBuildBinaryTreeCore</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt;&amp; pre, <span class="hljs-type">int</span> startIdxOfP, <span class="hljs-type">int</span> endIdxOfP,</span></span><br><span class="hljs-params"><span class="hljs-function">                                  vector&lt;<span class="hljs-type">int</span>&gt;&amp; vin, <span class="hljs-type">int</span> startIdxOfV, <span class="hljs-type">int</span> endIdxOfV)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> valOfRoot = pre[startIdxOfP];<br>    TreeNode* root = <span class="hljs-keyword">new</span> <span class="hljs-built_in">TreeNode</span>(valOfRoot);<br>    <br>    <span class="hljs-keyword">if</span>(startIdxOfP == endIdxOfP)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(startIdxOfV == endIdxOfV)<br>        <span class="hljs-keyword">return</span> root;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>  	<span class="hljs-built_in">abort</span>();<br>      &#125;<br>    &#125;<br>    <span class="hljs-keyword">else</span><br>    &#123;<br>      <span class="hljs-type">int</span> idxOfRootInV = <span class="hljs-number">0</span>;<br>      <span class="hljs-keyword">for</span>(idxOfRootInV = startIdxOfV;idxOfRootInV &lt;= endIdxOfV &amp;&amp; <br>          vin[idxOfRootInV] != valOfRoot;++idxOfRootInV)<br>      &#123;<br>      &#125;<br>      <span class="hljs-keyword">if</span>(vin[idxOfRootInV] != valOfRoot)<br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>        <span class="hljs-built_in">abort</span>();<br>      &#125;<br>    	<br>      <span class="hljs-type">int</span> leftLength = idxOfRootInV - startIdxOfV;<br>      <span class="hljs-comment">//左</span><br>      <span class="hljs-keyword">if</span>(startIdxOfV &lt;= idxOfRootInV - <span class="hljs-number">1</span>)<br>        root-&gt;left = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                           startIdxOfP + <span class="hljs-number">1</span>,<br>                                           startIdxOfP + leftLength,<br>                                           vin,<br>                                           startIdxOfV,<br>                                           idxOfRootInV - <span class="hljs-number">1</span>);<br>      <span class="hljs-comment">//右</span><br>      <span class="hljs-keyword">if</span>(idxOfRootInV + <span class="hljs-number">1</span> &lt;= endIdxOfV)<br>        root-&gt;right = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                            startIdxOfP + <span class="hljs-number">1</span> + leftLength,<br>                                            endIdxOfP,<br>                                            vin,<br>                                            idxOfRootInV+<span class="hljs-number">1</span>,<br>                                            endIdxOfV);<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> root;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>算法</category>
@@ -3473,64 +3531,6 @@ alt="20221109014522" />
 </ol>
 <h1 id="c代码">C++代码</h1>
 <figure class="highlight reasonml"><table><tr><td class="code"><pre><code class="hljs reasonml"><span class="hljs-keyword">class</span> Solution &#123;<br>public:<br>  <span class="hljs-built_in">int</span> min<span class="hljs-constructor">NumberInRotateArray(<span class="hljs-params">vector</span>&lt;<span class="hljs-params">int</span>&gt; <span class="hljs-params">rotateArray</span>)</span> &#123;<br>  <span class="hljs-built_in">int</span> size = rotateArray.size<span class="hljs-literal">()</span>;<br>    <span class="hljs-keyword">if</span>(size<span class="hljs-operator"> == </span><span class="hljs-number">0</span>)&#123;<br>      return <span class="hljs-number">0</span>;<br>    &#125;<br>    <br>    <span class="hljs-built_in">int</span> leftIdx = <span class="hljs-number">0</span>;<br>    <span class="hljs-built_in">int</span> rightIdx = size - <span class="hljs-number">1</span>;<br>    <span class="hljs-comment">//特殊情况，没有旋转</span><br>    <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span> &lt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)<br>      return rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span>;<br>    <br>    <span class="hljs-built_in">int</span> midIdx=<span class="hljs-number">0</span>;<br>    <span class="hljs-keyword">while</span>(rightIdx - leftIdx != <span class="hljs-number">1</span>)&#123;<br>      midIdx = (leftIdx + rightIdx)<span class="hljs-operator"> / </span><span class="hljs-number">2</span>;<br>      <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span><span class="hljs-operator"> == </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span><span class="hljs-operator"> &amp;&amp; </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span><span class="hljs-operator"> == </span>rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)&#123;<br>        <span class="hljs-comment">//直接用顺序查找</span><br>        return order<span class="hljs-constructor">Search(<span class="hljs-params">rotateArray</span>, <span class="hljs-params">leftIdx</span>, <span class="hljs-params">rightIdx</span>)</span>;<br>      &#125;<br>      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span> &gt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>)&#123;<br>        leftIdx = midIdx;<br>      &#125;<br>      <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span> &gt; rotateArray<span class="hljs-literal">[<span class="hljs-identifier">midIdx</span>]</span>)&#123;<br>        rightIdx = midIdx;<br>      &#125;<br>    &#125;<br>    <br>    return rotateArray<span class="hljs-literal">[<span class="hljs-identifier">rightIdx</span>]</span>;<br>  &#125;<br>  <br>  <span class="hljs-built_in">int</span> order<span class="hljs-constructor">Search(<span class="hljs-params">vector</span>&lt;<span class="hljs-params">int</span>&gt; &amp;<span class="hljs-params">rotateArray</span>, <span class="hljs-params">int</span> <span class="hljs-params">leftIdx</span>, <span class="hljs-params">int</span> <span class="hljs-params">rightIdx</span>)</span>&#123;<br>    <span class="hljs-built_in">int</span> minVal=rotateArray<span class="hljs-literal">[<span class="hljs-identifier">leftIdx</span>]</span>;<br>    <span class="hljs-keyword">for</span>(<span class="hljs-built_in">int</span> i = leftIdx + <span class="hljs-number">1</span>;i &lt;= rightIdx;++i)&#123;<br>      <span class="hljs-keyword">if</span>(rotateArray<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span> &lt; minVal)<br>        minVal=rotateArray<span class="hljs-literal">[<span class="hljs-identifier">i</span>]</span>;<br>    &#125;<br>    return minVal;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>算法题--从尾到头打印链表</title>
-    <url>/posts/4f46182d.html</url>
-    <content><![CDATA[<p>5 # 要求 时间限制：1秒 空间限制：32768K</p>
-<h1 id="题目描述">题目描述</h1>
-<p>输入一个链表，从尾到头打印链表每个节点的值</p>
-<h1 id="解题思路">解题思路</h1>
-<p>链表必须要从头开始访问，如果需要将打印顺序颠倒，可以利用栈的特性。有时候方法就是这么简单
-- -</p>
-<p>如果想展示你的算法能力，可以写成递归--深度优先搜索</p>
-<h1 id="代码">代码</h1>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">struct ListNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  struct ListNode *next;</span><br><span class="hljs-comment">  ListNode(int x) :</span><br><span class="hljs-comment">    val(x), next(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">vector&lt;<span class="hljs-type">int</span>&gt; <span class="hljs-title">printListFromTailToHead</span><span class="hljs-params">(ListNode* head)</span></span><br><span class="hljs-function">  </span>&#123;<br>    vector&lt;<span class="hljs-type">int</span>&gt; res;<br>    stack&lt;<span class="hljs-type">int</span>&gt; temp;<br>    <br>    <span class="hljs-keyword">while</span>(head != <span class="hljs-literal">NULL</span>)<br>    &#123;<br>      temp.<span class="hljs-built_in">push</span>(head-&gt;val);<br>      head = head-&gt;next;<br>    &#125;<br>    <br>    <span class="hljs-keyword">while</span>(!temp.<span class="hljs-built_in">empty</span>())<br>    &#123;<br>      res.<span class="hljs-built_in">push_back</span>(temp.<span class="hljs-built_in">top</span>());<br>      temp.<span class="hljs-built_in">pop</span>();<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> res;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-      <tags>
-        <tag>算法</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>算法题--替换空格</title>
-    <url>/posts/25e9ce90.html</url>
-    <content><![CDATA[<p>4 # 要求 时间限制：1秒 空间限制：32768K # 题目描述
-请实现一个函数，将一个字符串中的空格替换成“%20”。例如，当字符串为We Are
-Happy.则经过替换之后的字符串为We%20Are%20Happy. # 解题思路
-拿到题目之后，一般会首先想到从头开始扫描这个字符串，遇到空格就将后面所有的字符都向后移动两格，再插入%20。虽然这个办法可行，但是时间复杂度为O（n^2），每一个字符都会有多次移动</p>
-<p>现在希望每个字符只移动一次。我们要用两个指针P1和P2，P1指向字符串的最后一个字符'\0',P2指向替换了空格后的字符串尾部。每一个空格都会导致字符串增长两个字符</p>
-<p>具体过程如下图所示 ​ <img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102021246.png?x-oss-process=style/WaterMask" /></p>
-<h1 id="代码">代码</h1>
-<figure class="highlight axapta"><table><tr><td class="code"><pre><code class="hljs axapta"><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-keyword">void</span> replaceSpace(<span class="hljs-built_in">char</span> *<span class="hljs-built_in">str</span>,<span class="hljs-built_in">int</span> length)<br>  &#123;<br>    <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>==NULL || length&lt;=<span class="hljs-number">0</span>)<br>      <span class="hljs-keyword">return</span>;<br>    <br>    <span class="hljs-built_in">int</span> endIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> endIndexOfNewStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-built_in">int</span> curIndexOfOriStr = <span class="hljs-number">-1</span>;<br>    <span class="hljs-keyword">do</span><br>    &#123;<br>      ++curIndexOfOriStr;<br>      <br>      ++endIndexOfOriStr;<br>      ++endIndexOfNewStr;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] == <span class="hljs-string">&#x27; &#x27;</span>)<br>        endIndexOfNewStr += <span class="hljs-number">2</span>;<br>        <br>    &#125;<span class="hljs-keyword">while</span>(<span class="hljs-built_in">str</span>[curIndexOfOriStr] != <span class="hljs-string">&#x27;\0&#x27;</span>);<br>    <br>    <span class="hljs-keyword">if</span>(endIndexOfNewStr&gt;=length)<br>      <span class="hljs-keyword">return</span>;<br>        <br>    <span class="hljs-keyword">while</span>(endIndexOfOriStr &gt;= <span class="hljs-number">0</span> &amp;&amp; endIndexOfOriStr &lt; endIndexOfNewStr)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(<span class="hljs-built_in">str</span>[endIndexOfOriStr]==<span class="hljs-string">&#x27; &#x27;</span>)<br>      &#123;<br>        --endIndexOfOriStr;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;0&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;2&#x27;</span>;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr--] = <span class="hljs-string">&#x27;%&#x27;</span>;<br>      &#125;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        <span class="hljs-built_in">str</span>[endIndexOfNewStr] = <span class="hljs-built_in">str</span>[endIndexOfOriStr];<br>        --endIndexOfOriStr;<br>        --endIndexOfNewStr;<br>      &#125;<br>    &#125;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>算法</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>算法题--重建二叉树</title>
-    <url>/posts/f4b58e74.html</url>
-    <content><![CDATA[<p>6 # 要求 时间限制：1秒 空间限制：32768K</p>
-<h1 id="题目描述">题目描述</h1>
-<p>输入某二叉树的前序遍历和中序遍历的结果，请重建出该二叉树。假设输入的前序遍历和中序遍历的结果中都<strong>不含重复的数字</strong>。例如输入前序遍历序列{1,2,4,7,3,5,6,8}和中序遍历序列{4,7,2,1,5,3,8,6}，则重建二叉树并返回</p>
-<h1 id="解题思路">解题思路</h1>
-<p>解题的前提：两个序列中必须有一个中序序列</p>
-<p>前（后）序序列用于提供根节点，根节点就是序列第一个元素（最后一个元素）</p>
-<p>中序序列用于确定当前根节点的左右子树有哪些节点</p>
-<p>如下图所示：</p>
-<p><img
-src="https://article-pic-res.oss-cn-hangzhou.aliyuncs.com/imgs/20221102234717.png?x-oss-process=style/WaterMask" /></p>
-<p>确定了左右子树有哪些元素之后就继续递归</p>
-<h1 id="代码">代码</h1>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><code class="hljs cpp"><span class="hljs-comment">/*</span><br><span class="hljs-comment">Definition for binary tree</span><br><span class="hljs-comment">struct TreeNode</span><br><span class="hljs-comment">&#123;</span><br><span class="hljs-comment">  int val;</span><br><span class="hljs-comment">  TreeNode *left;</span><br><span class="hljs-comment">  TreeNode *right;</span><br><span class="hljs-comment">  TreeNode(int x) : val(x), left(NULL), right(NULL) &#123;&#125;</span><br><span class="hljs-comment">&#125;;</span><br><span class="hljs-comment">*/</span><br><span class="hljs-keyword">class</span> <span class="hljs-title class_">Solution</span><br>&#123;<br><span class="hljs-keyword">public</span>:<br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reConstructBinaryTree</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt; pre,vector&lt;<span class="hljs-type">int</span>&gt; vin)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> psize=pre.<span class="hljs-built_in">size</span>();<br>    <span class="hljs-type">int</span> vsize=vin.<span class="hljs-built_in">size</span>();<br>      <br>    <span class="hljs-keyword">if</span>(psize==<span class="hljs-number">0</span> || vsize==<span class="hljs-number">0</span> || psize != vsize)<br>      <span class="hljs-keyword">return</span> <span class="hljs-literal">NULL</span>;<br>      <br>    <span class="hljs-keyword">return</span> <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre, <span class="hljs-number">0</span>, psize<span class="hljs-number">-1</span>, vin, <span class="hljs-number">0</span>, vsize<span class="hljs-number">-1</span>);<br>  &#125;<br>  <br>  <span class="hljs-function">TreeNode* <span class="hljs-title">reBuildBinaryTreeCore</span><span class="hljs-params">(vector&lt;<span class="hljs-type">int</span>&gt;&amp; pre, <span class="hljs-type">int</span> startIdxOfP, <span class="hljs-type">int</span> endIdxOfP,</span></span><br><span class="hljs-params"><span class="hljs-function">                                  vector&lt;<span class="hljs-type">int</span>&gt;&amp; vin, <span class="hljs-type">int</span> startIdxOfV, <span class="hljs-type">int</span> endIdxOfV)</span></span><br><span class="hljs-function">  </span>&#123;<br>    <span class="hljs-type">int</span> valOfRoot = pre[startIdxOfP];<br>    TreeNode* root = <span class="hljs-keyword">new</span> <span class="hljs-built_in">TreeNode</span>(valOfRoot);<br>    <br>    <span class="hljs-keyword">if</span>(startIdxOfP == endIdxOfP)<br>    &#123;<br>      <span class="hljs-keyword">if</span>(startIdxOfV == endIdxOfV)<br>        <span class="hljs-keyword">return</span> root;<br>      <span class="hljs-keyword">else</span><br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>  	<span class="hljs-built_in">abort</span>();<br>      &#125;<br>    &#125;<br>    <span class="hljs-keyword">else</span><br>    &#123;<br>      <span class="hljs-type">int</span> idxOfRootInV = <span class="hljs-number">0</span>;<br>      <span class="hljs-keyword">for</span>(idxOfRootInV = startIdxOfV;idxOfRootInV &lt;= endIdxOfV &amp;&amp; <br>          vin[idxOfRootInV] != valOfRoot;++idxOfRootInV)<br>      &#123;<br>      &#125;<br>      <span class="hljs-keyword">if</span>(vin[idxOfRootInV] != valOfRoot)<br>      &#123;<br>        cout &lt;&lt; <span class="hljs-string">&quot;无效输入&quot;</span> &lt;&lt; endl;<br>        <span class="hljs-built_in">abort</span>();<br>      &#125;<br>    	<br>      <span class="hljs-type">int</span> leftLength = idxOfRootInV - startIdxOfV;<br>      <span class="hljs-comment">//左</span><br>      <span class="hljs-keyword">if</span>(startIdxOfV &lt;= idxOfRootInV - <span class="hljs-number">1</span>)<br>        root-&gt;left = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                           startIdxOfP + <span class="hljs-number">1</span>,<br>                                           startIdxOfP + leftLength,<br>                                           vin,<br>                                           startIdxOfV,<br>                                           idxOfRootInV - <span class="hljs-number">1</span>);<br>      <span class="hljs-comment">//右</span><br>      <span class="hljs-keyword">if</span>(idxOfRootInV + <span class="hljs-number">1</span> &lt;= endIdxOfV)<br>        root-&gt;right = <span class="hljs-built_in">reBuildBinaryTreeCore</span>(pre,<br>                                            startIdxOfP + <span class="hljs-number">1</span> + leftLength,<br>                                            endIdxOfP,<br>                                            vin,<br>                                            idxOfRootInV+<span class="hljs-number">1</span>,<br>                                            endIdxOfV);<br>    &#125;<br>    <br>    <span class="hljs-keyword">return</span> root;<br>  &#125;<br>&#125;;<br></code></pre></td></tr></table></figure>
 ]]></content>
       <categories>
         <category>算法</category>
